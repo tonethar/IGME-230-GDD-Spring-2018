@@ -23,7 +23,15 @@
 
 ## <a id="week1">Week 1 (Jan 16/18) : Course Intro & FTP/banjo/htaccess files
   
+  - [Week 1A: Course Introduction](weekly/Week-01A-Notes.md)
+  - [Week 1B - Review of banjo.rit.edu & FTP](weekly/Week-01B-Notes.md)
+  
 ## <a id="week2">Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous
+  
+  - [Intro to PHP](notes/php-1.md)
+  - [PHP Scalars & Data Types](notes/php-2.md)
+  - [PHP Arrays](notes/php-3.md)
+  
   
 ## <a id="week3">Week 3 (Jan 30, Feb 1) : Review of Basic HTML/CSS
   
