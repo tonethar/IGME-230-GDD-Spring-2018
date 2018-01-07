@@ -8,3 +8,5 @@ This week we will be begin constructing simple web applications, and cover follo
 - [3 - Introduction to the Web Browser DOM](../notes/web-apps-3.md)
 - [4 - More Web Browser DOM Methods](../notes/web-apps-4.md)
 - [5 - JavaScript Functions](../notes/web-apps-5.md)
+
+**Don't forget to study for the midterm exam - here are some things to focus on: [midterm-review.md](../notes/midterm-review.md)**
