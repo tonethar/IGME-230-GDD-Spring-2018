@@ -55,8 +55,8 @@ Final course grades are determined using the following scale:
 
 ### Exams (30%)
 These exams consist of short answer, multiple choice, and "write some code" questions. There will be no make-ups or re-takes allowed without prior permission.
-* Written Midterm Exam (tentatively scheduled for end of week 8)
-* Written Final Exam (will be on the last day of class)
+* Written Midterm Exam  - will be given Thursday 3/8 (week 8)
+* Written Final Exam - will be given Thursday 4/26 (last regularly scheduled class)
 
 ### Homework (10%)
 Completing the HW and in-class exercises is essential to learning the course material. You can expect an average of one HW assignment per class meeting. Keep an eye on the mycourses dropboxes for the dues dates of these assignments.
