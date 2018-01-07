@@ -5,7 +5,7 @@
 
 - [Week 1 (Jan 16/18) : Course Introduction & FTP/banjo/htaccess files](#week1)
 - [Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous](#week2)
-- [Week 3 (Jan 30, Feb 1) : ](#week3)
+- [Week 3 (Jan 30/Feb 1) : ](#week3)
 - [Week 4 (Feb 6/8) : ](#week4)
 - [Week 5 (Feb 13/15) : ](#week5)
 - [Week 6 (Feb 20/22) : ](#week6)
