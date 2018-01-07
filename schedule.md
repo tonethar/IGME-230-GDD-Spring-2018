@@ -45,22 +45,22 @@
   
 ## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
   
-  - [Visual Design](weekly/Week-05A-notes.md)
-  - [Responsive Design and Media Queries](weekly/Week-05B-notes.md)
+  - [Week 5A - Visual Design](weekly/Week-05A-notes.md)
+  - [Week 5B - Responsive Design and Media Queries](weekly/Week-05B-notes.md)
   
 ## <a id="week6">Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors
   
-  - [The Site Design Process](weekly/Week-06A-notes.md)
-  - [Project 1 Critique](weekly/Week-06B-notes.md)
+  - [Week 6A - The Site Design Process](weekly/Week-06A-notes.md)
+  - [Week 6B - Project 1 Critique](weekly/Week-06B-notes.md)
   
 ## <a id="week7">Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming
    
-   - [Introduction to Client-side Programming](weekly/Week-07-notes.md)
+   - [Week 7 - Introduction to Client-side Programming](weekly/Week-07-notes.md)
  
   
 ## <a id="week8">Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam
   
-  - [Week-08-notes.md](weekly/Week-08-notes.md)
+  - [Week 8 - Review & Midterm Exam](weekly/Week-08-notes.md)
   
 ## <a id="week9">Week 9 (Mar 20/22) :  Web Storage & Web Services
   
