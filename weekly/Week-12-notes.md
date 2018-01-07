@@ -21,6 +21,6 @@ We will also look at ES6 classes, which are another way to make object instances
 ## Assignments
 The required readings and assignments for this week are here (see myCourses dropboxes for the due dates):
 
-[About this PixiJS Tutorial Series](../notes/pixi-js-0.md)
-[ntro to PixiJS](../notes/pixi-js-1.md)
-[ES6 Classes & PixiJS Animation](../notes/pixi-js-2.md)
+- [About this PixiJS Tutorial Series](../notes/pixi-js-0.md)
+- [Intro to PixiJS](../notes/pixi-js-1.md)
+- [ES6 Classes & PixiJS Animation](../notes/pixi-js-2.md)
