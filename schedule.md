@@ -40,9 +40,18 @@
   
 ## <a id="week4">Week 4 (Feb 6/8) : More CSS
   
+  - [Week 4A - CSS Positioning and HTML Tables](weekly/Week-04A-notes.md)
+  - [Week 4B - Responsive Design and Media Queries](weekly/Week-04B-notes.md)
+  
 ## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
   
+  - []()
+  - []()
+  
 ## <a id="week6">Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors
+  
+  - []()
+  - []()
   
 ## <a id="week7">Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming
   
