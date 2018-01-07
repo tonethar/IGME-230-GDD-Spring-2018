@@ -82,7 +82,8 @@ Let's get started! Using a text editor, type the following program into a file n
 
 ![Screenshot](_images/intro-php-2.jpg)
 
-- If you right-click in Chrome and "view page source" of *hello-1.php* in the web browser, you will only see the word `Hello!` because the PHP source code was properly executes on the server, and will not be visible anywhere in the browser. SUCCESS!
+- If you right-click in Chrome and "view page source" of *hello-1.php* in the web browser, you will only see the word `Hello!` because the PHP source code properly executes on the server, and will not be visible anywhere in the browser. SUCCESS!
+- So when we use "view page source" in a browser, we should always be seeing only HTML/CSS/JavaScript, and should NEVER see the PHP source code.
 
 ![Screenshot](_images/intro-php-3.jpg)
 
