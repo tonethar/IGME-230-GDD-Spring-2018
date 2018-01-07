@@ -82,7 +82,7 @@ Let's get started! Using a text editor, type the following program into a file n
 
 ![Screenshot](_images/intro-php-2.jpg)
 
-- If you "view source" of *hello-1.php* in the web browser, you will only see the word `Hello!` because the PHP source code was properly executes on the server, and will not be visible anywhere in the browser. SUCCESS!
+- If you right-click in Chrome and "view page source" of *hello-1.php* in the web browser, you will only see the word `Hello!` because the PHP source code was properly executes on the server, and will not be visible anywhere in the browser. SUCCESS!
 
 ![Screenshot](_images/intro-php-3.jpg)
 
@@ -223,8 +223,8 @@ If the PHP version number at the top is 7.1 or greater, you don't need to do any
 ## IX. <a id="section9">Review Questions
 1. Look up the original creator of PHP on Wikipedia. Where doe he work now?
 1. What is the special "tag" that contains PHP code?
-1. What usually happens if use a web browser to open up a PHP file on your computer's desktop?
 1. If everything is working properly, will a web browser ever "see" this tag?
+1. What usually happens if use a web browser to open up a PHP file on your computer's desktop?
 1. Which PHP statement is used to print strings?
 1. Which PHP function will tell the developer which version and which modules of of PHP are installed?
 	
