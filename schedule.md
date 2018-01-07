@@ -68,6 +68,9 @@
   
 ## <a id="week10">Week 10 (Mar 27/29) : HTML Frameworks & Portfolios
   
+  - [Week 10 -  Frameworks and Libraries](weekly/Week-10A-notes.md)
+  - [Week 10 -  Portfolios](weekly/Week-10B-notes.md)
+  
 ## <a id="week11">Week 11 (Apr 3/5) : Catch up
   
 ## <a id="week12">Week 12 (Apr 10/12) : Intro to PixiJS
