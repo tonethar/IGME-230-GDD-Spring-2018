@@ -1,6 +1,20 @@
 
-# Schedule 
-This schedule is a tentative outline and subject to change. See the [weekly](weekly/) folder for the actual assignments.
+# IGME-230 Web Design & Implementation, Spring 2018: Schedule of Topics 
+- Week 1 (Jan 16/18):
+- Week 2 (Jan 23/25):
+- Week 3 (Jan 30, Feb 1):
+- Week 4 (Feb 6/8):
+- Week 5 (Feb 13/15):
+- Week 6 (Feb 20/22):
+- Week 7 (Feb 27/Mar 1):
+- Week 8 (Mar 6/8):
+- Week 9
+- Week 10
+- Week 11
+- Week 12
+- Week 13
+- Week 14
+
 * Week 1
 * Class 1A:
    * Syllabus
