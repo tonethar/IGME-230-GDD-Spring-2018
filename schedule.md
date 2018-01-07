@@ -60,6 +60,8 @@
   
 ## <a id="week8">Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam
   
+  - [Week-08-notes.md](weekly/Week-08-notes.md)
+  
 ## <a id="week9">Week 9 (Mar 20/22) :  Web Storage & Web Services
   
 ## <a id="week10">Week 10 (Mar 27/29) : HTML Frameworks & Portfolios
