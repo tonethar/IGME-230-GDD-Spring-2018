@@ -2,9 +2,11 @@
 
 ## I. Topics covered this week
 - Finish up parts I-V of the JavaScript series
-- Questions about exam
+- Other questions about exam?
 
 ## II. Midterm Exam
+- Thursday March 8th
+- Don't forget to study for the exam - here are some things to focus on: [midterm-review.md](../notes/midterm-review.md)
 
 ## III. Readings and Homework Assignment
 As always, leep an eye on the myCourses dropboxes, both the descriptions and due dates. These will help you keep track of what is due/when, and what you should be working on.
