@@ -4,7 +4,7 @@
 ## Contents
 
 - [Week 1 (Jan 16/18) : Course Intro & FTP/banjo/.htaccess files](#week1)
-- [Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous](#week2)
+- [Week 2 (Jan 23/25) : Intro to Server-side programming (PHP)](#week2)
 - [Week 3 (Jan 30/Feb 1) : Review of Basic HTML/CSS](#week3)
 - [Week 4 (Feb 6/8) : More CSS](#week4)
 - [Week 5 (Feb 13/15) : Responsive Design](#week5)
@@ -26,7 +26,9 @@
   - [Week 1A - Course Introduction](weekly/Week-01A-notes.md)
   - [Week 1B - Review of banjo.rit.edu & FTP](weekly/Week-01B-notes.md)
   
-## <a id="week2">Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous
+## <a id="week2">Week 2 (Jan 23/25) : Intro to Server-side programming (PHP)
+  
+  We will cover enough Server-side programming (PHP) to make you dangerous :-)
   
   - [Intro to PHP](notes/php-1.md)
   - [PHP Scalars & Data Types](notes/php-2.md)
