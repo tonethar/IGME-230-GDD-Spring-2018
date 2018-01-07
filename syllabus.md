@@ -16,11 +16,9 @@ IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Al
 
 ## Instructor and Class Details (Section 02)
 - Professor: Noah Bast 
-- Teaching Assistant: 
-- Office: 
-- Email: noah@bast.us
-- Web page: 
-- Office hours: 
+- Teaching Assistant: Tanat Boozayaangool
+- Email: nbbigm@rit.edu
+- Office hours: TBA, though I will almost always be available after class.
 - Class meetings: TR 5:30PM - 6:50PM in GOL-2435
 
 ## Course Materials and Communication
