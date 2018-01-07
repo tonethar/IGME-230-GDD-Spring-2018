@@ -64,6 +64,8 @@
   
 ## <a id="week9">Week 9 (Mar 20/22) :  Web Storage & Web Services
   
+   - [Week 9 - Arrays, Web Storage & Web Services](weekly/Week-09-notes.md)
+  
 ## <a id="week10">Week 10 (Mar 27/29) : HTML Frameworks & Portfolios
   
 ## <a id="week11">Week 11 (Apr 3/5) : Catch up
