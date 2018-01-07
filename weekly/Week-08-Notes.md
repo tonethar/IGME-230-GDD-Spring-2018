@@ -1,11 +1,8 @@
 # Week 8 Notes
 
 ## I. Topics covered this week
-The midterm exam is this week! 
-But first, we will finish parts VI (Events) and VII (Objects) of the web app tutorial. The links to these pages are here:
-
-- https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-6.md
-- https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-7.md
+- Finish up parts I-V of the JavaScript series
+- Questions about exam
 
 ## II. Midterm Exam
 
