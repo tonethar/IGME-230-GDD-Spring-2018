@@ -1,4 +1,4 @@
-# Week 4B - Responsive Design and Media Queries
+# Week 5B - Responsive Design and Media Queries
 
 ## Topics
 - Responsive Design
