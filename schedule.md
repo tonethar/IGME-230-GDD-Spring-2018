@@ -8,7 +8,7 @@
 - [Week 3 (Jan 30/Feb 1) : Review of Basic HTML/CSS](#week3)
 - [Week 4 (Feb 6/8) : More CSS](#week4)
 - [Week 5 (Feb 13/15) : Responsive Design](#week5)
-- [Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox, Complex Selectors, and HTML Forms](#week6)
+- [Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors](#week6)
 - [Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming](#week7)
 - [Week 8 (Mar 6/8) : XXX & Midterm Exam](#week8)
 - **Spring Break March 11-17**
@@ -18,6 +18,7 @@
 - [Week 12 (Apr 10/12) : ](#week12)
 - [Week 13 (Apr 17/19) : ](#week13)
 - [Week 14 (Apr 24/26) : XXX & Final Exam](#week14)
+- [Finals Week](#finalsweek)
 
 
 ## <a id="week1">Week 1 (Jan 16/18):
@@ -34,7 +35,13 @@
 ## <a id="week12">Week 12 (Apr 10/12):
 ## <a id="week13">Week 13 (Apr 17/19):
 ## <a id="week14">Week 14 (Apr 24/26):
+## <a id="finalsweek">Meeting during finals week:
+THe final exam will given on the last day of class. During finals week, we will meet as a group and look at everyone's final projects! 
+- Section 01 will meet on 5/8/2018, Tuesday - 10:15AM - 12:15PM in ORN-1375
+- Section 02 will meet at XXX
 
+
+- Meeting 
 * Week 1
 * Class 1A:
    * Syllabus
