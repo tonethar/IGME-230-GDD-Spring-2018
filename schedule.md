@@ -18,7 +18,7 @@
 - [Week 12 (Apr 10/12) : ](#week12)
 - [Week 13 (Apr 17/19) : ](#week13)
 - [Week 14 (Apr 24/26) : XXX & Final Exam](#week14)
-- [Finals Week](#finalsweek)
+- [Meeting during finals week](#finalsweek)
 
 
 ## <a id="week1">Week 1 (Jan 16/18):
