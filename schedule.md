@@ -35,6 +35,9 @@
   
 ## <a id="week3">Week 3 (Jan 30, Feb 1) : Review of Basic HTML/CSS
   
+  - [Week 3A - Review of HTML](weekly/Week-03A-notes.md)
+  - [Week 3B - Review of CSS](weekly/Week-03B-notes.md)
+  
 ## <a id="week4">Week 4 (Feb 6/8) : More CSS
   
 ## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
