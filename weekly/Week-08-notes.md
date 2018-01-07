@@ -1,4 +1,4 @@
-# Week 7 Notes
+# Week 8 Notes
 
 ## I. Topics covered this week
 The Fall break has shortened this week. 
