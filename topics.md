@@ -1,5 +1,5 @@
 # Course Topics
-This topic list is a tentative outline and subject to change. See the [weekly](weekly/) folder for the actual assignments.
+This topic list is a tentative outline and subject to change. See the course [schedule](schedule.md) page for the actual assignments.
 * Module 0
   * What we will do in this course:
     * Web Publishing (HTML/CSS) both with and without a CSS framework
@@ -16,6 +16,7 @@ This topic list is a tentative outline and subject to change. See the [weekly](w
   * Web Servers:
     * HTTP Protocol: request phase, response phase, status codes, headers, content-type
     * .htaccess file directives: Modpagespeed, Redirect, ErrorDocument, Authorization, Option +Indexes
+  * Basic PHP
   * HTML5 Semantic Tags
   * CSS 3 Selectors
   * CSS for layout
@@ -23,14 +24,8 @@ This topic list is a tentative outline and subject to change. See the [weekly](w
   * GitHub
   * HW: Custom 404 Page, authentication
   * Project: Multi-page web site for their game
-* Module 2 - Client/Server Interactive Applications
-  * ICE: Calculators
+* Module 2 - Client Driven Interactive Applications
   * ICE: ToDo List using web storage
-  * PHP Basics - dynamic web pages, passing arguments to PHP, includes
-    * Demos: info.php, who-am-i.php, redirect.php (PHP can send headers), hello.php, hello-with-args.php, logger.php (embedding PHP in a regular HTML page) 
-  * PHP to use with JavaScript:
-    * add-score.php, get-high-scores.php (shared high scores)
-    * web-service.php (returns JSON data based on value passed in via query string)
   * HTML Widgets (dropdowns, inputs)
   * ICE: JS App that loads and displays our web-service.php data
   * ICE: Web Service ICE (Ajax via jQuery, utilizes iTunes Music web service, JSON format)
@@ -100,4 +95,4 @@ This topic list is a tentative outline and subject to change. See the [weekly](w
 * Project 1 - Game Proposal Site - #1 Deliverable is content posted to GitHub.
 * Project 2 - Educational DOM Game or Web Application
 * Project 3 - Interactive Game Or Experience (Sprite Based)
-* Capstone Project - Web Portfolio. #1 Deliverable is content posted to GitHub.
+* Mini Project - Web Portfolio
