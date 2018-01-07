@@ -54,6 +54,9 @@
   - [Project 1 Critique](weekly/Week-06B-notes.md)
   
 ## <a id="week7">Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming
+   
+   - [Introduction to Client-side Programming](weekly/Week-07-notes.md)
+ 
   
 ## <a id="week8">Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam
   
