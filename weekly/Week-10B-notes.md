@@ -1,4 +1,4 @@
-# Week 11B - Portfolios
+# Week 10B - Portfolios
 
 ## Topics
 - Types of portfolios
