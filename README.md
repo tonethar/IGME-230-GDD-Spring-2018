@@ -1,3 +1,3 @@
 # IGME-230 (Fall 2017)
-Welcome to Professor Boyle's and Professor Jefferson's IGME-230 course materials for the Fall 2017. 
-You will want to begin by reading the [syllabus](syllabus.md), and then looking in the [weekly/](weekly/) folder at the week 1 materials.
+Welcome to Professor Boyle's and Professor Jefferson's IGME-230 course materials for Spring 2018!
+You will want to begin by reading the [syllabus](syllabus.md), and then looking at the semester course [schedule](schedule.md)
