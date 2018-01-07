@@ -1,4 +1,4 @@
-# IGME-230 Web Site Design & Implementation, Fall 2017: Syllabus
+# IGME-230 Web Site Design & Implementation, Spring 2018: Syllabus
 
 ## Course Catalog Description 
 *This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
@@ -6,22 +6,22 @@
 ## Prerequisites
 IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Algorithmic Problem Solving II*. I expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (banjo.rit.edu). As this course involves a significant amount of coding, you should also feel confident in your programming skills. 
 
-## Instructor and Class Details (Section 05)
-- Professor Tony Jefferson  
+## Instructor and Class Details (Section 01)
+- Professor: Tony Jefferson  
+- Teaching Assistant: Austin White
 - Office: GOL-2139 (IGM Main Office)
 - Email: tony@mail.rit.edu
 - Office hours: Tuesday 2:00-3:00PM, Wednesday 11:00AM-Noon 
-- Class meetings : Tuesday/Thursday 11:00-12:20 in ORN-1370
+- Class meetings: Tuesday/Thursday 11:00AM - 12:20PM in ORN-1375
 
-## Instructor and Class Details (Sections 03, 04, 06)
-- Professor Sean Boyle  
-- Office: GOL-2517
-- Email: sean.boyle@rit.edu
-- Web page and class lists: https://people.rit.edu/spbics/
-- Office hours: M/W/F 12:30-2:30 
-- Class meetings (Section 03) : MWF 3:35PM - 4:30PM in GOL-2435
-- Class meetings (Section 04) : MW 5:30PM - 6:50PM in GOL-2570
-- Class meetings (Section 06) : MWF 2:30PM - 3:25PM in ORN-1375
+## Instructor and Class Details (Section 02)
+- Professor: Noah Bast 
+- Teaching Assistant: 
+- Office: 
+- Email: noah@bast.us
+- Web page: 
+- Office hours: 
+- Class meetings: TR 5:30PM - 6:50PM in GOL-2435
 
 ## Course Materials and Communication
 There is no required textbook for the course, but there will be an assortment of handouts and online readings that you will receive over the course of the semester. They will be uploaded to (or linked from) this Github site. 
@@ -48,9 +48,10 @@ Final course grades are determined using the following scale:
 
 ### Projects (55%)
 * Project 1 (10%) - Game Proposal Site
-* Project 2 (20%) - Educational DOM Game or Web Application
-* Project 3 (20%) - Interactive Game or Experience (Sprite Based)
-* Portfolio Project (5%)
+* Project 2 (17%) - Educational DOM Game or Web Application
+* Project 3 (18%) - Interactive Game or Experience (Sprite Based)
+* Portfolio Mini-Project (5%)
+* Web App Mini-Project (5%)
 
 ### Exams (30%)
 These exams consist of short answer, multiple choice, and "write some code" questions. There will be no make-ups or re-takes allowed without prior permission.
@@ -58,12 +59,12 @@ These exams consist of short answer, multiple choice, and "write some code" ques
 * Written Final Exam (will be on the last day of class)
 
 ### Homework (10%)
-Completing the HW and in-class exercises is essential to learning the course material. **Failing 5 homework and/or in-class assignments will result in an immediate "F" grade in the course.**
+Completing the HW and in-class exercises is essential to learning the course material. You can expect an average of one HW assignment per class meeting. Keep an eye on the mycourses dropboxes for the dues dates of these assignments.
 
 Homework and ICEs will NOT be accepted late without a valid excuse (procrastination, and missing the dropbox by 1 minute, are not valid excuses). If you feel you have legitimate excuse, please contact the professor outside of class either by email or during office hours.
 
 ### Attendance & Participation (5%)
-Note: 1 absence 4/5 points, 2 absences 3/5 points, 3 absences 1.5/5 points, 4 absences 0 points. **Each additional absence is 5% off of final average.** Arriving late is 1/2 absence. Facebooking or similar off-task activity during lectures or demos will count as a absence for the day.
+Note: 1 absence 4/5 points, 2 absences 3/5 points, 3 absences 1.5/5 points, 4 absences 0/5 points. **Each additional absence is 5% off of final average.** Arriving late is 1/2 absence. Facebooking or similar off-task activity during lectures or demos will count as a absence for the day.
 
 ### Policy on Incomplete Grades
 Incomplete grades will be given only in the most exceptional circumstances, soley for issues that arise AFTER the 'W' deadline has passed at the end of week 11, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor ASAP as early as possible in the semester if you're having difficulty. 
@@ -73,9 +74,8 @@ The course policy on academic dishonesty is simple: If you get caught cheating o
 [http://www.rit.edu/~w-policy/sectionD/D8.html](http://www.rit.edu/~w-policy/sectionD/D8.html)
 
 ## Important RIT Deadlines
-- Last day of add/drop is Tuesday Sept. 5th, 2017.
-- Last day to withdraw with a grade of "W" is Friday Nov. 10th, 2017.
-- Grades of "I" (Incomplete) 
+- Last day of add/drop is Tuesday Jan. 23rd, 2018.
+- Last day to withdraw with a grade of "W" is Friday April 6th, 2018.
 - You have one semester after the class has ended to challenge your grade. 
 
 ## Notices of Accommodation
