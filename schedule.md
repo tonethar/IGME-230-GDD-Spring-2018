@@ -8,7 +8,7 @@
 - [Week 3 (Jan 30/Feb 1) : Review of Basic HTML/CSS](#week3)
 - [Week 4 (Feb 6/8) : More CSS](#week4)
 - [Week 5 (Feb 13/15) : Responsive Design](#week5)
-- [Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors](#week6)
+- [Week 6 (Feb 20/22) : CSS Flexbox & Complex Selectors](#week6)
 - [Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming](#week7)
 - [Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam](#week8)
 - **Spring Break March 11-17**
