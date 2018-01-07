@@ -14,10 +14,7 @@ The required readings and assignments for this week are here (see myCourses drop
 - [Circle Blast! Part III](../notes/HW-circle-blast-3.md)
 - [Circle Blast! Part IV](../notes/HW-circle-blast-4.md)
 
-## IV. Demos
-- Check out this PixiJS particle demo that uses [PIXI.particles.ParticleContainer](http://pixijs.download/dev/docs/PIXI.particles.ParticleContainer.html) and ES6 classes: [particle-demo.zip](../other-files/particle-demo.zip)
-
-## V. Demos
-- [Particle Demo](./_files/particle-demo.zip)
-- [Vector Demo](./_files/PixiJS-vectors.zip)
-- [Smooth Keyboard Control Demo](./_files/smooth-keyboard-control.zip)
+## IV. PixiJS Demos
+- [Particle Demo](../notes/_files/particle-demo.zip)
+- [Vector Demo](../notes/_files/PixiJS-vectors.zip)
+- [Smooth Keyboard Control Demo](../notes/_files/smooth-keyboard-control.zip)
