@@ -50,8 +50,8 @@
   
 ## <a id="week6">Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors
   
-  - []()
-  - []()
+  - [The Site Design Process](weekly/Week-06A-notes.md)
+  - [Project 1 Critique](weekly/Week-06B-notes.md)
   
 ## <a id="week7">Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming
   
