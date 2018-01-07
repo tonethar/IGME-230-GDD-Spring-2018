@@ -46,7 +46,7 @@
 ## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
   
   - [Visual Design](weekly/Week-05A-notes.md)
-  - [](weekly/Week-05B-notes.md)
+  - [Responsive Design and Media Queries](weekly/Week-05B-notes.md)
   
 ## <a id="week6">Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors
   
