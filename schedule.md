@@ -74,6 +74,7 @@
 ## <a id="week11">Week 11 (Apr 3/5) : Catch up
   
 ## <a id="week12">Week 12 (Apr 10/12) : Intro to PixiJS
+  - [Week 12 -  Intro to PixiJS](weekly/Week-12-notes.md)
   
 ## <a id="week13">Week 13 (Apr 17/19) : More PixiJS
   
