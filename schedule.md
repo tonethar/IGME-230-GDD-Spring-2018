@@ -3,21 +3,35 @@
 
 ## Contents
 
-- [Week 1](#week1) (Jan 16/18):
-- [Week 2](#week2) (Jan 23/25): PHP
-- [Week 3](#week3) (Jan 30, Feb 1):
-- [Week 4](#week4) (Feb 6/8):
-- [Week 5](#week5) (Feb 13/15):
-- [Week 6](#week6) (Feb 20/22):
-- [Week 7](#week7) (Feb 27/Mar 1):
-- [Week 8](#week8) (Mar 6/8): XXX & Midterm Exam
-- **Spring Break March 11-17**
-- [Week 9](#week9) (Mar 20/22):
-- [Week 10](#week10) (Mar 27/29):
-- [Week 11](#week11) (Apr 3/5):
-- [Week 12](#week12) (Apr 10/12):
-- [Week 13](#week13) (Apr 17/19):
-- [Week 14](#week14) (Apr 24/26): XXX & Final Exam
+[Week 1](#week1) (Jan 16/18):
+
+[Week 2](#week2) (Jan 23/25): PHP
+
+[Week 3](#week3) (Jan 30, Feb 1):
+
+[Week 4](#week4) (Feb 6/8):
+
+[Week 5](#week5) (Feb 13/15):
+
+[Week 6](#week6) (Feb 20/22):
+
+[Week 7](#week7) (Feb 27/Mar 1):
+
+[Week 8](#week8) (Mar 6/8): XXX & Midterm Exam
+
+**Spring Break March 11-17**
+
+[Week 9](#week9) (Mar 20/22):
+
+[Week 10](#week10) (Mar 27/29):
+
+[Week 11](#week11) (Apr 3/5):
+
+[Week 12](#week12) (Apr 10/12):
+
+[Week 13](#week13) (Apr 17/19):
+
+[Week 14](#week14) (Apr 24/26): XXX & Final Exam
 
 ## <a id="week1">Week 1 (Jan 16/18):
 ## <a id="week2">Week 2 (Jan 23/25):
