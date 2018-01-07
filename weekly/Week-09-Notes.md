@@ -3,8 +3,8 @@
 ## I. Topics covered this week
 We will cover parts VIII (Arrays) and IX (Web Storage) of the web app tutorial. The links to these pages are here:
 
-- https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-8.md
-- https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/web-apps-9.md
+- [8 - JavaScript Arrays](../notes/web-apps-8.md)
+- [9 - Web Storage](../notes/web-apps-9.md)
 
 ## II. GIF Finder
 We will be going over the functionality and some code on the [GIF Finder](../notes/HW-gif-finder.md) homework, which addresses Web services. We will discuss:
