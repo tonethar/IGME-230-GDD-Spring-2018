@@ -1,10 +1,11 @@
 # Week 9 Notes
 
-## I. Topics covered this week
+## I. JavaScript Arrays & Web Storage
 We will cover parts VIII (Arrays) and IX (Web Storage) of the web app tutorial. The links to these pages are here:
 
 - [8 - JavaScript Arrays](../notes/web-apps-8.md)
 - [9 - Web Storage](../notes/web-apps-9.md)
+- [10 - Web Services](../notes/web-apps-10.md)
 
 ## II. GIF Finder
 We will be going over the functionality and some code on the [GIF Finder](../notes/HW-gif-finder.md) homework, which addresses Web services. We will discuss:
