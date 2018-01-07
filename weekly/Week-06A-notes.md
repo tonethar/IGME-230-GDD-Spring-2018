@@ -1,4 +1,4 @@
-# Week 5A - The Site Design Process
+# Week 6A - The Site Design Process
 Today we'll be discussing the overall process for designing a site, which consists of the following phases:
 1. Define the purpose
 1. Consider the audience
