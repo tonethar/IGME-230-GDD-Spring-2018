@@ -5,11 +5,11 @@
 
 - [Week 1 (Jan 16/18) : Course Introduction & FTP/banjo/htaccess files](#week1)
 - [Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous](#week2)
-- [Week 3 (Jan 30/Feb 1) : ](#week3)
-- [Week 4 (Feb 6/8) : ](#week4)
-- [Week 5 (Feb 13/15) : ](#week5)
-- [Week 6 (Feb 20/22) : ](#week6)
-- [Week 7 (Feb 27/Mar 1) : ](#week7)
+- [Week 3 (Jan 30/Feb 1) : Review of Basic HTML/CSS](#week3)
+- [Week 4 (Feb 6/8) : More CSS](#week4)
+- [Week 5 (Feb 13/15) : Responsive Design](#week5)
+- [Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox, Complex Selectors, and HTML Forms](#week6)
+- [Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming](#week7)
 - [Week 8 (Mar 6/8) : XXX & Midterm Exam](#week8)
 - **Spring Break March 11-17**
 - [Week 9 (Mar 20/22) : ](#week9)
