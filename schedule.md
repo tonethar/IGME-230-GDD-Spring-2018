@@ -23,7 +23,7 @@
 
 ## <a id="week1">Week 1 (Jan 16/18) : Course Intro & FTP/banjo/.htaccess files
   
-  - [Week 1A: Course Introduction](weekly/Week-01A-notes.md)
+  - [Week 1A - Course Introduction](weekly/Week-01A-notes.md)
   - [Week 1B - Review of banjo.rit.edu & FTP](weekly/Week-01B-notes.md)
   
 ## <a id="week2">Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous
@@ -57,7 +57,6 @@
    
    - [Week 7 - Introduction to Client-side Programming](weekly/Week-07-notes.md)
  
-  
 ## <a id="week8">Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam
   
   - [Week 8 - Review & Midterm Exam](weekly/Week-08-notes.md)
