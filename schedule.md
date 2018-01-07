@@ -3,35 +3,22 @@
 
 ## Contents
 
-[Week 1 (Jan 16/18) : Course Introduction & FTP/banjo/htaccess files](#week1)
+- [Week 1 (Jan 16/18) : Course Introduction & FTP/banjo/htaccess files](#week1)
+- [Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous](#week2)
+- [Week 3 (Jan 30, Feb 1) : ](#week3)
+- [Week 4 (Feb 6/8) : ](#week4)
+- [Week 5 (Feb 13/15) : ](#week5)
+- [Week 6 (Feb 20/22) : ](#week6)
+- [Week 7 (Feb 27/Mar 1) : ](#week7)
+- [Week 8 (Mar 6/8) : XXX & Midterm Exam](#week8)
+- **Spring Break March 11-17**
+- [Week 9 (Mar 20/22) : ](#week9)
+- [Week 10 (Mar 27/29) :](#week10)
+- [Week 11 (Apr 3/5) : ](#week11)
+- [Week 12 (Apr 10/12) : ](#week12)
+- [Week 13 (Apr 17/19) : ](#week13)
+- [Week 14 (Apr 24/26) : XXX & Final Exam](#week14)
 
-[Week 2 (Jan 23/25) : Enough Server-side programming (PHP) to be dangerous](#week2)
-
-[Week 3 (Jan 30, Feb 1) : ](#week3)
-
-[Week 4 (Feb 6/8) : ](#week4)
-
-[Week 5 (Feb 13/15) : ](#week5)
-
-[Week 6 (Feb 20/22) : ](#week6)
-
-[Week 7 (Feb 27/Mar 1) : ](#week7)
-
-[Week 8 (Mar 6/8) : XXX & Midterm Exam](#week8)
-
-**Spring Break March 11-17**
-
-[Week 9 (Mar 20/22) : ](#week9)
-
-[Week 10 (Mar 27/29) :](#week10)
-
-[Week 11 (Apr 3/5) : ](#week11)
-
-[Week 12 (Apr 10/12) : ](#week12)
-
-[Week 13 (Apr 17/19) : ](#week13)
-
-[Week 14 (Apr 24/26) : XXX & Final Exam](#week14)
 
 ## <a id="week1">Week 1 (Jan 16/18):
 ## <a id="week2">Week 2 (Jan 23/25):
