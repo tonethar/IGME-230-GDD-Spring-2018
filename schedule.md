@@ -19,8 +19,8 @@
 - Week 13 (Apr 17/19):
 - Week 14 (Apr 24/26):
 
-## <a id="week1">Week 1 (Jan 16/18):
-## <a id="section2">Week 2 (Jan 23/25):
+## <a id="week1"></a>Week 1 (Jan 16/18):
+## <a id="section2"></a>Week 2 (Jan 23/25):
 ## Week 3 (Jan 30, Feb 1):
 ## Week 4 (Feb 6/8):
 ## Week 5 (Feb 13/15):
