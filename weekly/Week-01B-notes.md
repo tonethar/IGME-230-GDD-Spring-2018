@@ -7,7 +7,7 @@
 
 ## Demo
 FTP demo and review (we will do this together in class):
-   - Create a local 230 directory, and put a hello.html file in it:
+   - Create a local 230 directory, and put a *hello.html* file in it:
 
 **hello.html**
 ```
