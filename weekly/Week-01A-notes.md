@@ -51,7 +51,7 @@ This course is not focused on "web design", but instead on developing highly int
 - web game development (JavaScript & the Pixi.js rendering engine)
 
 Once you complete this course you should be able to do the following:
-- publish a "traditional" multi-page website to the WWW. The content will be properly "chunked" and the site navigation will be intuitive and easy to use.
+- publish a "traditional" multi-page website to the web. The content will be properly "chunked" and the site navigation will be intuitive and easy to use.
 - publish a single-page application (SPA) web site portfolio. You can see an example here: http://dougwatro.com - this example has eight distinct "pages" of content that are presented on a single web page.
 - code a web application that can connect to web services, and download/display their data. Examples inlcude a music searching and previewing applications that use the iTunes API, and a GIF viewing application that utilizes the Giphy API.
 - code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity. Examples include card games and typing games.
@@ -65,7 +65,7 @@ Past Student Portfolios:
 - http://brianemling.com/
 - http://dougwatro.com
 
-Some projects from last semester:
+Some sample projects from last semester:
 - Portfolio:
     - https://people.rit.edu/mxb9517/portfolio/
     - https://people.rit.edu/ctb4332/portfolio/
@@ -76,9 +76,34 @@ Some projects from last semester:
     - https://people.rit.edu/drs4149/portfolio/
     - https://people.rit.edu/ekt6170/portfolio.html
     - https://people.rit.edu/axw1799/portfolio/
-- DOM Game:
-    - 
+- DOM Game or App:
+    - https://people.rit.edu/lpn4937/230/project2/minesweeper.html
+    - https://people.rit.edu/~deb2610/230/project2/PixelPainterExtended.html
+    - https://people.rit.edu/btf6119/230/projects/2/index.html
+    - https://people.rit.edu/dso2890/230/projects/project2/index.html
+    - https://mycourses.rit.edu/d2l/le/content/658425/viewContent/4773926/View
+    - https://people.rit.edu/djs5435/230/project2/
+    - https://people.rit.edu/~wcd7037/230/Project2/Life/pixel-life.html
+    - https://people.rit.edu/paa9307/230/project2/
+    - https://people.rit.edu/axs6207/230/project2/musicFinder.html
 - PixiJS Sprite Game:
+    - https://people.rit.edu/~jpa3216/230/project1/
+    - https://people.rit.edu/~hhn2884/230/project1/
+    - https://people.rit.edu/mro5772/230/project1/PlayGame
+    - https://people.rit.edu/~txm1918/230/project1/index.html
+    - https://people.rit.edu/djs5435/230/project1/project3/project.html
+    - https://people.rit.edu/~jds7523/230/project1/project.html
+    - https://people.rit.edu/axw1799/Bananagans/Bananagans/game.html
+    - https://people.rit.edu/axs6207/230/project3/project.html
+    - https://people.rit.edu/scr3876/230/project1/project.html
+    - https://people.rit.edu/cke1622/230/Project_3/game.html
+    - https://people.rit.edu/~ctq6891/230/projects/project1/project.html
+    - https://people.rit.edu/tmh6112/230/project3/project.html
+    - https://people.rit.edu/~deb2610/230/project1/project.html
+    - https://people.rit.edu/sxf5282/230//project1/project.html
+    - https://people.rit.edu/mxr2091/230/finalproject/game.html
+    - https://people.rit.edu/ngm9939/230/project1/game.html
+    - https://people.rit.edu/~wcd7037/230/Project1/project.html
     
 
 Some projects from the next Web course:
@@ -89,11 +114,13 @@ Some projects from the next Web course:
 - https://people.rit.edu/spbics/330proj/Running_on_Fumes/runningOnFumes.html
 - https://people.rit.edu/spbics/330proj/That_Wicked_Creature/thatwickedcreature/
 
+
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
 
 ## Required Reading
 * [syllabus.md](../syllabus.md)
+* [schedule.md](../schedule.md)
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
 * [http-protocol-demo.md](../notes/http-protocol-demo.md)
 * [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
