@@ -127,7 +127,7 @@ And some other really cool stuff:
 
 ## Homework
 Get a GitHub account (if you don't have one already), and go through the tutorial above. 
-Before next class, set up a folder *for this course* in your account, named *IGME230* or something similar, and put a link to it in the myCourses "GitHub Accounts" discussion. This should be a public repository (otherwise the link won't work).
+Before next class, set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
 
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
