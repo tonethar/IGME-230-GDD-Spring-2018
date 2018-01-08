@@ -72,7 +72,7 @@ If you change the 'src' value to the following, the jQuery will now successfully
 
 ## VI. One last thing: Using PuTTY or Terminal to ssh to 'banjo.rit.edu`
 
-If you remember your basic Unix commands from IGME-110, then creating and maintaining .htaccess files is a lot easier than using FTP.
+If you remember your basic Unix commands from IGME-110, then creating and maintaining .htaccess files is a lot easier than editing files locally and using FTP.
 
 1. Fire up your preferred console app
 
