@@ -34,6 +34,7 @@ FTP demo and review (we will do this together in class):
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
 
 ## Exercises
+See dropbox for due dates.
 - ["Fixing Banjo" instructions](../exercises/week-1/Fixing-Banjo.md)
 - [Custom 404 Pages and Authentication files (ZIP)](../exercises/week-1/Custom_404_Auth_start.zip)
 
