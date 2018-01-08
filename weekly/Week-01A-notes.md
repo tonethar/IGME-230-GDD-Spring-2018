@@ -123,3 +123,7 @@ And some other really cool stuff:
 ## Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
 * [W3Schools - a resource for reference](https://www.w3schools.com/)
+
+<hr><hr>
+
+[Back to IGME-230 Schedule <-](../schedule.md)
