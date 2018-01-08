@@ -29,6 +29,7 @@ FTP demo and review (we will do this together in class):
    - Review permissions (at this point, you shouldn't need to change these, but just in case)
    - **Reminder:** `banjo.rit.edu` is the FTP name, while the browser accesses people.rit.edu
    - Navigate to that directory via browser, and you should see our *hello.html* page
+   - Remember CSS? Let's add some CSS style rules to the page
 
 ## Presentations
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
