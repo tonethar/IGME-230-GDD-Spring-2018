@@ -44,3 +44,7 @@ See dropbox for due dates.
 - Banjo Authentication Docs: https://www.rit.edu/webdev/authenticating-and-authorizing-rit-users
 - Advanced Scripting with .htaccess files: https://www.askapache.com/htaccess/
 
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
+
