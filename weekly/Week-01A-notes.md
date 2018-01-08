@@ -23,7 +23,7 @@ We will:
       - an [interactive concentration game](../notes/HW-chibi-matching.md)
       - an [adventure game](../notes/HW-adventure.md)
       - and a [Conway's game of Life simulation](../notes/HW-life.md)
-  * utilizing the Pixi.js rendering framework, we will build sprite-based games such as [Circle Blast!](notes/HW-circle-blast-4.md)
+  * utilizing the Pixi.js rendering framework, we will build sprite-based games such as [Circle Blast!](../notes/HW-circle-blast-4.md)
 * utilize a **CSS framework** such as [Bootstrap](http://getbootstrap.com) to construct a **responsive web portfolio**
 When the course is complete, you will hopefully have at least the beginnings of a "portfolio piece" or two that you will be able to show to prospective employers.
   
