@@ -16,7 +16,7 @@ We will:
 * construct **web applications**. A web app is a client–server software application in which the client (or user interface) runs in a web browser. Examples of web apps you might use are github.com, Gmail, and Google Drive. Web App assignments we will complete in class include:
     - an [Image Gallery](../notes/HW-image-gallery.md)
     - an app that allows the user to search for and [view animated GIFs](../notes/HW-gif-finder.md)
-    - an app that allows the user to search the iTunes store for songs, and then listen to previews.
+    - a [Pixel Art](../notes/HW-pixel-artist.md) application
 * construct **interactive games** that run in the web browser (these are also considered to be web applications):
   * utilizing the DOM (Document Object Model) and modern CSS features we will build:
       - an [interactive concentration game](../notes/HW-chibi-matching.md)
