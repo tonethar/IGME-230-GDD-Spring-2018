@@ -69,3 +69,26 @@ jquery-2.2.0.min.js.`
 If you change the 'src' value to the following, the jQuery will now successfully load:
 
 `<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>`
+
+## VI. One last thing: Using PuTTY or Terminal to ssh to 'banjo.rit.edu`
+
+If you remember your basic Unix commands from IGME-110, then creating and maintaining .htaccess files is a lot easier than using FTP.
+
+1. Fire up your preferred console app
+
+2. Connect to banjo
+```
+ssh abc1234@banjo.rit.edu
+```
+
+3. "Change directory" to your `www` folder
+```
+cd www
+```
+
+4. Open up (or create) your .htaccess file in the nano text editor (or another editor if your prefer):
+```
+nano .htaccess
+```
+
+5. Make your changes, and then save the file (control-o) and exit (control-x)
