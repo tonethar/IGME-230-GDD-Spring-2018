@@ -45,17 +45,17 @@ You will also need a GitHub account, and the [GitHub Student Developer Pack](htt
 If you have questions between now and the start of class, feel free to send me an email! 
 
 ## Discussion
-This course is not focused on "web design", but instead on developing highly interactive web applications and web games that heavily utilize the JavScript programming language.  The major topics of this course are split roughly into thirds:
-- web publishing (HTML/CSS) both "from scratch" as well as with the Bootstrap CSS framework
-- web application development (HTML/CSS/JavaScript & a little PHP)
-- web game development (JavaScript & the Pixi.js rendering engine)
+This course is not focused on "web design", but instead on developing highly interactive web applications and web games that heavily utilize the JavaScript programming language.  The major topics of this course are split roughly into thirds:
+1. web publishing (HTML/CSS) both "from scratch" as well as with the Bootstrap or Skeleton CSS framework
+2. web application development (HTML/CSS/JavaScript & a little PHP)
+3. web game development (JavaScript & the Pixi.js rendering engine)
 
 Once you complete this course you should be able to do the following:
 - publish a "traditional" multi-page website to the web. The content will be properly "chunked" and the site navigation will be intuitive and easy to use.
 - publish a single-page application (SPA) web site portfolio. You can see an example here: http://dougwatro.com - this example has eight distinct "pages" of content that are presented on a single web page.
-- code a web application that can connect to web services, and download/display their data. Examples inlcude a music searching and previewing applications that use the iTunes API, and a GIF viewing application that utilizes the Giphy API.
-- code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity. Examples include card games and typing games.
-- code a sprite-based game such as a shooter or platformer utilizing JavaScript and Pixi.js 
+- code a web application that can connect to web services, and download/display their data.
+- code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity.
+- code a sprite-based game such as a shooter or platformer utilizing JavaScript and PixiJS. 
 
 ## Projects and other stuff for inspiration
 There are a lot of reasons to improve your web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media interactive development fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
