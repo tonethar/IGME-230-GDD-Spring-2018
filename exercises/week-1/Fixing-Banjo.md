@@ -92,3 +92,7 @@ nano .htaccess
 ```
 
 5. Make your changes, and then save the file (control-o) and exit (control-x)
+
+```
+ModPagespeed off
+```
