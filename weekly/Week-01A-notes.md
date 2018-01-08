@@ -105,16 +105,6 @@ Some sample projects from last semester:
     - https://people.rit.edu/ngm9939/230/project1/game.html
     - https://people.rit.edu/~wcd7037/230/Project1/project.html
     
-
-Some projects from the next Web course:
-- https://people.rit.edu/spbics/330proj/Colorhell/
-- https://people.rit.edu/spbics/330proj/Homemade_or_Nah/HomemadeOrNah.html
-- https://people.rit.edu/spbics/330proj/Last_Resort/
-- https://people.rit.edu/spbics/330proj/League_Champ_Map/
-- https://people.rit.edu/spbics/330proj/Running_on_Fumes/runningOnFumes.html
-- https://people.rit.edu/spbics/330proj/That_Wicked_Creature/thatwickedcreature/
-
-
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
 
