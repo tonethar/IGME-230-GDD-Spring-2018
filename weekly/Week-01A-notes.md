@@ -19,7 +19,7 @@ We will:
     - an app that allows the user to search the iTunes store for songs, and then listen to previews.
 * construct **interactive games** that run in the web browser (these are also considered to be web applications):
   * utilizing the DOM (Document Object Model) and modern CSS features we will build:
-      - an [interactive concentration game](notes/HW-chibi-matching.md)
+      - an [interactive concentration game](../notes/HW-chibi-matching.md)
       - an [adventure game](../notes/HW-adventure.md)
       - and a [Conway's game of Life simulation](../notes/HW-life.md)
   * utilizing the Pixi.js rendering framework, we will build sprite-based games such as [Circle Blast!](notes/HW-circle-blast-4.md)
