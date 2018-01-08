@@ -8,8 +8,8 @@ Hopefully the skills you acquire in the class will help you to get a co-op posit
 ## What this course is about
 Official description from SIS: *This course provides an introduction to web development tools and technologies, such as HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 We will:
-* review basic web publishing (HTML/CSS/FTP) and HTML validation
-* learn how a web server works and how to do basic scripting of it
+* review basic **web publishing** (HTML/CSS/FTP) and HTML validation
+* learn **how a web server works** and how to do basic scripting of it
 * expose you to the PHP scripting language that runs on most web servers
 * explore advanced CSS layout utilizing the CSS box model and the latest specifications
 * go beyond *type*, *class*, and *id* CSS selectors by utilizing advanced CSS 3 selectors
