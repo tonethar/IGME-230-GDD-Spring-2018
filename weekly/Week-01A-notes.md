@@ -58,11 +58,28 @@ Once you complete this course you should be able to do the following:
 - code a sprite-based game such as a shooter or platformer utilizing JavaScript and Pixi.js 
 
 ## Projects and other stuff for inspiration
-There are a lot of reasons to improve your web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
+There are a lot of reasons to improve your web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media interactive development fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
 
-Portfolios:
+Past Student Portfolios:
 - http://katiepustolski.com/
 - http://brianemling.com/
+- http://dougwatro.com
+
+Some projects from last semester:
+- Portfolio:
+    - https://people.rit.edu/mxb9517/portfolio/
+    - https://people.rit.edu/ctb4332/portfolio/
+    - https://people.rit.edu/sxf5282/portfolio/
+    - https://people.rit.edu/lpn4937/portfolio/
+    - https://people.rit.edu/djs5435/portfolio/
+    - https://people.rit.edu/jds7523/portfolio/
+    - https://people.rit.edu/drs4149/portfolio/
+    - https://people.rit.edu/ekt6170/portfolio.html
+    - https://people.rit.edu/axw1799/portfolio/
+- DOM Game:
+    - 
+- PixiJS Sprite Game:
+    
 
 Some projects from the next Web course:
 - https://people.rit.edu/spbics/330proj/Colorhell/
