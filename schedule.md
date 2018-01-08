@@ -86,7 +86,9 @@
  - [Week 14 - The Home Stretch](weekly/Week-14-notes.md)
   
 ## <a id="finalsweek">Finals Week Meeting
-The final exam will given on the last day of class. During finals week, we will meet as a group and look at everyone's final projects! 
+The final exam will given on the last day of class. 
+
+During finals week, we will meet as a group and look at everyone's final projects! 
 - Section 01 (Jefferson) will meet on 5/8/2018, Tuesday - 10:15AM - 12:15PM in ORN-1375
 - Section 02 (Bast) will meet on 5/3/2018, Thursday 5:00- 7:00 in GOL-2435
 
