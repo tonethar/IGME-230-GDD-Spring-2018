@@ -72,7 +72,7 @@ If you change the 'src' value to the following (utilizing `https` instead of `ht
 
 ## VI. One last thing: Using PuTTY or Terminal to ssh to 'banjo.rit.edu`
 
-If you remember your basic Unix commands from IGME-110, then creating and maintaining .htaccess files directly on the server is **a lot easier** than editing text files locally and using FTP.
+If you remember your basic Unix commands from IGME-110, then creating and maintaining .htaccess files directly on the server is **a lot easier** than editing text files locally and using FTP to transfer them to banjo.
 
 1. Fire up your preferred console app
 
