@@ -125,7 +125,7 @@ And some other really cool stuff:
 * [W3Schools - a resource for reference](https://www.w3schools.com/)
 
 ## X. Any time left?
-- If there is time left today, let's head to [Week-01B-notes.md](Week-01B-notes.md) and do a little bit of HTML & FTP review!
+- If there is time left today, let's head to the notes for our next class meeting -  [Week-01B-notes.md](Week-01B-notes.md) - and do a little bit of HTML & FTP review!
 
 <hr><hr>
 
