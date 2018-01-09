@@ -8,10 +8,12 @@ To do this assignment, you should have completed at least the [3rd PHP Tutorial 
 Here are screen shots of the completed examples
 
 ### PHP Random Facts Page
-![Web Page](_images/php-random-facts-done.jpg)
+![Screenshot](_images/php-fact-of-the-day-HW-1.jpg)
 
 ### PHP Fact of the Day Page
-![Web Page](_images/php-fact-of-the-day-done.jpg)
+![Screenshot](_images/php-fact-of-the-day-HW-2.jpg)
+
+![Screenshot](_images/php-fact-of-the-day-HW-3.jpg)
 
 ## Instructions
 **HW-random-fact.php**
