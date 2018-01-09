@@ -1,11 +1,11 @@
 # Week 1A: Course Introduction
 Welcome to the course!
 
-## Overview
+## I. Overview
 Welcome to IGME-230 Web Site Design & Implementation! There is more to this course than the title implies, as we will be learning a lot more than just the design and implementation of static web sites. 
 Hopefully the skills you acquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
 
-## What this course is about
+## II. What this course is about
 Official description from SIS: *This course provides an introduction to web development tools and technologies, such as HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 We will:
 * review basic **web publishing** (HTML/CSS/FTP) and HTML validation
@@ -27,7 +27,7 @@ We will:
 * utilize a **CSS framework** such as [Bootstrap](http://getbootstrap.com) or [Skeleton](http://getskeleton.com) to construct a **responsive web portfolio**
 When the course is complete, you will hopefully have at least the beginnings of a "portfolio piece" or two that you will be able to show to prospective employers.
   
-## Topics
+## III. Topics
 This week and next we will:
 * discuss what this course is about and where it fits in the GDD & NMID curriculum
 * point you to IGME-110 resources you may need to review
@@ -35,7 +35,7 @@ This week and next we will:
 * discuss the HTTP protocol and see it how it works
 * learn how to script certain web server behavior by utilizing .htaccess files
 
-## Prerequisites
+## IV. Prerequisites
 Students in this class should have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (people.rit.edu). This material was covered in IGME-110. You can review much of that material here: [IIM-Web-Review/](../IIM-Web-Review)
 
 If you need to brush up on your HTML and CSS skills, I recommend using the CodeAcademy tutorials that we currently use in IGME-110: https://www.codecademy.com/learn/web, lessons 1-5. We will be doing a very brief review, but you shouldn't expect to rely on that to cover all of the prerequisite knowledge.
@@ -44,7 +44,7 @@ You will also need a GitHub account, and the [GitHub Student Developer Pack](htt
 
 If you have questions between now and the start of class, feel free to send me an email! 
 
-## Discussion
+## V. Discussion
 This course is not focused on "web design", but instead on developing highly interactive web applications and web games that heavily utilize the JavaScript programming language.  The major topics of this course are split roughly into thirds:
 1. web publishing (HTML/CSS) both "from scratch" as well as with the Bootstrap or Skeleton CSS framework
 2. web application development (HTML/CSS/JavaScript & a little PHP)
@@ -57,7 +57,7 @@ Once you complete this course you should be able to do the following:
 - code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity.
 - code a sprite-based game such as a shooter or platformer utilizing JavaScript and PixiJS. 
 
-## Projects and other stuff for inspiration
+## VI. Projects and other stuff for inspiration
 There are a lot of reasons to improve your web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media interactive development fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
 
 Past Student Portfolios:
@@ -108,21 +108,24 @@ Some sample projects from last semester:
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
 
-## Required Reading
+## VII. Required Reading
 * [syllabus.md](../syllabus.md)
 * [schedule.md](../schedule.md)
 * [http-protocol-intro.md](../notes/http-protocol-intro.md)
 * [http-protocol-demo.md](../notes/http-protocol-demo.md)
 * [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
 
-## Homework
+## VIII. Homework
 - Get a GitHub account (if you don't have one already), and go through the tutorial above. 
 - Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
 - Create a `230` folder on `banjo.rit.edu` - put it in your `www` folder and be sure that the permission are set so that it is web viewable.
 
-## Reference
+## IX. Reference
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
 * [W3Schools - a resource for reference](https://www.w3schools.com/)
+
+## X. Any time left?
+- If there is time left today, let's head to [Week-01B-notes.md](Week-01B-notes.md) and do a little bit of HTML & FTP review!
 
 <hr><hr>
 
