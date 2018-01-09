@@ -14,6 +14,8 @@ V. [Associative arrays](#section5)
 
 VI.[`$_SERVER`](#section6)
 
+VII.[Review Exercise](#section7)
+
 
 ## I. <a id="section1">Overview
   
@@ -230,7 +232,7 @@ Which looks like this:
 
 
  
- ## VII. <a id="sectionXXX">Review Exercise
+ ## VII. <a id="section7">Review Exercise
 
 ### VIII-A. Associative Array Practice
 Create a page named **php-3A-HW.php** that does the following:
