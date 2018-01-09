@@ -20,7 +20,7 @@ VI.[`$_SERVER`](#section6)
 ## II. <a id="section2">Creating indexed arrays
 
 **php-arrays-1.php**
-```
+```php
 <?PHP
  	// 1 - Indexed arrays - there are two ways to initialize one
  	
@@ -58,7 +58,7 @@ VI.[`$_SERVER`](#section6)
 You can loop though arrays as follows:
 
  **php-arrays-2.php**
-```
+```php
 <?PHP
 	$colors = ["red","green","blue"];
 	
@@ -91,7 +91,7 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
 - But in PHP, we instead use a pre-defined function, and pass in the array as an argument like this `count($myArray)`
 
  **php-arrays-3.php**
- ```
+ ```php
 <?PHP
 	$colors = ["red","green","blue"];
  	$length =  count($colors);
@@ -103,7 +103,7 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
  Other operations you can do include sorting arrays:
  
   **php-arrays-4.php**
- ```
+ ```php
  <?PHP
 	$colors = ["red","green","blue"];
 	
@@ -125,7 +125,7 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
   And adding and removing elements from an arrays:
   
   **php-arrays-5.php**
- ```
+ ```php
  <?PHP
 	$colors = ["red","green","blue"];
 	
@@ -153,6 +153,7 @@ Arrays in PHP are not objects like you see in many other languages, but are inst
 So far our PHP arrays have used numeric (integer) indexes to reference values, but they can also use strings as keys. When we use string for keys, what we have is called an *Associative Array*.
 
  **php-arrays-6.php**
+ ```php
  <?PHP
 	$links = ["RIT"=>"http://www.rit.edu",
 		"RPI"=>"http://www.rpi.edu",
@@ -170,7 +171,7 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
 		echo "<p>$key => $value</p>";
 	}
 ?>
-
+```
 	
  ## VI. <a id="section6">`$_SERVER`
  
@@ -183,7 +184,7 @@ The following script will loop through the `$_SERVER` array and print out all of
 
 **php-arrays-7.php**
 
-```
+```php
 <?php
 
 foreach($_SERVER as $key=>$value){
@@ -200,7 +201,7 @@ Which looks like this:
 
 We can also get just the information we are interested in by specifying a key:
 
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
