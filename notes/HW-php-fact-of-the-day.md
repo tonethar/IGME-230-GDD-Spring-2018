@@ -1,6 +1,6 @@
 # Homework: PHP: "Fact Of The Day" page
 
-## Overview
+## I. Overview
 In this assignment you will create a PHP-driven "random fact" page, and a PHP-driven "fact of the day" page.
 
 To do this assignment, you should have completed at least the [3rd PHP Tutorial - Arrays](php-3.md)
@@ -15,7 +15,7 @@ Here are screen shots of the completed examples:
 
 ![Screenshot](_images/php-fact-of-the-day-HW-3.jpg)
 
-## Instructions
+## II. Instructions
 **HW-random-fact.php**
 1. The outputted page will be valid HTML5.
 1. You must spend some time designing the page, and have at least 3 CSS rules.
