@@ -22,6 +22,7 @@ IX. [Review Questions](#section9)
 
 X. [Review Exercise](#section10)
 
+<hr><hr>
 
 ## I. <a id="section1">PHP Types
 - PHP has 4 *scalar* (i.e. "primitive") types: integer, float (aka double), string and boolean
