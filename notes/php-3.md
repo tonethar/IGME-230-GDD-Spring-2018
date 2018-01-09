@@ -19,7 +19,7 @@ VII. [Review Exercise](#section7)
 
 ## I. <a id="section1">Overview
 	
-An [array](http://php.net/manual/en/language.types.array.php) in PHP is actually an ordered *map*. A map is a type that associates values to keys. This type is optimized for several different uses, and in this course we will treat it both as an (indexed) array, and a dictionary.
+An [array](http://php.net/manual/en/language.types.array.php) in PHP is actually an ordered *map*. A map is a type that associates *values* to *keys*. This type is optimized for several different uses, and in this course we will treat it both as an (indexed) array, and a dictionary.
   
 ## II. <a id="section2">Creating indexed arrays
 
