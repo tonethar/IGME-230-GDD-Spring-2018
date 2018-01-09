@@ -259,7 +259,7 @@ When you are done, it will look something like this:
 
 **Can you see of how this information about our page vistors is useful? Soon we will learn how to log this data (IP address and user agent) to a file.**
 
-**If you have not yet completed the [PHP: "Fact Of The Day" HW](HW-php-fact-of-the-day.md) - you should do so now. Check the mycourses dropbox for the due date**
+**If you have not yet completed the [PHP: "Fact Of The Day" HW](HW-php-fact-of-the-day.md) - you should do so now. Check the mycourses dropbox for the due date.**
 
 <hr><hr>
 
