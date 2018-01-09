@@ -201,6 +201,7 @@ Which looks like this:
 
 We can also get just the information we are interested in by specifying a key:
 
+**php-arrays-8.php**
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -226,9 +227,13 @@ Which looks like this:
 
 ![Screenshot](_images/php-arrays-3.jpg)
 
+
+
  
- ## XXX. <a id="sectionXXX">Review Exercise
-Create a page named **php-3-HW.php** that does the following:
+ ## VII. <a id="sectionXXX">Review Exercise
+
+### VIII-A. Associative Array Practice
+Create a page named **php-3A-HW.php** that does the following:
 1. Loops through this array - `$colors = ["red","green","blue"];` - and creates an HTML *ordered list* (the &lt;ol> and &lt;li> tags) that displays the contents of the array.
 2. Loops through the `$links` associative array in *php-arrays-6.php* - and uses the key and value to create an HTML *unordered list* of clickable hypertext links.
 3. It is suggested (but not required) that you write your code in such a way that only one `echo` statement is required.
@@ -236,6 +241,16 @@ Create a page named **php-3-HW.php** that does the following:
 The HTML page will look something like this when you are done:
 
 ![Screenshot](_images/php-arrays-1.jpg)
+
+### VIII-B. `$_SERVER` Practice
+Duplicate *php-arrays-8.php*,  rename it to **php-3B-HW.php** and:
+- add 3 more echo statements that include information on the server's IP address, the server software, and the server "request time".        
+- format the server time to be human readable by using PHP's date function:  http://php.net/manual/en/function.date.php
+
+When you are done, it will look something like this:
+
+![Screenshot](_images/php-arrays-4.jpg)
+
 
 <hr><hr>
 
