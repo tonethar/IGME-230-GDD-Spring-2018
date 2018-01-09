@@ -257,6 +257,8 @@ When you are done, it will look something like this:
 ![Screenshot](_images/php-arrays-4.jpg)
 
 
+**Can you see of how this information about our page vistors is useful? Soon we will learn how to log this data (IP address and user agent) to a file.**
+
 <hr><hr>
 
 **[Previous Chapter <- PHP Scalars & Data Types (chapter 2)](php-2.md)**
