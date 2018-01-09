@@ -33,6 +33,7 @@
   - [1 - Intro to PHP](notes/php-1.md)
   - [2 - PHP Scalars & Data Types](notes/php-2.md)
   - [3 - PHP Arrays](notes/php-3.md)
+  - [HW - PHP "Fact of the Day" Page](notes/HW-php-fact-of-the-day.md)
   
   
 ## <a id="week3">Week 3 (Jan 30, Feb 1) : Review of Basic HTML/CSS
