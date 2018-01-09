@@ -174,7 +174,7 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
 	
  ## VI. <a id="section6">`$_SERVER`
  
- - PHP has a number of "Super Global" associate arrays that are always available in all scopes : http://php.net/manual/en/reserved.variables.server.php
+- PHP has a number of "Super Global" associate arrays that are always available in all scopes : http://php.net/manual/en/reserved.variables.server.php
  - The `$_SERVER` super global contains "Server and execution environment information" such as paths and script locations, and this information is provided by the web server : http://php.net/manual/en/reserved.variables.server.php
  
 More interestingly, this variable also contains information about the user including their IP address, the "User Agent" (i.e. browser) that requested the page, and the "referrer" - if they clicked on a link that sent them to your page.
