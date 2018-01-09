@@ -27,7 +27,7 @@ Here are screen shots of the completed examples:
 **HW-fact-of-the-day.php**
 1. The requirements are the same as above, except that you will display a different fact depending on what day of the week it is. If it is Sunday, then the same fact will be shown for the whole day; if it is Monday, then another fact will be shown for the whole day, and so on.
 1. You will also display to the user what day of the week it is (DO NOT display other time or date information other than the day of the week)
-1. There are a number of way to get this information:
+1. There are a number of way to get this "what day is it?" information:
     - `date()` - http://php.net/manual/en/function.date.php
     - `jddayofweek(0)` - http://php.net/manual/en/function.jddayofweek.php - which gives an integer of 0-6 depending on what day it is
 1. Submission: When you are done, post the page to `banjo.rit.edu`, zip and post your files to the appropriate dropbox, and put the link in the dropbox comments field.
