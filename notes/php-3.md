@@ -174,8 +174,57 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
 	
  ## VI. <a id="section6">`$_SERVER`
  
- http://php.net/manual/en/reserved.variables.server.php
+ - PHP has a number of "Super Global" associate arrays that are always available in all scopes : http://php.net/manual/en/reserved.variables.server.php
+ - The `$_SERVER` super global contains "Server and execution environment information" such as paths and script locations, and this information is provided by the web server : http://php.net/manual/en/reserved.variables.server.php
  
+More interestingly, this variable also contains information about the user including their IP address, the "User Agent" (i.e. browser) that requested the page, and the "referrer" - if they clicked on a link that sent them to your page.
+
+The following script will loop through the `$_SERVER` array and print out all of the keys and values:
+
+**php-arrays-7.php**
+
+```
+<?php
+
+foreach($_SERVER as $key=>$value){
+	echo "<p>$key=>$value</p>";
+}
+
+?>
+```
+
+Which looks like this:
+
+![Screenshot](_images/php-arrays-2.jpg)
+
+
+We can also get just the information we are interested in by specifying a key:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>About you!</title>
+</head>
+<body>
+<h1>About you!</h1>
+<?PHP
+	$server =  $_SERVER["SERVER_NAME"];
+	$ip =  $_SERVER["REMOTE_ADDR"];
+	$ua =  $_SERVER["HTTP_USER_AGENT"];
+	echo "<p>The server is: $server</p>";
+	echo "<p>Your IP address is: $ip</p>";
+	echo "<p>Your browser is: $ua</p>";
+?>
+</body>
+</html>
+```
+
+Which looks like this:
+
+![Screenshot](_images/php-arrays-3.jpg)
+
  
  ## XXX. <a id="sectionXXX">Review Exercise
 Create a page named **php-3-HW.php** that does the following:
