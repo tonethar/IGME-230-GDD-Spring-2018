@@ -16,6 +16,7 @@ VI. [`$_SERVER`](#section6)
 
 VII. [Review Exercise](#section7)
 
+<hr><hr>
 
 ## I. <a id="section1">Overview
 	
@@ -203,7 +204,7 @@ Which looks like this:
 ![Screenshot](_images/php-arrays-2.jpg)
 
 
-We can also get just the information we are interested in by specifying a key:
+We can also get solely the information we are interested in by specifying a **key**:
 
 **php-arrays-8.php**
 ```php
