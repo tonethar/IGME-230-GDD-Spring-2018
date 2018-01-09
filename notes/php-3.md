@@ -236,7 +236,7 @@ Which looks like this:
  
  ## VII. <a id="section7">Review Exercise
 
-### VIII-A. Associative Array Practice
+### VII-A. Associative Array Practice
 Create a page named **php-3A-HW.php** that does the following:
 1. Loops through this array - `$colors = ["red","green","blue"];` - and creates an HTML *ordered list* (the &lt;ol> and &lt;li> tags) that displays the contents of the array.
 2. Loops through the `$links` associative array in *php-arrays-6.php* - and uses the key and value to create an HTML *unordered list* of clickable hypertext links.
@@ -246,7 +246,7 @@ The HTML page will look something like this when you are done:
 
 ![Screenshot](_images/php-arrays-1.jpg)
 
-### VIII-B. `$_SERVER` Practice
+### VII-B. `$_SERVER` Practice
 Duplicate *php-arrays-8.php*,  rename it to **php-3B-HW.php** and:
 - add 3 more echo statements that include information on the server's IP address, the server software, and the server "request time".        
 - format the server time to be human readable by using PHP's date function:  http://php.net/manual/en/function.date.php
