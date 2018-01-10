@@ -5,6 +5,8 @@ Welcome to the course!
 Welcome to IGME-230 Web Site Design & Implementation! There is more to this course than the title implies, as we will be learning a lot more than just the design and implementation of static web sites. 
 Hopefully the skills you acquire in the class will help you to get a co-op position, and give you the skills you need to create "passion pieces" for your professional portfolio.
 
+**Important: The Spring 2018 sections are reserved for GDD and NMID students ONLY**
+
 ## II. What this course is about
 Official description from SIS: *This course provides an introduction to web development tools and technologies, such as HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 We will:
