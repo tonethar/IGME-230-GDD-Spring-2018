@@ -117,7 +117,7 @@ And some other really cool stuff:
 
 ## VIII. Homework
 - Get a GitHub account (if you don't have one already), and go through the tutorial above. 
-- Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
+- Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the comments field of the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
 - Create a `230` folder on `banjo.rit.edu` - put it in your `www` folder and be sure that the permission are set so that it is web viewable.
 
 ## IX. Reference
