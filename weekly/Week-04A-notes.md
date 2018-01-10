@@ -47,3 +47,7 @@ There's a lot of contention in the Web world on how to position and control elem
 ## Project - Due Friday of Week 5
 - [Project 1](../projects/project1.md)
 
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
+
