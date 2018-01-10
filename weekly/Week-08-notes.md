@@ -16,3 +16,7 @@ Also remember that the proposal for [Project 2](../projects/project2.md) is due 
 
 - Your name and team member's name - one posting per team (team members are optional)
 - What kind of project you would like to build - be as specific as you can: Web Service App (which service?) or DOM Game (what kind of game)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
