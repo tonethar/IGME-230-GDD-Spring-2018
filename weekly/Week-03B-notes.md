@@ -47,7 +47,6 @@ http://jigsaw.w3.org/css-validator/
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
 - [230 Home Page](../exercises/week-2/230-home-page.md) - Finish up the CSS portion of this and get it working online! Make sure both today's ICE and the 2A ICE are linked from your page.
 
-<!---
-## Project - Due Friday of Week 5
-- [Project 1](../projects/project1.md)
---->
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
