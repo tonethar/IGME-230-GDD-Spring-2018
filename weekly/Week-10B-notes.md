@@ -18,3 +18,7 @@ Having an online portfolio you can share with potential employers is very import
 
 ## Assignment
 - [Portfolio Assignment](../projects/portfolio.md)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
