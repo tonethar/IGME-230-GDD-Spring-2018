@@ -23,7 +23,7 @@
 
 ## <a id="week1">Week 1 (Jan 16/18) : Course Intro & FTP/banjo/.htaccess files
   
-This week we will discuss the Apache web server that runs on `banjo.rit.edu` and learn how to script it with .htaccess files. By adding directives to this file, we will be able to password protect web folders, create a customized error page, and turn off some undesirable default behavior of the web server. 
+This week we will discuss the [Apache](http://httpd.apache.org) web server that runs on `banjo.rit.edu` and learn how to script it with .htaccess files. By adding directives to this file, we will be able to password protect web folders, create a customized error page, and turn off some undesirable default behavior of the web server. 
   
   - [Week 1A - Course Introduction](weekly/Week-01A-notes.md)
   - [Week 1B - Review of banjo.rit.edu & FTP & .htaccess files](weekly/Week-01B-notes.md)
