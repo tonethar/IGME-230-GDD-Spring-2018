@@ -24,3 +24,7 @@ The required readings and assignments for this week are here (see myCourses drop
 - [About this PixiJS Tutorial Series](../notes/pixi-js-0.md)
 - [1 - Intro to PixiJS](../notes/pixi-js-1.md)
 - [2 - ES6 Classes & PixiJS Animation](../notes/pixi-js-2.md)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
