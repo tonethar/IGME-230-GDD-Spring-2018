@@ -12,7 +12,7 @@
 - [Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming](#week7)
 - [Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam](#week8)
 - **Spring Break March 11-17**
-- [Week 9 (Mar 20/22) : Web Storage & Web Services](#week9)
+- [Week 9 (Mar 20/22) : Events, Objects, Web Storage & Web Services](#week9)
 - [Week 10 (Mar 27/29) : HTML Frameworks & Portfolios](#week10)
 - [Week 11 (Apr 3/5) : Catch up](#week11)
 - [Week 12 (Apr 10/12) : Intro to PixiJS](#week12)
@@ -71,7 +71,10 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
   
 ## <a id="week9">Week 9 (Mar 20/22) :  Web Storage & Web Services
   
-   - [Week 9 - Arrays, Web Storage & Web Services](weekly/Week-09-notes.md)
+  This week we will try to give you everything you will need for Project 2. If we fall behind slightly, that's OK, as we have Week 11 designated for "catch up".
+  
+  - [Week 9A - Events & JavaScript Object Literals](weekly/Week-09A-notes.md)
+  - [Week 9B - Arrays, Web Storage & Web Services](weekly/Week-09B-notes.md)
   
 ## <a id="week10">Week 10 (Mar 27/29) : HTML Frameworks & Portfolios
   
