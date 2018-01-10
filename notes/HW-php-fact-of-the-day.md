@@ -40,7 +40,7 @@ Rather than the user having to manually reload the page to see a new joke, let's
 - the `method` of the page really only matters when we are passing data with the form submission (which we are not). THe `post` method sends data to to server as a separate file, the `get` method sends the data encoded on the URL as a query string. 
 
 
-**Here is the code you will need:**
+**Here is the HTML you will need:**
 
 ```
 <form action="HW-random-fact.php" method="post">
@@ -50,7 +50,7 @@ Rather than the user having to manually reload the page to see a new joke, let's
 
 **Make sure that your final version of *HW-random-fact.php* has this button. You will probably also want to use CSS to style it up a little - see the example below:**
 
-
+![Screenshot](_images/php-fact-of-the-day-HW-4.jpg)
 
 <hr><hr>
 
