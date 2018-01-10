@@ -98,6 +98,6 @@ During finals week, we will meet as a group and look at everyone's final project
 
 <hr>
 
-**All information on this page is subject to change and modication during the semester.**
+**All information on this page is subject to change and modification during the semester.**
 
 <hr>
