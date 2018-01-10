@@ -23,14 +23,16 @@
 
 ## <a id="week1">Week 1 (Jan 16/18) : Course Intro & FTP/banjo/.htaccess files
   
+This week we will discuss the Apache web server that runs on banjo.rit.edu and learn how to script it with .htaccess files. By adding directives to this file, we will be able to password protect web folders, create a customized error page, and turn off some undesirable default behavior of the web server. 
+  
   - [Week 1A - Course Introduction](weekly/Week-01A-notes.md)
   - [Week 1B - Review of banjo.rit.edu & FTP & .htaccess files](weekly/Week-01B-notes.md)
   
 ## <a id="week2">Week 2 (Jan 23/25) : Intro to Server-side programming (PHP)
   
-  This week we will cover enough server-side programming (PHP) to make you dangerous :-)
+ This week we will continue to look at web server scripting, and will cover enough server-side programming (PHP) to make you dangerous :-)
   
-  Later on in the semester we will revisit PHP and use it to create our own customized *web service*.
+ Later on in the semester we will revisit PHP and use it to create our own customized *web service*.
   
   - [0 - About this PHP Tutorial Series](notes/php-0.md)
   - [1 - Intro to PHP](notes/php-1.md)
