@@ -10,6 +10,11 @@ This series of tutorials/lecture notes will get you started exploring the capabi
 ## III. The Tutorials
 1. [Intro to PHP](./php-1.md)
 1. [PHP Scalars & Data Types](./php-2.md)
+    - PHP Variables, Types & Constants
+    - Integers, Floats, Booleans & Strings
+    - Type Coercion
+    - Operators
+    - Web Server Caching
 1. [PHP Arrays](./php-3.md)
 
 ## IV. Homework Assignments
