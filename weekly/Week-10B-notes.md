@@ -17,7 +17,7 @@ Having an online portfolio you can share with potential employers is very import
 - [Portfolio](../presentations/Portfolio.pdf)
 
 ## Assignment
-- [Portfolio Assignment](../projects/portfolio.md)
+- [Portfolio Mini-Project](../projects/portfolio-mini-project.md)
 
 <hr><hr>
 
