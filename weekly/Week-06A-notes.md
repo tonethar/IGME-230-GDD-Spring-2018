@@ -27,3 +27,7 @@ Today we'll be discussing the overall process for designing a site, which consis
 
 ## Homework
 - http://www.nngroup.com/articles/top-10-mistakes-web-design/
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
