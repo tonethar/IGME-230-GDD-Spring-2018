@@ -18,9 +18,11 @@ VII. [Constants](#section7)
 
 VIII. [Operators](#section8)
 
-IX. [Review Questions](#section9)
+IX. [Web Server Caching](#section9)
 
-X. [Review Exercise](#section10)
+X. [Review Questions](#section10)
+
+XI. [Review Exercise](#section11)
 
 <hr><hr>
 
@@ -204,14 +206,34 @@ Constant values can be created via the [`define()`](http://php.net/manual/en/fun
 	
 PHP has all of the standard arithmetic, comparison, logical, assignment and conditional operators that you know and love - take a look here: https://www.tutorialspoint.com/php/php_operator_types.htm
 
+ ## IX <a id="section9">Web Server Caching
+*In computing, a cache is a hardware or software component that stores data so future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation, or the duplicate of data stored elsewhere.* - https://en.wikipedia.org/wiki/Cache_(computing)
 
- ## IX. <a id="section9">Review Questions
+PHP on banjo has an annoying habit of caching the results of your PHP pages for up to 24 hours!, which is nice for performance, but makes it harder to develop and debug PHP pages. You will want to turn off this behavior, so add the following to a `.htaccess` file that is located either in your `www` folder or your `230` folder (recall that .htaccess file directives effect the current directory, and all of its sub-directories):
+
+```
+<IfModule mod_expires.c>
+        ExpiresActive On
+        ExpiresDefault "now"
+</IfModule>
+Header set Cache-Control "max-age=0, private, no-cache, no-store, must-revalidate"
+ModPagespeed off
+```
+
+Here is the documentation for these directives:
+- http://httpd.apache.org/docs/current/mod/mod_expires.html
+- https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.9
+- https://www.modpagespeed.com/doc/configuration
+
+**The above directives are turning off ALL caching, both the client (web browser) and the server.**
+
+ ## X. <a id="section10">Review Questions
 1. Give 2 ways to *concatenate* strings in PHP.
 1. List the 4 PHP *scalar* types.
 1. True or False. PHP variables are not typed.
 
 
- ## X. <a id="section10">Review Exercise
+ ## XI. <a id="section11">Review Exercise
 1. Make a copy of *php-types-6.php*, name the copy *php-2-HW.php*, and modify it so that it also calculates the circumference of the circle, and echos that value out in another paragraph.
 
 <hr><hr>
