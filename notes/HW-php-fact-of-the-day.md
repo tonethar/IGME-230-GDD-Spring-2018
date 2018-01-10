@@ -22,7 +22,7 @@ Here are screen shots of the completed examples:
 1. Your design should look no worse than the minimal example above, and ideally better! Above, I set (in CSS) the `width` and `height` of the main &lt;div> to 600 x 400, and used `margin-left:auto;` and `margin-right:auto;` to center it.
 1. Create an array of at least 7 "facts". The example uses jokes, but the facts could be a random quote, vocabulary word, trivia, a Magic 8-ball type fortune, or whatever.
 1. Pull a random fact out of the array every time the page is loaded or re-loaded, and display it. There are a couple of ways to do this - you can look here: http://php.net/manual/en/ref.array.php and here: http://php.net/manual/en/function.rand.php
-1. See **III. Adding a submit button to *HW-random-fact.php*** below.
+1. See below -  **III. Adding a submit button to *HW-random-fact.php*** 
 1. **Submission:** When you are done, post the page to `banjo.rit.edu`, zip and post your file to the appropriate dropbox, and put the link in the dropbox comments field.
 
 **HW-fact-of-the-day.php**
