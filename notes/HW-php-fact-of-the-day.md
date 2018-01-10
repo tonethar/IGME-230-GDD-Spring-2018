@@ -48,7 +48,7 @@ Rather than the user having to manually reload the page to see a new joke, let's
 </form>
 ```
 
-**Make sure that your final version of *HW-random-fact.php* has this button. You will probably also want to use CSS to style it up a little - see the example below:**
+**Make sure that your final version of *HW-random-fact.php* has this button. When the user clicks this button the page will be reloaded and they will see a new random fact. You will probably also want to use CSS to style it up a little - see the example below:**
 
 ![Screenshot](_images/php-fact-of-the-day-HW-4.jpg)
 
