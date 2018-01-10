@@ -28,7 +28,9 @@
   
 ## <a id="week2">Week 2 (Jan 23/25) : Intro to Server-side programming (PHP)
   
-  We will cover enough Server-side programming (PHP) to make you dangerous :-)
+  This week we will cover enough server-side programming (PHP) to make you dangerous :-)
+  
+  Later on in the semester we will revisit PHP and use it to create our own customized *web service*.
   
   - [0 - About this PHP Tutorial Series](notes/php-0.md)
   - [1 - Intro to PHP](notes/php-1.md)
