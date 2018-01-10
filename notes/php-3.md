@@ -12,7 +12,7 @@ IV. [Array functions](#section4)
 
 V. [Associative arrays](#section5)
 
-VI. [THe `$_SERVER` "super global"](#section6)
+VI. [The `$_SERVER` "super global"](#section6)
 
 VII. [Review Exercise](#section7)
 
