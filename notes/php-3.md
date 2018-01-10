@@ -12,7 +12,7 @@ IV. [Array functions](#section4)
 
 V. [Associative arrays](#section5)
 
-VI. [`$_SERVER`](#section6)
+VI. [THe `$_SERVER` "super global"](#section6)
 
 VII. [Review Exercise](#section7)
 
@@ -178,7 +178,7 @@ So far our PHP arrays have used numeric (integer) indexes to reference values, b
 ?>
 ```
 	
- ## VI. <a id="section6">`$_SERVER`
+ ## VI. <a id="section6">The `$_SERVER` "super global"
  
 - PHP has a number of "Super Global" associate arrays that are always available in all scopes : http://php.net/manual/en/reserved.variables.server.php
  - The `$_SERVER` super global contains "Server and execution environment information" such as paths and script locations, and this information is provided by the web server : http://php.net/manual/en/reserved.variables.server.php
