@@ -206,7 +206,7 @@ Constant values can be created via the [`define()`](http://php.net/manual/en/fun
 	
 PHP has all of the standard arithmetic, comparison, logical, assignment and conditional operators that you know and love - take a look here: https://www.tutorialspoint.com/php/php_operator_types.htm
 
- ## IX <a id="section9">Web Server Caching
+ ## IX. <a id="section9">Web Server Caching
 *In computing, a cache is a hardware or software component that stores data so future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation, or the duplicate of data stored elsewhere.* - https://en.wikipedia.org/wiki/Cache_(computing)
 
 PHP on banjo has an annoying habit of caching the results of your PHP pages for up to 24 hours!, which is nice for performance, but makes it harder to develop and debug PHP pages. You will want to turn off this behavior, so add the following to a `.htaccess` file that is located either in your `www` folder or your `230` folder (recall that .htaccess file directives effect the current directory, and all of its sub-directories):
