@@ -22,6 +22,7 @@ Here are screen shots of the completed examples:
 1. Your design should look no worse than the minimal example above, and ideally better! Above, I set (in CSS) the `width` and `height` of the main &lt;div> to 600 x 400, and used `margin-left:auto;` and `margin-right:auto;` to center it.
 1. Create an array of at least 7 "facts". The example uses jokes, but the facts could be a random quote, vocabulary word, trivia, a Magic 8-ball type fortune, or whatever.
 1. Pull a random fact out of the array every time the page is loaded or re-loaded, and display it. There are a couple of ways to do this - you can look here: http://php.net/manual/en/ref.array.php and here: http://php.net/manual/en/function.rand.php
+1. **III. Adding a submit button to *HW-random-fact.php***
 1. **Submission: When you are done, post the page to `banjo.rit.edu`, zip and post your file to the appropriate dropbox, and put the link in the dropbox comments field.**
 
 **HW-fact-of-the-day.php**
@@ -32,6 +33,21 @@ Here are screen shots of the completed examples:
     - `jddayofweek(0)` - http://php.net/manual/en/function.jddayofweek.php - which gives an integer of 0-6 depending on what day it is
 1. **Submission: When you are done, post the page to `banjo.rit.edu`, zip and post your file to the appropriate dropbox, and put the link in the dropbox comments field.**
 
+# III. Adding a submit button to *HW-random-fact.php*
+
+Rather than the user having to manually reload the page to see a new joke, let's give the user a button to do so.
+- Because this is a server-side script, we are going to need an HTML &lt;form> tag to trigger a page reload.
+- the `action` of the form is the page it should call when it is submitted, in this case the value of `action` is the current page.
+- the `method` of the page really only matters when we are passing data with the form submission (which we are not). THe `post` method sends data to to server as a separate file, the `get` method sends the data encoded on the URL as a query string. 
+
+
+**Here is the code you will need**
+```
+<form action="HW-random-fact.php" method="post">
+	<input type="submit" value="Get another Joke!">
+</form>
+```
+This won't be graded, 
 <hr><hr>
 
 **[Table of Contents <- About this PHP Tutorial Series](php-0.md)**
