@@ -6,3 +6,7 @@ Everyone should gather into groups of 4, and complete the critique exercise link
 
 ## Exercise
 - [Project 1 Critique](../exercises/week-5/Project-1-Critique.docx)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
