@@ -9,6 +9,10 @@ This series of tutorials/lecture notes will get you started exploring the capabi
 
 ## III. The Tutorials
 1. [Intro to PHP](./php-1.md)
+    - Overview
+    - "Hello PHP!"
+    - Adding HTML tags
+    - `phpinfo()`
 1. [PHP Scalars & Data Types](./php-2.md)
     - PHP Variables, Types & Constants
     - Integers, Floats, Booleans & Strings
