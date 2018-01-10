@@ -25,3 +25,7 @@
 
 ## Exercise
 - [Analyzing Websites with CRAP](../exercises/week-4/Exercise-CRAP.docx)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
