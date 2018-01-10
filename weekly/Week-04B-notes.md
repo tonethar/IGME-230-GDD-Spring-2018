@@ -46,3 +46,7 @@ Our demo today covers:
 - [Stylish Navigation](../exercises/week-3/ICE-3B-1.pdf)
 - [Stylish Navigation Start Files](../exercises/week-3/ICE-3B-1-start.zip)
 - [Transitions and Animations](../exercises/week-3/ICE-3B-2.pdf)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
