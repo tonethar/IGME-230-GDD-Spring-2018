@@ -9,7 +9,7 @@ This series of tutorials/lecture notes will get you started exploring the capabi
 
 ## III. The Tutorials
 1. [Intro to PHP](./php-1.md)
-    - Overview
+    - Overview and how PHP works
     - "Hello PHP!"
     - Adding HTML tags
     - `phpinfo()`
@@ -20,6 +20,10 @@ This series of tutorials/lecture notes will get you started exploring the capabi
     - Operators
     - Web Server Caching
 1. [PHP Arrays](./php-3.md)
+    - Indexed and associative arrays
+    - Looping though arrays
+    - Array functions
+    - The `$_SERVER` "super global"
 
 ## IV. Homework Assignments
 See mycourses dropboxes for due dates.
