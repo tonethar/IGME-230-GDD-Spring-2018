@@ -37,7 +37,7 @@ Here are screen shots of the completed examples:
 Rather than the user having to manually reload the page to see a new joke, let's give the user a button to do so.
 - Because this is a server-side script, we are going to need an HTML &lt;form> tag to trigger a page reload.
 - the `action` of the form is the page it should call when it is submitted, in this case the value of `action` is the current page.
-- the `method` of the page really only matters when we are passing data with the form submission (which we are not). THe `post` method sends data to to server as a separate file, the `get` method sends the data encoded on the URL as a query string. 
+- the `method` of the page really only matters when we are passing data with the form submission (which we are not). The `post` method sends data to to server as a separate file, the `get` method sends the data encoded on the URL as a query string. Here we will use `post` so that we keep our URL "clean".
 
 
 **Here is the HTML you will need:**
