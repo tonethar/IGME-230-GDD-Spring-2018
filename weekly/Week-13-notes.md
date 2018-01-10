@@ -18,3 +18,7 @@ The required readings and assignments for this week are here (see myCourses drop
 - [Particle Demo](../notes/_files/particle-demo.zip)
 - [Vector Demo](../notes/_files/PixiJS-vectors.zip)
 - [Smooth Keyboard Control Demo](../notes/_files/smooth-keyboard-control.zip)
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
