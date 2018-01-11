@@ -1,4 +1,4 @@
-# Introduction to PHP
+# Week 2: Introduction to PHP
 - This week we will continue to look at web server scripting, and will cover enough server-side programming (PHP) to make you dangerous :-)
 - Later on in the semester we will revisit PHP and use it to create our own customized *web service*.
 
