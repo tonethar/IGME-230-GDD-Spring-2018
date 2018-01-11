@@ -67,6 +67,8 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
  
 ## <a id="week8">Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam
   
+    The midterm exam will given Thursday 3/8.
+  
   - [Week 8 - Review & Midterm Exam](weekly/Week-08-notes.md)
   
 ## <a id="week9">Week 9 (Mar 20/22) :  Web Storage & Web Services
