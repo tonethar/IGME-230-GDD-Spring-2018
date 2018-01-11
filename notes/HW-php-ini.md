@@ -10,9 +10,9 @@
 
 1. Download your banjo *php.ini* file to your local computer. It is located in your login directory on banjo at `abc1234/php_data/php.ini`
 
-2. Now that you have a copy of the php.ini file on your computer, change the name of the original file on the gibson server from php.ini to **php.ini_bak**
+2. Now that you have a copy of the *php.ini* file on your computer, change the name of the original file on the banjo server from *php.ini* to **php.ini_bak**
 
-Note : *php.ini_bak* should be kept as a backup copy that you can always go back to in case there is a problem with the changes you are going to make to php.ini
+Note : *php.ini_bak* should be kept on banjo as a backup copy that you can always go back to, in case there is a problem with the changes you are going to make to *php.ini*
 
 
 ## III. Now let's make some changes to your *php.ini* file
