@@ -31,6 +31,8 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
 ## <a id="week2">Week 2 (Jan 23/25) : Intro to Server-side programming (PHP)
   
  This week we will continue to look at web server scripting, and will cover enough server-side programming (PHP) to make you dangerous :-)
+ 
+ - [Week 2 - Introduction to PHP](weekly/Week-02-notes.md)
   
  Later on in the semester we will revisit PHP and use it to create our own customized *web service*.
   
