@@ -3,7 +3,7 @@
 ## I. Overview
 
 * A configuration file - **php.ini** - is read when PHP starts up
-* This file contains directives you can set to configure your PHP setup, and controls certain capabilities of how PHP runs for you on banjo.
+* This file contains directives you can set to configure your PHP setup, and controls certain capabilities of how PHP runs for you on `banjo.rit.`
 * Each of you have a *php.ini* file located on your banjo account. In this exercise we are going to make two small changes to this file. 
 
 ## II. Fetch your *php.ini* file, and make a back-up copy
