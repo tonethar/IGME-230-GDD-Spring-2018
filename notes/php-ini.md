@@ -92,3 +92,7 @@ Another capability that PHP has is to change these initialization setting on a *
 
 ## VII. Submission
 See dropbox for due date.
+
+<hr><hr>
+
+**[Table of Contents <- About this PHP Tutorial Series](php-0.md)**
