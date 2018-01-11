@@ -75,15 +75,15 @@ Which runs *broken.php* through the command-line PHP parser and should display t
 **open.php**
 ```
 <?php
-	$data = file_get_contents("http://www.gop.com");
+	$data = file_get_contents("http://www.gop.com"); // or any other URL you want to use
 	echo "<h1>Here's your data!!</h1>"
 	echo $data;
  ?>
 ```
 
-11. Test this in the browser by loading *open.php*  - the script should load the default page for `www.gop.com` and display it. 
+11. Test this in the browser by loading *open.php*  - the script should load the default page for your chose URL and display it. 
 
-12. Test this on the command line by typing `php open.php` from the correct directory. You should see the default page for `www.gop.com` dumped to the console.
+12. Test this on the command line by typing `php open.php` from the correct directory. You should see the default page for your chosen URL dumped to the console.
 
 ## VI. Wrap up
 Hopefully you can see how useful it is to understand how to edit your account's *php.ini* file. A reference to what all of these PHP directives mean can be found at: http://www.php.net/manual/en/ini.list.php
