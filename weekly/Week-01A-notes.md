@@ -118,7 +118,19 @@ And some other really cool stuff:
 * [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
 * [W3Schools - a resource for reference](https://www.w3schools.com/)
 
-## IX. Any time left?
+## IX. Pedagogy (how this course is taught!)
+- A typical classroom day will be:
+    - a review of the days topics utilizing powerpoints or our Github lecture notes
+    - a live "demo" by the professor that reinforces the day's topics
+    - if time remains, students will be able to complete homework assignments
+- The assignments given in this class break into two categories:
+    - structured homework assignments/in-class exercises
+    - Three projects, that are considerably more freeform, and allow you to exercixe considerable fredom and creativity in meeting their requirements.
+- A large part of this course is taught similar to a typical math course: there will be several small HW assignments given every week, and because these aassignments build upon one another, it is esential that they be completed on time and in order, thus they have strict due dates.
+- Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permssion from the instructor - if something come up and you need an extension you need to get in touch with us ASAP.
+- The due dates for these assignments will be clustered around the same days, often on Monday night. This means that you should plan ahead, and not try to tackle them all in the last hour before they are due.
+
+## X. Any time left?
 - If there is time left today, let's head to the notes for our next class meeting -  [Week-01B-notes.md](Week-01B-notes.md) - and do a little bit of HTML & FTP review!
 
 <hr><hr>
