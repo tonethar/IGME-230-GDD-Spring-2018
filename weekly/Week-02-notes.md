@@ -13,3 +13,8 @@ See the dropboxes for due dates.
 - [3 - PHP Arrays](notes/php-3.md)
 - [Configuring php.ini](HW-php-ini.md)
 - [HW - PHP "Fact of the Day" Page](notes/HW-php-fact-of-the-day.md)
+
+
+<hr><hr>
+
+[<-- Back to IGME-230 Schedule](../schedule.md)
