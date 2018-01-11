@@ -92,10 +92,11 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
   
 ## <a id="week14">Week 14 (Apr 24/26) : Review & Final Exam
   
+  The final exam will given on the last day of class, Thursday 4/26.
+  
  - [Week 14 - The Home Stretch](weekly/Week-14-notes.md)
   
 ## <a id="finalsweek">Finals Week Meeting
-The final exam will given on the last day of class. 
 
 During finals week, we will meet as a group and look at everyone's final projects! 
 - Section 01 (Jefferson) will meet on 5/8/2018, Tuesday - 10:15AM - 12:15PM in ORN-1375
