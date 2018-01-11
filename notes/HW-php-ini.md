@@ -38,7 +38,7 @@ Note : *php.ini_bak* should be kept on banjo as a backup copy that you can alway
 5. Save your changes, and transfer this updated *php.ini* file back to the directory that you got it from.
 
 
-## IV. Test the changes you have made
+## IV. Test to see if you are getting PHP error messages
 
 6. Create a script named **broken.php** to test error display and upload it to banjo in a folder `230/test/`  - run it in the browser, you should see “Parse error” message in the browser window when the page is loaded.
 
@@ -69,8 +69,8 @@ THis runs *broken.php* through the command-line PHP parser, and should also disp
 
 9. Another place to see error messages is in the PHP error log file on banjo at `abc1234/php_data/php.log`
 
-## V. Make another change to *php.ini*
-10. Now we will check to see if we can open a file on another server with the following script which you can name **open.php** and put in your `230/test/` folder.
+## V. Test to see if PHP can open remote files
+10. Now we will check to see if we can open a file on another server with the following script, which you can name **open.php** and put in your `230/test/` folder.
 
 **open.php**
 ```
