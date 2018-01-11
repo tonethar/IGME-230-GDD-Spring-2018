@@ -5,7 +5,7 @@
 ## PHP - What is it good for?
   
 ## Lectures & Exercises
-See the dropboxes for due dates.
+See the mycourses dropboxes for due dates.
 
 - [0 - About this PHP Tutorial Series](notes/php-0.md)
 - [1 - Intro to PHP](notes/php-1.md)
