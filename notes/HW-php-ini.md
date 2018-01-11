@@ -57,19 +57,19 @@ The corrected version is here:
 ?>
 ```
 
-7. Another way to see error messages is to run PHP scripts on the command line. You can do this by establishing an ssh session with `banjo.rit.edu`, then `cd` to the folder with broken.php in it, and then typing:
+7. Another way to see error messages is to run PHP scripts on the command line. You can do this by establishing an ssh session with `banjo.rit.edu`, then `cd` to the folder with *broken.php* in it (which is `230/test/`), and then type:
 
 `php broken.php`
 
-Which runs *broken.php* through the command-line PHP parser and should display the error message as well
+This *broken.php* through the command-line PHP parser and should also display the error message.
 
 
-8. Can you fix broken.php right here on the command line with a text editor like `nano`? Make it so!
+8. Can you fix *broken.php* right here on the command line with a text editor like `nano`? Make it so!
 
 
-9. Another place to see error messages is in the PHP error log file on Gibson at `abc1234/php_data/php.log`
+9. Another place to see error messages is in the PHP error log file on banjo at `abc1234/php_data/php.log`
 
-## V. Another change to *php.ini*
+## V. Make another change to *php.ini*
 10. Now we will check to see if we can open a file on another server with the following script which you can name **open.php** and put in your `230/test/` folder.
 
 **open.php**
