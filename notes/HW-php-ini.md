@@ -61,7 +61,7 @@ The corrected version is here:
 
 `php broken.php`
 
-This *broken.php* through the command-line PHP parser and should also display the error message.
+THis runs *broken.php* through the command-line PHP parser, and should also display the error message.
 
 
 8. Can you fix *broken.php* right here on the command line with a text editor like `nano`? Make it so!
@@ -81,7 +81,7 @@ This *broken.php* through the command-line PHP parser and should also display th
  ?>
 ```
 
-11. Test this in the browser by loading *open.php*  - the script should load the default page for your chose URL and display it. 
+11. Test this in the browser by loading *open.php*  - the script should load the default page for your chosen URL and display it. 
 
 12. Test this on the command line by typing `php open.php` from the correct directory. You should see the default page for your chosen URL dumped to the console.
 
