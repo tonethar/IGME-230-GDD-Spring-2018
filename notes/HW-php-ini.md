@@ -67,7 +67,7 @@ Parse error: syntax error, unexpected end of file, expecting variable (T_VARIABL
 
 `php broken.php`
 
-THis runs *broken.php* through the command-line PHP parser, and should also display the error message.
+This runs *broken.php* through the command-line PHP parser, and should also display the error message.
 
 
 8. Can you fix *broken.php* right here on the command line with a text editor like `nano`? Make it so!
