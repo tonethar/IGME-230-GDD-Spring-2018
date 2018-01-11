@@ -49,7 +49,13 @@ Note : *php.ini_bak* should be kept on banjo as a backup copy that you can alway
 ?>
 ```
 
-The corrected version is here:
+**The full error message you will get looks something like this:**
+
+```
+Parse error: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/acjvks/www/230/test/broken.php on line 3
+```
+
+**The corrected version of *broken.php* is here:**
 
 ```
 <?php
