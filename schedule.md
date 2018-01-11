@@ -36,14 +36,6 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
   
  Later on in the semester we will revisit PHP and use it to create our own customized *web service*.
   
-  - [0 - About this PHP Tutorial Series](notes/php-0.md)
-  - [1 - Intro to PHP](notes/php-1.md)
-  - [2 - PHP Scalars & Data Types](notes/php-2.md)
-  - [3 - PHP Arrays](notes/php-3.md)
-  - [Configuring php.ini](HW-php-ini.md)
-  - [HW - PHP "Fact of the Day" Page](notes/HW-php-fact-of-the-day.md)
-  
-  
 ## <a id="week3">Week 3 (Jan 30, Feb 1) : Review of Basic HTML/CSS
   
   - [Week 3A - Review of HTML](weekly/Week-03A-notes.md)
