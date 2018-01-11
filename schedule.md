@@ -38,6 +38,7 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
   - [1 - Intro to PHP](notes/php-1.md)
   - [2 - PHP Scalars & Data Types](notes/php-2.md)
   - [3 - PHP Arrays](notes/php-3.md)
+  - [Configuring php.ini](HW-php-ini.md)
   - [HW - PHP "Fact of the Day" Page](notes/HW-php-fact-of-the-day.md)
   
   
