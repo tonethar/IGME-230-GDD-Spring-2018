@@ -27,4 +27,5 @@ This series of tutorials/lecture notes will get you started exploring the capabi
 
 ## IV. Homework Assignments
 See mycourses dropboxes for due dates.
+- [Configuring php.ini](HW-php-ini.md)
 - [PHP: "Fact Of The Day" page](HW-php-fact-of-the-day.md)
