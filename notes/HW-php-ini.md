@@ -1,4 +1,4 @@
-# Configuring *php.ini*
+# Homework - Configuring *php.ini*
 
 ## I. Overview
 
