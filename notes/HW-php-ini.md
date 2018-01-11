@@ -40,7 +40,7 @@ Note : *php.ini_bak* should be kept on banjo as a backup copy that you can alway
 
 ## IV. Test to see if you are getting PHP error messages
 
-6. Create a script named **broken.php** to test error display and upload it to banjo in a folder `230/test/`  - run it in the browser, you should see “Parse error” message in the browser window when the page is loaded.
+6. Create a script named **broken.php** to test error display and upload it to banjo in a folder you need to create -  `www/230/test/`  - run it in the browser, you should see "Parse error" message in the browser window when the page is loaded.
 
 **broken.php** 
 ```
