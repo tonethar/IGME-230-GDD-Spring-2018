@@ -1,4 +1,4 @@
-# php.ini
+# Configuring `php.ini`
 
 ## I. Overview
 
