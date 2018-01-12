@@ -124,10 +124,10 @@ And some other really cool stuff:
     - a live "demo" by the professor that reinforces the day's topics
     - if time remains, students will be able to complete homework assignments
 - The assignments given in this class break into two categories:
-    - structured homework assignments/in-class exercises
-    - Three projects, that are considerably more freeform, and allow you to exercixe considerable fredom and creativity in meeting their requirements.
-- A large part of this course is taught similar to a typical math course: there will be several small HW assignments given every week, and because these aassignments build upon one another, it is esential that they be completed on time and in order, thus they have strict due dates.
-- Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permssion from the instructor - if something come up and you need an extension you need to get in touch with us ASAP.
+    - homework assignments/in-class exercises that focus narrowly on one of more concepts
+    - Three projects, that are considerably more freeform, and allow you to exercise considerable freedom and creativity in meeting their requirements.
+- A large part of this course is taught similar to a typical math course: there will be several small HW assignments given every week, and because these assignments build upon one another, it is essential that they be completed both on-time and in-order, thus they have strict due dates.
+- Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permission from the instructor - if something comes up and you need an extension you need to get in touch with us ASAP.
 - The due dates for these assignments will be clustered around the same days, often on Monday night. This means that you should plan ahead, and not try to tackle them all in the last hour before they are due.
 
 ## X. Any time left?
