@@ -114,11 +114,7 @@ And some other really cool stuff:
 - Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the comments field of the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
 - Create a `230` folder on `banjo.rit.edu` - put it in your `www` folder and be sure that the permission are set so that it is web viewable.
 
-## VIII. Reference
-* [wikipedia.org - Web Application](https://en.wikipedia.org/wiki/Web_application)
-* [W3Schools - a resource for reference](https://www.w3schools.com/)
-
-## IX. Pedagogy (how this course is taught!)
+## VIII. Pedagogy (how this course is taught!)
 - A typical classroom day will be:
     - a review of the days topics utilizing powerpoints or our Github lecture notes
     - a live "demo" by the professor that reinforces the day's topics
@@ -130,7 +126,7 @@ And some other really cool stuff:
 - Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permission from the instructor - if something comes up and you need an extension you need to get in touch with us ASAP before the assignment is due.
 - The due dates for these assignments will be clustered around the same days, often on Monday night. This means that you should plan ahead, and not try to tackle them all in the last hour before they are due.
 
-## X. Any time left?
+## IX. Any time left?
 - If there is time left today, let's head to the notes for our next class meeting -  [Week-01B-notes.md](Week-01B-notes.md) - and do a little bit of HTML & FTP review!
 
 <hr><hr>
