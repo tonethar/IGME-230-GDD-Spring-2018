@@ -23,7 +23,7 @@ The PHP `mail()` function will send mail using the email program specified in ou
 <?php
 	$to = "abc1234@rit.edu";
 	$from = "abc1234@rit.edu";
-	$subject = "My subject";
+	$subject = "Contact";
 	$message = "Hello world!";
 	$headers = "From: $from" . "\r\n";
 
@@ -40,7 +40,7 @@ The PHP `mail()` function will send mail using the email program specified in ou
 
 ## III. <a id="section3">HTML Forms
 	
-Now we would like to capture some
+Now we would like to extend our first attempt by adding some way to capture the user's some way to capture the user
 
  
 
