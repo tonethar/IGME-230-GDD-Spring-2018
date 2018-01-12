@@ -9,4 +9,4 @@ I. [Overview](#section1)
 
 <hr><hr>
 
-**[Previous Chapter <- PHP Functions (chapter 3)](php-3.md)**
+**[Previous Chapter <- PHP Arrays (chapter 3)](php-3.md)**
