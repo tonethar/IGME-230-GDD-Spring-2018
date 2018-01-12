@@ -3,6 +3,7 @@
 ## Contents
 <!--- Local Navigation --->
 I. [Overview](#section1)
+
 II. [The PHP `mail()` function](#section1)
 
 ## I. <a id="section1">Overview
