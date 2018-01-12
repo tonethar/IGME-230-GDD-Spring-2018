@@ -3,6 +3,7 @@
 ## Contents
 <!--- Local Navigation --->
 I. [Overview](#section1)
+II. [The PHP `mail()` function](#section1)
 
 ## I. <a id="section1">Overview
 Today we are going to look at creating a typical HTML contact form where a user can type in a message, and then click a button to send the message, without ever having to open up their email client. To accomplish this we will need to cover a few things today:
@@ -11,7 +12,7 @@ Today we are going to look at creating a typical HTML contact form where a user 
 - how data can be passed to PHP scripts
 
 
-## II. The PHP `mail()` function
+## II. <a id="section2">The PHP `mail()` function
 
 The PHP `mail()` function will send mail using the email program specified in our php.ini file. It's easy to use - go ahead run this code on banjo. You will need to replace `abc1234` with your RIT id.
 
@@ -20,7 +21,7 @@ The PHP `mail()` function will send mail using the email program specified in ou
 ```
 <?php
 	$to = "abc1234@rit.edu";
-	$from = "abc1234@rit.edu"
+	$from = "abc1234@rit.edu";
 	$subject = "My subject";
 	$message = "Hello world!";
 	$headers = "From: $from" . "\r\n";
@@ -30,11 +31,15 @@ The PHP `mail()` function will send mail using the email program specified in ou
 ?>
 ```
 
+- Load the page (just once) and within a minute or two you should receive an email (from yourself!).
+- You can get more details about the various parameters of the mail() function here:
+    - https://www.w3schools.com/php/func_mail_mail.asp
+    - http://php.net/manual/en/function.mail.php
 
 
-- https://www.w3schools.com/php/func_mail_mail.asp
-- http://php.net/manual/en/function.mail.php
-
+## III. <a id="section3">HTML Forms
+	
+Now we would like to capture some
 
  
 
