@@ -41,7 +41,7 @@ First, lets look at what a web server does when a regular HTML file (named *inde
 1. The web browser (the *client*) creates a socket connection to a *web server*
 2. The web browser requests a file from the web server over the socket connection by sending a request line, followed by 1 or more request headers
 3. The web server receives the request, and locates the file
-4. The web server send the requested file to the client application
+4. The web server sends the requested file to the client application
 5. The client application parses the returned file and displays it to the user 
 
 ### "Dynamic" HTML files
@@ -50,8 +50,8 @@ Now let's see what happens on `banjo.rit.edu` when a web file ends in the **.php
 1. The web browser (the *client*) creates a socket connection to a *web server*
 2. The web browser requests a file from the web server over the socket connection by sending a request line, followed by 1 or more request headers
 3. The web server receives the request, and locates the file
-4. **The web server scans the web page for PHP directives, and runs any PHP code through a PHP parser, and replaces that code with the results of the parsing.**
-5. The web server send the requested file to the client application
+4. ***The web server scans the web page for PHP directives, and runs any PHP code through a PHP parser, and replaces that code with the results of the parsing.***
+5. The web server sends the requested file to the client application
 6. The client application parses the returned file and displays it to the user 
 
 *We now have a new step #4, where the web server first "runs" any PHP code that is found on the page before sending the HTML file back to the web browser.*
