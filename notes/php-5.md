@@ -23,7 +23,7 @@ The PHP `mail()` function will send mail using the email program specified in ou
 <?php
 	$to = "abc1234@rit.edu";
 	$from = "abc1234@rit.edu";
-	$subject = "Contact";
+	$subject = "Web Form";
 	$message = "Hello world!";
 	$headers = "From: $from" . "\r\n";
 
