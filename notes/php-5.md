@@ -42,10 +42,10 @@ The PHP `mail()` function will send mail using the email program specified in ou
 	
 Now we would like to extend our first attempt by adding some way to capture a site visitor's message. HTML forms to the rescue!
 
-The three tags we will need are:
+The three form tags we will need are:
 
 - &lt;form> - https://www.w3schools.com/Html/html_forms.asp
-- &lt;input> - https://www.w3schools.com/Html/html_form_input_types.asp
+- &lt;input> - https://www.w3schools.com/Html/html_form_input_types.asp  - there are many different kinds of &lt;input> tags, be sure to check out the list.
 - &lt;textarea> - https://www.w3schools.com/tags/tag_textarea.asp
 
 **php-mail-2.php**
