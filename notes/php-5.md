@@ -106,7 +106,7 @@ The three form tags we will need are:
 
 - "PHP_SELF" is the name of the current file, so by namking this the value of `action`, we are assured that the form will call itself no matter what it is named
 
-IV. [Naming the form fields](#section4)
+# IV. [Naming the form fields](#section4)
 - Note that we are using the `name` attribute in our form fields. `name` will be used to identify the value of each form field when the form is submitted.
 - To see this happening:
     - change the `method` of the &lt;form> from "post" to "get"
