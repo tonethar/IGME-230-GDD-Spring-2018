@@ -108,7 +108,14 @@ IV. [Naming the form fields](#section4)
     - fill in some values and click the submit button
     - you should see something like this the browser's location box:
     
+  `https://people.rit.edu/~abc1234/230/test/php-mail-2.php?name=Fred&email=fred%40sample.com&message=Hello%21&human=5&submit=Submit`
   
+  - but let's focus on the last part of that URL - which is called the *query string*:
+  
+  `name=Fred&email=fred%40sample.com&message=Hello%21&human=5&submit=Submit`
+  
+  - you can see that the names of the form fields and their values are represented as **fieldName=value** pairs, and are separated by ampersands
+  - also note that "special characters" like exclamation marks, the @ symbol, and spaces have been replaced with their hexadecimal equivalents
   
 
 <hr><hr>
