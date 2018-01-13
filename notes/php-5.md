@@ -40,9 +40,63 @@ The PHP `mail()` function will send mail using the email program specified in ou
 
 ## III. <a id="section3">HTML Forms
 	
-Now we would like to extend our first attempt by adding some way to capture the user's some way to capture the user
+Now we would like to extend our first attempt by adding some way to capture a site visitor's message. HTML forms to the rescue!
 
+The three tags we will need are:
+
+- form - https://www.w3schools.com/Html/html_forms.asp
+- input - https://www.w3schools.com/Html/html_form_input_types.asp
+- textarea - https://www.w3schools.com/tags/tag_textarea.asp
+
+**php-mail-2.php**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Contact Us</title>
+	<style>
+
+	label {
+		display:block;
+		margin-top:20px;
+		letter-spacing:2px;
+	}
+	
+	#submit {
+		display:block;
+		margin-top:20px;
+	}
+	
+	</style>
+</head>
+<body>
+	<h1>get in touch</h1>
+ <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+        
+            <label>Name</label>
+            <input name="name" placeholder="Type Here">
+            
+            <label>Email</label>
+            <input name="email" type="email" placeholder="person@sample.com">
+            
+            <label>Message</label>
+            <textarea name="message" placeholder="Type Here"></textarea>
+            
+            <label>*What is 2+2? (Anti-spam)</label>
+            <input name="human" placeholder="Type Here">
+            
+            <input id="submit" name="submit" type="submit" value="Submit">
+        
+        </form>
+        
+</body>
+</html>
+```
+
+ Which gives us a serviceable (but unattractive) form:
  
+ ![Screenshot](_images/php-mail-1.php)
 
 
 
