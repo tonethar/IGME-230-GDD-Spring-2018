@@ -3,4 +3,4 @@ Welcome to Professor Jefferson's and Professor Bast's IGME-230 course materials 
 - You will want to begin by reading the [syllabus](syllabus.md)
 - Then look at the semester course [schedule](schedule.md)
 
-**For due dates and deadlines, check the drop boxes mycourses shell for your section.**
+**For due dates and deadlines, check the drop boxes in your section's mycourses shell.**
