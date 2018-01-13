@@ -128,6 +128,8 @@ The three form tags we will need are:
   - you can see that the names of the form fields and their values are represented as **fieldName=value** pairs, and are separated by ampersands
   - also note that "special characters" like exclamation marks, the @ symbol, and spaces have been replaced with their hexadecimal equivalents
   
+  **Go ahead and change the `method` back to "post" - the form data will still be passed - but as a separate file that we don't see in the URL**
+  
 # V. <a id="section5">PHP code to handle the form
 
 
