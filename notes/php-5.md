@@ -44,9 +44,9 @@ Now we would like to extend our first attempt by adding some way to capture a si
 
 The three tags we will need are:
 
-- form - https://www.w3schools.com/Html/html_forms.asp
-- input - https://www.w3schools.com/Html/html_form_input_types.asp
-- textarea - https://www.w3schools.com/tags/tag_textarea.asp
+- &lt;form> - https://www.w3schools.com/Html/html_forms.asp
+- &lt;input> - https://www.w3schools.com/Html/html_form_input_types.asp
+- &lt;textarea> - https://www.w3schools.com/tags/tag_textarea.asp
 
 **php-mail-2.php**
 ```
