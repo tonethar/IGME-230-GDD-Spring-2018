@@ -96,7 +96,7 @@ The three form tags we will need are:
 
  Which gives us a serviceable (but unattractive) form:
  
- ![Screenshot](_images/php-mail-1.php)
+ ![Screenshot](_images/php-mail-1.jpg)
 
 
 
