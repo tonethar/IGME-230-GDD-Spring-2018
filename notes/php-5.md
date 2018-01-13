@@ -111,7 +111,7 @@ The three form tags we will need are:
 
 - "PHP_SELF" is the name of the current file, so by making this the value of `action`, we are assured that the form will call itself no matter what the PHP file is named.
 
-# IV. <a id="section4">Naming the form fields
+## IV. <a id="section4">Naming the form fields
 - Note that we are using the `name` attribute in our form fields. `name` will be used to identify the value of each form field when the form is submitted.
 - To see this happening:
     - change the `method` of the &lt;form> from "post" to "get"
@@ -129,10 +129,11 @@ The three form tags we will need are:
   
   **Go ahead and change the `method` back to "post" - the form data will still be passed - but as a separate file that we don't see in the URL**
   
-# V. <a id="section5">PHP code to handle the form
+## V. <a id="section5">PHP code to handle the form
 
 
 
+- https://www.w3schools.com/php/php_forms.asp
 
 
 <hr><hr>
