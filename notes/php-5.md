@@ -8,6 +8,12 @@ II. [The PHP `mail()` function](#section2)
 
 III. [HTML Forms](#section3)
 
+IV. [Naming the form fields](#section4)
+
+V. [PHP code to handle the form](#section5)
+
+<hr>
+
 ## I. <a id="section1">Overview
 Today we are going to look at creating a typical HTML contact form where a user can type in a message, and then click a button to send the message, without ever having to open up their email client. To accomplish this we will need to cover a few things today:
 - how to utilize PHP `mail()` function
@@ -104,9 +110,9 @@ The three form tags we will need are:
 
 `<?php echo $_SERVER["PHP_SELF"];?>`
 
-- "PHP_SELF" is the name of the current file, so by namking this the value of `action`, we are assured that the form will call itself no matter what it is named
+- "PHP_SELF" is the name of the current file, so by making this the value of `action`, we are assured that the form will call itself no matter what the PHP file is named.
 
-# IV. [Naming the form fields](#section4)
+# IV. Naming the form fields(#section4)
 - Note that we are using the `name` attribute in our form fields. `name` will be used to identify the value of each form field when the form is submitted.
 - To see this happening:
     - change the `method` of the &lt;form> from "post" to "get"
@@ -122,6 +128,11 @@ The three form tags we will need are:
   - you can see that the names of the form fields and their values are represented as **fieldName=value** pairs, and are separated by ampersands
   - also note that "special characters" like exclamation marks, the @ symbol, and spaces have been replaced with their hexadecimal equivalents
   
+# V. PHP code to handle the form(#section5)
+
+
+
+
 
 <hr><hr>
 
