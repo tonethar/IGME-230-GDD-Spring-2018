@@ -26,7 +26,6 @@ Today we are going to look at creating a typical HTML contact form where a user 
 The PHP `mail()` function will send mail using the email program specified in our php.ini file. It's easy to use - go ahead run this code on banjo. You will need to replace `abc1234` with your RIT id.
 
 **php-mail-1.php**
-
 ```
 <?php
 	$to = "abc1234@rit.edu";
