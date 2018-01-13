@@ -41,7 +41,7 @@ The PHP `mail()` function will send mail using the email program specified in ou
 ```
 
 - Load the page (just once) and within a minute or two you should receive an email (from yourself!).
-- You can get more details about the various parameters of the mail() function here:
+- You can get more details about the various parameters of the `mail()` function here:
     - https://www.w3schools.com/php/func_mail_mail.asp
     - http://php.net/manual/en/function.mail.php
 
