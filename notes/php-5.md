@@ -94,7 +94,7 @@ The three form tags we will need are:
 </html>
 ```
 
- Which gives us a serviceable (but unattractive) form:
+ **Which gives us a serviceable (albeit unattractive) form:**
  
  ![Screenshot](_images/php-mail-1.jpg)
 
