@@ -4,7 +4,9 @@
 <!--- Local Navigation --->
 I. [Overview](#section1)
 
-II. [The PHP `mail()` function](#section1)
+II. [The PHP `mail()` function](#section2)
+
+III. [HTML Forms](#section3)
 
 ## I. <a id="section1">Overview
 Today we are going to look at creating a typical HTML contact form where a user can type in a message, and then click a button to send the message, without ever having to open up their email client. To accomplish this we will need to cover a few things today:
@@ -99,7 +101,15 @@ The three form tags we will need are:
  ![Screenshot](_images/php-mail-1.jpg)
 
 
-
+IV. [Naming the form fields](#section4)
+- Note that we are using the `name` attribute in our form fields. `name` will be used to identify the value of each form field when the form is submitted.
+- To see this happening:
+    - change the `method` of the &lt;form> from "post" to "get"
+    - fill in some values and click the submit button
+    - you should see something like this the browser's location box:
+    
+  
+  
 
 <hr><hr>
 
