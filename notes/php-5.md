@@ -100,6 +100,11 @@ The three form tags we will need are:
  
  ![Screenshot](_images/php-mail-1.jpg)
 
+- One other new thing here is this line of code, which is the value of `action=`:
+
+`<?php echo $_SERVER["PHP_SELF"];?>`
+
+- "PHP_SELF" is the name of the current file, so by namking this the value of `action`, we are assured that the form will call itself no matter what it is named
 
 IV. [Naming the form fields](#section4)
 - Note that we are using the `name` attribute in our form fields. `name` will be used to identify the value of each form field when the form is submitted.
