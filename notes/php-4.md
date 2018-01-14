@@ -1,4 +1,4 @@
-# 5 - PHP Mail & Forms
+# 4 - PHP Mail & Forms
 
 ## Contents
 <!--- Local Navigation --->
@@ -230,4 +230,4 @@ The three form tags we will need are:
 
 <hr><hr>
 
-**[Previous Chapter <- PHP Functions (chapter 4)](php-4.md)**
+**[Previous Chapter <- PHP Arrays (chapter 3)](php-3.md)**
