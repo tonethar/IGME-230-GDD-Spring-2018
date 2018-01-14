@@ -27,7 +27,7 @@
     - do the [http-protocol-demo.md](http-protocol-demo.md), and answer the review questions on the bottom of [http-protocol-intro.md](http-protocol-intro.md) together.
 - time allowing, create a *hello.html* page and post it to banjo (some students might have forgotten the FTP and permissions part of posting to banjo)
 
-## Day 2 
+### Day 2 
 - "Any questions from last time?"
 - recap HTTP protocol stuff from last time
 - Review [Week 1B - Review of banjo.rit.edu & FTP](../weekly/Week-01B-notes.md)
