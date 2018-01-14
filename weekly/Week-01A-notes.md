@@ -102,19 +102,7 @@ Some sample projects from last semester:
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
 
-## VI. Required Reading
-* [syllabus.md](../syllabus.md)
-* [schedule.md](../schedule.md)
-* [http-protocol-intro.md](../notes/http-protocol-intro.md)
-* [http-protocol-demo.md](../notes/http-protocol-demo.md)
-* [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
-
-## VII. Homework
-- Get a GitHub account (if you don't have one already), and go through the tutorial above. 
-- Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the comments field of the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
-- Create a `230` folder on `banjo.rit.edu` - put it in your `www` folder and be sure that the permission are set so that it is web viewable.
-
-## VIII. Pedagogy (how this course is taught!)
+## VI. Pedagogy (how this course is taught!)
 - A typical classroom day will be:
     - a review of the days topics utilizing powerpoints or our Github lecture notes
     - a live "demo" by the professor that reinforces the day's topics
@@ -123,8 +111,21 @@ And some other really cool stuff:
     - homework assignments/in-class exercises that focus narrowly on one of more concepts
     - Three projects, that are considerably more freeform, and allow you to exercise considerable freedom and creativity in meeting their requirements.
 - A large part of this course is taught similar to a typical math course: there will be several small HW assignments given every week, and because these assignments build upon one another, it is essential that they be completed both on-time and in-order, thus they have strict due dates.
+- You need to review the week's lecture notes *prior* to attending class for that week
 - Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permission from the instructor - if something comes up and you need an extension you need to get in touch with us ASAP before the assignment is due.
 - The due dates for these assignments will be clustered around the same days, often on Monday night. This means that you should plan ahead, and not try to tackle them all in the last hour before they are due.
+
+## VII. Required Reading
+* [syllabus.md](../syllabus.md)
+* [schedule.md](../schedule.md)
+* [http-protocol-intro.md](../notes/http-protocol-intro.md)
+* [http-protocol-demo.md](../notes/http-protocol-demo.md)
+* [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
+
+## VIII. Homework
+- Get a GitHub account (if you don't have one already), and go through the tutorial above. 
+- Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the comments field of the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
+- Create a `230` folder on `banjo.rit.edu` - put it in your `www` folder and be sure that the permission are set so that it is web viewable.
 
 ## IX. Any time left?
 - If there is time left today, let's head to the notes for our next class meeting -  [Week-01B-notes.md](Week-01B-notes.md) - and do a little bit of HTML & FTP review!
