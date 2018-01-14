@@ -8,11 +8,11 @@
     - email students welcoming them to the class, and send them the link to the course github repo, as well as the "Week 1A: Course Introduction" page. Request that they read this page and the syllabus prior to attending class.
 - set up mycourses dropboxes for:
   - Custom 404 Authorization ICE
-  - HW: [PHP-1](php-1.md)
-  - HW: [php.ini](HW-php-ini.md)
-  - HW: [PHP-2](php-2.md)
-  - HW: [PHP-3](php-3.md)
-  - HW: [PHP "Fact of the Day"](HW-php-fact-of-the-day.md)
+  - [PHP-1](php-1.md)
+  - [HW: php.ini](HW-php-ini.md)
+  - [PHP-2](php-2.md)
+  - [PHP-3](php-3.md)
+  - [HW: PHP "Fact of the Day"](HW-php-fact-of-the-day.md)
 
 ## Week 1
 ### Day 1 - there is quite a bit to do today!
