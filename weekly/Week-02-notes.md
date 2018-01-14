@@ -19,6 +19,7 @@ See the mycourses dropboxes for due dates.
 - [1 - Intro to PHP](../notes/php-1.md)
 - [2 - PHP Scalars & Data Types](../notes/php-2.md)
 - [3 - PHP Arrays](../notes/php-3.md)
+- [4 - PHP Mail & Forms](../notes/php-4.md)
 - [HW - Configuring php.ini](../notes/HW-php-ini.md)
 - [HW - PHP "Fact of the Day" Page](../notes/HW-php-fact-of-the-day.md)
 
