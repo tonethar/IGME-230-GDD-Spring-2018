@@ -7,7 +7,7 @@
     - add a "links" module (i.e. folder) to the Content section, and add a hypertext link (that opens in a new window) to schedule.md
     - email students welcoming them to the class, and send them the link to the course github repo, as well as the "Week 1A: Course Introduction" page. Request that they read this page and the syllabus prior to attending class.
 - set up mycourses dropboxes for:
-  - Custom 404 Authorization ICE
+  - [Custom 404 Authorization ICE](../exercises/week-1/Custom_404_Auth_start.zip)
   - [PHP-1](php-1.md)
   - [HW: php.ini](HW-php-ini.md)
   - [PHP-2](php-2.md)
