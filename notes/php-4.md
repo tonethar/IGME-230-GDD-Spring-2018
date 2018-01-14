@@ -12,6 +12,10 @@ IV. [Naming the form fields](#section4)
 
 V. [PHP code to handle the form](#section5)
 
+VI. [Test the form](#section6)
+
+VII. [Homework?](#section7)
+
 <hr>
 
 ## I. <a id="section1">Overview
@@ -233,7 +237,76 @@ Here is the form and PHP code you will need to get everything working. Be sure t
 
 - https://www.w3schools.com/php/php_forms.asp
 
+## VI. <a id="section6">Test your form
+	
+## VII. <a id="section7">Styling the form
 
+Replace the CSS in the form with the following - you should get a nmuch better look.
+
+The CSS for this form was borrowed and lighly adapted from here: http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
+
+```css
+body {
+		font-size:100%;
+		font-family:Georgia, "Times New Roman", Times, serif;
+	}
+
+	h1{
+		background-color:gray;
+		color:white;
+		text-align:center;
+		padding:0 0 5px 0;
+		font-variant: small-caps;
+		font-size: 3em;
+		font-family: Arial,Helvetica;
+		margin:0;
+	}
+
+	form {
+		width:459px;
+		margin:0 auto;
+	}
+
+	label {
+		display:block;
+		margin-top:20px;
+		letter-spacing:2px;
+	}
+
+	input, textarea {
+		width:439px;
+		height:27px;
+		background:#efefef;
+		border-radius:5px;
+		border:1px solid #dedede;
+		padding:10px;
+		margin-top:3px;
+		font-size:0.9em;
+		color:#3a3a3a;
+	}
+
+	textarea {
+		height:213px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+
+	#submit {
+		width:127px;
+		height:38px;
+		border:none;
+		margin-top:20px;
+		cursor:pointer;
+		border: 1px solid gray;
+		background-color:gray;
+		color:white;
+	}
+```
+	
+## VIII. <a id="section8">Homework?
+- There is no homework assignment for this chapter. But be sure you understand what is going on here, as you might be asked about PHP forms on an exam. 
+- You will also be required to add a contact form to your portfolio project.
+	
+	
 <hr><hr>
 
 **[Previous Chapter <- PHP Arrays (chapter 3)](php-3.md)**
