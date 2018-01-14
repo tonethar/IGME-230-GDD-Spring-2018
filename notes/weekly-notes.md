@@ -15,7 +15,7 @@
   - HW: PHP "Fact of the Day"
 
 ## Week 1
-## Day 1 - there is quite a bit to do today!
+### Day 1 - there is quite a bit to do today!
 - "Welcome to course"
 - review [syllabus.md](syllabus.md)
 - review [schedule.md](schedule.md)
