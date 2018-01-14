@@ -242,8 +242,8 @@ Here is the form and PHP code you will need to get everything working. Be sure t
 ## VI. <a id="section6">Test your form
 
 - Try your form with and without various values like email or message - what happens?
-- Type in a wrong answer for the 2+2 question to see what happens?
-- Type &lt;script> and other HTML tags into the form like this - what happens?
+- Type in a wrong answer for the 2+2 question - what happens?
+- Type &lt;script> and other HTML tags into the form like below - what happens?
 
 `<>Hi!</b><script>alert("XSS!");</script>`
 
