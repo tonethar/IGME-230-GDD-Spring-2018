@@ -23,11 +23,19 @@
     - here is a lot here, you don't need to read it verbatim, just summarize it and encourage the students to read it themselves
     - talk about what the course is about, and show a few examples of previous projects 
     - cover pedagogy and emphasize there will be many (small) HW assignments, so keep an eye on the dropboxes!
-    - review [http-protocol-intro.md](http-protocol-intro.md), discuss what a web server is, how you can program it (which we will do with .htaccess files next time, and PHP next week), do the [http-protocol-demo.md](http-protocol-demo.md), and answer the review questions on the bottom of [http-protocol-intro.md](http-protocol-intro.md) together.
+    - review [http-protocol-intro.md](http-protocol-intro.md), discuss what a web server is, how you can program it (which we will do with .htaccess files next time, and PHP next week)
+    - do the [http-protocol-demo.md](http-protocol-demo.md), and answer the review questions on the bottom of [http-protocol-intro.md](http-protocol-intro.md) together.
 - time allowing, create a *hello.html* page and post it to banjo (some students might have forgotten the FTP and permissions part of posting to banjo)
 
 ## Day 2 
+- "Any questions from last time?"
+- recap HTTP protocol stuff from last time
 - Review [Week 1B - Review of banjo.rit.edu & FTP](../weekly/Week-01B-notes.md)
+   - review *hello.html* and FTP (FileZilla or similar)
+   - do .htaccess presentation
+   - use the Chrome web inspector to show headers - including the `ModPagespeed` header
+   - walk through the [Fixing Banjo Exercise](../exercises/week-1/Fixing-Banjo.md) and then check the inspoector to see that the `ModPagespeed` header is gone
+   - let the students work on the [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf) exercise
 
 ## Week 2
 
