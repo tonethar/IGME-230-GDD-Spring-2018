@@ -1,4 +1,4 @@
-# Week 1A: Course Introduction
+# Week 1A: Course Introduction & Intro to HTTP Protocol
 Welcome to the course!
 
 ## I. Overview
@@ -118,16 +118,18 @@ And some other really cool stuff:
 ## VII. Required Reading
 * [syllabus.md](../syllabus.md)
 * [schedule.md](../schedule.md)
-* [http-protocol-intro.md](../notes/http-protocol-intro.md)
-* [http-protocol-demo.md](../notes/http-protocol-demo.md)
 * [GitHub's Hello World tutorial](https://guides.github.com/activities/hello-world/)
 
-## VIII. Homework
+## VIII. Today's Lecture Notes - Intro to HTTP Protocol
+* [http-protocol-intro.md](../notes/http-protocol-intro.md)
+* [http-protocol-demo.md](../notes/http-protocol-demo.md)
+
+## IX. Homework
 - Get a GitHub account (if you don't have one already), and go through the tutorial above. 
 - Set up a repository *for this course* in your account, named *IGME230* or something similar, and put a link to it in the comments field of the myCourses "GitHub Accounts" dropbox. This should be a public repository (otherwise the link won't work).
 - Create a `230` folder on `banjo.rit.edu` - put it in your `www` folder and be sure that the permission are set so that it is web viewable.
 
-## IX. Any time left?
+## X. Any time left?
 - If there is time left today, let's head to the notes for our next class meeting -  [Week-01B-notes.md](Week-01B-notes.md) - and do a little bit of HTML & FTP review!
 
 <hr><hr>
