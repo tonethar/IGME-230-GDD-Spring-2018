@@ -59,7 +59,7 @@ Past Student Portfolios:
 - http://brianemling.com/
 - http://dougwatro.com
 
-Some sample projects from last semester:
+Some sample IGME-230 projects from last semester:
 - Portfolio:
     - https://people.rit.edu/mxb9517/portfolio/
     - https://people.rit.edu/ctb4332/portfolio/
