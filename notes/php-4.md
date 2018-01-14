@@ -183,7 +183,7 @@ Here is the form and PHP code you will need to get everything working. Be sure t
         </form>
  <?php   
  	// ** Form validation code **
- 	// We will use the $_POST "super global" associateive array to extract the values of the form fields
+ 	// We will use the $_POST "super global" associative array to extract the values of the form fields
     if (isset($_POST["submit"])){ // #1 - was the submit button pressed?
     	$to = "abc1234@rit.edu"; // REPLACE WITH YOUR EMAIL
     	
@@ -241,7 +241,7 @@ Here is the form and PHP code you will need to get everything working. Be sure t
 
 ## VI. <a id="section6">Test your form
 
-- Try your form with and without various vlaues like email or message - what happens?
+- Try your form with and without various values like email or message - what happens?
 - Type in a wrong answer for the 2+2 question to see what happens?
 - Type &lt;script> and other HTML tags into the form like this - what happens?
 
