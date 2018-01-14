@@ -17,8 +17,8 @@
 ## Week 1
 ### Day 1 - there is quite a bit to do today!
 - "Welcome to course"
-- review [syllabus.md](syllabus.md)
-- review [schedule.md](schedule.md)
+- review [syllabus.md](../syllabus.md)
+- review [schedule.md](../schedule.md)
 - Review [Week 1A: Course Introduction](../weekly/Week-01A-notes.md)
     - here is a lot here, you don't need to read it verbatim, just summarize it and encourage the students to read it themselves
     - talk about what the course is about, and show a few examples of previous projects 
