@@ -12,9 +12,11 @@ IV. [Naming the form fields](#section4)
 
 V. [PHP code to handle the form](#section5)
 
-VI. [Test the form](#section6)
+VI. [Testing your form](#section6)
 
-VII. [Homework?](#section7)
+VII. [Styling your form](#section7)
+
+VIII. [Homework?](#section8)
 
 <hr>
 
@@ -238,8 +240,12 @@ Here is the form and PHP code you will need to get everything working. Be sure t
 - https://www.w3schools.com/php/php_forms.asp
 
 ## VI. <a id="section6">Test your form
+
+- Try your form with and without various vlaues like email or message - what happens?
+- Type in a wrong answer for the 2+2 question to see what happens?
+- Type &lt;script> and other HTML tags into the form - what happens?
 	
-## VII. <a id="section7">Styling the form
+## VII. <a id="section7">Styling your form
 
 Replace the CSS in the form with the following - you should get a nmuch better look.
 
@@ -301,7 +307,11 @@ body {
 		color:white;
 	}
 ```
-	
+
+**Which should give you something like this:**
+
+![Screenshot](_images/php-mail-2.jpg)
+
 ## VIII. <a id="section8">Homework?
 - There is no homework assignment for this chapter. But be sure you understand what is going on here, as you might be asked about PHP forms on an exam. 
 - You will also be required to add a contact form to your portfolio project.
