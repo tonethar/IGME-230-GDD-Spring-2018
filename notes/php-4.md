@@ -243,13 +243,17 @@ Here is the form and PHP code you will need to get everything working. Be sure t
 
 - Try your form with and without various vlaues like email or message - what happens?
 - Type in a wrong answer for the 2+2 question to see what happens?
-- Type &lt;script> and other HTML tags into the form - what happens?
+- Type &lt;script> and other HTML tags into the form like this - what happens?
+
+`<>Hi!</b><script>alert("XSS!");</script>`
+
+- Now comment out the first 2 lines of code in `sanitize_string()`, reload the form, and type the above code into the message field. Be sure to test this in both Chrome and Firefox to see what happens.
 	
 ## VII. <a id="section7">Styling your form
 
-Replace the CSS in the form with the following - you should get a nmuch better look.
+Replace the CSS in the form with the following - you should get a much better look.
 
-The CSS for this form was borrowed and lighly adapted from here: http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
+The CSS for this form was borrowed and adapted from here: http://tangledindesign.com/how-to-create-a-contact-form-using-html5-css3-and-php/
 
 ```css
 body {
