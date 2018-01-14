@@ -130,6 +130,10 @@ The three form tags we will need are:
   **Go ahead and change the `method` back to "post" - the form data will still be passed - but as a separate file that we don't see in the URL**
   
 ## V. <a id="section5">PHP code to handle the form
+	
+Here is the form and PHP code you will need to get everything working. Be sure to replace "abc1234@rit.edu" with your actual email address. Also, read the code comments! so that you understand what's going on:
+
+**php-mail-3.php**
 
 ```html
 <!DOCTYPE html>
