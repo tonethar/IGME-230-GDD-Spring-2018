@@ -265,4 +265,4 @@ When you are done, it will look something like this:
 
 **[Previous Chapter <- PHP Scalars & Data Types (chapter 2)](php-2.md)**
 
-**[Next Chapter -> PHP Functions (chapter 4)](php-4.md)**
+**[Next Chapter -> PHP Mail & Forms (chapter 4)](php-4.md)**
