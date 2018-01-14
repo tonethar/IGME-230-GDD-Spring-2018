@@ -24,6 +24,11 @@ This series of tutorials/lecture notes will get you started exploring the capabi
     - Looping though arrays
     - Array functions
     - The `$_SERVER` "super global"
+1. [PHP Mail & Forms](./php-4.md)
+    - PHP `mail()` function
+    - HTML forms and form fields
+    - PHP code to handle the form
+    - Styling your form
 
 ## IV. Homework Assignments
 See mycourses dropboxes for due dates.
