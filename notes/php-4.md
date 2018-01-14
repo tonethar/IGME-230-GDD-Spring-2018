@@ -219,11 +219,13 @@ Here is the form and PHP code you will need to get everything working. Be sure t
     
     // #9 - this handy helper function is very necessary whenever
     // we are going to put user input onto a web page or a database
-    // For example, if the user entered a <script> tag, they could perform an XSS attack
+    // For example, if the user entered a <script> tag, and we added that <script> tag to our HTML page
+    // they could perform an XSS attack (Cross-site scripting)
     function sanitize_string($string){
-		 	$string = trim($string);
-			$string = strip_tags($string);
-		}
+	$string = trim($string);
+	$string = strip_tags($string);
+	return $string;
+    }
 ?>
 </body>
 </html>
