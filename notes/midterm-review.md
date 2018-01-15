@@ -31,14 +31,16 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. What are the numeric permissions that are required for web viewable *directories*?
 1. What are the numeric permissions that are required for web viewable *files*?
 
-## C. Intro To Web
+## C. PHP
+
+## D. Intro To Web
 1. Describe the 4 *layers* (or *pillars*) of web design.
 1. What language do we use to add *structure* to a web page?
 1. Which layer of web design is responsible for how web pages look?
 1. How can we add *behavior* to a web page?
 
 
-## D. Basic HTML
+## E. Basic HTML
 1. See the [IIM review folder](https://github.com/tonethar/IGME-230-GDD-2017-Fall/tree/master/IIM-Web-Review)
 1. Give examples of HTML *semantic* elements (tags)
 1. Give examples of HTML5 *Structural* elements
@@ -49,7 +51,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. What kind of content are HTML tables appropriate for?
 
 
-## E. Basic CSS
+## F. Basic CSS
 For the exam, be able to write complete CSS rules from memory.
 
 1. What does CSS stand for?
@@ -81,13 +83,13 @@ For the exam, be able to write complete CSS rules from memory.
 1. What is the CSS property we use to define whether/how quickly a property will animate when changed?
 
 
-## F. CSS Rollovers
+## G. CSS Rollovers
 1. Give the 4 CSS `pseudo selectors` that are used to create CSS rollover effects.
 
-## G. Markdown
+## H. Markdown
 1. Know the basic Markdown syntax (headings, lists, etc)
 
-## H. Web Publishing
+## I. Web Publishing
 1. See the font questions here: [Week-03B-Notes.md](../weekly/Week-03B-Notes.md)
 1. What image file format(s) should generally be used for photographs?
 1. What image file format(s) should generally be used for web graphics such as logos and banners?
@@ -100,10 +102,10 @@ For the exam, be able to write complete CSS rules from memory.
 1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive (and mobile friendly) web pages?
 1. What properties of the browser does a media query commonly "test" for?
 
-## I. Website Design Process
+## J. Website Design Process
 1. See Week 5A & Week 5B Notes
 
-## J. Introduction to Web Applications
+## K. Introduction to Web Applications
 For the midterm exam, you will be responsible for the first 5 parts of this web apps series:
 
 1. Introduction to Web Applications
