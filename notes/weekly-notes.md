@@ -20,8 +20,8 @@
 - review [syllabus.md](../syllabus.md)
 - review [schedule.md](../schedule.md)
 - Review [Week 1A: Course Introduction](../weekly/Week-01A-notes.md)
-    - here is a lot here, you don't need to read it verbatim, just summarize it and encourage the students to read it themselves
-    - talk about what the course is about, and show a few examples of previous projects 
+    - here is a lot here, you don't need to read it verbatim, the instructor will summarize it, and the students are expected to read it themselves
+    - review what the course is about, and show a few examples of previous projects 
     - cover pedagogy and emphasize there will be many (small) HW assignments, so keep an eye on the dropboxes!
     - review [http-protocol-intro.md](http-protocol-intro.md), discuss what a web server is, how you can program it (which we will do with .htaccess files next time, and PHP next week)
     - do the [http-protocol-demo.md](http-protocol-demo.md), highlight the request line, headers, and request/response, and then answer the review questions on the bottom of [http-protocol-intro.md](http-protocol-intro.md) together.
