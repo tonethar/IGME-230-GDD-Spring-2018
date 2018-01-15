@@ -25,7 +25,7 @@ FTP demo and review (we will do this together in class):
 ```
  
    - **Reminder:** keep backups, bring a flash drive to class; the 230 folder is where course work will often be posted.
-   - Connect to Banjo (`banjo.rit.edu`, port 22) and upload the 230 directory to have it there for when we need it. Use a FTP client like FileZilla.
+   - Connect to `banjo.rit.edu` with an FTP client - instructions are here: [Posting to RIT's *banjo* server](../notes/posting-to-banjo.md)
    - Review permissions (at this point, you shouldn't need to change these, but just in case)
    - **Reminder:** `banjo.rit.edu` is the FTP name, while the browser accesses people.rit.edu
    - Navigate to that directory via browser, and you should see our *hello.html* page
