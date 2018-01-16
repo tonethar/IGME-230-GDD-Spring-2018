@@ -17,11 +17,11 @@ HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching o
 
 1. The *client application* (probably a web browser) opens a connection to the web server
 1. The *client* sends a *request line* to the web server. Here the client is requesting the default file at "root" - that is what `/` is - and telling the server it is using the HTTP 1.1 protocol
-1. The *client* will also send *request headers*, which are metadata about the request (not shown)
+1. The *client* will also send *request headers*, which are metadata about the request (not shown below)
 1. The *server* returns the version of the HTTP protocol that it is using, and a status code. Code `200` means `Ok`
-1. The *server* will also return *response headers* - metadata about the file that is going to be returned  - for example if it it text or an image
+1. The *server* will also return *response headers* - metadata about the file that is going to be returned  - for example if it it text or an image (not shown below)
 1. The server will then return the file
-1. The connection will stay open for a short time (for about a second) in case the web browser is going to request more files from the server (like images, style sheets, etc)
+1. The connection will stay open for a short time (about a second) in case the web browser is going to request more files from the server (like images, style sheets, etc)
 
 ![Request/Response](_images/HTTP-model.jpg)
 
