@@ -61,6 +61,7 @@ Past Student Portfolios:
 
 Some sample IGME-230 projects from last semester:
 - Portfolio:
+    - http://barringtoncampbell.com/
     - https://people.rit.edu/mxb9517/portfolio/
     - https://people.rit.edu/ctb4332/portfolio/
     - https://people.rit.edu/sxf5282/portfolio/
