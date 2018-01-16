@@ -106,7 +106,7 @@ And some other really cool stuff:
 - A typical classroom day will be:
     - a review of the days topics utilizing powerpoints or our Github lecture notes
     - a live "demo" by the professor that reinforces the day's topics
-    - if time remains, students will be able to complete homework assignments
+    - if time remains, students will be able to work on homework assignments
 - The assignments given in this class break into two categories:
     - homework assignments/in-class exercises that focus narrowly on one of more concepts
     - Three projects, that are considerably more freeform, and allow you to exercise considerable freedom and creativity in meeting their requirements.
@@ -114,6 +114,7 @@ And some other really cool stuff:
 - You need to review the week's lecture notes *prior* to attending class for that week
 - Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permission from the instructor - if something comes up and you need an extension you need to get in touch with us ASAP before the assignment is due.
 - The due dates for these assignments will be clustered around the same days, often on Monday night. This means that you should plan ahead, and not try to tackle them all in the last hour before they are due.
+- Please get to class on time! Lectures will begin promptly at the start of class.
 
 ## VII. Required Reading
 * [syllabus.md](../syllabus.md)
