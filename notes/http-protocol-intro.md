@@ -37,7 +37,7 @@ HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching o
 
 ## Review Questions
 + **Read this** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
-+ Based on your reading of this Mozilla HTTP article linked, you should be able to answer these questions:
++ Based on your reading of the linked Mozilla HTTP article, you should be able to answer these questions:
 
 1. *Clients* make requests to *servers*.  Give an example of a typical HTTP *client*.
 1. Give additional examples of HTTP clients.
