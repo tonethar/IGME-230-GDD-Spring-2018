@@ -33,7 +33,7 @@
 - Review [Week 1B - Review of banjo.rit.edu & FTP](../weekly/Week-01B-notes.md)
    - review *hello.html* and FTP (FileZilla or similar)
    - do .htaccess presentation
-   - show a pages like this one - https://people.rit.edu/~acjvks/ - that `ModPagespeed` is compressing the styles and JS
+   - show a page like this one - https://people.rit.edu/~acjvks/ - that `ModPagespeed` is compressing the styles and JS
    - use the Chrome web inspector to show headers - including the `ModPagespeed` header
    - walk through the [Fixing Banjo Exercise](../exercises/week-1/Fixing-Banjo.md) and then check the inspoector to see that the `ModPagespeed` header is gone, and check the page to see that the styles and JS are no longer compressed 
    - let the students work on the [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf) exercise
