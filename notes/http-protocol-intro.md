@@ -16,7 +16,7 @@ HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching o
 **The graphic below shows a simplified verion of the "request/response" phase of the HTTP protocol:**
 
 1. The *client application* (probably a web browser) opens a connection to the web server
-1. The *client* sends a *request line* to the web server. Here the client is requesting the default file at "root" -  `/` - and telling the server it is using the HTTP 1.1 protocol
+1. The *client* sends a *request line* to the web server. Here the client is requesting the default file at "root" - that is what `/` is - and telling the server it is using the HTTP 1.1 protocol
 1. The *client* will also send *request headers*, which are metadata about the request (not shown)
 1. The *server* returns the version of the HTTP protocol that it is using, and a status code. Code `200` means `Ok`
 1. The *server* will also return *response headers* - metadata about the file that is going to be returned  - for example if it it text or an image
