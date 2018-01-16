@@ -25,11 +25,13 @@ FTP demo and review (we will do this together in class):
 ```
  
    - **Reminder:** keep backups, bring a flash drive to class; the 230 folder is where course work will often be posted.
-   - Connect to `banjo.rit.edu` with an FTP client - instructions are here: [How to post to RIT's *banjo* web server](../notes/posting-to-banjo.md), create a `230` folder and place it in your `www` folder.
-   - Review file/folder permissions (at this point, you shouldn't need to change these, but just in case)
-   - **Reminder:** `banjo.rit.edu` is the FTP name, but the browser will access the URL `people.rit.edu`
-   - Navigate to that directory via browser, and you should see our *hello.html* page
-   - Remember CSS? Let's add some CSS style rules to the page
+   1. connect to `banjo.rit.edu` with an FTP client - instructions are here: [How to post to RIT's *banjo* web server](../notes/posting-to-banjo.md)
+   1. create a `230` folder and place it in your `www` folder
+   1. post `hello.html` to your banjo `230` folder
+   1. review file/folder permissions to be sure they are correct
+   1. **Reminder:** `banjo.rit.edu` is the FTP name, but the browser will access the URL `people.rit.edu`
+   1. navigate a browser to that directory - `http://people.rit.edu/~abc1234/230/hello.html` and you should see your *hello.html* page
+   1. remember CSS? Let's add some CSS style rules to the page!
 
 ## Presentations
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
