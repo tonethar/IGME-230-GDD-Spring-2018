@@ -13,7 +13,7 @@ IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Al
 - Teaching Assistant: Austin White
 - Office: GOL-2139 (IGM Main Office)
 - Email: tony@mail.rit.edu
-- Office hours: Tues 2:00-3:00PM, Wed 11:00AM-Noon 
+- Office hours: Tues. 1:00PM-2:00PM & Wed. 11AM-Noon 
 - Class meetings: TR 11:00AM - 12:20PM in ORN-1375
 
 ## Instructor and Class Details (Section 02)
