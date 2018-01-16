@@ -112,7 +112,7 @@ And some other really cool stuff:
     - Three projects, that are considerably more freeform, and allow you to exercise considerable freedom and creativity in meeting their requirements.
 - A large part of this course is taught similar to a typical math course: there will be several small HW assignments given every week, and because these assignments build upon one another, it is essential that they be completed both on-time and in-order, thus they have strict due dates.
 - You need to review the week's lecture notes *prior* to attending class for that week
-- Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permission from the instructor - if something comes up and you need an extension you need to get in touch with us ASAP before the assignment is due.
+- Keep an eye on the dropboxes in mycourses for what and when things are due. HW assignments will not be accepted late without prior permission from the instructor - if something comes up and you need an extension you need to get in touch with us ASAP before the assignment is due. **Reminder:** *all code files (HTML, CSS, JavaScript) must be zipped when put in a dropbox, because otherwise mycourses strips out the JavaScript and CSS, and you will likely get a zero on the assignment.*
 - The due dates for these assignments will be clustered around the same days, often on Monday night. This means that you should plan ahead, and not try to tackle them all in the last hour before they are due.
 - Please get to class on time! Lectures will begin promptly at the start of class.
 
