@@ -17,12 +17,12 @@
 ## Week 1
 ### Day 1 - there is quite a bit to do today!
 - introduce self and TA
-- show the course link in mycourses, and the already extant mycourses dropboxes. **Reminder:** all code files (HTML, CSS, JavaScript) must be zipped when put in a dropbox, because otherwise mycourses strips out the JavaScript and CSS, and you will likely get a zero on the assignment.
+- show the course link in mycourses, and the already extant mycourses dropboxes. **Reminder:** *all code files (HTML, CSS, JavaScript) must be zipped when put in a dropbox, because otherwise mycourses strips out the JavaScript and CSS, and you will likely get a zero on the assignment*
 - "Welcome to course"
 - review [syllabus.md](../syllabus.md)
 - review [schedule.md](../schedule.md)
 - Review [Week 1A: Course Introduction](../weekly/Week-01A-notes.md)
-    - there is a lot here, you don't need to read it verbatim, the instructor will summarize it, and the students are expected to read it themselves
+    - there is a lot here, the instructor will summarize it, and the students are expected to read it themselves
     - review what the course is about, and show a few examples of previous projects 
     - cover pedagogy and emphasize there will be many (small) HW assignments, so keep an eye on the dropboxes!
     - review [http-protocol-intro.md](http-protocol-intro.md), discuss what a web server is, how you can program it (which we will do with .htaccess files next time, and PHP next week)
