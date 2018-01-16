@@ -13,9 +13,19 @@ You should already be familar with RIT's "Banjo" server, which hosts files for h
 ## The HTTP Protocol
 HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching of resources, such as HTML documents. It is the foundation of any data exchange on the Web and a *client-server* protocol, which means requests are initiated by the recipient, usually the Web browser. 
 
+**The graphic below shows a simplified verion of the "request/response" phase of the HTTP protocol:**
+
+1. The *client application* (probably a web browser) opens a connection to the web server
+1. The *client* sends a *request line* to the web server. Here the client is requesting the default file at "root" -  `/` - and telling the server it is using the HTTP 1.1 protocol
+1. The *client* will also send *request headers*, which are metadata about the request (not shown)
+1. The *server* returns the version of the HTTP protocol that it is using, and a status code. Code `200` means `Ok`
+1. The *server* will also return *response headers* - metadata about the file that is going to be returned  - for example if it it text or an image
+1. The server will then return the file
+1. The connection will stay open for a short time (for about a second) in case the web browser is going to request more files from the server (like images, style sheets, etc)
+
 ![Request/Response](_images/HTTP-model.jpg)
 
-A complete document is reconstructed from the different sub-documents fetched, for instance text (HTML), layout description (CSS), images, videos, scripts (JavaScript), and more.
+- A complete document is reconstructed from the different sub-documents fetched, for instance text (HTML), layout description (CSS), images, videos, scripts (JavaScript), and more.
 
 + **Read this** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
 
