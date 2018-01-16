@@ -7,7 +7,8 @@
 
 ## Demo
 FTP demo and review (we will do this together in class):
-   - Create a local 230 directory, and put a *hello.html* file in it:
+   - Create a local 230 directory, and put a *hello.html* file in it
+   - **Reminder:** always keep backups, bring a flash drive to class; the `230` folder on people.rit.edu is where course work will usually be posted
 
 **hello.html**
 ```
@@ -24,7 +25,6 @@ FTP demo and review (we will do this together in class):
 </html>
 ```
  
-   - **Reminder:** keep backups, bring a flash drive to class; the 230 folder is where course work will often be posted.
    1. connect to `banjo.rit.edu` with an FTP client - instructions are here: [How to post to RIT's *banjo* web server](../notes/posting-to-banjo.md)
    1. create a `230` folder and place it in your `www` folder
    1. post `hello.html` to your banjo `230` folder
