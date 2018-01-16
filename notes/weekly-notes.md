@@ -17,7 +17,7 @@
 ## Week 1
 ### Day 1 - there is quite a bit to do today!
 - introduce self and TA
-- show the course link in mycourses, and the already extant mycourses dropboxes
+- show the course link in mycourses, and the already extant mycourses dropboxes. **Reminder:** all code files (HTML, CSS, JavaScript) must be zipped when put in a dropbox, because otherwise mycourses strips out the JavaScript and CSS, and you will likely get a zero on the assignment.
 - "Welcome to course"
 - review [syllabus.md](../syllabus.md)
 - review [schedule.md](../schedule.md)
@@ -30,6 +30,7 @@
 - time allowing, create a *hello.html* page and post it to banjo (some students might have forgotten the FTP and permissions part of posting to banjo)
 
 ### Day 2 
+- "Anyone here who wasn't here last time?"
 - "Any questions from last time?"
 - recap HTTP protocol stuff from last time
 - Review [Week 1B - Review of banjo.rit.edu & FTP](../weekly/Week-01B-notes.md)
