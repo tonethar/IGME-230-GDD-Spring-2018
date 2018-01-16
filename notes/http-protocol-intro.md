@@ -27,8 +27,6 @@ HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching o
 
 - A complete document is reconstructed from the different sub-documents fetched, for instance text (HTML), layout description (CSS), images, videos, scripts (JavaScript), and more.
 
-+ **Read this** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
-
 ## Discussion
 - HTTP is simple and human readable. You will see this is so in our [HTTP Protocol Demo](http-protocol-demo.md) today.
 - HTTP can control:
@@ -38,7 +36,8 @@ HTTP is a *protocol* (a system of rules, e.g. steps) which allows the fetching o
     - *redirection* (sending a browser to another location if a file has moved)
 
 ## Review Questions
-Based on your reading of the Mozilla HTTP article linked above, you should be able to answer these questions:
++ **Read this** --> https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
++ Based on your reading of this Mozilla HTTP article linked, you should be able to answer these questions:
 
 1. *Clients* make requests to *servers*.  Give an example of a typical HTTP *client*.
 1. Give additional examples of HTTP clients.
