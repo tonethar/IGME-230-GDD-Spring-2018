@@ -16,6 +16,7 @@
 
 ## Week 1
 ### Day 1 - there is quite a bit to do today!
+- introduce self and TA
 - show the course link in mycourses, and the already extant mycourses dropboxes
 - "Welcome to course"
 - review [syllabus.md](../syllabus.md)
