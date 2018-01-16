@@ -51,8 +51,8 @@ Based on your reading of the Mozilla HTTP article linked above, you should be ab
   - optionally a message *body* which could (for example) be an image to be uploaded
 5. HTTP *responses* consist of the following:
   - The version of the HTTP protocol they follow
-  - A .... , indicating if the request has been successful, or not, and why.
-  - A ....
+  - A status .... , indicating if the request has been successful, or not, and why.
+  - A status ....
   - HTTP *headers*, like those for requests.
   - Optionally, a message *body* containing the fetched resource (ex. an HTML file).
   
