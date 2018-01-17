@@ -36,11 +36,11 @@ FTP demo and review (we will do this together in class):
 ## II. Presentation
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
 
-## III. .htaccess Demo
+## III. htaccess Demo
 In class, we will try out the following htaccess directives:
 
 1. `DirectoryIndex hello.html` - makes the default file for the folder *hello.html* rather than *index.html*
-2. `Options -Indexes` - turns off file listing for folders
+2. `Options -Indexes` - turns off file listing for folders so that uses can't see your files and folders directly
 3. `Header add X-HeaderName "Header Value"` - sends a custom header. `X-` is a convention used for naming non-standard headers
 4. `Redirect /~acjvks/230/hello.html http://www.rit.edu` - redirects the browser from a file to another domain
 5. `Redirect /~acjvks/230/ /~acjvks/110/` - redirects the browser from a folder, to a different folder
