@@ -33,17 +33,17 @@ FTP demo and review (we will do this together in class):
 1. navigate a browser to that directory - `http://people.rit.edu/~abc1234/230/hello.html` and you should see your *hello.html* page
 1. remember CSS? Let's add some CSS style rules to the page!
 
-## II. Presentations
+## II. Presentation
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
 
 ## III. .htaccess Demo
 In class, we will try out the following htaccess directives:
 
-1. `DirectoryIndex hello.html` makes the default file for the folder *hello.html* rather than *index.html*
-2. `Options -Indexes` turns off file listing for folders
-3. `Header add X-HeaderName "Header Value"` sends a custom header. `X-` is a convention used for naming non-standard headers
-4. `Redirect /~acjvks/230/hello.html http://www.rit.edu` redirects the browser from a file to another domain
-5. `Redirect /~acjvks/230/ /~acjvks/110/` redirects the browser from a folder, to a different folder
+1. `DirectoryIndex hello.html` - makes the default file for the folder *hello.html* rather than *index.html*
+2. `Options -Indexes` - turns off file listing for folders
+3. `Header add X-HeaderName "Header Value"` - sends a custom header. `X-` is a convention used for naming non-standard headers
+4. `Redirect /~acjvks/230/hello.html http://www.rit.edu` - redirects the browser from a file to another domain
+5. `Redirect /~acjvks/230/ /~acjvks/110/` - redirects the browser from a folder, to a different folder
 
 ## IV. Exercises
 See dropbox for due dates.
