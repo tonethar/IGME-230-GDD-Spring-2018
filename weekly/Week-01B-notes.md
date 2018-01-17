@@ -34,6 +34,7 @@ FTP demo and review (we will do this together in class):
 1. remember CSS? Let's add some CSS style rules to the page!
 
 ## II. htaccess Demo
+*A .htaccess ("hypertext access") file is a directory-level configuration file supported by the major web servers, used for configuration of site-access issues, such as URL redirection, URL shortening, Access-security control (for different webpages and files), and more.*
 
 In class, let's "demo first" what .htaccess files can do. We will look at the following htaccess directives:
 
