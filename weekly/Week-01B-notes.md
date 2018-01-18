@@ -43,6 +43,7 @@ In class, let's "demo first" what .htaccess files can do. We will look at the fo
 3. `Header add X-HeaderName "Header Value"` - sends a custom header. `X-` is a convention used for naming non-standard headers
 4. `Redirect /~acjvks/230/hello.html http://www.rit.edu` - redirects the browser from a file to another domain
 5. `Redirect /~acjvks/230/ /~acjvks/110/` - redirects the browser from a folder, to a different folder
+6. `ModPagespeed off` - turns off the ModPagespeed extension
 
 ## III. Presentation
 - [Auth and htaccess PDF](../docs/Auth_and_htaccess.pdf)
