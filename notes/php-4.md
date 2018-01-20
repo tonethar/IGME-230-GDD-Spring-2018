@@ -328,7 +328,9 @@ body {
 - see the mycourses dropbox for due date
 
 ### Example of completed homework
-Below we added a checkbox, and incorporated the results into the email.
+
+**Below we added a checkbox, and incorporated the results into the email:**
+
 ![Screenshot](_images/php-mail-3.jpg)
 	
 <hr><hr>
