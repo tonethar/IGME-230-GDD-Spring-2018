@@ -16,16 +16,17 @@ VI. [Testing your form](#section6)
 
 VII. [Styling your form](#section7)
 
-VIII. [Homework?](#section8)
+VIII. [Homework](#section8)
 
 <hr>
 
 ## I. <a id="section1">Overview
 Today we are going to look at creating a typical HTML contact form where a user can type in a message, and then click a button to send the message, without ever having to open up their email client. To accomplish this we will need to cover a few things today:
 - how to utilize PHP `mail()` function
-- how HTML forms can capture the user's message
+- how HTML forms can capture user inputed information
 - how data can be passed to PHP scripts
 
+This will also come in handy later in the semester, when you will be required to add a contact form to your portfolio site.
 
 ## II. <a id="section2">The PHP `mail()` function
 
@@ -316,9 +317,15 @@ body {
 
 ![Screenshot](_images/php-mail-2.jpg)
 
-## VIII. <a id="section8">Homework?
-- There is no homework assignment for this chapter. But be sure you understand what is going on here, as you might be asked about PHP forms on an exam. 
-- You will also be required to add a contact form to your portfolio project.
+## VIII. <a id="section8">Homework
+- duplicate the contents of *php-mail-3.php* and name it **php-4-HW.php**
+- add another field to the form:
+    - it could be another text field for last name, ZIP code, or other information for example
+    - or you could use another type of form element like a check box or radio button or a password field - that is up to you:
+        - https://www.w3schools.com/html/html_form_elements.asp
+	- https://www.w3schools.com/html/html_form_input_types.asp
+- See the mycourses dropbox for due date
+
 	
 	
 <hr><hr>
