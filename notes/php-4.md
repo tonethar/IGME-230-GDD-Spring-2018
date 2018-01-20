@@ -326,7 +326,8 @@ body {
 	- https://www.w3schools.com/html/html_form_input_types.asp
 - See the mycourses dropbox for due date
 
-	
+### Example of completed homework
+![Screenshot](_images/php-mail-3.jpg)
 	
 <hr><hr>
 
