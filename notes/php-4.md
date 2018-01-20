@@ -324,9 +324,11 @@ body {
     - or you could use another type of form element like a check box or radio button or a password field - that is up to you:
         - https://www.w3schools.com/html/html_form_elements.asp
 	- https://www.w3schools.com/html/html_form_input_types.asp
-- See the mycourses dropbox for due date
+- be sure that the contents of the new form field is incorporated into the email!
+- see the mycourses dropbox for due date
 
 ### Example of completed homework
+Below we added a checkbox, and incorporated the results into the email.
 ![Screenshot](_images/php-mail-3.jpg)
 	
 <hr><hr>
