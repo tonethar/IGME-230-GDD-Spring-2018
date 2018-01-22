@@ -9,8 +9,8 @@
 *Anything. PHP is mainly focused on server-side scripting, so you can do anything any other CGI program can do, such as collect form data, generate dynamic page content, or send and receive cookies. But PHP can do much more.* - http://php.net/manual/en/intro-whatcando.php
 
 - PHP can also be used to write command-line programs
-- It can also be used for "Screen Scraping" - which downloading and parsing web pages and other files
-- One of PHP's most powerful features is its support for a wide variety of databases.  
+- It can also be used for "Screen Scraping" - which is downloading and parsing web pages and other files
+- One of PHP's most powerful features is its support for a wide variety of databases
 - PHP also has support for talking to other web-related services using protocols such as LDAP, IMAP, SNMP, NNTP, POP3 and HTTP. This week we will use PHP to send email via a "Contact Us" form (which is the SMTP - "Simple Mail Transfer Protocol")
 
 ## III. Presentation
