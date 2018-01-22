@@ -52,8 +52,8 @@
 - Review [php-0.md](php-0.md)
 - Review [php-1.md](php-1.md)
     - just the *Creating a valid HTML page with PHP* section as the rest is covered in the slides. Be sure to hilite PHP's string interpolation.
-- Review [php-2.md](php-2.md
-    - time allowing, you may or may not want to demo each example, but be sure to mention the caching issue and .htacees solution in Part IX
+- Review [php-2.md](php-2.md)
+    - time allowing, you may or may not want to demo each example, but be sure to mention the caching issue and .htaccess solution in Part IX
 
 **Reminder: We are going to go through these demos very quickly. If a student is unable to keep up as we do all of these demos, they just need to go back and follow the written instructions.**
 
