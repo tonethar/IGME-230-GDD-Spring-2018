@@ -11,8 +11,12 @@
 - PHP can also be used to write command-line programs
 - One of PHP's most powerful features is its support for a wide variety of databases.  
 - PHP also has support for talking to other web-related services using protocols such as LDAP, IMAP, SNMP, NNTP, POP3 and HTTP.
+
+## III. Presentation
+
+[PHP-1-Lecture.pdf](../presentations/PHP-1-Lecture.pdf)
   
-## III. Lectures & Exercises
+## IV. Reading Assignments & Exercises
 See the mycourses dropboxes for due dates.
 
 - [0 - About this PHP Tutorial Series](../notes/php-0.md)
