@@ -44,7 +44,8 @@
 
 ## Week 2
 ### Day 1
-- take attendance! from this day and all going forward
+- You probably want to post the PHP example files (from PHP-1 through PHP-4) to web prior to class
+- Take attendance! from this day and all going forward
 - Any .htaccess questions?
 - Review [Week-02-notes.md](../weekly/Week-02-notes.md), give presentation, and do demos from presentation
 - Demo upgrading to PHP 7 ->  https://www.rit.edu/webdev/php-7
