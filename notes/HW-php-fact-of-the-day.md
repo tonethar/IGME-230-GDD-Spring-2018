@@ -10,9 +10,10 @@ Here are screen shots of the completed examples:
 ### PHP "Random Facts" Page
 ![Screenshot](_images/php-fact-of-the-day-HW-1.jpg)
 
-### PHP "Fact of the Day" Page
+### PHP "Fact of the Day" Page (on any Monday)
 ![Screenshot](_images/php-fact-of-the-day-HW-2.jpg)
 
+### PHP "Fact of the Day" Page (on any Tuesday)
 ![Screenshot](_images/php-fact-of-the-day-HW-3.jpg)
 
 ## II. Instructions
