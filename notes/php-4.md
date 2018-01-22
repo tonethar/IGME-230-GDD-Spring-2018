@@ -50,6 +50,7 @@ The PHP `mail()` function will send mail using the email program specified in ou
 - You can get more details about the various parameters of the `mail()` function here:
     - https://www.w3schools.com/php/func_mail_mail.asp
     - http://php.net/manual/en/function.mail.php
+- PS - once you are finished testing this script on banjo -  delete it -  unless you like to get tons of spam, from yourself.
 
 
 ## III. <a id="section3">HTML Forms
