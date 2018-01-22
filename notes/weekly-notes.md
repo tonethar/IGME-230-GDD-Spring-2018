@@ -63,7 +63,8 @@
 - Review [php-4.md](php-4.md)
     - demo [php-mail-1.php](php-mail-1.php)
     - demo how form variables are passed based on the name of the field - change the form method to GET so that the variables are visible
-- Demo the completed version of [php-4-HW.php](php-4-HW.php) and the 2 [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) files
+    - the students can do the rest of this chapter on their own
+- Demo the completed version of [php-4-HW.php](php-4-HW.php) and the two [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) files
 
 ## Week 3
 
