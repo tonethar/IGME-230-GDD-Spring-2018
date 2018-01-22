@@ -230,8 +230,8 @@ If the PHP version number at the top is 7.1 or greater, you don't need to do any
 1. Which PHP function will tell the developer which version and which modules of of PHP are installed?
 	
 ## X. <a id="section10">Review Exercises
-1. Post the *info.php* to your web account.
 1. Upgrade your banjo account to at least PHP 7+ - to do so involves editing a file named `php` that already exists on your banjo web account at `abc1234/php_data/php` - you can find instructions here: https://www.rit.edu/webdev/php-7 - the instructions tell you to modify this file via the command line, but you can also "download it/modify it/upload it back to banjo" if you wish.
+1. Post the *info.php* to your web account. Also verify that it shows you are running PHP 7.
 1. Do the section VII. "Try This", rename the file to **php-1-HW.php,** and post it to the web with your changes.
 
 ## XI. <a id="section11">Resources
