@@ -45,6 +45,17 @@
 ## Week 2
 ### Day 1
 - take attendance! from this day and all going forward
+- Review [Week-02-notes.md](../weekly/Week-02-notes.md), give presentation, and do demos from presentation
+- Demo upgrading to PHP 7 ->  https://www.rit.edu/webdev/php-7
+- Demo editing php.ini file -> [HW-php-ini.md](HW-php-ini.md)
+- Review [php-0.md](php-0.md)
+- Review [php-1.md](php-1.md) - just the *Creating a valid HTML page with PHP* section as the rest is covered in the slides. Be sure to hilite PHP's string interpolation.
+- Review [php-2.md](php-2.md) - you may or may not want to demo each example, but be sure to mention the caching issue in Part IX
+
+**Reminder: We are going to go through these demos very quickly. If a student is unable to keep up as we do all of these demos, they just need to go back and follow the written instructions.**
+
+### Day 2
+- 
 
 ## Week 3
 
