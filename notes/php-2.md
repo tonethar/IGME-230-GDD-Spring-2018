@@ -138,9 +138,9 @@ Run the following code and observe the results:
   // string variables WILL NOT interpolate in a single-quoted string
   $greeting3 = '<p>My name is $name</p>';
   
-  echo($greeting1);
-  echo($greeting2);
-  echo($greeting3);
+  echo($greeting1); // My name is Fred
+  echo($greeting2); // My name is Fred
+  echo($greeting3); // My name is $name
 ?>
 ```
 
