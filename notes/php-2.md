@@ -178,7 +178,7 @@ PHP does not require (or support) explicit type definition in variable declarati
 	$foo = $foo * 1.3;  // $foo is now a float (2.6)
 	$foo = 5 * (int)"10 Little Piggies"; 	// $foo is integer (50)
 	$foo = 5 * (int)"Small Pigs = 10";     // $foo is integer (0)
-	echo $foo;
+	echo "The result is $foo";
 ?>
 ```
 
