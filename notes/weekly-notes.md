@@ -68,7 +68,7 @@
     - the students can do the rest of this chapter on their own
 - Demo the completed version of [php-4-HW.php](php-4-HW.php) and the two [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) files
 - Time allowing, demo some debugging:
-    - running PHP on the command line to view the output. Also note how superglobals like `$_SERVER` don't exist on the command-line context
+    - run a PHP script through the PHP parser on the command line to view the output. Also note how superglobals like `$_SERVER` don't exist in the command-line context
     - view the PHP error log at `abc1234/php_data/php.log`
   
 
