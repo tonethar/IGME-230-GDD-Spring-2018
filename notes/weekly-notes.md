@@ -60,12 +60,17 @@
 
 ### Day 2
 - Any questions from last time?
+- Todays' demos will probably eat up all of our class time
 - Review [php-3.md](php-3.md) - be sure to demo all of the associative array code and the `$_SERVER` example
 - Review [php-4.md](php-4.md)
     - demo [php-mail-1.php](php-mail-1.php)
     - demo how form variables are passed based on the name of the field - change the form method to GET so that the variables are visible
     - the students can do the rest of this chapter on their own
 - Demo the completed version of [php-4-HW.php](php-4-HW.php) and the two [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) files
+- Time allowing, demo some debugging:
+    - running PHP on the command line
+    - viewing PHP error log
+  
 
 ## Week 3
 
