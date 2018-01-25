@@ -60,7 +60,7 @@
 
 ### Day 2
 - Any questions from last time?
-- Todays' demos will probably eat up all of our class time
+- Todays' demos will probably eat up all of our class time - `:-|`
 - Review [php-3.md](php-3.md) - be sure to demo all of the associative array code and the `$_SERVER` example
 - Review [php-4.md](php-4.md)
     - demo [php-mail-1.php](php-mail-1.php)
