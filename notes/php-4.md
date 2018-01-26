@@ -333,6 +333,10 @@ body {
 **Below we added a checkbox, and incorporated the results into the email:**
 
 ![Screenshot](_images/php-mail-3.jpg)
+
+**And here is another example:**
+
+![Screenshot](_images/php-mail-4.jpg)
 	
 <hr><hr>
 
