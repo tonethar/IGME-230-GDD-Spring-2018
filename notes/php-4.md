@@ -328,7 +328,7 @@ body {
 - be sure that the contents of the new form field is incorporated into the email!
 - see the mycourses dropbox for due date
 
-### Example of completed homework
+### Examples of completed homework
 
 **Below we added a checkbox, and incorporated the results into the email:**
 
