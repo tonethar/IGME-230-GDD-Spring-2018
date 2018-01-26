@@ -325,7 +325,7 @@ body {
     - or you could use another type of form element like a check box or radio button or a password field, that is up to you:
         - https://www.w3schools.com/html/html_form_elements.asp
         - https://www.w3schools.com/html/html_form_input_types.asp
-- be sure that the contents of the new form field are incorporated into the email!
+- be sure that the contents of the new form field are incorporated into the email, and on the bottom of the page after the submit button is clicked!
 - see the mycourses dropbox for due date
 
 ### Examples of completed homework
