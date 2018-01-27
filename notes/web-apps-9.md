@@ -130,7 +130,7 @@ items = JSON.parse(items);  			// now it's an Array
 ## IV. <a id="section4">Nota Bene
 - The process by which the browser works out how much space to allocate to web data storage and what to delete when that limit is reached is not simple, and differs between browsers - read about it here: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria
 - Because localStorage is a *synchronous* (blocking) API, understand that DOM updates will "hang" whenever localStorage is being updated by your code. What this means is that you should be careful about when you update your localStorage values.
-    - In a game for example, **do not** update your `highScore`  localStorage value inside of your game loop  - 60 times a second - to do so would seriously harm the game's performance.
+    - In a game for example, **DO NOT** update your `highScore`  localStorage value inside of your game loop  - 60 times a second - to do so would seriously harm the game's performance.
     - Instead, do the localStorage update only occasionally, when a level or the entire game are completed, for example.
 - You can read more about the blocking issue here: https://nolanlawson.com/2015/09/29/indexeddb-websql-localstorage-what-blocks-the-dom/
 
