@@ -29,3 +29,7 @@ To do this assignment, you should have completed at least the 3rd web app tutori
 ## Submission
 - Post to your web site and link it from your home page before the due date.
 - Hint: The coding of this shouldn't take too long, but the page layout and styling will.
+
+<hr><hr>
+
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
