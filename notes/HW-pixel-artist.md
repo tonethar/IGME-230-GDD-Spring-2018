@@ -214,4 +214,6 @@ Right now we can click on individual cells to change their color, but wouldn't i
 `cell.setAttribute('data-hitpoints','25');` or `cell.setAttribute('data-tileType','grass');`. Some nice examples of using this API are here: http://html5doctor.com/html5-custom-data-attributes/
 
 
+<hr><hr>
 
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
