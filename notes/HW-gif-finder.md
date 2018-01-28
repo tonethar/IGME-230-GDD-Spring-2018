@@ -344,7 +344,7 @@ One more thing - to get the fading working properly, add this line of code to th
 ## X. <a id="section10">Homework
 - Write JS that utilizes the `rating` property of each result by displaying it for each GIF (see example screenshot below)
 - This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
-    - Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to change the `url` of the &lt;header> background image rule slightly to keep things working.
+    - Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to slightly change the `url` of the &lt;header> background image rule to keep things working.
     - Move all of your JavaScript to a **js/main.js** file and link to it.
     - Your HTML file should now consist of only HTML - see the screenshot below.
  - Verify that everything still works.
