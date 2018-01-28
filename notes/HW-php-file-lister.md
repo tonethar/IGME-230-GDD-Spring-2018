@@ -123,6 +123,7 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 		color: #fff;
   }
   
+/* These 2 CSS rules generate visible HTML content */
    #listing .parentDirectory::before{
    	content: "<-- ";
    	color: #ffaaaa;
