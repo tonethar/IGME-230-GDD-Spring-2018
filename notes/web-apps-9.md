@@ -110,6 +110,14 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
 ![Web Page](_images/web-storage-3.jpg)
 
+
+<hr>
+
+### ** *Try This!* **
+- Add a "What is your Quest?" dropdown with values like "I seek the Holy Grail" and "To end injustice!", and store the chosen value in localStorage.
+
+<hr>
+
 ## III. <a id="section3">Storing Objects with Web Storage
 - A major limitation of Web storage is that it doesn't allow us to store arrays and other objects directly - but there's an easy workaround:
     - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to `localStorage`.
