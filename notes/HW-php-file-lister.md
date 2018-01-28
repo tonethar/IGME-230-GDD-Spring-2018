@@ -1,5 +1,20 @@
 # HW - PHP File Lister
 
+This is actually a demo, not a homework assignment. It's all done and ready for you to use!
+
+## I. Overview
+- Are those boring, default directory listings that the web server gives you getting you down?
+- Let's look at how we can use PHP's `scandir()` function to grab the file names of the contents of the current directory, and then generate some HTML and CSS to give us much nice looking listing.
+
+### Boring, default directory listing
+![Screenshot](_images/php-file-lister-1.jpg)
+
+
+## II. The PHP, HTML & CSS we need
+
+The code listing is below, and with commenting is hopefully self-explanatory. But if you have questions, ask!
+
+**index.php**
 
 ```html
 <?php
@@ -36,8 +51,10 @@
 	
 	foreach($dir as $name){
 		if($name == ".."){
+			// special CSS style rule for parent directory
 			$html .= "<li><a href='$name' class='parentDirectory'>Parent Directory</a></li>\n";	
 		}elseif (is_dir($name)){
+			// special CSS style rule for all other directories
 			$html .= "<li><a href='$name' class='directory'>$name</a></li>\n";	
 		}else{
 			$html .= "<li><a href='$name'>$name</a></li>\n";	
@@ -122,8 +139,17 @@
 </html>
 ```
 
-![Screenshot](_images/php-file-lister-1.jpg)
+## III. Try it out
+Upload *index.php* to any directory, and see what it does:
 
 ![Screenshot](_images/php-file-lister-2.jpg)
+
+## IV. Improvements
+- Modify the CSS so that it fits your overall site design. 
+- You could tweak the code so that the directories are sorted and placed at the bottom of the list.
+- You could tweak the code so that `js` and `styles` directories are not visible.
+- You could tweak the code so that the only directory that is visible is the parent directory.
+
+**Here's an example of this last suggestion:**
 
 ![Screenshot](_images/php-file-lister-3.jpg)
