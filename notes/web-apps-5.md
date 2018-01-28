@@ -524,7 +524,7 @@ console.log(doubleIt(5));
 - Arrow functions really come in handy with arrays, when you can to pass them as arguments to functions such as `.sort()` or `.filter()` or `.forEach()`, which we will work with soon.
 - Arrow function docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions.
 
-**Note: not everyone thinks that the more concise syntax of arrrow functions is advantageous in that they are sometimes less readable than functions written with the tradtional `function` syntax. Our advice: use arrow functions wherevery ou don't need or want `this` binding, and where they make your code more clear.**
+**Note: not everyone thinks that the more concise syntax of arrrow functions is advantageous in that they are sometimes less readable than functions written with the tradtional `function` syntax. Our advice: use arrow functions wherever you don't need or want `this` binding, and where they make your code more clear.**
 
 ## XI. <a id="section11"></a>Nota bene
 
