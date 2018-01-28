@@ -34,7 +34,7 @@ X. [Homework Assignment](#section10)
   1. The app will parse the JSON data and display the results to the user.
   
   
-Note: If you have not done so yet, please be sure to look over the [X - Web Services](web-apps-10.md) chapter.
+**Note: If you have not done so yet, please be sure to look over the [X - Web Services](web-apps-10.md) chapter.**
 
 ### Screen Shots
 
