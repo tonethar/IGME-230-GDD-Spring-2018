@@ -21,6 +21,8 @@ IX. [Wrap up](#section9)
 
 X. [Homework Assignment](#section10)
 
+<hr>
+
 ## <a id="section1">I. Overview
 - *GIF Finder* will utilize the Giphy **web service** to search for GIFs based on keywords, and then display the results to the user.
 - **What is a Web Service?**  *A Web service is a method of communication between two electronic devices over World Wide Web. A Web service is a software function provided at a network address over the web or the cloud; it is a service that is "always on" ...* - http://en.wikipedia.org/wiki/Web_service
