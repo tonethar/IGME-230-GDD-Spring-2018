@@ -1,6 +1,27 @@
 # Homework: GIF Finder
 
-## Overview
+<!--- Local Navigation --->
+I. [Overview](#section1)
+
+II. [Web Service Terms](#section2)
+
+III. [Get Started](#section3)
+
+IV. [Capture the user intent and format a URL](#section4)
+
+V. [Testing the URL](#section5)
+
+VI. [Importing jQuery](#section6)
+
+VII. [Downloading the data with `jQuery.ajax()`](#section7)
+
+VIII. [Formatting the results for the user](#section8)
+
+IX. [Wrap up](#section9)
+
+X. [Homwork](#section10)
+
+## <a id="section1">I. Overview
 - *GIF Finder* will utilize the Giphy **web service** to search for GIFs based on keywords, and then display the results to the user.
 - **What is a Web Service?**  *A Web service is a method of communication between two electronic devices over World Wide Web. A Web service is a software function provided at a network address over the web or the cloud; it is a service that is "always on" ...* - http://en.wikipedia.org/wiki/Web_service
 - The documentation for the Giphy Web Service is here: https://developers.giphy.com/docs/
@@ -12,19 +33,18 @@
   1. The downloaded file is in the JSON (JavaScript Object Notation) format - it's basically an object literal with just data, no methods.
   1. The app will parse the JSON data and display the results to the user.
 
-## Screen Shots
+### Screen Shots
 
-### Starting State:
+#### Starting State:
 ![Web Page](_images/gif-finder-1.jpg)
 
 <hr><hr>
 
-### And after the user has made a search:
+#### And after the user has made a search:
 ![Web Page](_images/gif-finder-2.jpg)
 
-## Instructions
 
-### I. Web Service Terms
+## II. <a id="section2">Web Service Terms
 
 1. Web Service - http://en.wikipedia.org/wiki/Web_service - A Web service is a method of communication between two electronic devices over World Wide Web. A Web service is a software function provided at a network address over the web or the cloud; it is a service that is "always on" ...
 2. API - http://en.wikipedia.org/wiki/Api - An application programming interface (API) specifies how some software components should interact with each other.
@@ -32,13 +52,13 @@
 4. Arguments (or parameters) - http://en.wikipedia.org/wiki/Parameters_(computer_science) - In computer programming, a parameter is a special kind of variable, used in a subroutine to refer to one of the pieces of data provided as input to the subroutine.
 5. API Key - http://en.wikipedia.org/wiki/API_key - An application programming interface key (API key) is a code passed in by computer programs calling an API (application programming interface) to identify the calling program, its developer, or its user to the Web site. API keys are used to track and control how the API is being used, for example to prevent malicious use or abuse of the API (as defined perhaps by terms of service).
 
-### II. Get Started
+## III. <a id="section3">Get Started
 
 - Below is your starting file with the HTML and CSS all done for you. 
 - You can name the file **gif-finder.html**
 - You will also need these images: [gif-finder-start-files.zip](_files/gif-finder-start-files.zip)
 
-#### gif-finder.html
+### gif-finder.html
 
 ```html
 <!DOCTYPE html>
@@ -188,7 +208,7 @@
 ```
 
 
-#### A. Explanation
+### A. Explanation
 - In #1 above - we are hooking up a button event handler in the `window.onload` event. Note we have wrapped the code in an arrow function - we also could have used a regular function - it doesn't matter either way.
 - In #2 above - this will store what the user searched for, we need it to be in script scope so that we can access it from outside of our  `getData()` function.
 - In #3 above - `getData()` will be called when the button is clicked.
@@ -196,14 +216,14 @@
 Test the code by clicking the button - and then check the console for the log.
 
 
-### III. Capture the user intent and format a URL
+## IV. <a id="section4">Capture the user intent and format a URL
 We need to write code to build a URL to the web service. This URL will contain the user's search preferences (search term and number of results).
 
 **Type this code in:**
 
 ![Web Page](_images/gif-finder-3.jpg)
 
-#### A. Explanation
+### A. Explanation
 - #1 above - this URL is the Giphy *Search endpoint*. Here's an example of another endpoint, the Giphy "Trending" endpoint: `https://api.giphy.com/v1/gifs/trending`
 - #2 above - this API key identifies you to the owner of the service. API keys are used to track and control how the API is being used - so if the user of this key is abusing the service it can be "turned off". This particular key is a public key and may no longer work when you do the exercise. If it does not, head here to get your own key (it's free!): https://developers.giphy.com/docs/
 - #3 above - we specify a parameter - `api_key` - and then give it a value
@@ -216,15 +236,15 @@ We need to write code to build a URL to the web service. This URL will contain t
 - #10 above - update the UI with the user's search term
 - #11 above - finally! log out the URL.
 
-### IV. Testing the URL
+## V. <a id="section5">Testing the URL
 
 - Run the code and click the button. Now head to the console and click on the completed URL, it should open a new browser window that will show you the results of the API request. (If nothing happens, check that your code is correct, and/or copy/paste the URL to a browser location box)
 
-#### A. After clicking the search button, you should see the URL in the console
+### A. After clicking the search button, you should see the URL in the console
 
 ![Web Page](_images/gif-finder-4.jpg)
 
-#### B. Clicking on the link opens a web page that shows the JSON response to your search. 
+### B. Clicking on the link opens a web page that shows the JSON response to your search. 
 
 - You can see that you are getting back a JS Object literal, and there is a top-level property named `data` that contains an array of objects. Each of these objects represents a animated GIF on Giphy - note some of the properties that will come in handy: `url`, `rating`, `width`, `height` and so on.
 
@@ -232,18 +252,18 @@ We need to write code to build a URL to the web service. This URL will contain t
 
 ![Web Page](_images/gif-finder-5.jpg)
 
-#### C. Modify the URL in the location box
+### C. Modify the URL in the location box
 
 Below we changed the `q` parameter to `dogs` and the `limit` parameter to `2`
 
 ![Web Page](_images/gif-finder-6.jpg)
 
-#### D. Modify the API key value
+### D. Modify the API key value
 If you do that, oops, you will probably get an error message (unless it is a valid API key)
 
 ![Web Page](_images/gif-finder-7.jpg)
 
-### V. Importing jQuery
+## VI. <a id="section6">Importing jQuery
 To download the data, we are going to use the jQuery library and the `jQuery.ajax()` method. *Ajax* in this context means to asynchronously download data from the Internet.
 
 - You can read about the jQuery library here: http://jquery.com
@@ -265,31 +285,31 @@ C. Reload the app and click the search button - you should see logs something li
 ![Web Page](_images/gif-finder-8.jpg)
 
 
-### VI. Downloading the data with `jQuery.ajax()`
+### VII. <a id="section7">Downloading the data with `jQuery.ajax()`
 
-#### A. Now we are going to tell jQuery to download the data from that URL.
+### A. Now we are going to tell jQuery to download the data from that URL.
 
 **Add this code to the bottom of `getData()`:**
 
 ![Web Page](_images/gif-finder-9.jpg)
 
 
-#### B. Create the callback function
+### B. Create the callback function
 **This code is the callback function - place it *outside* of `getData()`:**
 
 ![Web Page](_images/gif-finder-10.jpg)
 
-#### C. Explanation
+### C. Explanation
 - #12 above - we call the `jQuery.ajax()` method and pass in a *configuration object* that contains method parameters most importantly the **url** we want to download, the **datatype** (JSON), and the function that is called once the data is loaded (the *callback function*).
 - #13 above - is a reference to `jsonLoaded`, which is the callback function we just created. 
 - #14 above - he is the `jsonLoaded()` function - note that it takes a parameter `obj` - which is the JSON we got back from the Giphy web service.
 
-#### D. Run the app and click the search button 
+### D. Run the app and click the search button 
 You should see the JSON we download in the console:
 
 ![Web Page](_images/gif-finder-11.jpg)
 
-### VII. Formatting the results for the user
+## VIII. <a id="section8">Formatting the results for the user
 
 Now we just need to take the results, loop through them, and create some HTML. Here's the code you need to add to `jsonLoaded()`:
 
@@ -302,7 +322,7 @@ One more thing - to get the fading working properly, add this line of code to th
 `$("#content").fadeOut(100);` 
 
 
-#### A. Explanation
+### A. Explanation
 - In #15 above - if there are no results (an empty array or error) we bail out of parsing and notify the user.
 - In #16 above - here we grab the array of results, and create `bigString`, which will be a big blob of HTML that we will eventually put into the `#content` &lt;div>
 - In #17 above - start the loop
@@ -316,11 +336,11 @@ One more thing - to get the fading working properly, add this line of code to th
 
 <hr><hr>
 
-### VIII. Wrap up
+## IX. <a id="section9">Wrap up
 - Looks like you are done with the code! Congratulations on your typing!
 - This assignment could be a great "starter" for Project 2.
 
-### IX. Homework
+## X. <a id="section10">Homework
 - Write JS that utilizes the `rating` property of each result by displaying it for each GIF (see example screenshot below)
 - This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
     - Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to change the `url` of the &lt;header> background image rule slightly to keep things working.
