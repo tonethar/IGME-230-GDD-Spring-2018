@@ -3,7 +3,7 @@
 This is actually a demo, not a homework assignment. It's all done and ready for you to use!
 
 ## I. Overview
-- Are those boring & ugly, default directory listings that the web server gives you *getting you down*?
+- Are those boring & ugly, default directory listings that the web server gives you *getting you down*? Want to prevent users from browing your site's directory structure and snopping around your files?
 - Let's look at how we can use PHP's `scandir()` function to grab the file names of the contents of the current directory, and then generate some HTML and CSS to give us a much nice looking listing.
 
 ### Boring & ugly, default directory listing
@@ -158,7 +158,7 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 
 ## IV. Possible Improvements
 - Modify the CSS so that it fits your overall site design. 
-- Modify the PHP so that if the directory has no files then a "No files found" message will be displayed.
+- Modify the PHP so that if the directory has no files, a "No files found" message will be displayed.
 - Modify the PHP so that the directories are sorted and placed at the bottom of the list.
 - Modify the PHP so that `js` and `styles` directories are not visible.
 - Modify the PHP so that the only directory that is visible is the parent directory.
