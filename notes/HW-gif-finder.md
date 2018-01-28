@@ -342,8 +342,8 @@ One more thing - to get the fading working properly, add this line of code to th
 - There are a lot of new concepts in this exercise - please review both this page and all of the GIF Finder code to be sure you understand everything - if you don't understand something, please ask questions about it in class!
 
 ## X. <a id="section10">Homework Assignment
-- The assignment is out of 10 points
-- (5 points) Write JS that utilizes the `rating` property of each result by displaying it for each GIF. You can use `.toUpperCase()` to capitalize each rating (see example screenshot below)
+- The assignment is out of 10 points.
+- (5 points) Write JS that utilizes the `rating` property of each result by displaying it for each GIF. You can use `.toUpperCase()` to capitalize each rating (see example screenshot below).
 - (2 points) This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
     - Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to slightly change the `url` of the &lt;header> background image rule to keep things working.
     - Move all of your JavaScript to a **js/main.js** file and link to it.
