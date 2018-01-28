@@ -146,9 +146,9 @@ Upload *index.php* to any directory, and see what it does:
 
 ## IV. Improvements
 - Modify the CSS so that it fits your overall site design. 
-- You could tweak the code so that the directories are sorted and placed at the bottom of the list.
-- You could tweak the code so that `js` and `styles` directories are not visible.
-- You could tweak the code so that the only directory that is visible is the parent directory.
+- Modify the PHP so that the directories are sorted and placed at the bottom of the list.
+- Modify the PHP so that `js` and `styles` directories are not visible.
+- Modify the PHP so that the only directory that is visible is the parent directory.
 
 **Here's an example of this last suggestion:**
 
