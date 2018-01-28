@@ -339,7 +339,7 @@ One more thing - to get the fading working properly, add this line of code to th
 ## IX. <a id="section9">Wrap up
 - Looks like you are done with most of the coding! Congratulations on your typing!
 - This assignment could be a great "starter" for Project 2.
-- There are a lot of new concepts in this exercise - please review both this page and all of the GIF Finder code to be sure you understand everything - if you don't understand something, please ask questions in class!
+- There are a lot of new concepts in this exercise - please review both this page and all of the GIF Finder code to be sure you understand everything - if you don't understand something, please ask questions about it in class!
 
 ## X. <a id="section10">Homework
 - Write JS that utilizes the `rating` property of each result by displaying it for each GIF (see example screenshot below)
