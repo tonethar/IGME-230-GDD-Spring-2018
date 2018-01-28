@@ -34,7 +34,7 @@ There are some WebStorage examples on the Internet that we can point you to:
 - If you close the window and reopen it, your changes will be preserved.  
 - After you have referred to the links above, it should be pretty easy to figure out what's going on in the code.
 - One thing worth mentioning is the `prefix` variable (see below):
-    - Because Web Storage uses the same set of keys for *each domain*, this means on servers like banjo that all of the students are sharing the same set of keys, so that if someone uses `highscores`as a key, another student's `highscores` key could wipe out and replace their data. 
+    - Because Web Storage uses the same set of keys for *each domain*, this means that on shared domains like `people.rit.edu` that all of the students are **sharing the same set of keys**, so that if someone uses `highscores`as a key, another student's `highscores` key could wipe out and replace their data. 
     - One solution is to prefix your key names with something unique, like your RIT web account id. 
     - Therefore `highScores` would become `abc1234-highScores` for one student, and `xyz9876-highScores` for someone else, and the keys would never conflict.
 
@@ -72,11 +72,11 @@ What is your favorite color ->
 // declare some constants
 const nameField = document.querySelector("#nameField");
 const colorSelect = document.querySelector("#colorSelect");
-const prefix = "abc1234-";
+const prefix = "abc1234-"; // change 'abc1234' to your banjo id
 const nameKey = prefix + "name"
 const colorKey = prefix + "color";
 
-// grab the stored data, will return null if user has never been to this page
+// grab the stored data, will return `null` if the user has never been to this page
 const storedName = localStorage.getItem(nameKey);
 const storedColor = localStorage.getItem(colorKey);
 
@@ -111,13 +111,15 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 ![Web Page](_images/web-storage-3.jpg)
 
 ## III. <a id="section3">Storing Objects with Web Storage
-- A major limitation of Web storage is that it doesn't allow us to store arrays and other objects directly. But there's an easy workaround - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to `localStorage`. This is known as *serialization* - https://en.wikipedia.org/wiki/Serialization
+- A major limitation of Web storage is that it doesn't allow us to store arrays and other objects directly - but there's an easy workaround:
+    - you can easily convert built-in JavaScript objects (Object, Array, Date, etc) to and from a string respresentation, and then save them to `localStorage`.
+    - this is known as *serialization* - https://en.wikipedia.org/wiki/Serialization
 
 ### A. Save an array to localStorage with `JSON.stringify()`
 
 ```javascript
 let listID = "abc1234-action-list";
-let items = ["Direct Movie","Deliver Baby","Cure Cancer"];
+let items = ["Direct Movie","Deliver Baby","Cure Cancer","Walk on Mars"];
 items = JSON.stringify(items); 			// now it's a String
 localStorage.setItem(listID, items);
 ```
@@ -127,7 +129,7 @@ localStorage.setItem(listID, items);
 ```javascript
 let listID = "abc1234-action-list";
 let items = localStorage.getItem(listID); 	// returns a String
-items = JSON.parse(items);  			// now it's an Array
+items = JSON.parse(items);  			// now it's an Array again
 ```
 
 ## IV. <a id="section4">Nota Bene
@@ -140,8 +142,8 @@ items = JSON.parse(items);  			// now it's an Array
 
 ## V. <a id="section5">Review Questions
 1. What is a limitation of using localStorage on a shared domain like people.rit.edu? What is a workaround that will mitigate this issue?
-1. What is the difference between local and session storage?
-1. If the user opens up the demo page in a different web browser on the same machine, will their chosen preferences still be visible? Why or why not?
+1. What is the difference between local and session storage? (Read the documentation or google it)
+1. If the user opens up the demo page in a different web browser on the same machine, will their chosen preferences still be visible? Why or why not? (If you do not know the answer, do an experiement)
 1. Define *serialization*
 1. What does `JSON.stringify()` do?
 1. What does `JSON.parse()` do?
