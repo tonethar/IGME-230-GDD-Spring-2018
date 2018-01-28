@@ -56,10 +56,10 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 	
 	foreach($dir as $name){
 		if($name == ".."){
-			// special CSS style rule for parent directory
+			// class='parentDirectory' for the parent directory
 			$html .= "<li><a href='$name' class='parentDirectory'>Parent Directory</a></li>\n";	
 		}elseif (is_dir($name)){
-			// special CSS style rule for all other directories
+			// class='directory' for all other directories
 			$html .= "<li><a href='$name' class='directory'>$name</a></li>\n";	
 		}else{
 			$html .= "<li><a href='$name'>$name</a></li>\n";	
