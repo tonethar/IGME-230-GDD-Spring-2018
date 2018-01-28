@@ -154,6 +154,8 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 
 ![Screenshot](_images/php-file-lister-4.jpg)
 
+**Boring and ugly directory listings have been vanquished!**
+
 ## IV. Possible Improvements
 - Modify the CSS so that it fits your overall site design. 
 - Modify the PHP so that if the directory has no files then a "No files found" message will be displayed.
