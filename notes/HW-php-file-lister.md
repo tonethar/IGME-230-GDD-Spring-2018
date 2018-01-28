@@ -163,3 +163,7 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 **Here's an example of this last suggestion:**
 
 ![Screenshot](_images/php-file-lister-3.jpg)
+
+<hr><hr>
+
+**[Table of Contents <- About this PHP Tutorial Series](php-0.md)**
