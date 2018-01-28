@@ -3,10 +3,10 @@
 This is actually a demo, not a homework assignment. It's all done and ready for you to use!
 
 ## I. Overview
-- Are those boring, default directory listings that the web server gives you getting you down?
+- Are those boring & ugly, default directory listings that the web server gives you getting you down?
 - Let's look at how we can use PHP's `scandir()` function to grab the file names of the contents of the current directory, and then generate some HTML and CSS to give us much nice looking listing.
 
-### Boring, default directory listing
+### Boring & ugly, default directory listing
 ![Screenshot](_images/php-file-lister-1.jpg)
 
 
