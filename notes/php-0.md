@@ -35,3 +35,6 @@ See mycourses dropboxes for due dates.
 - [Configuring php.ini](HW-php-ini.md)
 - https://www.rit.edu/webdev/php-7 (Upgrade your banjo account to PHP 7)
 - [PHP: "Fact Of The Day" page](HW-php-fact-of-the-day.md)
+
+## V. Demos
+- [PHP File (Directory) Lister](HW-php-file-lister.md)
