@@ -53,3 +53,7 @@ This game could be a good start on project 2 - either as a turn-based "Rogue-lik
 - note that we use `Object.freeze()` on some of our Object literals, but `Object.seal()`on others. What are the differences between these methods, and why did we choose one over the other?
 - in `loadLevel()`, we use the ES6 static object method `Object.assign()` - what does it do?
 - give 2 ways to add a new CSS class to an element (so that it has more than 1 class), and 2 ways to remove one of these classes from an element.
+
+<hr><hr>
+
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
