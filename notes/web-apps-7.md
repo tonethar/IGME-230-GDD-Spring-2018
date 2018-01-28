@@ -1,7 +1,7 @@
 # 7 - JavaScript Object Literals
 
 ##  Overview
-JavaScript is an *Object-Oriented* language, but traditional classes have not been supported until recently (ES6). 
+JavaScript is an *Object-Oriented* language, but a traditional "class" syntax has not been supported until recently (ES6). 
 
 Today we will look at doing object-oriented programming *without* using classes, by utilizing the **JavaScript Object Literal**, and see how powerful and flexible it is.
 
