@@ -136,5 +136,6 @@ There is so much you could do as an extra:
 - give the user the ability to load pre-set patterns, or randomize the screen
 - different color cells (store that in the Elements themselves)
 
+<hr><hr>
 
-
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
