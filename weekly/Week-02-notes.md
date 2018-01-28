@@ -27,6 +27,7 @@ See the mycourses dropboxes for due dates.
 - [4 - PHP Mail & Forms](../notes/php-4.md)
 - [HW - Configuring php.ini](../notes/HW-php-ini.md)
 - [HW - PHP "Fact of the Day" Page](../notes/HW-php-fact-of-the-day.md)
+- [Demo - PHP File (Directory) Lister](../notes/HW-php-file-lister.md)
 
 
 <hr><hr>
