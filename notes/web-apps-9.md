@@ -114,7 +114,8 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 <hr>
 
 ### ** *Try This!* **
-- Modify *webstorage-1.html* by adding a "What is your Quest?" dropdown with values like "I seek the Holy Grail" and "To end injustice!". Then store/restore the chosen value in localStorage.
+- Modify *webstorage-1.html* by adding a "What is your Quest?" dropdown with values like "I seek the Holy Grail" and "To end injustice!".
+- Store/restore the chosen value in localStorage.
 
 <hr>
 
