@@ -136,7 +136,7 @@ document.querySelector("div").onclick = divClicked;
 
 ### A. Explanation
 - In #3 above, we declare a function which we will call later.
-- In #4 above, the value of onclick is the function's *reference*. The function will be called when the button is clicked.
+- In #4 above, the value of `onclick` is the function's *reference*. The function will be called when the button is clicked.
 
 ## III. <a id="section3"></a>Breaking our code
 One common mistake that is easy to make, is to write this line:
@@ -165,8 +165,9 @@ We can use arrow functions as event handlers too. You might recall that in the [
 - they have a shorter syntax than regular functions
 - they do not bind their own `this` keyword. 
 
-What this means is that when an event handler points at a *regular function*, the value of `this` is the object that received the event.
-But when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will be the `window` object - so we will be able to call top level functions in the script.
+What this means:
+- when an event handler points at a *regular function*, the value of `this` is the object that received the event.
+- but when an event handler points at an *arrow function*, the value of `this` will instead be "the value of the enclosing execution context", which below will be the `window` object - so we will be able to call top level functions in the script.
 
 Go ahead and run **events-3.html** and see what happens.
 
@@ -198,7 +199,7 @@ function changeParagraph(){
 // 2 - Let's declare an arrow function to be called later
 let divClicked = (e) => { 
 			  e.target.innerHTML = "I am a div, and I was clicked!";
-			  this.changeParagraph();
+			  this.changeParagraph(); // `this` is the window object, not the button that was clicked
 			}
 
 // 3 - .onclick now points at the divClicked arrow function
@@ -258,7 +259,7 @@ let div = document.querySelector("div");
 // 3 - use addEventListener() to add three events to the <p>
 p.addEventListener("click",changeText); // NOTE the event is named 'click', NOT 'onclick'
 p.addEventListener("click",changeColor);
-p.addEventListener("click",changeStyle);
+p.addEventListener("click",changeStyle); // now three functions will be called when `p` is clicked
 
 // 4 - we will only give the <div> two events
 div.addEventListener("click",changeText);
@@ -278,6 +279,13 @@ When you run the code and click on the elements, this is what you will see:
 - When you try out the code, you should see that the div has 2 functions attached to it. These 2 functions will change the HTML, the color to red, but leave the font-style alone.
 - It is very important to note that the events that are being passed into `addEventListener()` are named 'click', NOT 'onclick' like the event handler was.
 
+
+<hr>
+
+### ** *Try This!* **
+- In *events-4.html*, add breakpoints or `console.log()` statements to see what order the 3 functions are called in. Will it be the order they were added as event listeners (oldest to newest), reverse order (newest to oldest), or random? Try and find out!
+
+<hr>
 
 ## VI. <a id="section6"></a>Event Listeners - `removeEventListener()`
 You can also call `removeEventListener()` to later remove event functions.
