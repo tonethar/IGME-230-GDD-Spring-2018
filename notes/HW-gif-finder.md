@@ -367,4 +367,4 @@ One more thing - to get the fading working properly, add this line of code to th
 
 <hr><hr>
 
-
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
