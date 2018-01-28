@@ -20,6 +20,10 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 <?php
 	// a function we will use to filter the directory array
 	function myFilter($name){
+		if ($name == "index.php"){
+			return false; // don't list this file
+		} 
+
 		if (substr($name, 0, 2) == ".."){
 			return true; // keep the parent directory link
 		} 
@@ -43,7 +47,8 @@ The code listing is below, and with commenting is hopefully self-explanatory. Bu
 	// get all the file names in the current directory
 	$dir = scandir("./"); // $dir is an array
 	
-	// get rid of the file names we are not interest in
+	// this code calls the myFilter() function once for each element in the array
+	// and gets rid of the file names we are not interested in
 	$dir = array_filter($dir,"myFilter");
 	
 	// loop through array and create the HTML
