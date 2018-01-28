@@ -303,7 +303,7 @@ Note that we have 3 scopes here: "Local", "Script", and "Global".
 - `func1()` has 2 "locally" scoped variables (i.e. to the function *block*) - `A` and `C`.
 - `A` and `B` are "script" scoped and are thus visible throughout this page and other scripts of the page.
 - There are 2 `A` variables here - one in script scope, the other in local scope. The locally scoped `A` in `func1()` will "mask" the script scoped A within `func1()`.
-- There are many globally scoped objects - alerts, arrays, the `Math` object, and so on. Our scripts have full access to these and other global variables.
+- There are many globally scoped objects - alerts, arrays, the `Math` object, and so on. Functions that we create at the top level with the `function` keyword are also in the global scope. Our scripts have full access to these and other global variables.
 - **Try this**: Remove the `debugger;` statements and uncomment the final `console.log()` that tries to print out `C`. Of course it fails because we can't access local variables from outside the block in which they were declared in.
 
 
