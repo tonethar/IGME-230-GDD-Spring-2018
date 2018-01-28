@@ -84,7 +84,7 @@ const storedColor = localStorage.getItem(colorKey);
 if (storedName){
 	nameField.value = storedName;
 }else{
-	nameField.value = "Turbo";
+	nameField.value = "Turbo"; // a default value if `nameField` is not found
 }
 
 // if we find a previously set color value, display it
