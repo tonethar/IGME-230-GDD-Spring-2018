@@ -321,6 +321,7 @@ One more thing - to get the fading working properly, add this line of code to th
 - This assignment could be a great "starter" for Project 2.
 
 ### IX. Homework
+- Utilize the `rating` property of each result by displaying it for each GIF (see screenshot below)
 - You are not quite done yet though. This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the code and CSS into different files - "separation of concern" is the term for this. 
     - Move all of your CSS to a **styles/main.css** file and link to it. You will need to change the `url` of the &lt;header> background image rule slightly to keep things working.
     - Move all of your JavaScript to a **js/main.js** file and link to it.
@@ -328,11 +329,14 @@ One more thing - to get the fading working properly, add this line of code to th
  - Verify that everything still works.
  - Finally, improve the CSS styling of this page - which shouldn't be too hard. See the screenshot below as an example of what you could do.
  - See mycourses dropbox for due date.
+ 
+#### A. Results that display a rating for each GIF
+![Web Page](_images/gif-finder-15.jpg)
 
-#### A cleaned up HTML page, with CSS and JS kept in separate files
+#### B. Cleaned up HTML page, with CSS and JS kept in separate files
 ![Web Page](_images/gif-finder-13.jpg)
 
-#### A better page design
+#### C. Better page design
 ![Web Page](_images/gif-finder-14.jpg)
 
 
