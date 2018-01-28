@@ -326,7 +326,7 @@ One more thing - to get the fading working properly, add this line of code to th
  - Verify that everything still works.
  - Finally, improve the CSS styling of this page - which shouldn't be too hard. See the screenshot below as an example of what you could do.
 
-#### A cleaned up HTML page
+#### A cleaned up HTML page, with CSS and JS kept in separate files
 ![Web Page](_images/gif-finder-13.jpg)
 
 #### A better page design
