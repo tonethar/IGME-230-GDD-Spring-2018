@@ -1,7 +1,7 @@
 # 5 - JavaScript Functions
 
 ## Overview
-In computer programming, a *function* is a named section of a program that perform a specific task; they are basically "mini programs" within a larger program. 
+In computer programming, a *function* is a named section of a program that performs a specific task; they are basically "mini programs" within a larger program. 
 
 Functions contain a sequence of statements called the *function body*. There are two advantages to using functions:
 1. Reusability
