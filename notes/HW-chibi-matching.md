@@ -62,3 +62,7 @@ For project 2 you could extend this application:
 - add a new mechanic to the game (fantasy combat?) and have your matching game effect the fight in some way
 
 or create a completely different kind of card game!
+
+<hr><hr>
+
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
