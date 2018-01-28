@@ -348,6 +348,21 @@ debugger;
 
 ```
 
+<hr>
+
+### ** *Try This!* **
+- Write code that loops through the `collection` array below with a `for..of` loop below, and logs out the numeric values only.
+- Write code that users `.filter()` to loop through `collection`, and then stores numeric values only in a new array named `numbers`
+
+// mixed types in the same Array
+let collection = ["Jaberwocky", 42, 98.6, false, Date(), Math.sin, null];
+
+**Note: JavaScript DOES NOT have a `isNumeric()` function, so take a look here for alternatives: https://stackoverflow.com/questions/9716468/is-there-any-function-like-isnumeric-in-javascript-to-validate-numbers**
+
+<hr>
+
+
+
 
 ## III. <a id="section3">Other "Array-like" objects in JavaScript
 ### A. `NodeList`
