@@ -337,8 +337,6 @@ One more thing - to get the fading working properly, add this line of code to th
 - In #23 above - add everything to the `#content` &lt;div>
 - In #24 above - here we use the jQuery `fadeIn()` method to fade the content in over 1/2 a second. You can read about this method here: http://api.jquery.com/fadein/
 
-<hr><hr>
-
 ## IX. <a id="section9">Wrap up
 - Looks like you are done with most of the coding! Congratulations on your typing!
 - This assignment could be a great "starter" for Project 2.
@@ -363,5 +361,8 @@ One more thing - to get the fading working properly, add this line of code to th
 
 #### C. Better page design
 ![Web Page](_images/gif-finder-14.jpg)
+
+
+<hr><hr>
 
 
