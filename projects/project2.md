@@ -104,4 +104,4 @@ Note:
 
 <hr><hr>
 
-**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
+**[Table of Contents <- About this Web App Tutorial Series](../notes/web-apps-0.md)**
