@@ -19,7 +19,7 @@ VIII. [Formatting the results for the user](#section8)
 
 IX. [Wrap up](#section9)
 
-X. [Homwork](#section10)
+X. [Homework](#section10)
 
 ## <a id="section1">I. Overview
 - *GIF Finder* will utilize the Giphy **web service** to search for GIFs based on keywords, and then display the results to the user.
