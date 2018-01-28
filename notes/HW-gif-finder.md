@@ -36,7 +36,7 @@ X. [Homework Assignment](#section10)
   1. The app will parse the JSON data and display the results to the user.
   
   
-**Note: If you have not done so yet, please be sure to look over the [X - Web Services](web-apps-10.md) chapter.**
+**Note: If you have not done so yet, please be sure to look over the [10 - Web Services](web-apps-10.md) chapter.**
 
 ### Screen Shots
 
@@ -342,7 +342,7 @@ One more thing - to get the fading working properly, add this line of code to th
 ## IX. <a id="section9">Wrap up
 - Looks like you are done with most of the coding! Congratulations on your typing!
 - This assignment could be a great "starter" for Project 2.
-- There are a lot of new concepts in this exercise - please review the (Web Services Chapter)[web-apps-10.md], this page and all of the GIF Finder code to be sure you understand everything. If you don't understand something, please ask questions about it in class!
+- There are a lot of new concepts in this exercise - please review the (10 - Web Services)[web-apps-10.md] chapter, this page and all of the GIF Finder code to be sure you understand everything. If you don't understand something, please ask questions about it in class!
 
 ## X. <a id="section10">Homework Assignment
 - The assignment is out of 10 points.
