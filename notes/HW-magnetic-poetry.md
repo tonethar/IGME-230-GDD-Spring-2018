@@ -334,3 +334,7 @@ There is quite a bit you could do with this app to make it a potential portfolio
 - deleting words
 - modifying the style of selected words
 - users can add words
+
+<hr><hr>
+
+**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
