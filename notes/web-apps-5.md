@@ -524,7 +524,7 @@ console.log(doubleIt(5));
 - Arrow functions really come in handy with arrays, when you can to pass them as arguments to functions such as `.sort()` or `.filter()` or `.forEach()`, which we will work with soon.
 - Arrow function docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions.
 
-
+**Note: not everyone thinks that the more concise syntax of arrrow functions is advantageous in that they are sometimes less readable than functions written with the tradtional `function` syntax. Our advice: use arrow functions wherevery ou don't need or want `this` binding, and where they make your code more clear.**
 
 ## XI. <a id="section11"></a>Nota bene
 
@@ -539,7 +539,7 @@ B. A new kind of function for ES6 is called a **Generator Function** - which is 
 C. We are going to use String Template literals in our examples instead of string concatentation going forward. But there is one caveat - Internet Explorer 11 (the final version of IE) does not support them, so be cautious about using them in your "shipping" JavaScript projects.
 
 D. You may have noticed **global** variable scope above. How can you add variables to this **global** scope?
-1. Use the `var` keyword (which we will avoid using in this class)
+1. Use the `var` keyword outside of a function definition  (we will avoid using `var` in this class)
 2. Every time you give an element an `id` value, you are actually creating a property on the global `.window` object. You can read about this here:
 
 http://2ality.com/2012/08/ids-are-global.html
