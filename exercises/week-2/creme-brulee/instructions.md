@@ -8,7 +8,7 @@ We will also be adding a configuration file to your RIT web space to override so
 
 ## Setting Up Your Folders and Files
 
-In your local 230 folder (which we already created together), create folder called exercises. In there, create a folder called ICE2A. 
+In your local 230 folder (which we already created together), create folder called exercises. In there, create a folder called ICE3A. 
 
 I've put uploaded a file called [cremebrulee.txt](cremebrulee.txt) to Github. When you click the link to view that file on Github, you'll see that it's a plain text file into which I've copied and pasted the content from the [Wikipedia entry for "Crème brûlée"](https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e). 
 
@@ -57,12 +57,12 @@ When you're done, preview your document in your editor or browser. It should loo
  
 Once you're satisfied with the HTML file, you're going to upload your exercises folder (which includes your ICE2A folder and its contents) to your 230 folder on Banjo. 
 
-Test it by going to `http://people.rit.edu/yourid/230/exercises/ICE2A` -- you should see the .txt and .html files, and the two images. Click on the html file and make sure it displays properly. If you run into problems here, **ask for help ASAP**. 
+Test it by going to `http://people.rit.edu/yourid/230/exercises/ICE3A` -- you should see the .txt and .html files, and the two images. Click on the html file and make sure it displays properly. If you run into problems here, **ask for help ASAP**. 
 
 ## Adding Basic CSS Formatting
 Now we're going to use CSS to start to make the page look a bit more like the original Wikipedia entry.
 
-Create a new file in the ICE2A folder called cremebrulee.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="cremebrulee.css" />`. 
+Create a new file in the ICE3A folder called cremebrulee.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="cremebrulee.css" />`. 
 
 For today, since you've already done quite a bit of work, I'm going to give you the CSS to start with. Paste the following style rules into your cremebrulee.css file:
 
