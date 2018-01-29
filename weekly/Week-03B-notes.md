@@ -1,6 +1,6 @@
 # Week 3B - Review of CSS
 
-## Topics
+## Topics & Overview
 - Where we can put CSS
 - Selectors, IDs, classes, pseudo-classes
 - Styles
