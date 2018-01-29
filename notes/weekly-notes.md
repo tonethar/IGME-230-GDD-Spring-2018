@@ -88,15 +88,8 @@
 
 ### Day 2
 - Intro to CSS
-    - CSS Selector Reference - the "spec" - https://www.w3.org/TR/css3-selectors/#selectors
-    - Basic selectors: type,class,id,universal
-    - rollovers -  `:link`, `:visited`, `:hover`, `:active`
-    - descendant - `E F`
-    - child - `E > F`
-    - adjacent sibling - `E + F`
-    - general sibling - `E ~ F`
-    - attribute - `E[foo="bar"]  /* exact match */`
-    - attribute - `E[foo*="bar"] /* contains */`
+- Weekly notes are here: [Week-03B-notes.md](../weekly/Week-03B-notes.md)
+- Finish "It was a Dark & Stormy night" demo in class - by adding styles
 
 ## Week 4
 
