@@ -74,16 +74,29 @@
 
 ## Week 3
 ### Day 1
-- PHP Wrap up
+- PHP Wrap up:
     - Demo the [File Lister Example](HW-php-file-lister.md)
     - Demo the Homework:
         - [php-3-HW.php](php-3-HW.php) - working with PHP associative arrays
         - [php-4-HW.php](php-4-HW.php) - adding a field to the mail form
         - [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) - random fact & fact of the day
     - Any PHP questions?
+ - Intro to HTML:
+     - Much of this is review
+     - Weekly notes are here: [Week-03A-notes.md](../weekly/Week-03A-notes.md)
+     - Go through at least one of the presentations - if you run out of time, the students can read the other one
+     - Do the "It was a Dark & Stormy night" demo in class, by marking up the content and styling it
 
 ### Day 2
-
+- Intro to CSS
+    - CSS Selector Reference - https://www.w3.org/TR/css3-selectors/#selectors
+    - Basic selectors: type,class,id,universal
+    - rollovers -  `:link`, `:visited`, `:hover`, `:active`
+    - descendant - `E F`
+    - child - `E > F`
+    - Adjacent sibling - `E + F`
+    - General sibling - `E ~ F`
+    - attribute - `E[foo="bar"]`
 
 ## Week 4
 
