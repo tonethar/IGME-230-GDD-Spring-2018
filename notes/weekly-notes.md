@@ -92,6 +92,8 @@
 - Finish "It was a Dark & Stormy night" demo in class - by adding styles
 
 ## Week 4
+### Day 1
+- Look at 230 home page submissions - most of them will probably not look great - but's that OK at this point
 
 ## Week 5
 
