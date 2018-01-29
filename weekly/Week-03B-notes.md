@@ -43,7 +43,19 @@ http://jigsaw.w3.org/css-validator/
 - [Completed structured content](../other-files/2A_demo-done.zip)
 - [Completed CSS demo](../other-files/2B_Demo_Done.zip)
 
-## VIII. Exercises
+## VIII. CSS Selectors you need to know
+
+- CSS Selector Reference - the "spec" - https://www.w3.org/TR/css3-selectors/#selectors
+- Basic selectors: type,class,id,universal
+- rollovers -  `:link`, `:visited`, `:hover`, `:active`
+- descendant - `E F`
+- child - `E > F`
+- adjacent sibling - `E + F`
+- general sibling - `E ~ F`
+- attribute - `E[foo="bar"]  /* exact match */`
+- attribute - `E[foo*="bar"] /* contains */`
+
+## IX. Exercises
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
 - [230 Home Page](../exercises/week-2/230-home-page.md)
 
