@@ -54,13 +54,13 @@ Ocassionally you may need use *absolute* paths to files located within your bajo
 
 - Other path tips:
    - Be careful about starting a path with `/` (This goes to the root, usually WAY above your user account)
-   - No spaces in path names (use %20) - better yet, don't have spaces in your file names
+   - No spaces in path names (use %20) - better yet, don't have spaces in your file names - and use dashes in filenames instead of underscores
    - No special characters (?, !, *, etc.)
    - Avoid caps (case-sensitive)
 
 ## IV. Note on using images
-Images should always be integrated into your page at their native resolution. Resizing via HTML or CSS causes long load times and uses up unnecessary space on our server, and also leads to distortion.
-See our in-class demo for a refresher on proper image optimization.
+- Images should always be integrated into your page at their native resolution. Resizing via HTML or CSS eats bandwidth and leads to long load times. It also uses up unnecessary space on our server.
+- See our in-class demo for a refresher on proper image optimization.
 
 ## V. HTML Skeleton
 This is the bare minimum needed for a valid HTML document:
