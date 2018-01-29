@@ -1,18 +1,18 @@
 # Week 3A - Review of HTML
 
-## Topics & Overview
+## I. Topics & Overview
 - HTML Basics
 - Structural and semantic tags
 - Paths
 - HTML validation
 
-## I. The layers of Web design
+## II. The layers of Web design
 1. Content
 1. Structure
 1. Presentation
 1. Behavior
 
-## II. Review and Demo
+## III. Review and Demo
 Together, we'll build a Web page, reviewing the following:
 - Basic markup and structure
 - Structural and semantic elements
@@ -58,11 +58,11 @@ Ocassionally you may need use *absolute* paths to files located within your bajo
    - No special characters (?, !, *, etc.)
    - Avoid caps (case-sensitive)
 
-## III. Note on using images
+## IV. Note on using images
 Images should always be integrated into your page at their native resolution. Resizing via HTML or CSS causes long load times and uses up unnecessary space on our server, and also leads to distortion.
 See our in-class demo for a refresher on proper image optimization.
 
-## IV. HTML Skeleton
+## V. HTML Skeleton
 This is the bare minimum needed for a valid HTML document:
 
 ```
@@ -78,22 +78,22 @@ This is the bare minimum needed for a valid HTML document:
 </html>
 ```
 
-## V. Validation
+## VI. Validation
 https://validator.w3.org/
 
-## V!. Presentations
+## VII. Presentations
 - [Welcome to HTML](../presentations/HTML-1.pdf)
 - [More About HTML](../presentations/HTML-2.pdf)
 
-## VII. Demo Files
+## VIII. Demo Files
 - [It Was a Dark and Stormy Night](../other-files/Week-2-demo-files.zip)
 
-## VIII. Reference
+## IX. Reference
 - [developer.mozilla.org HTML Element Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) - All the HTML elements grouped by function
 - [Lynda.com HTML Essential Training, Lessons 4-5.](https://www.lynda.com/HTML-tutorials/HTML-Essential-Training/170427-2.html?org=rit.edu) - discusses structuring content, and linking to distinct parts of your page.
 - [W3Schools](https://www.w3schools.com) - a reference for all things Web (HTML, CSS, JavaScript, etc.)
 
-## IX. Exercises
+## X. Exercises
 - [Basic Markup/CSS - Creme Brulee](../exercises/week-2/creme-brulee/instructions.md)
 - [230 Home Page](../exercises/week-2/230-home-page.md) - You can get started on this, but it also involves CSS which we'll cover next time!
 
