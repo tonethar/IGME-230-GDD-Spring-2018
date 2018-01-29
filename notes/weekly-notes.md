@@ -93,7 +93,7 @@
 
 ## Week 4
 ### Day 1
-- Look at 230 home page submissions - most of them will probably not look great - but's that OK at this point
+- Look at 230 home page submissions - most of them will probably not look great - but that's OK at this point
 
 ## Week 5
 
