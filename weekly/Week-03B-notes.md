@@ -46,6 +46,7 @@ http://jigsaw.w3.org/css-validator/
 ## VIII. CSS Selectors you need to know
 
 - CSS Selector Reference - the "spec" - https://www.w3.org/TR/css3-selectors/#selectors
+- CSS Selector Tutorial - https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
 - Basic selectors: type,class,id,universal
 - rollovers -  `:link`, `:visited`, `:hover`, `:active`
 - descendant - `E F`
