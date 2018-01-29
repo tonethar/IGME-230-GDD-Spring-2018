@@ -1,6 +1,6 @@
 # Week 3A - Review of HTML
 
-## Topics
+## Topics & Overview
 - HTML Basics
 - Structural and semantic tags
 - Paths
