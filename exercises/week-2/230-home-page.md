@@ -1,7 +1,7 @@
 # HW - Create a 230 home page
 
 ## I. Overview
-For this assignment you will create a personal 230 "home page" where you will be able to post links to the exercises and projects you will complete for this course. For those of you have not touched HTML & CSS since taking IGME-110, it will also function as a refresher on how to create a basic Web page, a directory (folder) structure, and post files to a Web server.
+For this assignment you will create a personal 230 "home page" where you will be able to post links to the projects you will complete for this course. For those of you have not touched HTML & CSS since taking IGME-110, it will also function as a refresher on how to create a basic Web page, a directory (folder) structure, and post files to a Web server.
 
 ## II. Requirements
 * The page will be named index.html
