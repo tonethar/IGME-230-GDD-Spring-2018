@@ -1,12 +1,12 @@
 # Basic HTML & CSS Exercise 
 
-## Overview & Goals
+## I. Overview & Goals
 
 In today's exercise, we will be taking a text document, marking it up as an HTML document, adding basic CSS formatting, and uploading it to your RIT web space. 
 
 We will also be adding a configuration file to your RIT web space to override some of the server's (problematic) default behavior.
 
-## Setting Up Your Folders and Files
+## II. Setting Up Your Folders and Files
 
 In your local 230 folder (which we already created together), create folder called exercises. In there, create a folder called ICE3A. 
 
@@ -16,7 +16,7 @@ To download that text file to your computer for editing, right-click on the butt
 
 You're also going to need to download the two images: [2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg](2014_0531_Crème_brûlée_Doi_Mae_Salong.jpg) and [225px-Crema_Catalana_El_Glop.jpg](225px-Crema_Catalana_El_Glop.jpg). For each of those files, you will see a Download button in the top right corner. Right-click that button, choose "Save link as...", and download it to your local week1 folder. Then repeat that process with the second image. 
 
-## Marking Up a Text File
+## III. Marking Up a Text File
 
 Open the cremebrulee.txt file in your text editor of choice (I recommend Brackets, though Visual Studio Code has some cool features we'll reference below). It currently has no HTML markup at all--you're going to turn it into a proper HTML document, and add some simple CSS rules to make it look a bit more like the original Wikipedia entry. 
 
@@ -54,13 +54,13 @@ Don't worry about adding links yet; we'll be doing that next week.
 
 When you're done, preview your document in your editor or browser. It should look something like this: ![Creme Brulee Page Without CSS](images/cremebrulee1.png)
 
-## Publishing Your Files
+## IV. Publishing Your Files
  
 Once you're satisfied with the HTML file, you're going to upload your exercises folder (which includes your ICE3A folder and its contents) to your 230 folder on Banjo. 
 
 Test it by going to `http://people.rit.edu/yourid/230/exercises/ICE3A` -- you should see the .txt and .html files, and the two images. Click on the html file and make sure it displays properly. If you run into problems here, **ask for help ASAP**. 
 
-## Adding Basic CSS Formatting
+## V. Adding Basic CSS Formatting
 Now we're going to use CSS to start to make the page look a bit more like the original Wikipedia entry.
 
 Create a new file in the ICE3A folder called cremebrulee.css. Add a link to the stylesheet in your <head> by typing `<link rel="stylesheet" type="text/css" href="cremebrulee.css" />`. 
@@ -93,5 +93,5 @@ Save the changes your HTML and CSS files, and upload them to your ICE2A director
 
 You're done!
 
-## Due Date
-This is due before the start of our next class. There's no need to send us a link or post anything to GitHub for this; as long as you have it in the right location, we can find it from our class list links.
+## VI. Submission
+See the mycourses dropbox for submission instructions.
