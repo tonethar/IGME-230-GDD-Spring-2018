@@ -73,6 +73,17 @@
   
 
 ## Week 3
+### Day 1
+- PHP Wrap up
+    - Demo the [File Lister Example](HW-php-file-lister.md)
+    - Demo the Homework:
+        - [php-3-HW.php](php-3-HW.php) - working with PHP associative arrays
+        - [php-4-HW.php](php-4-HW.php) - adding a field to the mail form
+        - [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) - random fact & fact of the day
+    - Any PHP questions?
+
+### Day 2
+
 
 ## Week 4
 
