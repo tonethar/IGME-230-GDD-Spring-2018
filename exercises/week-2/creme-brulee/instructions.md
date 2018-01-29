@@ -28,7 +28,8 @@ Because this Wikipedia article has many non-standard characters (like "smart" qu
 
 First, set up your document with the standard HTML5 "skeleton":
 
-```<!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
@@ -55,7 +56,7 @@ When you're done, preview your document in your editor or browser. It should loo
 
 ## Publishing Your Files
  
-Once you're satisfied with the HTML file, you're going to upload your exercises folder (which includes your ICE2A folder and its contents) to your 230 folder on Banjo. 
+Once you're satisfied with the HTML file, you're going to upload your exercises folder (which includes your ICE3A folder and its contents) to your 230 folder on Banjo. 
 
 Test it by going to `http://people.rit.edu/yourid/230/exercises/ICE3A` -- you should see the .txt and .html files, and the two images. Click on the html file and make sure it displays properly. If you run into problems here, **ask for help ASAP**. 
 
@@ -66,7 +67,7 @@ Create a new file in the ICE3A folder called cremebrulee.css. Add a link to the 
 
 For today, since you've already done quite a bit of work, I'm going to give you the CSS to start with. Paste the following style rules into your cremebrulee.css file:
 
-```
+```css
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial,sans-serif;
     line-height: 1.4;
