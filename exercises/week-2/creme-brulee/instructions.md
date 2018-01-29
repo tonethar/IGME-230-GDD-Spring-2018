@@ -89,7 +89,7 @@ h1 {
     font-size: xx-large;
 }
 ```
-Save the changes your HTML and CSS files, and upload them to your ICE2A directory. Your cremebrulee.html file should now look more like this: ![Creme Brulee Page With CSS](images/cremebrulee2.png)
+Save the changes your HTML and CSS files, and upload them to your ICE3A directory. Your cremebrulee.html file should now look more like this: ![Creme Brulee Page With CSS](images/cremebrulee2.png)
 
 You're done!
 
