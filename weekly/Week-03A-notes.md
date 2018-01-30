@@ -47,7 +47,7 @@ And here are *absolute* paths. When you are linking to other pages and files tha
 <img src="http://igm.rit.edu/designcraft/IGM_logo.png" alt="IGM Logo" />
 ```
 
-Ocassionally you may need use *absolute* paths to files located within your bajo account. This is how to do it:
+Ocassionally you may need use *absolute* paths to files located within your banjo account. This is how to do it:
 ```
 <img id="hypno" src="/~abc1234/230/error/hypnotoad.gif" alt="hypnotoad"/>
 ```
