@@ -78,7 +78,7 @@
     - Demo the [File Lister Example](HW-php-file-lister.md)
     - Demo the Homework:
         - [php-3-HW.php](php-3-HW.php) - working with PHP associative arrays
-        - [php-4-HW.php](php-4-HW.php) - adding a field to the mail form
+        - [php-4-HW.php](php-4-HW.php) - adding a field to the mail form - be sure to show XSS attack in Firefox when we comment out the `sanitizeString()` code
         - [HW-php-fact-of-the-day.md](HW-php-fact-of-the-day.md) - random fact & fact of the day
     - Any PHP questions?
  - Intro to HTML - much of this is review from 110:
