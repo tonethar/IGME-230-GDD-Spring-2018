@@ -39,12 +39,7 @@ http://jigsaw.w3.org/css-validator/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors - lot's of nice examples of selectors in action
 - https://www.w3.org/TR/css3-selectors - when in doubt, check the spec!
 
-## VII. Demo
-- [Completed structured content](../other-files/2A_demo-done.zip)
-- [Completed CSS demo](../other-files/2B_Demo_Done.zip)
-
-## VIII. CSS Selectors you need to know
-
+## VII. CSS Selectors you need to know
 - CSS Selector Reference - the "spec" - https://www.w3.org/TR/css3-selectors/#selectors
 - CSS Selector Tutorial - https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors
 - Basic selectors: type,class,id,universal
@@ -56,7 +51,7 @@ http://jigsaw.w3.org/css-validator/
 - attribute - `E[foo="bar"]  /* exact match */`
 - attribute - `E[foo*="bar"] /* contains */`
 
-## IX. Exercises
+## XVII. Exercises
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
 - [230 Home Page](../exercises/week-2/230-home-page.md)
 
