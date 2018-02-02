@@ -8,6 +8,12 @@ Let's get stuff moving on the screen, and explore the many techniques we have fo
 <!--- Local Navigation --->
 I. [A Bouncing Circle!](#section1)
 
+II. [Creating an Object Literal with a `draw()` method](#section2)
+
+III. [A better Object literal](#section3)
+
+IV. [Create many objects with a "factory function"](#section4)
+
 
 <hr>
 
