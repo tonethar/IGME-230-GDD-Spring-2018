@@ -114,7 +114,7 @@ function loop(){
 ![Screenshot](_images/canvas-sprites-intro-1.jpg)
 
 
-## <a id="section2">II. Creating an Object Literal
+## <a id="section2">II. Creating an Object Literal with a `draw()` method
 
 **Note: If you need a refresher on JavaScript object literals, please read this tutorial page: [JavaScript Object Literals](web-apps-7.md)**
 
@@ -195,6 +195,11 @@ function loop(){
 
 Here we have moved much of the circle state and behavior into an object literal. If we run this example now we will see the red circle drawn on the screen, but it is not moving. To get the circle moving again, you will need to add more code.
 
+
+## <a id="section3">III. A better Object literal
+	
+Let's get our circle object moving and boucing now:
+	
 **Add the following to classes.js:**
 
 ```javascript
@@ -232,6 +237,12 @@ if (s.y <= s.radius || s.y >= screenHeight-s.radius){
 }
 ```
 
+We should now be back to where we started this exercise, a single bouncing circle.
+
+
+## <a id="section4">IV. Create many objects with a "factory function"
+	
+In this section we are going to modify our code to use 
 
 
 ### VIII. <a id="section8">Nota Bene
