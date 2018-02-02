@@ -63,6 +63,7 @@ function getRandom(min, max) {
 
 **js/main.js**
 ```javascript
+// these variables are in "Script scope" and will be available in this and other .js files
 const ctx = document.querySelector("canvas").getContext("2d");
 const screenWidth = 600;
 const screenHeight = 400;
@@ -113,11 +114,13 @@ function loop(){
 ![Screenshot](_images/canvas-sprites-intro-1.jpg)
 
 
-## II. <a id="section1">"Hello PixiJS"
+## II. <a id="section2">II. Creating an Object Literal
 
-Here is your first PixiJS program. Note that we are importing the PixiJS library from a CDN ("Content Distribution Network") rather than downloading the library ourselves.
+**Note: If you need a refresher on JavaScript object literals, please read this tutorial page: [JavaScript Object Literals](web-apps-7.md)**
 
-#### pixi-intro-1.html
+We are now going to simplify our code somewhat by moving most of the circle moving and drawing code onto a single object literal.
+
+
 
 
 
