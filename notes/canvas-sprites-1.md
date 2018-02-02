@@ -79,7 +79,7 @@ loop();
 
 
 function loop(){
-	// schedule a call to loop in 1/60th of a second
+	// schedule a call to loop() in 1/60th of a second
 	requestAnimationFrame(loop);
 	
 	// move circle
