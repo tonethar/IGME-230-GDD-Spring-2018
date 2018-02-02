@@ -248,7 +248,7 @@ We should now be back to where we started this exercise, a single bouncing circl
 
 ## <a id="section4">IV. Create many objects with a "factory function"
 	
-In this section we are going to modify our code to use 
+In this section we are going to modify our code to utilize a loop and create an array of multiple circle objects. 
 
 
 ### VIII. <a id="section8">Nota Bene
