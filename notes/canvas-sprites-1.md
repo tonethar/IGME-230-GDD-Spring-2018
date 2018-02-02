@@ -109,6 +109,7 @@ function loop(){
 ```
 
 **Which gives us the following:**
+
 ![Screenshot](_images/canvas-sprites-intro-1.jpg)
 
 
