@@ -115,7 +115,7 @@ function loop(){
 }
 ```
 
-**Which gives us the following:**
+**Which gives us the following - a moving and bouncing red circle:**
 
 ![Screenshot](_images/canvas-sprites-intro-1.jpg)
 
