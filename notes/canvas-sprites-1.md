@@ -118,9 +118,119 @@ function loop(){
 
 **Note: If you need a refresher on JavaScript object literals, please read this tutorial page: [JavaScript Object Literals](web-apps-7.md)**
 
-We are now going to simplify our code somewhat by moving most of the circle moving and drawing code onto a single object literal.
+We are now going to simplify our code somewhat by moving most of the circle moving and drawing code onto a single object literal. Go ahead an make the following changes:
+
+**js/classes.js**
+```javascript
+function createSprites(){
+	// create Object literal
+	let s = { };
+	
+	// add properties
+	s.radius = 20;
+	s.color = "red";
+	s.x = Math.random() * (screenWidth - 100) + 50;
+	s.y = Math.random() * (screenHeight - 100) + 50;
+	s.fwd = getRandomUnitVector();
+	s.speed = 2;
+	
+	//add methods
+	s.draw = function(ctx){
+			ctx.save();
+			ctx.beginPath();
+			ctx.arc(this.x, this.y, this.radius, 0, Math.PI*2, false);
+			ctx.closePath();
+			ctx.fillStyle = this.color;
+			ctx.fill();
+			ctx.restore();
+	};
+	
+	return [s]; // return our sole sprite in an array
+}
+```
+
+**js/main.js**
+```javascript
+// these variables are in "Script scope" and will be available in this and other .js files
+const ctx = document.querySelector("canvas").getContext("2d");
+const screenWidth = 600;
+const screenHeight = 400;
+let sprites = [];
 
 
+init();
+
+function init(){
+	sprites = createSprites();
+	loop();
+}
+
+function loop(){
+	// schedule a call to loop() in 1/60th of a second
+	requestAnimationFrame(loop);
+	
+	// move sprites
+	// soon!
+		
+	// check sides and bounce
+	// soon!
+	
+	// draw background
+	ctx.fillRect(0,0,screenWidth,screenHeight)
+	
+	// loop through sprites
+	for (let s of sprites){
+	// move sprites
+	// soon!
+		
+	// check sides and bounce
+	// soon!
+	
+	// draw sprites
+		s.draw(ctx);
+		
+	} // end for
+} // end loop()
+```
+
+Here we have moved much of the circle state and behavior into an object literal. If we run this example now we will see the red circle drawn on the screen, but it is not moving. To get the circle moving again, you will need to add more code.
+
+**Add the following to classes.js:**
+
+```javascript
+// move
+s.move = function(){
+		this.x += this.fwd.x * this.speed;
+		this.y += this.fwd.y * this.speed;
+};
+
+// bounce on left/right
+s.reflectX = function(){
+	this.fwd.x *= -1;
+}
+
+// bounce on top/bottom
+s.reflectY = function(){
+	this.fwd.y *= -1;
+}
+```
+
+**Add the following to main.js"**
+
+```javascript
+// move sprites
+s.move();
+
+// check sides and bounce
+if (s.x <= s.radius || s.x >= screenWidth-s.radius){
+	s.reflectX();
+	s.move();
+}
+if (s.y <= s.radius || s.y >= screenHeight-s.radius){
+	s.reflectY();
+	s.move();
+}
+```
 
 
 
