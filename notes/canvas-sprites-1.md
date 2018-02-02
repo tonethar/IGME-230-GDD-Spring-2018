@@ -114,7 +114,7 @@ function loop(){
 ![Screenshot](_images/canvas-sprites-intro-1.jpg)
 
 
-## II. <a id="section2">II. Creating an Object Literal
+## <a id="section2">II. Creating an Object Literal
 
 **Note: If you need a refresher on JavaScript object literals, please read this tutorial page: [JavaScript Object Literals](web-apps-7.md)**
 
