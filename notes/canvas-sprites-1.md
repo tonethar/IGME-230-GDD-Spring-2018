@@ -206,7 +206,7 @@ function loop(){
 
 ## <a id="section3">III. A better Object literal
 	
-Let's get our circle object moving and boucing now:
+Let's get our circle object moving and bouncing now:
 	
 **Add the following to classes.js:**
 
@@ -245,7 +245,7 @@ if (s.y <= s.radius || s.y >= screenHeight-s.radius){
 }
 ```
 
-We should now be back to where we started this exercise, a single bouncing circle.
+- We should now be back to where we started this exercise, a single bouncing circle.
 
 
 ## <a id="section4">IV. Create many objects with a "factory function"
