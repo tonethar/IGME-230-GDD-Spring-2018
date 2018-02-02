@@ -8,6 +8,13 @@ Let's get stuff moving on the screen, and explore the many techniques we have fo
 <!--- Local Navigation --->
 I. [A Bouncing Circle!](#section1)
 
+
+<hr>
+
+## <a id="section1">I. A Bouncing Circle!
+	
+![Screenshot](_images/canvas-sprites-intro-1.jpg)
+
 To get things going, you are actually going to have to create 4 files - but it will be worth it because we will be reusing these files throughout this entire series.
 
 **canvas-sprites-intro-1.html**
