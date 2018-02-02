@@ -199,7 +199,9 @@ function loop(){
 } // end loop()
 ```
 
-Here we have moved much of the circle state and behavior into an object literal. If we run this example now we will see the red circle drawn on the screen, but it is not moving. To get the circle moving again, you will need to add more code.
+- Here we have moved much of the circle state and behavior into an object literal.
+- If we run this example now we will see the red circle drawn on the screen, but it is not moving. We are also getting our *main.js* file ready to handle the drawing and moving of arrays of sprites.
+- But first, in order to get this single circle moving again, you will need to add more code.
 
 
 ## <a id="section3">III. A better Object literal
