@@ -53,7 +53,7 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 **Let's see what the default prototype object is on our simple `vehicle` object below. This code:**
 
 **canvas-sprites-object-create-1.html**
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,7 +100,7 @@ We get `[object Object]` in the console - which isn't too exciting, but indicate
 You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will *shadow* the default implementation in the prototype object.
 
 **canvas-sprites-object-create-2.html**
-```javascript
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
