@@ -297,9 +297,12 @@ function createSprites(num=20){
 1. In *main.js* call `createSprites()` at least 3 times like this, and add the results to the `sprites` array in main.js:
 
 ```javascript
-
+let sprites1 = createSprites(20,"red",5);
+let sprites2 = createSprites(10,"yellow",10);
+let sprites3 = createSprites(1,"yellow",30);
 ```
 
+**The end result should look something like this:**
 ![Screenshot](_images/canvas-sprites-intro-3.jpg)
 
 
