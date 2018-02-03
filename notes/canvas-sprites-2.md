@@ -143,12 +143,53 @@ If you check the debugger, you will also see that there is a `toString` property
 
 ## <a id="section2">II. `Object.create()`
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Canvas Sprites - Object Create</title>
+</head>
+<body>
+<script>
+// Our "base" object
+let vehicle = {
+  year: 2018,
+  numWheels: 4,
+  move(){
+    console.log("Moving the vehicle now");
+  },
+  toString(){
+  	return "Year: " + this.year + ", numWheels: " + this.numWheels;
+  }
+};
+
+// add specialized properties to our base object
+let gasVehicle = Object.create(vehicle);
+gasVehicle.cylinders = 4;
+gasVehicle.fuelCapacity = 12;
+
+console.log(gasVehicle.cylinders); 	// .cylinders is "own" property
+gasVehicle.move(); 			// .move() is in the prototype
+console.log(gasVehicle.valueOf()); 	// .valueOf() is in the prototype's prototype
+debugger;
+</script>
+</body>
+</html>
+```
+
+**Gives us this in the debugger:**
+
+![Screenshot](_images/canvas-sprites-object-create-2.jpg)
 
 
+**And this in the console:**
 
-
-
-
+```javascript
+console.log(gasVehicle.cylinders); 		// .cylinders is "own" property
+gasVehicle.move(); 										// .move() is in the prototype
+console.log(gasVehicle.valueOf()); 		// .valueOf() is in the prototype's prototype
+```
 
 <hr><hr>
 
