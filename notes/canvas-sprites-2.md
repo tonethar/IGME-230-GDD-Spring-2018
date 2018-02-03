@@ -124,7 +124,7 @@ console.log(vehicle.toString());
 </html>
 ```
 
-Which gives `Year: 2018, numWheels: 4` in the console. 
+Which gives `Year: 2018, numWheels: 4` in the console, and confirms that vehicle's version of `toString()` shadowed the prototype's version.
 
 
 ## <a id="section2">II. `Object.create()`
