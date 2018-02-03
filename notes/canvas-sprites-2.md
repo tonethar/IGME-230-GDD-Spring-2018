@@ -3,7 +3,7 @@
 ## Overview
 In the last chapter we used object literals and a factory function to create multiple object instances of "circle sprite" objects.
 
-The code we wrote worked fairly well because the objects we created were very similar to one another (other than `color` and `radius`).
+The code we wrote worked fairly well because the objects we created were very similar to one another (other than each having its own `color` and `radius`).
 
 But what if we wanted to create a new kind of sprite object that:
 - looks different, for example a "rectangle sprite" or an "image sprite"?
