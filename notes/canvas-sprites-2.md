@@ -47,6 +47,14 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 
 **canvas-sprites-object-create-1.html**
 ```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Canvas Sprites - Object Create</title>
+</head>
+<body>
+<script>
 let vehicle = {
   year: 2018,
   numWheels: 4,
@@ -55,6 +63,10 @@ let vehicle = {
   }
 };
 
+debugger;
+</script>
+</body>
+</html>
 ```
 
 **Gives us this in the debugger:**
