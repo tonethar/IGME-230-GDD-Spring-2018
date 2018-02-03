@@ -14,6 +14,8 @@ III. [A better Object literal](#section3)
 
 IV. [Create many objects with a "factory function"](#section4)
 
+V. [Review Exercise](#section5)
+
 
 <hr>
 
@@ -257,7 +259,7 @@ if (s.y <= s.radius || s.y >= screenHeight-s.radius){
 In this section we are going to modify our code to utilize a loop and create an array of multiple circle objects. We just need to add a few lines of code to main.js to get this to work - see below:
 
 **main.js"**
-```
+```javascript
 "use strict";
 function createSprites(num=20){
 	// create array to hold all of our sprites
@@ -289,14 +291,16 @@ function createSprites(num=20){
 ![Screenshot](_images/canvas-sprites-intro-2.jpg)
 
 
-### VIII. <a id="section8">Nota Bene
-Nothing for now.
+### V. <a id="section5">Review Exercise
+1. Make a copy of the files section IV., and name the HTML file **canvas-sprites-1-HW.html**
+1. Modify `createSprites()` so that it will take `num`, `color`, and `radius` arguments, and utilize these when creating the circle sprites in the `for` loop.
+1. In *main.js* call `createSprites()` at least 3 times like this, and add the results to the `sprites` array in main.js:
 
-### IX. <a id="section9">Review Questions
+```javascript
 
+```
 
-
-### X. <a id="section10">Review Exercise
+![Screenshot](_images/canvas-sprites-intro-3.jpg)
 
 
 <hr><hr>
