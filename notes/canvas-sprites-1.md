@@ -181,12 +181,6 @@ function loop(){
 	// schedule a call to loop() in 1/60th of a second
 	requestAnimationFrame(loop);
 	
-	// move sprites
-	// soon!
-		
-	// check sides and bounce
-	// soon!
-	
 	// draw background
 	ctx.fillRect(0,0,screenWidth,screenHeight)
 	
@@ -199,7 +193,7 @@ function loop(){
 	// soon!
 	
 	// draw sprites
-		s.draw(ctx);
+	s.draw(ctx);
 		
 	} // end for
 } // end loop()
