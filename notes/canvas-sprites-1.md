@@ -232,7 +232,7 @@ s.reflectY = function(){
 }
 ```
 
-**Add the following to main.js"**
+**Add the following to main.js:**
 
 ```javascript
 // move sprites
