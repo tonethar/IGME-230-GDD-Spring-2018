@@ -41,6 +41,7 @@ To get things going, you are actually going to have to create 4 files - but it w
 **js/utilities.js**
 
 ```javascript
+"use strict";
 function getRandomUnitVector(){
 	let x = getRandom(-1,1);
 	let y = getRandom(-1,1);
@@ -69,6 +70,7 @@ function getRandom(min, max) {
 
 **js/main.js**
 ```javascript
+"use strict";
 // these variables are in "Script scope" and will be available in this and other .js files
 const ctx = document.querySelector("canvas").getContext("2d");
 const screenWidth = 600;
@@ -128,6 +130,7 @@ We are now going to simplify our code somewhat by moving most of the circle movi
 
 **js/classes.js**
 ```javascript
+"use strict";
 function createSprites(){
 	// create Object literal
 	let s = { };
@@ -157,6 +160,7 @@ function createSprites(){
 
 **js/main.js**
 ```javascript
+"use strict";
 // these variables are in "Script scope" and will be available in this and other .js files
 const ctx = document.querySelector("canvas").getContext("2d");
 const screenWidth = 600;
