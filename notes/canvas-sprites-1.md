@@ -12,7 +12,7 @@ II. [Creating an Object Literal with a `draw()` method](#section2)
 
 III. [A better Object literal](#section3)
 
-IV. [Create many objects with a "factory function"](#section4)
+IV. [Create multiple objects with a "factory function"](#section4)
 
 V. [Review Exercise](#section5)
 
@@ -248,7 +248,7 @@ if (s.y <= s.radius || s.y >= screenHeight-s.radius){
 - We should now be back to where we started this exercise, a single bouncing circle.
 
 
-## <a id="section4">IV. Create many objects with a "factory function"
+## <a id="section4">IV. Create multiple objects with a "factory function"
 	
 In this section we are going to modify our code to utilize a loop and create an array of multiple circle objects. We just need to add a few lines of code to main.js to get this to work - see below:
 
@@ -285,7 +285,7 @@ function createSprites(num=20){
 ![Screenshot](_images/canvas-sprites-intro-2.jpg)
 
 
-### V. <a id="section5">Review Exercise
+## V. <a id="section5">Review Exercise
 1. Make a copy of your completed files from section IV. above, and name the HTML file **canvas-sprites-1-HW.html**
 1. Modify `createSprites()` so that it will take `num`, `radius` and `color` arguments, and utilize these when creating the circle sprites in the `for` loop.
 1. In *main.js* call `createSprites()` at least 3 times like this, and add the results to the `sprites` array in *main.js*:
