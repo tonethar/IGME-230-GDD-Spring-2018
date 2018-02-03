@@ -119,7 +119,7 @@ let vehicle = {
   move(){
     console.log("Moving the vehicle now");
   },
-  toString(){ // NEW
+  toString(){ // NEW!
   	return "Year: " + this.year + ", numWheels: " + this.numWheels;
   }
 };
