@@ -254,7 +254,39 @@ if (s.y <= s.radius || s.y >= screenHeight-s.radius){
 
 ## <a id="section4">IV. Create many objects with a "factory function"
 	
-In this section we are going to modify our code to utilize a loop and create an array of multiple circle objects. 
+In this section we are going to modify our code to utilize a loop and create an array of multiple circle objects. We just need to add a few lines of code to main.js to get this to work - see below:
+
+**main.js"**
+```
+"use strict";
+function createSprites(num=20){
+	// create array to hold all of our sprites
+	let sprites = []; // NEW
+	for(let i=0;i<num;i++){ // NEW
+		// create Object literal
+		let s = { };
+		
+		/*
+		All of this code is the same
+		*/
+		
+		// bounce on top/bottom
+		s.reflectY = function(){
+			this.fwd.y *= -1;
+		}
+		
+		// add to array
+		sprites.push(s); ?? NEW
+	} // NEW
+	
+	// return entire array
+	return sprites; // NEW
+}
+```
+
+**Which gives us the following - 20 moving and bouncing red circles:**
+
+![Screenshot](_images/canvas-sprites-intro-2.jpg)
 
 
 ### VIII. <a id="section8">Nota Bene
