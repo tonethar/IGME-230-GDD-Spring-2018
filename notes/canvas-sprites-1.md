@@ -213,8 +213,8 @@ Let's get our circle object moving and bouncing now:
 ```javascript
 // move
 s.move = function(){
-		this.x += this.fwd.x * this.speed;
-		this.y += this.fwd.y * this.speed;
+	this.x += this.fwd.x * this.speed;
+	this.y += this.fwd.y * this.speed;
 };
 
 // bounce on left/right
