@@ -296,6 +296,7 @@ let sprites1 = createSprites(20,5,"red");
 let sprites2 = createSprites(10,10,"yellow");
 let sprites3 = createSprites(1,30,"green");
 // now concatenate the above arrays to the main.js `sprites` array
+// you do
 ```
 
 
