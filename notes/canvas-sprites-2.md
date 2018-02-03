@@ -33,15 +33,40 @@ V. [Review Exercise](#section5)
 
 <hr>
 
-## <a id="section1">I. A Bouncing Circle!
+## <a id="section1">I. `Object.prototype`
 
-To get things going, you are actually going to have to create 4 files - but it will be worth it because we will be reusing these files throughout this entire series.
+The Object.prototype property points at the Object prototype object.
 
+What is a prototype object? Here is an excerpt from this MDN page: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype
 
+*A typical object inherits properties (including methods) from Object.prototype, although these properties may be shadowed (a.k.a. overridden).*
 
-**Which gives us the following:**
+*Changes to the Object prototype object are seen by all objects through prototype chaining, unless the properties and methods subject to those changes are overridden further along the prototype chain.  This provides a very powerful although potentially dangerous mechanism to override or extend object behavior.*
+
+**Let's see what the default prototype object is. This object:**
+
+```
+let vehicle = {
+  year: 2018,
+  numWheels: 4,
+  move(){
+    console.log("Moving the vehicle now");
+  }
+};
+
+```
+
+**Gives us this in the debugger:**
 
 ![Screenshot](_images/canvas-sprites-object-create-1.jpg)
+
+
+## <a id="section2">II. `Object.create()`
+
+
+
+
+
 
 
 
