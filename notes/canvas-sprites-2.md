@@ -43,6 +43,8 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 
 *Changes to the Object prototype object are seen by all objects through prototype chaining, unless the properties and methods subject to those changes are overridden further along the prototype chain.  This provides a very powerful although potentially dangerous mechanism to override or extend object behavior.*
 
+*JavaScript objects are dynamic "bags" of properties (referred to as own properties). JavaScript objects have a link to a prototype object. When trying to access a property of an object, the property will not only be sought on the object but on the prototype of the object, the prototype of the prototype, and so on until either a property with a matching name is found or the end of the prototype chain is reached.*
+
 **Let's see what the default prototype object is on our simple `vehicle` object below. This code:**
 
 **canvas-sprites-object-create-1.html**
@@ -73,6 +75,14 @@ debugger;
 
 ![Screenshot](_images/canvas-sprites-object-create-1.jpg)
 
+### Discussion
+
+- above we see that the `year`, `numWheels` and `move` properties are on the main part of the object, and that under the `__proto__` property is the *prototype object*, which gives us the implicit build in properties (methods in this case) of `Object`. 
+- if we try to access a property or method that does not exist on the main object, the property will be sought on that object's *prototype*. This is called the *prototype chain*. 
+
+From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+*Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.*
 
 ## <a id="section2">II. `Object.create()`
 
