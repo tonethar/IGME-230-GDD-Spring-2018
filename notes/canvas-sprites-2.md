@@ -1,12 +1,12 @@
-# 1 - Utilizing `Object.create()`
+# 2 - Utilizing `Object.create()`
 
 ## Overview
-Let's get stuff moving on the screen, and explore the many techniques we have for creating objects in JavaScript.
+`Object.create()`
 
 
 ## Contents
 <!--- Local Navigation --->
-I. [A Bouncing Circle!](#section1)
+I. [`Object.create()`](#section1)
 
 II. [???](#section2)
 
