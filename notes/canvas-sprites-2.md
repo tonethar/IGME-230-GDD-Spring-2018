@@ -169,6 +169,7 @@ let gasVehicle = Object.create(vehicle);
 gasVehicle.cylinders = 4;
 gasVehicle.fuelCapacity = 12;
 
+// call properties and methods on the `gasVehicle` object
 console.log(gasVehicle.cylinders); 	// .cylinders is "own" property
 gasVehicle.move(); 			// .move() is in the prototype
 console.log(gasVehicle.valueOf()); 	// .valueOf() is in the prototype's prototype
