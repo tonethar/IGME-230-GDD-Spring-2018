@@ -286,8 +286,8 @@ function createSprites(num=20){
 
 
 ### V. <a id="section5">Review Exercise
-1. Make a copy of the files section IV., and name the HTML file **canvas-sprites-1-HW.html**
-1. Modify `createSprites()` so that it will take `num`, `color`, and `radius` arguments, and utilize these when creating the circle sprites in the `for` loop.
+1. Make a copy of your completed files from section IV. above, and name the HTML file **canvas-sprites-1-HW.html**
+1. Modify `createSprites()` so that it will take `num`, `radius` and `color` arguments, and utilize these when creating the circle sprites in the `for` loop.
 1. In *main.js* call `createSprites()` at least 3 times like this, and add the results to the `sprites` array in *main.js*:
 
 ```javascript
@@ -295,8 +295,8 @@ function createSprites(num=20){
 let sprites1 = createSprites(20,5,"red");
 let sprites2 = createSprites(10,10,"yellow");
 let sprites3 = createSprites(1,30,"green");
+
 // now concatenate the above arrays to the main.js `sprites` array
-// you do
 ```
 
 
