@@ -17,7 +17,7 @@ It is then fairly easy to define more subclasses such as `WrappingSprite`, `Imag
 ### But it doesn't!
 In JavaScript however, we do not have classes or object-oriented inheritance, we instead have JavaScript's *prototype-based inheritance* as a way to override or extend object behavior. 
 
-From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+Below is from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
 **JavaScript objects are dynamic "bags" of properties (referred to as *own* properties). JavaScript objects have a link to a prototype object. When trying to access a property of an object, the property will not only be sought on the object but on the prototype of the object, the prototype of the prototype, and so on until either a property with a matching name is found or the end of the prototype chain is reached.**
 
@@ -85,16 +85,16 @@ debugger;
 - above we see that the `year`, `numWheels` and `move` properties are on the main part of the object, and that under the `__proto__` property is the *prototype object*, which gives us the implicit build in properties (methods in this case) of `Object`. 
 - if we try to access a property or method that does not exist on the main object, the property will be sought on that object's *prototype*. This is called the *prototype chain*. 
 
-From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+Below is from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 
-*Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.*
+**Each object has a private property which holds a link to another object called its *prototype*. That prototype object has a prototype of its own, and so on until an object is reached with `null` as its prototype. By definition, `null` has no prototype, and acts as the final link in this prototype chain.**
 
 ### I-B. An example of the prototype chain in action
 So what do we get when we call `toString()` on `vehicle` like this:
 
 `console.log(vehicle.toString());`
 
-We get 
+We get: 
 
 `[object Object]`
 
@@ -130,7 +130,7 @@ console.log(vehicle.toString());
 </html>
 ```
 
-Which gives 
+Which gives: 
 
 `Year: 2018, numWheels: 4` 
 
