@@ -291,7 +291,7 @@ function createSprites(num=20){
 1. In *main.js* call `createSprites()` at least 3 times like this, and add the results to the `sprites` array in *main.js*:
 
 ```javascript
-// create at least 3 differnt batches of circle sprites
+// create at least 3 different batches of circle sprites
 let sprites1 = createSprites(20,5,"red");
 let sprites2 = createSprites(10,10,"yellow");
 let sprites3 = createSprites(1,30,"green");
@@ -307,4 +307,5 @@ let sprites3 = createSprites(1,30,"green");
 <hr><hr>
 
 **[Table of Contents <- About this Canvas Sprites Tutorial Series](canvas-sprites-0.md)**
-  
+
+**[Next Chapter -> Utilizing `Object.create()` (chapter 2)](canvas-sprites-2.md)**
