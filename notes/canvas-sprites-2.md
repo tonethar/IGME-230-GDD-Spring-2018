@@ -94,7 +94,11 @@ So what do we get when we call `toString()` on `vehicle` like this:
 
 `console.log(vehicle.toString());`
 
-We get `[object Object]` in the console - which isn't too exciting, but indicates that `vehicle` "inherited" `toString()` from its prototype object.
+We get 
+
+`[object Object]`
+
+in the console - which isn't too exciting, but indicates that `vehicle` "inherited" `toString()` from its prototype object.
 
 ### I-C. Property shadowing
 You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will *shadow* the default implementation in the prototype object.
@@ -126,7 +130,11 @@ console.log(vehicle.toString());
 </html>
 ```
 
-Which gives `Year: 2018, numWheels: 4` in the console, and confirms that vehicle's version of `toString()` shadowed the prototype's version.
+Which gives 
+
+`Year: 2018, numWheels: 4` 
+
+in the console, and confirms that vehicle's version of `toString()` shadowed the prototype's version.
 
 
 ## <a id="section2">II. `Object.create()`
