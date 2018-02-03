@@ -35,7 +35,7 @@ V. [Review Exercise](#section5)
 
 ## <a id="section1">I. `Object.prototype`
 
-The Object.prototype property points at the Object prototype object.
+The `Object.prototype` property points at the *Object prototype object*. (what?)
 
 What is a prototype object? Here is an excerpt from this MDN page: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype
 
@@ -43,7 +43,7 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 
 *Changes to the Object prototype object are seen by all objects through prototype chaining, unless the properties and methods subject to those changes are overridden further along the prototype chain.  This provides a very powerful although potentially dangerous mechanism to override or extend object behavior.*
 
-**Let's see what the default prototype object is. This object:**
+**Let's see what the default prototype object is on our simple `vehicle` object below. This code:**
 
 ```
 let vehicle = {
