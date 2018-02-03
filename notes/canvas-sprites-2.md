@@ -45,6 +45,7 @@ What is a prototype object? Here is an excerpt from this MDN page: https://devel
 
 **Let's see what the default prototype object is on our simple `vehicle` object below. This code:**
 
+**canvas-sprites-object-create-1.html**
 ```
 let vehicle = {
   year: 2018,
