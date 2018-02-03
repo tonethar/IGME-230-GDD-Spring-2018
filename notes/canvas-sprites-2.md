@@ -134,7 +134,11 @@ Which gives:
 
 `Year: 2018, numWheels: 4` 
 
-in the console, and confirms that vehicle's version of `toString()` shadowed the prototype's version.
+in the console, and confirms that vehicle's version of `toString()` shadowed the prototype's version. 
+
+If you check the debugger, you will also see that there is a `toString` property on the top level of the object (as an "own" property).
+
+
 
 
 ## <a id="section2">II. `Object.create()`
