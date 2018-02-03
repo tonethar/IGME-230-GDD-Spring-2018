@@ -1,14 +1,16 @@
 # 2 - Utilizing `Object.create()`
 
 ## Overview
-`Object.create()`
+In the last chapter we used object literals and a factory function to create multiple object instances of "circle sprite" objects.
+
+That worked fairly well because 
 
 
 ## Contents
 <!--- Local Navigation --->
-I. [`Object.create()`](#section1)
+I. [`Object.prototype`](#section1)
 
-II. [???](#section2)
+II. [`Object.create()`](#section2)
 
 III. [???](#section3)
 
