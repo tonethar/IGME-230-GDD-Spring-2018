@@ -90,7 +90,9 @@ From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the
 *Each object has a private property which holds a link to another object called its prototype. That prototype object has a prototype of its own, and so on until an object is reached with null as its prototype. By definition, null has no prototype, and acts as the final link in this prototype chain.*
 
 ### I-B. An example of the prototype chain in action
-So what do we get when we call `toString()` on `vehicle` like this - `console.log(vehicle.toString());`?
+So what do we get when we call `toString()` on `vehicle` like this:
+
+`console.log(vehicle.toString());`
 
 We get `[object Object]` in the console - which isn't too exciting, but indicates that `vehicle` "inherited" `toString()` from its prototype object.
 
