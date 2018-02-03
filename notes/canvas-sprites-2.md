@@ -143,6 +143,12 @@ If you check the debugger, you will also see that there is a `toString` property
 
 ## <a id="section2">II. `Object.create()`
 
+The `Object.create()` method creates a new object with the specified prototype object and properties.
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
+	
+**canvas-sprites-object-create-3.html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
