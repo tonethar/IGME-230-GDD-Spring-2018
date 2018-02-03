@@ -161,7 +161,7 @@ function createSprites(){
 const ctx = document.querySelector("canvas").getContext("2d");
 const screenWidth = 600;
 const screenHeight = 400;
-let sprites = [];
+let sprites = []; // an array to hold all of our sprites
 
 
 init();
