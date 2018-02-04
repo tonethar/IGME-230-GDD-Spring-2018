@@ -28,7 +28,7 @@ To learn how to override or extend object behavior in JavaScript - read below!
 <!--- Local Navigation --->
 I. [`Object.prototype`](#section1)
 
-II. [`Object.create()`](#section2)
+II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects" ](#section2)
 
 III. [Delegation & OLOO - "Objects Linked to Other Objects"](#section3)
 
@@ -142,7 +142,7 @@ If you check the debugger, you will also see that there is a `toString` property
 
 
 
-## <a id="section2">II. `Object.create()`
+## <a id="section2">II. `Object.create()` and 
 
 Now let's see how `Object.create()` will allow us to specify an instance's prototype object, rather than relying on the default prototype object.
 
@@ -209,9 +209,14 @@ Moving the vehicle now
 - but "inheritance" isn't really the right term for this extending of object dehavior, "delegation" is a better term - read on!
 
 
-## <a id="section2">III. Delegation & OLOO - "Objects Linked to Other Objects"
+### II-B. Delegation & OLOO - "Objects Linked to Other Objects"
+In JavaScript, the prototype chain **links objects to other objects** - there are no classes in the language - not even in ES6, as we will see in the next chapter.
 
-https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
+The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects.
+
+These posts are required reading:
+- https://stackoverflow.com/questions/29788181/kyle-simpsons-oloo-pattern-vs-prototype-design-pattern
+- https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
 
 
 
