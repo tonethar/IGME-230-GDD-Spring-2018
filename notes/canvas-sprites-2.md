@@ -28,9 +28,9 @@ To learn how to override or extend object behavior in JavaScript - read below!
 <!--- Local Navigation --->
 I. [`Object.prototype`](#section1)
 
-II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects" ](#section2)
+II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"](#section2)
 
-III. [Delegation & OLOO - "Objects Linked to Other Objects"](#section3)
+III. [??](#section3)
 
 IV. [???](#section4)
 
@@ -142,7 +142,7 @@ If you check the debugger, you will also see that there is a `toString` property
 
 
 
-## <a id="section2">II. `Object.create()` and 
+## <a id="section2">II. `Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"
 
 Now let's see how `Object.create()` will allow us to specify an instance's prototype object, rather than relying on the default prototype object.
 
@@ -206,17 +206,23 @@ Moving the vehicle now
 ### II-A. Discussion
 - Above we can see that we have created a form of inheritance, where `gasVehicle` "inherits" properties from `vehicle`, and `vehicle` inherits properties from the default prototype object.
 - we can implement a form of overriding through property "shadowing" - properties added to `gasVehicle` will replace properties that are declared in its prototype objects. 
-- but "inheritance" isn't really the right term for this extending of object dehavior, "delegation" is a better term - read on!
+- but "inheritance" isn't really the right term for this extending of object behavior, "delegation" is a better term - read on!
 
 
 ### II-B. Delegation & OLOO - "Objects Linked to Other Objects"
 In JavaScript, the prototype chain **links objects to other objects** - there are no classes in the language - not even in ES6, as we will see in the next chapter.
 
-The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects.
+The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects. Objects *delegate* certain behavior to other objects, above,   `gasVehicle` *delegated* it's `move()` method to `vehicle`. 
 
 These posts are required reading:
 - https://stackoverflow.com/questions/29788181/kyle-simpsons-oloo-pattern-vs-prototype-design-pattern
 - https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
+
+
+## III. Circle Sprites and Square Sprites
+
+Let's build a concrete example of OLOO by refactoring our circle sprite code.
+
 
 
 
