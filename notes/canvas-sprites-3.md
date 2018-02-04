@@ -104,14 +104,32 @@ debugger; // check the debugger, gasVehicle and gasVehicle2 are nearly identical
 </script>
 </body>
 </html>
-
 ```
-**Which gives you this in the debugger - `gasVehicle` and `gasVehicle2` are nearly identical!**
+
+### Which gives you this in the console - `gasVehicle` and `gasVehicle2` are nearly identical!
+
+```javascript
+**** Object.create() - OLOO - Delegation ****
+4
+Moving the vehicle now
+Year: 2018, numWheels: 4
+{cylinders: 4, fuelCapacity: 12}
+
+**** ES6 Classes ****
+4
+Moving the vehicle now
+Year: 2018, numWheels: 4
+GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
+```
+
+### Which gives you this in the debugger - `gasVehicle` and `gasVehicle2` are nearly identical!
 
 ![Screenshot](_images/canvas-sprites-es6-classes-1.jpg)
 
 
 ## III. <a id="section3">Discussion
+
+
 	
 ## ??. Review Exercise
 
