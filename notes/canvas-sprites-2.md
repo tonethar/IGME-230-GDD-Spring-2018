@@ -503,6 +503,12 @@ function createImageSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 Note: You will have to adjust the passed in `rect` value for these image sprites because they are taller than the squares and circles, and thus will get "stuck" on the top and bottom of the screen.
 	
 ## <a id="section6">VI. Homework Assignment
+1. Modify `createCircleSprites()` so that it will take `num`, `radius` and `color` arguments, and utilize these when creating the circle sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
+1. Modify `createSquareSprites()` so that it will take `num`, `width`, `height` and `color` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
+1. Modify `createImageSprites()` so that it will take `num`, `width`, `height` and `url` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
+1. In *main.js*, call `createImageSprites()` a second time with a different image file. 
+1. In *classes.js*, create another factory function that creates a different kind of sprite. This sprite could either move significantly differently, or look different (such as a triangle, diamond, or oval path). 
+1. Call this new factory function in *main.js*
 
 <hr><hr>
 
