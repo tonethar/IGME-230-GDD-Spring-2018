@@ -219,7 +219,7 @@ These posts are required reading:
 - https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
 
 
-## III. Sprites & Circle Sprites
+## <a id="section3">III. Sprites & Circle Sprites
 
 Let's build a concrete example of OLOO by refactoring our "circle sprite factory" code to instead use a `sprite` object as a prototype object. This `sprite` object will inplement 
 
@@ -371,7 +371,7 @@ function createCircleSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 **Run the code, and you will get 20 red bouncing circles**
 
 
-## IV. Square Sprites
+## <a id="section4">IV. Square Sprites
 Now that we've set up this `sprite` object to delegate from, it's now super easy to create another factory method to make "square sprites".
 
 **Add the following to class.js:**
