@@ -528,3 +528,5 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 <hr><hr>
 
 **[Previous Chapter <- Intro to Canvas Sprites (chapter 1)](canvas-sprites-1.md)**
+
+**[Next Chapter -> Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
