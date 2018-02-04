@@ -410,7 +410,17 @@ function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 	return sprites; 
 }
 ```
+**To call both of our factory functions, replace this:**
 
+`sprites = createCircleSprites(10,rect);`
+
+**With this:**
+
+`sprites = sprites.concat(createCircleSprites(10,rect),createSquareSprites(10,rect));`
+
+**Which looks like this:**
+
+![Screenshot](_images/canvas-sprites-object-create-3.jpg)
 
 <hr><hr>
 
