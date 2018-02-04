@@ -24,7 +24,89 @@ From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 By "syntatical sugar" we mean that behind the scenes, ES6 class syntax merely re-creates what we did in the last section using prototypical inheritance and `Object.create()`
 
 ## II. <a id="section2">A quick example
+ 
+**canvas-sprite-es6-classes-1.html**
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Canvas Sprites - ES6 Classes</title>
+</head>
+<body>
+<script>
+/* I. Object.create() - OLOO - Delegation */
+// Our "base" object
+let vehicle = {
+  year: 2018,
+  numWheels: 4,
+  move(){
+    console.log("Moving the vehicle now");
+  },
+  toString(){
+  	return "Year: " + this.year + ", numWheels: " + this.numWheels;
+  }
+};
+
+// gasVehicle's prototype is vehicle - i.e. gasVehicle's "superclass" is vehicle
+// gasVehicle will be extending and overriding behavior defined in its prototype objects
+let gasVehicle = Object.create(vehicle);
+	
+// add specialized properties to our derived object
+gasVehicle.cylinders = 4;
+gasVehicle.fuelCapacity = 12;
+
+console.log("**** Object.create() - OLOO - Delegation ****");
+console.log(gasVehicle.cylinders); 	// .cylinders is "own" property
+gasVehicle.move(); 									// .move() is in gasVehicle's prototype (i.e. `vehicle`)
+console.log(gasVehicle.toString()); // .toString() in vehicle shadows toString() in the default prototype object
+console.log(gasVehicle.valueOf()); 	// .valueOf() is in the the default prototype object
+
+
+/* II. ES6 classes and inheritance */
+class Vehicle{
+	constructor(year,numWheels){
+		this.year = year;
+		this.numWheels = numWheels;
+	}
+	
+	move(){
+    console.log("Moving the vehicle now");
+  }
+  
+  toString(){
+  	return "Year: " + this.year + ", numWheels: " + this.numWheels;
+  }
+}
+
+class GasVehicle extends Vehicle{
+	constructor(year,numWheels,cylinders,fuelCapacity){
+		super(year,numWheels);
+		this.cylinders = cylinders;
+		this.fuelCapacity = fuelCapacity;
+	}
+}
+
+let gasVehicle2 = new GasVehicle(2018,4,4,12);
+
+console.log("**** ES6 Classes ****");
+console.log(gasVehicle2.cylinders); 
+gasVehicle2.move(); 									
+console.log(gasVehicle2.toString()); 
+console.log(gasVehicle2.valueOf()); 
+
+debugger; // check the debugger, gasVehicle and gasVehicle2 are nearly identical!
+
+
+</script>
+</body>
+</html>
+
+```
+**Which gives you this in the debugger - `gasVehicle` and `gasVehicle2` are nearly identical!**
+
+![Screenshot](_images/canvas-sprites-es6-classes-1.jpg)
 
 ## ??. Review Exercise
 
