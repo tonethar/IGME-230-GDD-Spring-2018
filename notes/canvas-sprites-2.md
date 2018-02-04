@@ -410,7 +410,7 @@ function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 	return sprites; 
 }
 ```
-**To call both of our factory functions, replace this:**
+**To call both of our factory functions, replace this line of code in *main.js*:**
 
 `sprites = createCircleSprites(10,rect);`
 
