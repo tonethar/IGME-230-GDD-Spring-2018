@@ -513,6 +513,7 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 	
 	
 ## <a id="section7">VII. Review Exercise
+1. Make a copy of your completed files from section V. above, and name the HTML file **canvas-sprites-2-HW.html**
 1. Modify `createCircleSprites()` so that it will take `num`, `radius` and `color` arguments, and utilize these when creating the circle sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
 1. Modify `createSquareSprites()` so that it will take `num`, `width`, `height` and `color` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
 1. Modify `createImageSprites()` so that it will take `num`, `width`, `height` and `url` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
