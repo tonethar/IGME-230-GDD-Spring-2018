@@ -131,7 +131,14 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 
 
 	
-## ??. Review Exercise
+## IV. <a id="section4">Review Exercise
+- Duplicate either *canvas-sprites-1-HW.html* (the easier option) or *canvas-sprites-2-HW.html* and name it *canvas-sprites-3-HW.html*
+- Convert the prototype-based inheritance model you originally used to instead utilize ES6 classes.
+- Everything should work exactly as before.
+- Be sure to delete any unnecessary code from your Javascript files.
+- Look over both versions carefully, and then answer these questions in the comments field of the dropbox:
+    - Which version do you think is easier to write, understand, and debug? 
+    - Which approach (ES6 Classes or ES5 prototypical inheritance) do you think you will use in your personal JavaScript projects?
 
   
 <hr><hr>
