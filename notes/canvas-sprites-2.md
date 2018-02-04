@@ -375,7 +375,9 @@ function createCircleSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 - You can read about how to use `Object.assign()` here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
 
+**Lastly, take a look in the debugger to see the prototype chain:**
 
+![Screenshot](_images/canvas-sprites-object-create-5.jpg)
 
 ## <a id="section4">IV. Square Sprites
 Now that we've set up this `sprite` object to delegate from, it's now super easy to create another factory method to make "square sprites".
