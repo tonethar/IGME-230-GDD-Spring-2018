@@ -102,7 +102,7 @@ We get:
 in the console - which isn't too exciting, but indicates that `vehicle` "inherited" `toString()` from its prototype object.
 
 ### I-D. Property shadowing
-You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will *shadow* the default implementation in the prototype object.
+You can use *property shadowing* to create a form of method overriding. Below we will give `vehicle` its own version of `toString()`, which will "shadow" the default implementation of `toString()` in the prototype object.
 
 **canvas-sprites-object-create-2.html**
 ```html
@@ -144,7 +144,8 @@ If you check the debugger, you will also see that there is a `toString` property
 
 ## <a id="section2">II. `Object.create()`
 
-Now let's see how `Object.create()` will allow us to specify an instance's prototype object
+Now let's see how `Object.create()` will allow us to specify an instance's prototype object, rather than relying on the default prototype object.
+
 The `Object.create()` method creates a new object with the specified prototype object and properties.
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
@@ -198,9 +199,14 @@ debugger;
 
 ```javascript
 console.log(gasVehicle.cylinders); 		// .cylinders is "own" property
-gasVehicle.move(); 										// .move() is in the prototype
+gasVehicle.move(); 				// .move() is in the prototype
 console.log(gasVehicle.valueOf()); 		// .valueOf() is in the prototype's prototype
 ```
+
+### II-A. Discussion
+Above we can see that we have created a form of inheritance, where `gasVehicle` "inherits" properties from `vehicle`, and `vehicle` inherits properties from the default prototype object.
+
+
 
 <hr><hr>
 
