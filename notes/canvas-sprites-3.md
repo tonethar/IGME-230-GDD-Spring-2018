@@ -15,6 +15,8 @@ II. [A quick example](#section2)
 
 <hr>
 
+I. [What is the deal with ES6 classes?](#section1)
+
 From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 **JavaScript classes, introduced in ECMAScript 2015, are *primarily syntactical sugar* over JavaScript's existing prototype-based inheritance. The class syntax does not introduce a new object-oriented inheritance model to JavaScript.**
