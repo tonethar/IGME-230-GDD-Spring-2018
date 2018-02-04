@@ -521,6 +521,10 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 
 **Note: If you are interested in creating "inheritance hierarchies", check out this post: http://techsith.com/category/object-setprototypeof/**
 
+**Here is an example screenshot of the completed homework:**
+
+![Screenshot](_images/canvas-sprites-object-create-6.jpg)
+
 <hr><hr>
 
 **[Previous Chapter <- Intro to Canvas Sprites (chapter 1)](canvas-sprites-1.md)**
