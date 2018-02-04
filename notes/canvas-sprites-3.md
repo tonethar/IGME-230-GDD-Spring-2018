@@ -33,4 +33,8 @@ VII. [Review Exercise](#section7)
 
 ## <a id="section1">I. What is the deal with ES6 classes?
   
+<hr><hr>
+
+**[Previous Chapter <- `Object.create()` & Delegation (chapter 2)](canvas-sprites-2.md)**
+  
  
