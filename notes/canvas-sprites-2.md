@@ -410,6 +410,9 @@ function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 	return sprites; 
 }
 ```
+
+### IV-A. Test the factory functions
+
 **To call both of our factory functions, replace this line of code in *main.js*:**
 
 `sprites = createCircleSprites(10,rect);`
@@ -421,6 +424,11 @@ function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 **Which looks like this:**
 
 ![Screenshot](_images/canvas-sprites-object-create-3.jpg)
+
+### IV-B. Fix bouncing
+Our square sprites don't bounce because they don't have a `.radius` property. Let's fix this issue.
+
+
 
 <hr><hr>
 
