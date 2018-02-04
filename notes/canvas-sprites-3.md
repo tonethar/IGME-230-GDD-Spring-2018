@@ -15,6 +15,8 @@ II. [A quick example](#section2)
 
 III. [Discussion](#section3)
 
+IV. [Review Exercise](#section4)
+
 <hr>
 
 ## I. <a id="section1">What is the deal with ES6 classes?
@@ -129,7 +131,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 
 ## III. <a id="section3">Discussion
 
-
+- https://github.com/joshburgess/not-awesome-es6-classes
 	
 ## IV. <a id="section4">Review Exercise
 - Duplicate either *canvas-sprites-1-HW.html* (the easier option) or *canvas-sprites-2-HW.html* and name it *canvas-sprites-3-HW.html*
