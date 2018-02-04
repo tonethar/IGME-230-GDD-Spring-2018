@@ -459,6 +459,7 @@ if(s.radius){
 How about creating "Image Sprite" objects that is also linked to `sprite`?
 
 **Right-click to save this image, and place it in an *images/* folder:**
+
 ![Screenshot](_images/Sean.png)
 
 **Now add the following to classes.js:**
@@ -495,7 +496,11 @@ function createImageSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 }
 ```
 
+**You will need to call this new factory function from *main.js* - make it so!**
+
 ![Screenshot](_images/canvas-sprites-object-create-4.jpg)
+
+Note: You will have to adjust the passed in `rect` value for these image sprites because they are taller than the squares and circles, and thus will get "stuck" on the top and bottom of the screen.
 	
 ## <a id="section6">VI. Homework Assignment
 
