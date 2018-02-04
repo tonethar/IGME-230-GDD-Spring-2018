@@ -28,6 +28,8 @@ From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 By "syntatical sugar" we mean that behind the scenes, ES6 class syntax merely re-creates what we manually did in the last section using prototypical inheritance and `Object.create()`
 
 ## II. <a id="section2">A quick example
+	
+Below we will create a "Vehicle" and a derived "Gas Vehicle" utilizing both prototypical inheritance, and ES6 classes. We will see that there is almost no difference between the objects that are created by the JavaScript engine.
  
 **canvas-sprite-es6-classes-1.html**
 
