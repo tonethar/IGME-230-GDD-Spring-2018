@@ -11,7 +11,7 @@ In this chapter we will utilize ES6 class syntax to more or less do the same thi
 <!--- Local Navigation --->
 I. [What is the deal with ES6 classes?](#section1)
 
-I. [A quick example](#section2)
+II. [A quick example](#section2)
 
 <hr>
 
