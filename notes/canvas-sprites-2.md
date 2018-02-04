@@ -453,7 +453,7 @@ if(s.radius){
 	}
 	
 	// top and bottom
-	/* YOU DO THIS */
+	/* YOU DO THIS - recall that rectangles are drawn from the upper-left corner */
 	
 } // end if s.radius
 ```
