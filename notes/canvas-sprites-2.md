@@ -30,7 +30,7 @@ I. [`Object.prototype`](#section1)
 
 II. [`Object.create()`](#section2)
 
-III. [???](#section3)
+III. [Delegation & OLOO - "Objects Linked to Other Objects"](#section3)
 
 IV. [???](#section4)
 
@@ -182,8 +182,8 @@ gasVehicle.fuelCapacity = 12;
 
 // call properties and methods on the `gasVehicle` object
 console.log(gasVehicle.cylinders); 	// .cylinders is "own" property
-gasVehicle.move(); 			// .move() is in the prototype
-console.log(gasVehicle.valueOf()); 	// .valueOf() is in the prototype's prototype
+gasVehicle.move(); 			// .move() is in the prototype (i.e. `vehicle`)
+console.log(gasVehicle.valueOf()); 	// .valueOf() is in the prototype's prototype (the default prototype object)
 debugger;
 </script>
 </body>
@@ -198,13 +198,20 @@ debugger;
 **And this in the console:**
 
 ```javascript
-console.log(gasVehicle.cylinders); 		// .cylinders is "own" property
-gasVehicle.move(); 				// .move() is in the prototype
-console.log(gasVehicle.valueOf()); 		// .valueOf() is in the prototype's prototype
+4
+Moving the vehicle now
+{cylinders: 4, fuelCapacity: 12}
 ```
 
 ### II-A. Discussion
-Above we can see that we have created a form of inheritance, where `gasVehicle` "inherits" properties from `vehicle`, and `vehicle` inherits properties from the default prototype object.
+- Above we can see that we have created a form of inheritance, where `gasVehicle` "inherits" properties from `vehicle`, and `vehicle` inherits properties from the default prototype object.
+- we can implement a form of overriding through property "shadowing" - properties added to `gasVehicle` will replace properties that are declared in its prototype objects. 
+- but "inheritance" isn't really the right term for this extending of object dehavior, "delegation" is a better term - read on!
+
+
+## <a id="section2">III. Delegation & OLOO - "Objects Linked to Other Objects"
+
+https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
 
 
 
