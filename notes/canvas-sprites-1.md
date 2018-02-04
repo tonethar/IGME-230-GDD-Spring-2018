@@ -308,4 +308,4 @@ let sprites3 = createSprites(1,30,"green");
 
 **[Table of Contents <- About this Canvas Sprites Tutorial Series](canvas-sprites-0.md)**
 
-**[Next Chapter -> Utilizing `Object.create()` (chapter 2)](canvas-sprites-2.md)**
+**[Next Chapter -> `Object.create()` & Delegation (chapter 2)](canvas-sprites-2.md)**
