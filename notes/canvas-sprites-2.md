@@ -380,7 +380,7 @@ function createCircleSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 ## <a id="section4">IV. Square Sprites
 Now that we've set up this `sprite` object to delegate from, it's now super easy to create another factory method to make "square sprites".
 
-**Add the following to class.js:**
+**Add the following to classes.js:**
 
 ```javascript
 function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
@@ -456,6 +456,46 @@ if(s.radius){
 
 ## <a id="section5">V. Image Sprites
 
+How about creating "Image Sprite" objects that is also linked to `sprite`?
+
+**Right-click to save this image, and place it in an *images/* folder:**
+![Screenshot](_images/Sean.png)
+
+**Now add the following to classes.js:**
+```javascript
+function createImageSprites(num=20,rect={left:0,top:0,width:300,height:300}){
+	let sprites = [];
+	for(let i=0;i<num;i++){
+		// create Object literal with a prototype object of `sprite`
+		let s = Object.create(sprite);
+		
+		let image = new Image();
+		image.src = "images/Sean.png";
+		
+		// add properties to `s`
+		s = Object.assign(s,{
+			width: 50,
+			height: 93,
+			x: Math.random() * rect.width + rect.left,
+			y: Math.random() * rect.height + rect.top,
+			fwd: getRandomUnitVector(),
+			speed: 2,
+			image: image,
+			draw(ctx){
+				ctx.save();
+				ctx.drawImage(this.image,this.x,this.y,this.width,this.height);
+				ctx.restore();
+			}
+		});
+	
+		sprites.push(s);
+	}
+	
+	return sprites; 
+}
+```
+
+![Screenshot](_images/canvas-sprites-object-create-4.jpg)
 	
 ## <a id="section6">VI. Homework Assignment
 
