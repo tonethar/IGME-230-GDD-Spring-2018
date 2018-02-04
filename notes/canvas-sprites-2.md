@@ -519,7 +519,7 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 1. Modify `createImageSprites()` so that it will take `num`, `width`, `height` and `url` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in, including a second image file.
 1. In *classes.js*, create an additional factory function that creates a different kind of sprite. This sprite could either move significantly differently (maybe by wrapping, continuously rotating, etc), or look different (such as a triangle, diamond, or oval path). Call this new factory function from *main.js* at least 2 times with different values passed in.
 
-**Note: If you are interested in creating "inheritance hierarchies", check out this post: http://techsith.com/category/object-setprototypeof/**
+**Note: If you are interested in creating "inheritance hierarchies" with `Object.create()`, check out this post: http://techsith.com/category/object-setprototypeof/**
 
 **Here is a screenshot of an example of the completed homework:**
 
