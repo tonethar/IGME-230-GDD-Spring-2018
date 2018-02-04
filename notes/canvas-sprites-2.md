@@ -223,7 +223,7 @@ These posts are required reading:
 
 ## <a id="section3">III. Sprites & Circle Sprites
 
-Let's build a concrete example of OLOO by refactoring our "circle sprite factory" code to instead use a `sprite` object as a prototype object. This `sprite` object will inplement 
+Let's build a concrete example of OLOO by refactoring our "circle sprite factory" code from the previous chapter to instead use a `sprite` object as a prototype object. This `sprite` object will implement shared properties and methods such as `move()` and `reflectX()` and `reflectY()`.
 
 
 **canvas-sprites-object-create-4.html**
