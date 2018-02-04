@@ -34,7 +34,9 @@ III. [Sprites & Circle Sprites](#section3)
 
 IV. [Square Sprites](#section4)
 
-V. [Review Exercise](#section5)
+V. [Image Sprites](#section5)
+
+VI. [Review Exercise](#section6)
 
 
 <hr>
@@ -452,7 +454,10 @@ if(s.radius){
 } // end if s.radius
 ```
 
+## <a id="section5">V. Image Sprites
 
+	
+## <a id="section6">VI. Homework Assignment
 
 <hr><hr>
 
