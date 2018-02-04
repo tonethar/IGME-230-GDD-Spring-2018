@@ -507,7 +507,7 @@ function createImageSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 Note: You will have to adjust the passed in `rect` value for these image sprites because they are taller than the squares and circles, and thus will get "stuck" on the top and bottom of the screen.
 
 ## <a id="section6">VI. Review Questions
-1. We have been calling a function that returns newly instantiated objects a _________
+1. We have been calling a function that returns newly instantiated objects a _________ function.
 1. JavaScript does not utilize class-based inheritance to override or extend object behavior, it instead uses _________
 1. What does **OLOO** stand for?
 	
