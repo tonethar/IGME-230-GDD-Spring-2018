@@ -369,7 +369,7 @@ function createCircleSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 ```
 
 - **Run the code, and you will get 20 red bouncing circles**
-- **One new thing above that was not yet mentioned is `Object.assign()`, which is a convenient method for copying properties onto objects.**
+- One new thing above that was not yet mentioned is `Object.assign()`, which is a convenient method for copying properties onto objects.
 - You can read about how to use `Object.assign()` here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
 
