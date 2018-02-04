@@ -426,7 +426,31 @@ function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 ![Screenshot](_images/canvas-sprites-object-create-3.jpg)
 
 ### IV-B. Fix bouncing
-Our square sprites don't bounce because they don't have a `.radius` property. Let's fix this issue.
+Our square sprites don't bounce because they don't have a `.radius` property. Let's fix this issue. Make the "check bounce" code in *main.js* look like this:
+
+```javascript
+if(s.radius){
+	// a circle
+	if (s.x <= s.radius || s.x >= screenWidth-s.radius){
+		s.reflectX();
+		s.move();
+	}
+	if (s.y <= s.radius || s.y >= screenHeight-s.radius){
+		s.reflectY();
+		s.move();
+	}
+}else{ // `s` is NOT a circle
+	// left and right
+	if (s.x <= 0 || s.x >= screenWidth-s.width){
+		s.reflectX();
+		s.move();
+	}
+	
+	// top and bottom
+	/* YOU DO THIS */
+	
+} // end if s.radius
+```
 
 
 
