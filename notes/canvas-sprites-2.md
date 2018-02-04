@@ -30,9 +30,9 @@ I. [`Object.prototype`](#section1)
 
 II. [`Object.create()`, Delegation & OLOO - "Objects Linked to Other Objects"](#section2)
 
-III. [??](#section3)
+III. [Sprites & Circle Sprites](#section3)
 
-IV. [???](#section4)
+IV. [Square Sprites](#section4)
 
 V. [Review Exercise](#section5)
 
@@ -212,14 +212,14 @@ Moving the vehicle now
 ### II-B. Delegation & OLOO - "Objects Linked to Other Objects"
 In JavaScript, the prototype chain **links objects to other objects** - there are no classes in the language - not even in ES6, as we will see in the next chapter.
 
-The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects. Objects *delegate* certain behavior to other objects, above,   `gasVehicle` *delegated* it's `move()` method to `vehicle`. 
+The technique we have shown above uses *behavior delegation* to either extend or override state and behavior received from other objects. Objects *delegate* certain behavior to other objects, above,   `gasVehicle` *delegated*  its `move()` method to `vehicle`. 
 
 These posts are required reading:
 - https://stackoverflow.com/questions/29788181/kyle-simpsons-oloo-pattern-vs-prototype-design-pattern
 - https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md#delegation-theory
 
 
-## III. Circle Sprites and Square Sprites
+## III. Sprites & Circle Sprites
 
 Let's build a concrete example of OLOO by refactoring our "circle sprite factory" code to instead use a `sprite` object as a prototype object. This `sprite` object will inplement 
 
@@ -357,6 +357,45 @@ function createCircleSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 				ctx.closePath();
 				ctx.fillStyle = this.color;
 				ctx.fill();
+				ctx.restore();
+			}
+		});
+	
+		sprites.push(s);
+	}
+	
+	return sprites; 
+}
+```
+
+**Run the code, and you will get 20 red bouncing circles**
+
+
+## IV. Square Sprites
+Now that we've set up this `sprite` object to delegate from, it's now super easy to create another factory method to make "square sprites".
+
+**Add the following to class.js:**
+
+```javascript
+function createSquareSprites(num=20,rect={left:0,top:0,width:300,height:300}){
+	let sprites = [];
+	for(let i=0;i<num;i++){
+		// create Object literal with a prototype object of `sprite`
+		let s = Object.create(sprite);
+		
+		// add properties to `s`
+		s = Object.assign(s,{
+			width: 25, // NEW and unique to "Square Sprite"
+			height: 25, // NEW and unique to "Square Sprite"
+			color: "red",
+			x: Math.random() * rect.width + rect.left,
+			y: Math.random() * rect.height + rect.top,
+			fwd: getRandomUnitVector(),
+			speed: 2,
+			draw(ctx){ // NEW implementation for "Square Sprite"
+				ctx.save();
+				ctx.fillStyle = this.color;
+				ctx.fillRect(this.x, this.y, this.width, this.height);
 				ctx.restore();
 			}
 		});
