@@ -514,12 +514,10 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 	
 ## <a id="section7">VII. Review Exercise
 1. Make a copy of your completed files from section V. above, and name the HTML file **canvas-sprites-2-HW.html**
-1. Modify `createCircleSprites()` so that it will take `num`, `color` and `radius` arguments, and utilize these when creating the circle sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
-1. Modify `createSquareSprites()` so that it will take `num`, `color`, `width` and `height` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
-1. Modify `createImageSprites()` so that it will take `num`, `width`, `height` and `url` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument.
-1. In *main.js*, call `createImageSprites()` a second time with a different image file. 
-1. In *classes.js*, create another factory function that creates a different kind of sprite. This sprite could either move significantly differently, or look different (such as a triangle, diamond, or oval path). 
-1. Call this new factory function in *main.js*
+1. Modify `createCircleSprites()` so that it will take `num`, `color` and `radius` arguments, and utilize these when creating the circle sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in.
+1. Modify `createSquareSprites()` so that it will take `num`, `color`, `width` and `height` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in.
+1. Modify `createImageSprites()` so that it will take `num`, `width`, `height` and `url` arguments, and utilize these when creating the square sprites in the `for` loop. Make sure that all of these arguments have default values. Be sure to keep using the `rect` argument. Call this function from *main.js* at least 2 times with different values passed in, including a second image file.
+1. In *classes.js*, create an additional factory function that creates a different kind of sprite. This sprite could either move significantly differently (maybe by wrapping, continuously rotating, etc), or look different (such as a triangle, diamond, or oval path). Call this new factory function from *main.js* at least 2 times with different values passed in.
 
 <hr><hr>
 
