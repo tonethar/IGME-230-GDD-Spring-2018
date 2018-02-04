@@ -15,7 +15,7 @@ II. [A quick example](#section2)
 
 <hr>
 
-I. <a id="section1">What is the deal with ES6 classes?
+## I. <a id="section1">What is the deal with ES6 classes?
 
 From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
@@ -23,15 +23,11 @@ From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 By "syntatical sugar" we mean that behind the scenes, ES6 class syntax merely re-creates what we did in the last section using prototypical inheritance and `Object.create()`
 
-II. <a id="section2">A quick example
+## II. <a id="section2">A quick example
 
 
-VII. Review Exercise
+## ??. Review Exercise
 
-
-<hr>
-
-## <a id="section1">I. What is the deal with ES6 classes?
   
 <hr><hr>
 
