@@ -1,4 +1,4 @@
-# 2 - Utilizing `Object.create()`
+# 2 - `Object.create()` & Delegation
 
 ## Overview
 In the last chapter we used object literals and a factory function to create multiple object instances of "circle sprite" objects.
