@@ -13,6 +13,8 @@ I. [What is the deal with ES6 classes?](#section1)
 
 II. [A quick example](#section2)
 
+III. [Discussion](#section3)
+
 <hr>
 
 ## I. <a id="section1">What is the deal with ES6 classes?
@@ -108,6 +110,9 @@ debugger; // check the debugger, gasVehicle and gasVehicle2 are nearly identical
 
 ![Screenshot](_images/canvas-sprites-es6-classes-1.jpg)
 
+
+## III. <a id="section3">Discussion
+	
 ## ??. Review Exercise
 
   
