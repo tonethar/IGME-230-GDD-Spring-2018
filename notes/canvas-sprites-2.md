@@ -509,6 +509,8 @@ Note: You will have to adjust the passed in `rect` value for these image sprites
 ## <a id="section6">VI. Review Questions
 1. We have been calling a function that returns newly instantiated objects a _________ function.
 1. JavaScript does not utilize class-based inheritance to override or extend object behavior, it instead uses _________
+1. What does `Object.create()` do?
+1. What does `Object.assign()` do?
 1. What does **OLOO** stand for?
 	
 	
