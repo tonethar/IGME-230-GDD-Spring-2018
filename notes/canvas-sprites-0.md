@@ -2,9 +2,9 @@
 ## I. Overview
 This series of tutorials/lecture notes will get you started creating canvas sprites for your *Project 1 : Audio Visualizer* and *Project 2: Game or Experience*  assignments for IGME-330.
 
-## II. Pre-requisite Knowledge
-- It assumed that you understand the foundational JavaScript concepts covered here: [Introduction to Web Apps](./web-apps-0.md)
-- You also should be familiar with basic Canvas API operations such as:
+## II. Prerequisite Knowledge
+- It assumed that you understand the foundational JavaScript concepts covered here: [About this Web App Tutorial Series](./web-apps-0.md)
+- You also should be familiar with basic [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) operations such as:
     - drawing state variables such as `fillStyle`, `lineStyle`, `globalAlpha`
     - creating paths, lines, curves, and arcs
     - `stroke()` and `fill()`
