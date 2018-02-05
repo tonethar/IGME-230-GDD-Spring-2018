@@ -75,6 +75,7 @@ let vehicle = {
   }
 };
 
+console.log(vehicle.toString());
 debugger;
 </script>
 </body>
