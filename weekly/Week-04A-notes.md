@@ -44,7 +44,7 @@ There's a lot of contention in the Web world on how to position and control elem
 ## Exercises
 - [Tables and CSS Positioning](../exercises/week-3/ICE-3A.pdf)
 
-## Project - Due Friday of Week 5
+## Project 1 - See dropbox for due date.
 - [Project 1](../projects/project1.md)
 
 <hr><hr>
