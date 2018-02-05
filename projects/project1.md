@@ -49,7 +49,7 @@ Content is the foundation of the Web; all pages exist to present some content, n
   - At a minimum, you must support screen sizes equal to or less than max-width: 480px
   - Your design should be re-formatted to support these smaller screens. Changing font-size, margins, moving side bars, hiding elements, and ??? are all options.
 
-### II-D. Other Requirements
+### II-E. Other Requirements
 - Do not use an HTML/CSS template that you found on the web or elsewhere! Build the HTML and CSS yourself "from scratch". Ignoring this requirement will result in a zero on the assignment and possible other academic integrity consequences.
 - HTML tables used only for tabular data, not page layout.
 - No plugin content (Flash, et al.)
@@ -60,9 +60,11 @@ Content is the foundation of the Web; all pages exist to present some content, n
 ## III. Deliverables
 
 ### III-A. Your Content 
-By the beginning of the first class of week 5, your content must be written, chunked, and organized, and posted to your repo on GitHub as a markdown file named `230-project-1-content.md`. We will be checking this, and you need to **do your best work** as the content is weighted heavily on the rubric (see below)! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
+Your content must be written, chunked, and organized, and posted to your repo on GitHub as a markdown file named `230-project-1-content.md`. We will be checking this, and you need to **do your best work** as the content is weighted heavily on the rubric (see below)! Once this is done, begin building your HTML structure to fit the content (populating it with dummy content). Only when the structure is finalized should you be putting in the actual content!
 
 Note: If you have never use markdown before, it's extremely easy to work with. We will be doing a quick demo in class, and you might find this markdown "cheatsheet" handy: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+See mycourses dropbox for due date.
 
 ### III-B. Critique Session
 The second class of week 5, we will have a critique session in class. In small groups, you will both give and receive feedback on your projects, so be prepared for this discussion.
