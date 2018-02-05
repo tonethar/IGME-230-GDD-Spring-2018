@@ -5,10 +5,11 @@ This series of tutorials/lecture notes will get you started creating canvas spri
 ## II. Prerequisite Knowledge
 - It assumed that you understand the foundational JavaScript concepts covered here: [About this Web App Tutorial Series](./web-apps-0.md)
 - You also should be familiar with basic [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) operations such as:
-    - drawing state variables such as `fillStyle`, `lineStyle`, `globalAlpha`
+   - obtaining a 2D drawing context
+   - *drawing state* variables such as `fillStyle`, `lineStyle`, `globalAlpha`
     - creating paths, lines, curves, and arcs
     - `stroke()` and `fill()`
-- and Canvas concepts:
+- and Canvas API concepts:
     - drawing state stack
     - `save()` and `restore()`
     - tranformations: `translate()`, `rotate()`, `scale()`
