@@ -81,6 +81,7 @@ Some sample IGME-230 projects from last semester:
     - https://people.rit.edu/~wcd7037/230/Project2/Life/pixel-life.html
     - https://people.rit.edu/paa9307/230/project2/
     - https://people.rit.edu/axs6207/230/project2/musicFinder.html
+    - https://people.rit.edu/arw2013/WhoSays/whoSays.html
 - PixiJS Sprite Game:
     - https://people.rit.edu/~jpa3216/230/project1/
     - https://people.rit.edu/~hhn2884/230/project1/
