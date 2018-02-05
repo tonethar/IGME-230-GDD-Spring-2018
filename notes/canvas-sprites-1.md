@@ -128,7 +128,7 @@ function loop(){
 
 **Note: If you need a refresher on JavaScript object literals, please read this tutorial page: [JavaScript Object Literals](web-apps-7.md)**
 
-We are now going to simplify our code somewhat by moving most of the circle moving and drawing code onto a single object literal. Go ahead an make the following changes:
+We are now going to simplify our code somewhat by moving most of the circle moving and drawing code onto a single object literal. Go ahead and make the following changes:
 
 **js/classes.js**
 ```javascript
