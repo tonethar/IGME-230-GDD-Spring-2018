@@ -51,7 +51,7 @@ http://jigsaw.w3.org/css-validator/
 - attribute - `E[foo="bar"]  /* exact match */`
 - attribute - `E[foo*="bar"] /* contains */`
 
-## XVII. Exercises
+## VIII. Exercises
 - [CSS Styling - Recipe ICE](../exercises/week-2/Recipe-ICE.zip)
 - [230 Home Page](../exercises/week-2/230-home-page.md)
 
