@@ -23,7 +23,7 @@ This series of tutorials/lecture notes will get you started creating canvas spri
     - ES6 Classes are "syntactic sugar"
     - ES6 Inheritance
     - Side-by-side look at ES6 classes and `Object.create()`:
-        - you get nealy the same thing back from the JS runtime!
+        - you get nearly the same thing back from the JS runtime!
 
 ## IV. Homework Assignments
 See mycourses dropboxes for due dates.
