@@ -252,7 +252,7 @@ if (s.y <= s.radius || s.y >= screenHeight-s.radius){
 	
 In this section we are going to modify our code to utilize a loop and create an array of multiple circle objects. We just need to add a few lines of code to main.js to get this to work - see below:
 
-**main.js"**
+**main.js**
 ```javascript
 "use strict";
 function createSprites(num=20){
