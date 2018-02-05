@@ -2,11 +2,22 @@
 ## I. Overview
 This series of tutorials/lecture notes will get you started creating canvas sprites for your *Project 1 : Audio Visualizer* and *Project 2: Game or Experience*  assignments for IGME-330.
 
-## II. How to get the most out of these tutorials
+## II. Pre-requisite Knowledge
+- It assumed that you understand the foundational JavaScript concepts covered here: [Introduction to Web Apps](./web-apps-0.md)
+- You also should be familiar with basic Canvas API operations such as:
+    - drawing state variables such as `fillStyle`, `lineStyle`, `globalAlpha`
+    - creating paths, lines, curves, and arcs
+    - `stroke()` and `fill()`
+- and Canvas concepts:
+    - drawing state stack
+    - `save()` and `restore()`
+    - tranformations: `translate()`, `rotate()`, `scale()`
+
+## III. How to get the most out of these tutorials
 - Try out the code samples! Tweak and modify them! Most of the code samples are 100% complete. You just need to copy the code and paste it into a text file, and save them to a web server. You can then make changes to the code and preview them in a web browser (we will be using Chrome)
 - Be sure to answer all of the questions at the end of each section, and to do the review exercises.
 
-## III. The Tutorials
+## IV. The Tutorials
 1. [Intro to Canvas Sprites](./canvas-sprites-1.md)
     - Canvas animation without objects
     - Canvas sprites via JS Object literals
@@ -25,7 +36,7 @@ This series of tutorials/lecture notes will get you started creating canvas spri
     - Side-by-side look at ES6 classes and `Object.create()`:
         - you get nearly the same thing back from the JS runtime!
 
-## IV. Homework Assignments
+## V. Homework Assignments
 See mycourses dropboxes for due dates.
 - [IGME-330 Project 1 - Audio Visualizer](http://igm.rit.edu/~acjvks/courses/2018-spring/330/html/project-1/)
 - IGME-330 Project 2 - Game or Interactive Experience
