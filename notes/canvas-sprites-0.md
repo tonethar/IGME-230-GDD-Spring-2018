@@ -9,7 +9,7 @@ This series of tutorials/lecture notes will get you started creating canvas spri
 ## III. The Tutorials
 1. [Intro to Canvas Sprites](./canvas-sprites-1.md)
     - Canvas animation without objects
-    - Sprites via JS Object literals
+    - Canvas sprites via JS Object literals
     - Create multiple objects with a "factory function"
 1. [`Object.create()` & Delegation](./canvas-sprites-2.md)
     - JavaScript does not have classes
