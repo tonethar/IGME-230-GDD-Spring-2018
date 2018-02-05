@@ -23,6 +23,8 @@ V. [Review Exercise](#section5)
 
 To get things going, you are actually going to have to create 4 files - but it will be worth it because we will be reusing these files throughout this entire series.
 
+This first attempt is going to be less than optimal and NOT going to use an object to draw a sprite, but instead will utilize script scoped variables to hold the circle's state.
+
 **canvas-sprites-intro-1.html**
 ```html
 <!DOCTYPE html>
@@ -128,7 +130,7 @@ function loop(){
 
 **Note: If you need a refresher on JavaScript object literals, please read this tutorial page: [JavaScript Object Literals](web-apps-7.md)**
 
-We are now going to simplify our code somewhat by moving most of the circle moving and drawing code onto a single object literal. Go ahead and make the following changes:
+We are now going to simplify our code somewhat by transferring most of the circle moving and drawing code onto a single object literal. Go ahead and make the following changes:
 
 **js/classes.js**
 ```javascript
