@@ -141,10 +141,13 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 - Everything should work exactly as before.
 - Be sure to delete any unnecessary code from your Javascript files.
 - Look over both versions carefully, and then answer these questions in the comments field of the dropbox:
+    - Which version has more lines of code?
     - Which version do you think is easier to write, understand, and debug? 
     - Which approach (ES6 Classes or ES5 prototypical inheritance) do you think you will use in your personal JavaScript projects?
+- Hints:
+    - you should only have to change the code in *classes.js* - everything in the other 3 files should be exactly the same.
+    - you will still need all of your *classes.js* factory functions, but they will have a lot less code in them.
 
-  
 <hr><hr>
 
 **[Previous Chapter <- `Object.create()` & Delegation (chapter 2)](canvas-sprites-2.md)**
