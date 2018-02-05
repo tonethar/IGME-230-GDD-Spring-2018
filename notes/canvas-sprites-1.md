@@ -1,7 +1,7 @@
 # 1 - Intro to Canvas Sprites
 
 ## Overview
-Let's get stuff moving on the screen, and explore the many techniques we have for creating objects in JavaScript.
+Let's get stuff moving on the screen, and begin to explore the many techniques we have for creating objects in JavaScript.
 
 
 ## Contents
