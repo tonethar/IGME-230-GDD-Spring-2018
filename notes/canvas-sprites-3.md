@@ -136,7 +136,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 - https://github.com/joshburgess/not-awesome-es6-classes
 	
 ## IV. <a id="section4">Review Exercise
-- Duplicate either *canvas-sprites-1-HW.html* (the easier option) or *canvas-sprites-2-HW.html* and name it *canvas-sprites-3-HW.html*
+- Duplicate *canvas-sprites-2-HW.html* and name it *canvas-sprites-3-HW.html*
 - Convert the prototype-based inheritance model you originally used to instead utilize ES6 classes.
 - Everything should work exactly as before.
 - Be sure to delete any unnecessary code from your Javascript files.
