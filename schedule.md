@@ -43,7 +43,7 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
   
 ## <a id="week4">Week 4 (Feb 6/8) : More CSS
   
-  - [Week 4A - CSS Positioning and HTML Tables](weekly/Week-04A-notes.md)
+  - [Week 4A - More CSS & Basic layouts](weekly/Week-04A-notes.md)
   - [Week 4B - Navigation Systems](weekly/Week-04B-notes.md)
   
 ## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
