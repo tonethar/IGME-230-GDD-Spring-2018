@@ -46,7 +46,7 @@ There's a lot of contention in the Web world on how to position and control elem
 
 ## Project 1 - See dropbox for due date.
 - [Project 1](../projects/project1.md)
-    - the first deliverable is your *content*, which is posted to github
+    - the first deliverable is your *content*, which will posted to your github account
 - [Markdown Example File](../projects/_supporting-files/steam-invaders-demo.md.zip)
 
 <hr><hr>
