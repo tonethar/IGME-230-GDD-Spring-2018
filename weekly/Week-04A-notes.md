@@ -1,19 +1,10 @@
-# Week 4A - CSS Positioning and HTML Tables
+# Week 4A - Basic CSS Layouts
 
 ## Topics
-- HTML tables
-- Review: inline, embedded, and external CSS
-- Classes and IDs
-- Review of float
-  - Note: To make an element stop floating, use the CSS property ```{clear:both}```
-- Positioning types:
-  - static, or how we've done everything so far
-  - relative, or a position relative to where the element would be if it were unpositioned
-  - absolute, or a position relative to an element's container
-  - fixed, or a position relative to the top left of the window
-- z-index
-- visibility
-- overflow
+- Finish Reviewing the CSS topics from [Week 3B](Week-03B-notes.md)
+- Holmes Demo/ICE
+    - Start files are here: 
+    - Review box model: border, margin, padding
 
 ## Review and Demo
 Together, we will build a page demonstrating tables, the different types of positioning, as well as embedding fonts, all using an external CSS file. The table tags to note are:
