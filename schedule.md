@@ -6,8 +6,8 @@
 - [Week 1 (Jan 16/18) : Course Intro & FTP/banjo/.htaccess files](#week1)
 - [Week 2 (Jan 23/25) : Intro to Server-side programming (PHP)](#week2)
 - [Week 3 (Jan 30/Feb 1) : Review of Basic HTML/CSS](#week3)
-- [Week 4 (Feb 6/8) : More CSS](#week4)
-- [Week 5 (Feb 13/15) : Responsive Design](#week5)
+- [Week 4 (Feb 6/8) : More CSS & Responsive Design](#week4)
+- [Week 5 (Feb 13/15) : Navigation Systems & Visual Design](#week5)
 - [Week 6 (Feb 20/22) : CSS Flexbox & Complex Selectors](#week6)
 - [Week 7 (Feb 27/Mar 1) : Intro to Client-side Programming](#week7)
 - [Week 8 (Mar 6/8) : More DOM/JavaScript & Midterm Exam](#week8)
@@ -44,12 +44,12 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
 ## <a id="week4">Week 4 (Feb 6/8) : More CSS
   
   - [Week 4A - More CSS & Basic layouts](weekly/Week-04A-notes.md)
-  - [Week 4B - Navigation Systems](weekly/Week-04B-notes.md)
+  - [Week 4B - Responsive Design and Media Queries](weekly/Week-04B-notes.md)
   
 ## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
   
-  - [Week 5A - Visual Design](weekly/Week-05A-notes.md)
-  - [Week 5B - Responsive Design and Media Queries](weekly/Week-05B-notes.md)
+  - [Week 5A - Navigation Systems](weekly/Week-05A-notes.md)
+  - [Week 5B - Visual Design](weekly/Week-05B-notes.md)
   
 ## <a id="week6">Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors
   
