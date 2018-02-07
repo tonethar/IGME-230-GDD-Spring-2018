@@ -1,6 +1,6 @@
 # Week 7 - Introduction to Client-side Programming
 
-This week we will be begin constructing simple web applications, and cover following topics:
+This week we will be begin constructing simple web applications, and cover the following topics:
 
 - [About this Web App Tutorial Series](../notes/web-apps-0.md)
 - [1 - Introduction to Web Applications](../notes/web-apps-1.md)
