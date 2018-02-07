@@ -94,7 +94,7 @@
 ## Week 4
 ### Day 1
 - Look at 230 home page submissions - most of them will probably not look great - but that's OK at this point
-- Review [Project 1](../projects/project1.md) requirements and emphasize the first deliverable (Githiub content)
+- Review [Project 1](../projects/project1.md) requirements and emphasize the first deliverable (Github content)
 - Demo GitHub and Markdown syntax
 - Finish Reviewing the CSS topics and Slides from [Week 3B](../weekly/Week-03B-notes.md)
 - "Holmes" Single Column Layout Demo/ICE - just do the first part
