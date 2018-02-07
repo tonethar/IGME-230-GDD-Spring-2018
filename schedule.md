@@ -41,17 +41,17 @@ This week we will discuss the [Apache](http://httpd.apache.org) web server that 
   - [Week 3A - Review of HTML](weekly/Week-03A-notes.md)
   - [Week 3B - Review of CSS](weekly/Week-03B-notes.md)
   
-## <a id="week4">Week 4 (Feb 6/8) : More CSS
+## <a id="week4">Week 4 (Feb 6/8) : More CSS/Complex Selectors & Responsive Design
   
   - [Week 4A - More CSS & Basic layouts](weekly/Week-04A-notes.md)
   - [Week 4B - Responsive Design and Media Queries](weekly/Week-04B-notes.md)
   
-## <a id="week5">Week 5 (Feb 13/15) : Responsive Design
+## <a id="week5">Week 5 (Feb 13/15) : Navigation Systems & Visual Design
   
   - [Week 5A - Navigation Systems](weekly/Week-05A-notes.md)
   - [Week 5B - Visual Design](weekly/Week-05B-notes.md)
   
-## <a id="week6">Week 6 (Feb 20/22) : Advanced CSS Formatting: CSS Flexbox & Complex Selectors
+## <a id="week6">Week 6 (Feb 20/22) : CSS Flexbox & CSS Wrap-up
   
   - [Week 6A - The Site Design Process](weekly/Week-06A-notes.md)
   - [Week 6B - Project 1 Critique](weekly/Week-06B-notes.md)
