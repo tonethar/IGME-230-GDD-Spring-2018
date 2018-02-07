@@ -33,7 +33,7 @@ We will look at Bootstrap and other frameworks later, but for now it's nice to s
 - http://cssmediaqueries.com/
 
 ## Presentations
-- [Responsive Design](../presentations/4B-Responsive_Design.pdf)
+- [Responsive Design](../presentations/4B-Responsive-Design.pdf)
 
 ## Demo
 - [Responsive page demo](../other-files/Responsive_Demo.zip)
