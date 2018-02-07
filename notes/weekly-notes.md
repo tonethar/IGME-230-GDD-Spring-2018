@@ -94,6 +94,18 @@
 ## Week 4
 ### Day 1
 - Look at 230 home page submissions - most of them will probably not look great - but that's OK at this point
+- Review [Project 1](../projects/project1.md) requirements and emphasize the first deliverable (Githiub content)
+- Demo GitHub and Markdown syntax
+- Finish Reviewing the CSS topics and Slides from [Week 3B](../weekly/Week-03B-notes.md)
+- "Holmes" Single Column Layout Demo/ICE - just do the first part
+- Review CSS Layout Demos
+
+### Day 2
+- Discuss Responsive Design and the "Mobile First" philosophy
+- Do Part II of Holmes Demo/ICE
+- Quick look at Bootstrap Template (it's responsive!)
+- Responsive Design Slides
+- ICE: "Darth"
 
 ## Week 5
 
