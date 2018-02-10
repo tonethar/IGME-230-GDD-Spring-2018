@@ -45,9 +45,9 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 **which is because the above code re-defined the value of the `sprite` object declared in *classes.js*, and wrecked the object "inheritance" we were doing over there.**
 
-### I-B. How about function?
+### I-B. How about functions?
 
-Similarly, declared functions (and variables declared with `var`) all show up in the shared global scope:
+Similarly, declared functions (and variables declared with `var`) all show up in the shared global scope. Below we have palced a breakpoint in *utilities.js*, and in the debugger we can also see all of the functions declared in *classes.js* and *main.js*:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-2.jpg)
 
