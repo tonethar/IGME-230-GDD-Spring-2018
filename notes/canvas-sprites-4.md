@@ -201,9 +201,9 @@ Add the following to the top:
 export {getRandomUnitVector};
 ```
 
--you can also delete the `"use strict";` line because ES6 modules always run in strict mode.
-- above we are making `getRandomUnitVector()` public, but keeping `getRandom()` private to this module.
-- if you test the app now, will see errors, so just move on.
+- you can also delete the `"use strict";` line because ES6 modules always run in strict mode
+- above we are making `getRandomUnitVector()` public, but keeping `getRandom()` private to this module
+- if you test the app now, will see errors, so just move on
 
 ### III-B. Changes to *classes.js*
 
