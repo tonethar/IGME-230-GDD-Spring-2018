@@ -152,9 +152,11 @@ Be sure to note the following in *test.html*:
 
 You can try it out here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
 
-Test it: You should see "ES6 modules are functioning!" in the browser window.
+Test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
 
-### II-C. Looking in the inspector
+### II-C. Checking the web inspector
+
+
 
 
 
