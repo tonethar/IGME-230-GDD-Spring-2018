@@ -15,7 +15,7 @@ I. [Why do we need modularized code?](#section1)
 
 Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
 
-## I-A. The ramifications of not using JS modules
+### I-A. The ramifications of not using JS modules
 
 * The JS code is nicely organized and split into 3 files: *main.js*, *classes.js* and *utilities.js*
 * But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the inspector:
@@ -39,12 +39,17 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 `sprite = {};` 
 
-Reload the page, you will get an error in the console, and nothing drawn to the screen:**
+**Reload the page, you will get an error in the console, and nothing drawn to the screen:**
 
 `Uncaught TypeError: s.move is not a function`
 
 **which is because the above code re-defined the value of the `sprite` object declared in *classes.js*, and wrecked the object "inheritance" we were doing over there.**
 
+### I-B. How about function?
+
+Similarly, declared functions (and variables declared with `var`) all show up in the shared global scope:
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-2.jpg)
 
 <hr><hr>
 
