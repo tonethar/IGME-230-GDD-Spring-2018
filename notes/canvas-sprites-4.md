@@ -25,6 +25,10 @@ We have been getting away with writing "non modular" JavaScript code so far beca
 <!--- Local Navigation --->
 I. [Why do we need modularized code?](#section1)
 
+II. [ES6 Modules to the rescue!](#section2)
+
+<hr>
+
 ## I. <a id="section1">Why do we need modularized code?
 
 Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
