@@ -79,7 +79,7 @@ Clearly not:
 
 
 
-II. [ES6 Modules to the rescue!](#section2)
+II. <a id="section2">ES6 Modules to the rescue!
 
 [Exploring ES6]](http://exploringjs.com/es6/ch_modules.html#sec_overview-modules) has a nice overview of ES6 modules:
 
