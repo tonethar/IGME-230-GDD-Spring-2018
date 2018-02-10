@@ -252,6 +252,28 @@ Make the HTML file look like this:
 - above we got rid of those 3 &lt;script> tags that were doing the importing
 - the HTML file has access to only one method - "`main.init()`" - which it calls once the page loads.
 
+
+### III-E. Try it out!
+
+Now set some breakpoints and check the inspector - "Script" scope is gone, replaced by Module scope.
+
+**HTML file**
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
+
+**main.js**
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-6.jpg)
+
+**classes.js**
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-7.jpg)
+
+
+**utilities.js**
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-8.jpg)
+
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
