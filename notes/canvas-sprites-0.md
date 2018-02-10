@@ -36,6 +36,13 @@ This series of tutorials/lecture notes will get you started creating animated ca
     - ES6 Inheritance
     - Side-by-side look at ES6 classes and `Object.create()`:
         - you get nearly the same thing back from the JS runtime!
+1. [JavaScript & ES6 Modules](./canvas-sprites-4.md)
+    - Why do we need modularized code?
+    - a very cluttered *script scope*
+    - `export` & `import`
+    - ES6 modules example
+    - *Module scope*
+    - converting "bouncing sprites" to use modules
 
 ## V. Homework Assignments
 See mycourses dropboxes for due dates.
