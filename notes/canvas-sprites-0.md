@@ -1,6 +1,8 @@
 # About this Canvas Sprites Tutorial Series (IGME-330)
 ## I. Overview
-This series of tutorials/lecture notes will get you started creating animated canvas sprites for your *Project 1 : Audio Visualizer* and *Project 2: Game or Experience* assignments for IGME-330. We will also look at several techniques used to create JavaScript objects utilizing *protoypical inheritance* and `Object.create()`, as well as ES6 classes. 
+Parts I-III of this series of tutorials/lecture notes will get you started creating animated canvas sprites for your *Project 1 : Audio Visualizer* and *Project 2: Game or Experience* assignments for IGME-330. We will also look at several techniques used to create JavaScript objects utilizing *protoypical inheritance* and `Object.create()`, as well as ES6 classes. 
+
+Parts IV & V will look at ways of making our code more loosely coupled and modular.
 
 ## II. Prerequisite Knowledge
 - It assumed that you understand the foundational JavaScript concepts covered here: [About this Web App Tutorial Series](./web-apps-0.md)
