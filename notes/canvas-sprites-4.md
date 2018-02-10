@@ -31,13 +31,17 @@ III. [Adding ES6 Modules to our "bouncing objects" application](#section3)
 
 IV. [Try it out!](#section4)
 
+V. [Reference](#section5)
+
+VI. [Review Questions](#section6)
+
 <hr>
 
 ## I. <a id="section1">Why do we need modularized code?
 
 Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
 
-### I-A. The ramifications of not using JS modules
+### I-A. The costs of not using JS modules
 
 * The JS code is nicely organized and split into 3 files: *main.js*, *classes.js* and *utilities.js*
 * But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the inspector:
@@ -162,6 +166,8 @@ You can try it out here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code
 
 Test it: You should see - "ES6 modules are functioning!" - in the browser window (if you don't, check the console)
 
+Note: the above example was adapted from here: https://jakearchibald.com/2017/es-modules-in-browsers/
+
 ### II-C. Checking the web inspector
 
 If we add a two breakpoints and step through the code, we can see that we now have "Module" scope:
@@ -255,7 +261,7 @@ Make the HTML file look like this:
 - the HTML file has access to only one method - "`main.init()`" - which it calls once the page loads.
 
 
-### IV. Try it out!
+## IV. <a id="section4">Try it out!
 
 Now set some breakpoints and check the inspector:
 - "script" scope is gone, replaced by Module scope
@@ -277,6 +283,21 @@ Now set some breakpoints and check the inspector:
 **utilities.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-8.jpg)
+
+## V. <a id="section5">Reference
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+- http://exploringjs.com/es6/ch_modules.html#sec_mixing-named-and-default-exports
+- http://2ality.com/2014/09/es6-modules-final.html
+- https://jakearchibald.com/2017/es-modules-in-browsers/\
+- https://hacks.mozilla.org/2015/08/es6-in-depth-modules/
+- https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
+
+	
+## VI. <a id="section6">Review Questions
+1. Define the software development term *loosely coupled*.
+2. Give 3 advantages of using modules when coding substantial JavaScript applications.
+3. Give 3 things that could go wrong if you don't use modularized code.
 
 <hr><hr>
 
