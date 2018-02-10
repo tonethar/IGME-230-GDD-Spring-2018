@@ -151,5 +151,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 <hr><hr>
 
 **[Previous Chapter <- `Object.create()` & Delegation (chapter 2)](canvas-sprites-2.md)**
+
+**[Next Chapter -> JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
   
  
