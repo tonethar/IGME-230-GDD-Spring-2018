@@ -86,7 +86,7 @@ II. [ES6 Modules to the rescue!](#section2)
 *JavaScript has had modules for a long time. However, they were implemented via libraries, not built into the language. ES6 is the first time that JavaScript has built-in modules. ES6 modules are stored in files. There is exactly one module per file and one file per module.*
 
 ### II-A. *export* and *import*
-[export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) isThe import statement is used to import bindings which are exported by another module. used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
+[export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
 
 [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
 
