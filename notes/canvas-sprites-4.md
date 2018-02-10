@@ -48,7 +48,7 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 ### I-B. How about functions?
 
-Similarly, declared functions (and variables declared with `var`) all show up in the shared global scope. Below we have palced a breakpoint in *utilities.js*, and in the debugger we can also see all of the functions declared in *classes.js* and *main.js*:
+Similarly, declared functions (and variables declared with `var`) all show up in the shared global scope. Below we have placed a breakpoint in *utilities.js*, and in the debugger we can also see all of the functions declared in *classes.js* and *main.js*:
 
 **utilities.js**
 
