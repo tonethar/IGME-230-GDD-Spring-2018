@@ -15,6 +15,8 @@ I. [Why do we need modularized code?](#section1)
 
 Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
 
+## I-A. The ramifications of not using JS modules
+
 * The JS code is nicely organized and split into 3 files: *main.js*, *classes.js* and *utilities.js*
 * But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the inspector:
 
@@ -25,11 +27,16 @@ Before we get started, grab the start files, which are based on the `Object.crea
 - this means that *main.js* can "see" all of the `let` declared  variables in *classes.js*. The converse is also true - *classes.js* has access to all of the *main.js* variables. Place a breakpoint at the top of `createCircleSprites()` in *classes.js*, and you will see that the available Script scoped variables are identical to what we saw in *main.js*.
 - similarly, placing a breakpoint in the `getRandom()` function of *utilities.js* will reveal an identical list of script scoped variables.
 
-To see how this sharing of variables can cause problems, add the following line of code to the top section of *main.js*
+**To see how this sharing of variables can cause problems, add the following line of code to the top section of *main.js***
 
-`sprite = {};`
+`let sprite = {};` // main.js needs it own sprite variable!
 
-Reload the 
+**Reload the page, you will get an error in the console, and nothing drawn to the screen:**
+
+`Uncaught SyntaxError: Identifier 'sprite' has already been declared at main.js:1`
+
+*So the JS runtime won't allow us to *
+
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
