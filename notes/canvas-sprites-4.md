@@ -257,7 +257,9 @@ Make the HTML file look like this:
 
 ### IV. Try it out!
 
-Now set some breakpoints and check the inspector - "Script" scope is gone, replaced by Module scope.
+Now set some breakpoints and check the inspector:
+- "script" scope is gone, replaced by Module scope
+- all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
 
 **HTML file**
 
