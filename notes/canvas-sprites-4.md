@@ -1,23 +1,28 @@
 # 4 - Canvas & ES6 Modules
 
 ## Overview
-Modular programming is the process of subdividing a computer program into separate sub-programs. Modules have the following characteristics:
+Applications that are written in a **modular** fashion are [loosely coupled](https://en.wikipedia.org/wiki/Loose_coupling), with minimal [dependencies](https://en.wikipedia.org/wiki/Dependency_hell) between modules, which makes the process of designing and maintaining them much easier and less error prone. 
+
+**Modular programming** is the process of subdividing a computer program into separate sub-programs. Modules have the following characteristics:
 - enforce logical boundaries between components and improve maintainability
-- are incorporated through *interfaces* (i.e. publicly available methods or properties
+- are implemented through *interfaces* (i.e. publicly available methods or properties)
 - are designed in such a way as to minimize *dependencies* between different modules
 
-
+Writing modular code has many benefits:
+- it allows many programmers to collaborate on the same application because a small team deals with only a small part of the entire code
+- the same code can be used in many applications
+- errors can easily be identified, as they are localized to a file, class or function
+- the scoping of variables can be easily controlled
 
 The above is adapted from https://www.techopedia.com/definition/25972/modular-programming
 
-In this chapter we will utilize ES6 module syntax to blah blah blah.
+
+**In this chapter we will apply ES6 module syntax to an application and see these benefits in action.**
 
 
 ## Contents
 <!--- Local Navigation --->
 I. [Why do we need modularized code?](#section1)
-
-
 
 ## I. <a id="section1">Why do we need modularized code?
 
@@ -63,6 +68,7 @@ Similarly, declared functions (and variables declared with `var`) all show up in
 ![Screenshot](_images/canvas-sprites-ES-6-modules-2.jpg)
 
 
+### I-C. Is the above code modular?
 
 
 
