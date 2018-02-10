@@ -9,6 +9,7 @@ Modular programming is the process of subdividing a computer program into separa
 
 
 The above is adapted from https://www.techopedia.com/definition/25972/modular-programming
+
 In this chapter we will utilize ES6 module syntax to blah blah blah.
 
 
