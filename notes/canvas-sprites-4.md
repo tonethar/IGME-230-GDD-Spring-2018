@@ -35,7 +35,16 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 `Uncaught SyntaxError: Identifier 'sprite' has already been declared at main.js:1`
 
-*So the JS runtime won't allow us to *
+**So the JS compiler won't allow us to re-declare `let` variables in the same scope. How about if we just do this in *main.js*:**
+
+`sprite = {};` 
+
+Reload the page, you will get an error in the console, and nothing drawn to the screen:**
+
+`Uncaught TypeError: s.move is not a function`
+
+**which is because the above code re-defined the value of the `sprite` object declared in *classes.js*, and wrecked the object "inheritance" we were doing over there.**
+
 
 <hr><hr>
 
