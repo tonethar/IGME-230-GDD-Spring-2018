@@ -27,7 +27,7 @@ I. [Why do we need modularized code?](#section1)
 
 II. [ES6 Modules to the rescue!](#section2)
 
-III.[Adding ES6 Modules to our "bouncing objects" application](#section3)
+III. [Adding ES6 Modules to our "bouncing objects" application](#section3)
 
 <hr>
 
@@ -218,6 +218,38 @@ export {createCircleSprites,createSquareSprites,createImageSprites};
 ### III-C. Changes to *main.js*
 
 Add the following to the top:
+
+```javascript
+import {createCircleSprites,createSquareSprites,createImageSprites} from './classes.js';
+export {init};
+```
+
+And delete the *call* to the `init();` function - not the function itself. This single line of code is on or around line 10.In the next section, we will instead call init() from the HTML file. 
+
+- above we are importing the 3 sprite creation functions we need from *classes.js*
+- the only function or variable we are exposing to other scripts is `init()'
+
+### III-C. Changes to the HTML file:
+Make the HTML file look like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Modules: Canvas & OLOO</title>
+</head>
+<body>
+<canvas width="600" height="400"></canvas>
+<script type="module">
+  import {init} from './js/main.js';
+  init();
+</script>
+</body>
+</html>
+```
+
+
 
 <hr><hr>
 
