@@ -44,7 +44,9 @@ Before we get started, grab the start files, which are based on the `Object.crea
 ### I-A. The costs of not using JS modules
 
 * The JS code is nicely organized and split into 3 files: *main.js*, *classes.js* and *utilities.js*
-* But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the inspector:
+* But is the JS runtime aware of our organizational structure? Let's check the debugger and see. Place a breakpoint at the top of the `loop()` function of *main.js* and check the web inspector:
+
+**main.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-1.jpg)
 
@@ -298,6 +300,7 @@ Now set some breakpoints and check the inspector:
 1. Define the software development term *loosely coupled*.
 2. Give 3 advantages of using modules when coding substantial JavaScript applications.
 3. Give 3 things that could go wrong if you don't use modularized code.
+4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
 
 <hr><hr>
 
