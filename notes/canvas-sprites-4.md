@@ -153,7 +153,7 @@ To use this module from an HTML page, we do the following:
 ```
 
 Be sure to note the following in *test.html*:
-- it is not necessary to "import" the *utilities.js* JS file with a &lt;link> tag - as the `import` statement is doing that for us
+- it is not necessary to "import" the *utilities.js* JS file with a &lt;script> tag - as the `import` statement is doing that for us
 - we have to explicitly import the `addTextToBody()` function to use it
 
 You can try it out here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
@@ -229,7 +229,7 @@ And delete the *call* to the `init();` function - not the function itself. This 
 - above we are importing the 3 sprite creation functions we need from *classes.js*
 - the only function or variable we are exposing to other scripts is `init()'
 
-### III-C. Changes to the HTML file:
+### III-D. Changes to the HTML file:
 Make the HTML file look like this:
 
 ```html
@@ -249,7 +249,8 @@ Make the HTML file look like this:
 </html>
 ```
 
-
+- above we got rid of those 3 &lt;script> tags that were doing the importing
+- the HTML file has access to only one method - "main.init()" - which it calls once the page loads.
 
 <hr><hr>
 
