@@ -136,7 +136,7 @@ function myPrivateFunction(){
 To use this module from an HTML page, we do the following:
 
 **test.html**
-```javascript
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,8 +191,26 @@ In *test.html*:
 	
 Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules.
 
+### III-A. Changes to *utilities.js*
 
-	
+Add the following to the top:
+
+```javascript
+export {getRandomUnitVector};
+```
+
+You can also delete the `"use strict";` line because ES6 modules always run in strict mode.
+
+If you test the app now, will see errors, so just move on.
+
+### III-B. Changes to *classes.js*
+
+Add the following to the top:
+
+```javascript
+import {getRandomUnitVector} from './utilities.js';
+export {createCircleSprites,createSquareSprites,createImageSprites};
+```
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
