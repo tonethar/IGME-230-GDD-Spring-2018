@@ -16,6 +16,7 @@ Writing modular code has many benefits:
 
 The above is adapted from https://www.techopedia.com/definition/25972/modular-programming
 
+We have been getting away with writing "non modular" JavaScript code so far because our programs have been fairly small. But as the size of the program increases, and if more than one developer works on an application, a modular programming architecture becomes essential.
 
 **In this chapter we will apply ES6 module syntax to an application and see these benefits in action.**
 
@@ -61,7 +62,7 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 ### I-B. How about functions?
 
-Similarly, declared functions (and variables declared with `var`) all show up in the shared *global* scope. Below we have placed a breakpoint in *utilities.js*, and in the debugger we can not only the random functions are vailable, but also the functions declared in *classes.js* and *main.js*:
+Similarly, declared functions (and variables declared with `var`) all show up in the shared *global* scope. Below we have placed a breakpoint in *utilities.js*, and in the debugger we can not only the random functions are available, but also the functions declared in *classes.js* and *main.js*:
 
 **utilities.js**
 
@@ -70,7 +71,14 @@ Similarly, declared functions (and variables declared with `var`) all show up in
 
 ### I-C. Is the above code modular?
 
+Clearly not:
+- regardless of the script file we write code in, all of our `let` variables are mashed together into the "Script" namespace, and all of our functions and `var` variables are in the *Global* scope
+- there are *dependencies* between modules which are not explicit. For example, *classes.js* depends on *utilities.js* for the `getRandomUnitVector()` function
+- adding variables to one module can cause name collisions with variables in other modules. If one developer added a `sprite` or `screenWidth` variable to *classes.js*, it could easily break what the other developer was doing in *main.js*. In a larger application,  these would be hard errors to track down. 
 
+
+
+II. [???](#section2)
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
