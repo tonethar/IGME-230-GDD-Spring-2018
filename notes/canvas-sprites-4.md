@@ -294,6 +294,7 @@ Now set some breakpoints and check the inspector:
 - https://jakearchibald.com/2017/es-modules-in-browsers/\
 - https://hacks.mozilla.org/2015/08/es6-in-depth-modules/
 - https://blogs.windows.com/msedgedev/2016/05/17/es6-modules-and-beyond/
+- https://www.ecma-international.org/ecma-262/6.0/#sec-imports
 
 	
 ## VI. <a id="section6">Review Questions
