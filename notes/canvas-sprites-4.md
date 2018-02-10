@@ -159,13 +159,15 @@ Test it: You should see - "ES6 modules are functioning!" - in the browser window
 If we add a two breakpoints and step through the code, we can see that we now have "Module" scope:
 
 **test.html**
+
 Here, the `myPrivateFunction()` is not visible:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-3.jpg)
 
 
 **js/utilities.html**
-But, both functions are visible:
+
+But here, both functions are visible:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-4.jpg)
 
