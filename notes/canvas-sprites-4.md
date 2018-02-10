@@ -1,7 +1,14 @@
 # 4 - Canvas & ES6 Modules
 
 ## Overview
-Modules blah blah 
+Modular programming is the process of subdividing a computer program into separate sub-programs. Modules have the following characteristics:
+- enforce logical boundaries between components and improve maintainability
+- are incorporated through *interfaces* (i.e. publicly available methods or properties
+- are designed in such a way as to minimize *dependencies* between different modules
+
+
+
+The above is adapted from https://www.techopedia.com/definition/25972/modular-programming
 In this chapter we will utilize ES6 module syntax to blah blah blah.
 
 
@@ -53,6 +60,14 @@ Similarly, declared functions (and variables declared with `var`) all show up in
 **utilities.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-2.jpg)
+
+
+
+
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+
 
 <hr><hr>
 
