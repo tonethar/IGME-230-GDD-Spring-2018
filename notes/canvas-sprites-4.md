@@ -199,9 +199,9 @@ Add the following to the top:
 export {getRandomUnitVector};
 ```
 
-You can also delete the `"use strict";` line because ES6 modules always run in strict mode.
-
-If you test the app now, will see errors, so just move on.
+-you can also delete the `"use strict";` line because ES6 modules always run in strict mode.
+- above we are making `getRandomUnitVector()` public, but keeping `getRandom()` private to this module.
+- if you test the app now, will see errors, so just move on.
 
 ### III-B. Changes to *classes.js*
 
@@ -211,6 +211,14 @@ Add the following to the top:
 import {getRandomUnitVector} from './utilities.js';
 export {createCircleSprites,createSquareSprites,createImageSprites};
 ```
+
+- above we see the `import` statement for the first time - *classes.js* needs access to `getRandomUnitVector()` - and the `import` statement makes this dependency very explicit.
+- we are making the 3 sprite creation functions public, but the `sprite` object private to this module
+
+### III-C. Changes to *main.js*
+
+Add the following to the top:
+
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
