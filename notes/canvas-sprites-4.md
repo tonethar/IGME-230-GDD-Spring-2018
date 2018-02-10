@@ -29,7 +29,7 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 **To see how this sharing of variables can cause problems, add the following line of code to the top section of *main.js***
 
-`let sprite = {};` // main.js needs it own sprite variable!
+`let sprite = {}; // main.js needs it own sprite variable!` 
 
 **Reload the page, you will get an error in the console, and nothing drawn to the screen:**
 
