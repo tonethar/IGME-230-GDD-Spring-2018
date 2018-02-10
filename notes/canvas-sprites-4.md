@@ -43,7 +43,8 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 `Uncaught TypeError: s.move is not a function`
 
-**which is because the above code re-defined the value of the `sprite` object declared in *classes.js*, and wrecked the object "inheritance" we were doing over there.**
+**... which is because the above code re-defined the value of the `sprite` object declared in *classes.js*, and wrecked the object "inheritance" we were doing over there.**
+
 
 ### I-B. How about functions?
 
