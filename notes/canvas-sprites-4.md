@@ -85,18 +85,69 @@ II. [ES6 Modules to the rescue!](#section2)
 
 *JavaScript has had modules for a long time. However, they were implemented via libraries, not built into the language. ES6 is the first time that JavaScript has built-in modules. ES6 modules are stored in files. There is exactly one module per file and one file per module.*
 
-### II-A. *export* and *import*
+### II-A. `export` and `import`
 [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
 
 [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
 
 ### II-B. A working example
 ES6 modules have 2 restrictions:
-- they need be hosted on a web server to function (or use Live preview of Brackets, etc)
+- they need be hosted on a web server to function (or use the Live Preview mode of Brackets, etc)
 - as of Spring 2018, they are only supported by recent versions of Chrome, Edge and Safari 
 
+Here is our first module - we are exporting (i.e. making public and visible) the `addTextToBody()` function, but not the `myPrivateFunction()` function.
+
+**js/utilities.js**
+
+```javascript
+export function addTextToBody(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  document.body.appendChild(div);
+}
+
+function myPrivateFunction(){
+	console.log("privateFunction() is not visible outside of utilities.js!");
+}
+```
+
+We could also write the `export` this way:
+
+```javascript
+export {addTextToBody};
+
+function addTextToBody(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  document.body.appendChild(div);
+}
+
+function myPrivateFunction(){
+	console.log("privateFunction() is not visible outside of utilities.js!");
+}
+```
+
+To use this module from an HTML page, we do the following:
+
+**test.html**
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>ES6 Module Tester</title>
+</head>
+<body>
+<script type='module'>
+  import {addTextToBody} from './js/utilities.js';
+  addTextToBody('ES6 modules are functioning!');
+</script>
+</body>
+</html>
+```
 
 
+You can try it out here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
