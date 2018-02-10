@@ -27,6 +27,8 @@ I. [Why do we need modularized code?](#section1)
 
 II. [ES6 Modules to the rescue!](#section2)
 
+III.[Adding ES6 Modules to our "bouncing objects" application](#section3)
+
 <hr>
 
 ## I. <a id="section1">Why do we need modularized code?
@@ -176,7 +178,21 @@ But here, both functions are visible:
 ![Screenshot](_images/canvas-sprites-ES-6-modules-4.jpg)
 
 
+<hr>
 
+### ** *Try This* **
+In *test.html*:
+- attempt to call `myPrivateFunction()` - what error message do we get?
+
+<hr>
+
+
+## III. <a id="section3">Adding ES6 Modules to our "bouncing objects" application
+	
+Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules.
+
+
+	
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
