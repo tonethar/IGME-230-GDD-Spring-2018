@@ -250,7 +250,7 @@ Make the HTML file look like this:
 ```
 
 - above we got rid of those 3 &lt;script> tags that were doing the importing
-- the HTML file has access to only one method - "main.init()" - which it calls once the page loads.
+- the HTML file has access to only one method - "`main.init()`" - which it calls once the page loads.
 
 <hr><hr>
 
