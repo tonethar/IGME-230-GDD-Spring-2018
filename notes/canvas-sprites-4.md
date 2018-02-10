@@ -107,7 +107,7 @@ export function addTextToBody(text) {
 }
 
 function myPrivateFunction(){
-	console.log("privateFunction() is not visible outside of utilities.js!");
+  console.log("privateFunction() is not visible outside of utilities.js!");
 }
 ```
 
@@ -146,8 +146,18 @@ To use this module from an HTML page, we do the following:
 </html>
 ```
 
+Be sure to note the following in *test.html*:
+- it is not necessary to "import" the *utilities.js* JS file with a &lt;link> tag - as the `import` statement is doing that for us
+- we have to explicitly import the `addTextToBody()` function to use it
 
 You can try it out here: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/ES-6-module-tester/test.html
+
+Test it: You should see "ES6 modules are functioning!" in the browser window.
+
+### II-C. Looking in the inspector
+
+
+
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
