@@ -79,10 +79,22 @@ Clearly not:
 
 
 
-II. [???](#section2)
+II. [ES6 Modules to the rescue!](#section2)
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+[Exploring ES6]](http://exploringjs.com/es6/ch_modules.html#sec_overview-modules) has a nice overview of ES6 modules:
+
+*JavaScript has had modules for a long time. However, they were implemented via libraries, not built into the language. ES6 is the first time that JavaScript has built-in modules. ES6 modules are stored in files. There is exactly one module per file and one file per module.*
+
+### II-A. *export* and *import*
+[export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) isThe import statement is used to import bindings which are exported by another module. used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement.
+
+[import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) is used to import *bindings* (to functions, objects or primitive values) which are exported by another module.
+
+### II-B. A working example
+ES6 modules have 2 restrictions:
+- they need be hosted on a web server to function (or use Live preview of Brackets, etc)
+- as of Spring 2018, they are only supported by recent versions of Chrome, Edge and Safari 
+
 
 
 <hr><hr>
