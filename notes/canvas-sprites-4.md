@@ -29,6 +29,8 @@ II. [ES6 Modules to the rescue!](#section2)
 
 III. [Adding ES6 Modules to our "bouncing objects" application](#section3)
 
+IV. [Try it out!](#section4)
+
 <hr>
 
 ## I. <a id="section1">Why do we need modularized code?
@@ -253,7 +255,7 @@ Make the HTML file look like this:
 - the HTML file has access to only one method - "`main.init()`" - which it calls once the page loads.
 
 
-### III-E. Try it out!
+### IV. Try it out!
 
 Now set some breakpoints and check the inspector - "Script" scope is gone, replaced by Module scope.
 
