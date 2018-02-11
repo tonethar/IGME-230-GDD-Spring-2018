@@ -165,6 +165,50 @@ A common way to create ES5 JS applications that have multiple modules is to crea
 Here is our new version of **myutils-es5-module.js**:
 
 ```
+"use strict";
+
+
+// 1)  If there is an `app` object already, use it.
+// If `app` is nil, create an empty object literal
+var app = app || {};
+
+// 2) add a `utils` property to `app`
+app.utils = (function(){
+	console.log("myutils-es5-module.js module loaded");
+	
+	// A) public stuff
+	let someVariable = 42;
+
+	function getRandomUnitVector(){
+		let x = getRandom(-1,1);
+		let y = getRandom(-1,1);
+		let length = Math.sqrt(x*x + y*y);
+		if(length == 0){ // very unlikely
+			x=1; // point right
+			y=0;
+		} else{
+			x /= length;
+			y /= length;
+		}
+
+		return {x:x, y:y};
+	}
+
+	// B) private stuff
+	let privateVariable = 3.1415;
+	let secretCode = "ifmmp xpsme";
+
+	function getRandom(min, max) {
+		return Math.random() * (max - min) + min;
+	}
+
+// C) export a public interface to this module
+		return{
+			meaningOfLife: someVariable,
+			getRandomUnitVector: getRandomUnitVector
+		};
+		
+})(); // D) call the function immediately, which returns the interface above
 
 ```
 
