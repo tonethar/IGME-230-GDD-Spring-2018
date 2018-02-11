@@ -46,13 +46,21 @@ function getRandomUnitVector(){
 	return {x:x, y:y};
 }
 
-// private stuff
+// stuff we would like to be private, but it's still public!
 let privateVariable = 3.1415;
 let secretCode = "ifmmp xpsme";
 
 function getRandom(min, max) {
 	return Math.random() * (max - min) + min;
 }
+
+// test it - everything is visible, everywhere!
+console.log(revealingModule.someVariable); // 42
+console.log(revealingModule.getRandomUnitVector); // function(){..}
+console.log(revealingModule.getRandomUnitVector()); // something like {x:0.9722,y:0.2341}
+console.log(revealingModule.privateVariable); // 3.1415
+console.log(revealingModule.secretCode); // "ifmmp xpsme"
+console.log(revealingModule.getRandom); // function(){..}
 ```
 
 ## II. <a id="section2">The Revealing Module Pattern
