@@ -421,11 +421,11 @@ Add a variable to the top (right after `let sprites = [];`):
 
 `let classes = app.classes; // ALIAS`
 
-Now change this line (which calls the global sprite making functions):
+Now change this line (which calls the global "sprite making" functions):
 
 `sprites = sprites.concat(createCircleSprites(10,rect),createSquareSprites(10,rect),createImageSprites(10,rect2));`
 
-With this line (which calls the `app.classes` module sprite making functions):
+With this line (which calls the `app.classes` module's "sprite making" functions):
 
 `sprites = sprites.concat(classes.createCircleSprites(10,rect),classes.createSquareSprites(10,rect),classes.createImageSprites(10,rect2));`
 
@@ -473,7 +473,7 @@ Make the HTML file look like this:
 	<title>ES5 Module Pattern - Canvas & OLOO</title>
 </head>
 <body>
-<canvas width="600" height="400"></canvas>
+	<canvas width="600" height="400"></canvas>
 	<script src="js/utilities.js"></script>
 	<script src="js/classes.js"></script>
 	<script src="js/main.js"></script>
