@@ -15,6 +15,8 @@ II. [The Revealing Module Pattern](#section2)
 
 III. [Attaching modules to a global object](#section3)
 
+IV. [Converting "Bouncing Sprites" to the ES5 module pattern](#section4)
+
 <hr>
 
 ## I. <a id="section1">Back to ES5
