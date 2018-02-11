@@ -237,12 +237,12 @@ app.main = (function(){
 	
 	// B) public stuff
 		function init(){
-			console.log(app.utils.meaningOfLife); 				// 42
-			console.log(app.utils.getRandomUnitVector()); // something like {x:0.9722,y:0.2341}
-			console.log(app.utils.someVariable); 					// undefined
-			console.log(app.utils.privateVariable); 			// undefined
-			console.log(app.utils.secretCode); 						// undefined
-			console.log(app.utils.getRandom); 						// undefined
+			console.log(app.utils.meaningOfLife); 		// 42
+			console.log(app.utils.getRandomUnitVector()); 	// something like {x:0.9722,y:0.2341}
+			console.log(app.utils.someVariable); 		// undefined
+			console.log(app.utils.privateVariable); 	// undefined
+			console.log(app.utils.secretCode); 		// undefined
+			console.log(app.utils.getRandom); 		// undefined
 		}
 		
 		function startGame(){
