@@ -158,8 +158,9 @@ undefined
 undefined
 ```
 
-## IiI. <a id="section3">Attaching modules to a global object
-	
+## III. <a id="section3">Attaching modules to a global object
+
+A common way to create JS applications that have multiple modules is to create a single global object, and to make each module a property of that object.
 	
 <hr><hr>
 
