@@ -202,10 +202,10 @@ app.utils = (function(){
 	}
 
 // C) export a public interface to this module
-		return{
-			meaningOfLife: someVariable,
-			getRandomUnitVector: getRandomUnitVector
-		};
+	return{
+		meaningOfLife: someVariable,
+		getRandomUnitVector: getRandomUnitVector
+	};
 		
 })(); // D) call the function immediately, which returns the interface above
 
