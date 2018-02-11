@@ -54,9 +54,51 @@ function getRandom(min, max) {
   
 The ES5 Module pattern provides a way of creating a mix of public and private methods and variables, protecting the code from leaking into the global or script scope and accidentally colliding with code in other files. With this pattern, only a public API is returned, keeping everything else private.
 
+- Below we define 3 variables and 2 functions inside of a function, and then call the function immediately (with the `()` at the end)
+- Functions and variables defined within a function are local (private) to that function and not visible from the outside
+- From this function, we will return one variable and one function reference that we want to expose (make public) to the rest of our program.
+- This way of calling an anonymous function is know as an "Immediately Invoked Function Expression" aka IIFE or "Iffy"
+
 **myutils-es5-module.js**
 ```javascript
+"use strict";
 
+let revealingModule = (function(){
+	console.log("myutils-es5-module.js module loaded");
+	
+	// A) public stuff
+	let someVariable = 42;
+
+	function getRandomUnitVector(){
+		let x = getRandom(-1,1);
+		let y = getRandom(-1,1);
+		let length = Math.sqrt(x*x + y*y);
+		if(length == 0){ // very unlikely
+			x=1; // point right
+			y=0;
+		} else{
+			x /= length;
+			y /= length;
+		}
+
+		return {x:x, y:y};
+	}
+
+	// B) private stuff
+	let privateVariable = 3.1415;
+	let secretCode = "ifmmp xpsme";
+
+	function getRandom(min, max) {
+		return Math.random() * (max - min) + min;
+	}
+
+// C) export a public interface to this module
+		return{
+			meaningOfLife: someVariable,
+			getRandomUnitVector: getRandomUnitVector
+		};
+		
+})(); // D) call the function immediately, which returns the interface above
 ```
 
 <hr><hr>
