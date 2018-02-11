@@ -60,4 +60,5 @@ The ES5 Module pattern provides a way of creating a mix of public and private me
 ```
 
 <hr><hr>
+
 **[Previous Chapter <- JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
