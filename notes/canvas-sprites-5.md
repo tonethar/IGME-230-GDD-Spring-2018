@@ -160,6 +160,7 @@ undefined
 
 ## III. <a id="section3">Attaching modules to a global object
 
+### III-A. Creating the `utils` module
 A common way to create ES5 JS applications that have multiple modules is to create a single global object, and to make each module a property of that object.
 
 Here is our new version of **myutils-es5-module.js** - note how we are now assigning the returned varaible and function to a property of an object named `app`:
@@ -214,8 +215,68 @@ app.utils = (function(){
 - We can now call the `getRandomUnitVector()` function like this:
     - `app.utils.getRandomUnitVector()`
     - and access `someVariable` like this - `app.utils.meaningOfLife`
+    
 
-Here is a new module named **test.html**:
+### III-B. Creating the `main` module
+
+Here a new module - which will be the main module where most of the application logic (such as it is) will reside.
+
+**main-es5-module.js**
+
+```javascript
+// 1)  If there is an `app` object already, use it.
+// If `app` is nil, create an empty object literal
+var app = app || {};
+
+// 2) add a `main` property to `app`
+app.main = (function(){
+	console.log("main-es5-module.js module loaded");
+	
+	// A) private stuff
+		let numTimesGamePaused = 0;
+	
+	// B) public stuff
+		function init(){
+			console.log(app.utils.meaningOfLife); 				// 42
+			console.log(app.utils.getRandomUnitVector()); // something like {x:0.9722,y:0.2341}
+			console.log(app.utils.someVariable); 					// undefined
+			console.log(app.utils.privateVariable); 			// undefined
+			console.log(app.utils.secretCode); 						// undefined
+			console.log(app.utils.getRandom); 						// undefined
+		}
+		
+		function startGame(){
+			console.log("** startGame **");
+		}
+		
+		function pauseGame(){
+			numTimesGamePaused++;
+			console.log("** pauseGame **");
+			console.log(`** You have paused the game ${numTimesGamePaused} time(s) **`);
+		}
+		
+		function resumeGame(){
+			console.log("** resumeGame **");
+		}
+	
+	// C) export a public interface to this module
+	return{
+		init: init,
+		startGame: startGame,
+		pauseGame: pauseGame,
+		resumeGame: resumeGame
+	};
+		
+})(); // D) call the function immediately, which returns the interface above
+```
+- **Note that we are re-declaring `app` in this module because we don't know what order these modules will load.**
+- **PS: This is a use case for using `var` over `let`, because `let` doesn't allow you to redeclare variables in the same scope.**
+
+### III-C. Creating loader.js
+
+### III-D. A new HTML file
+
+
 	
 <hr><hr>
 
