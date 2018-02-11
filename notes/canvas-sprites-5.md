@@ -17,14 +17,15 @@ I. [Back to ES5](#section1)
 
 Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
 
-Here is an external JS file that has some helpful code and variables in it. Some of this code we would like to keep public and visible elsewhere, some of it we want to hide away so it doesn't get mutuated or overwritten by code wriiten elsewhere. But under ES5, all of this code is in either Script scope or Global scope, and thus vulnerable to being overwritten by code written elsewhere (it could also overwrite other code itself)
+- Below is an external JS file that has some helpful code and variables in it. Some of this code we would like to keep public and visible elsewhere, some of it we want to hide away so it doesn't get mutuated or overwritten by code wriiten elsewhere.
+- But under ES5, all of this code is in either Script scope or Global scope, and thus vulnerable to being overwritten by code written elsewhere (it could also overwrite other code itself)
 
-**myutils.js**
+**myutils.js** (For illustrative purposes only, don't create this file)
 ```javascript
 "use strict";
 
 // public stuff
-let publicVariable = 42;
+let someVariable = 42;
 
 function getRandomUnitVector(){
 	let x = getRandom(-1,1);
@@ -59,7 +60,7 @@ The ES5 Module pattern provides a way of creating a mix of public and private me
 - From this function, we will return one variable and one function reference that we want to expose (make public) to the rest of our program.
 - This way of calling an anonymous function is know as an "Immediately Invoked Function Expression" aka IIFE or "Iffy"
 
-**myutils-es5-module.js**
+**js/myutils-es5-module.js**
 ```javascript
 "use strict";
 
@@ -99,6 +100,34 @@ let revealingModule = (function(){
 		};
 		
 })(); // D) call the function immediately, which returns the interface above
+```
+
+Here's the code to try out our module - and verify that we have successfully hidden away some of the functions and variables.
+
+**test-1.html**
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Test-1</title>
+	<script src="js/myutils-es5-module.js"></script>
+</head>
+<body>
+
+<script>
+	console.log("** Page loaded **");
+	// Test revealingModule - and we can only use what was returned from it
+	console.log(revealingModule.meaningOfLife); // 42
+	console.log(revealingModule.getRandomUnitVector); // function
+	console.log(revealingModule.getRandomUnitVector()); // something like {x:0.9722,y:0.2341}
+	console.log(revealingModule.someVariable); // undefined
+	console.log(revealingModule.privateVariable); // undefined
+	console.log(revealingModule.secretCode); // undefined
+	console.log(revealingModule.getRandom); // undefined
+</script>
+</body>
+</html>
 ```
 
 <hr><hr>
