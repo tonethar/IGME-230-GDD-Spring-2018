@@ -19,8 +19,6 @@ III. [Attaching modules to a global object](#section3)
 
 ## I. <a id="section1">Back to ES5
 
-Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
-
 - Below is an external JS file that has some helpful code and variables in it. Some of this code we would like to keep public and visible elsewhere, some of it we want to hide away so it doesn't get mutuated or overwritten by code wriiten elsewhere.
 - But under ES5, all of this code is in either Script scope or Global scope, and thus vulnerable to being overwritten by code written elsewhere (it could also overwrite other code itself)
 
@@ -328,6 +326,39 @@ Finally, we need a new HTML file to load in the script files. Note that all of t
 </html>
 ```
 	
+### III-E. Test it!
+
+- Load the HTML file into a browser and look in the console to verify that everything loaded correctly. You should see that the only variables and functions that are visible are the ones that we deliberately exposed by returning.
+
+```javascript
+myutils-es5-module.js module loaded
+main-es5-module.js module loaded
+loader.js module loaded
+** HTML Page loaded **
+window.onload called
+42
+{x: 0.08835397598192692, y: 0.9960891400513234}
+undefined
+undefined
+undefined
+undefined
+** startGame **
+** pauseGame **
+** You have paused the game 1 time(s) **
+** resumeGame **
+** pauseGame **
+** You have paused the game 2 time(s) **
+The value of app.main.numTimesGamePaused is undefined
+```
+
+
+## IV. <a id="section4">Converting "Bouncing Sprites" to the ES5 module pattern
+	
+- In the last chapter we converted Chapter 2's "Bouncing Sprites" `Object.create()` demo to ES6 modules. In this chapter, we are going to convert the same code to ES5 "revealing modules".
+- Grab the start files here: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
+
+
+
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
