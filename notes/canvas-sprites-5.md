@@ -361,19 +361,111 @@ The value of app.main.numTimesGamePaused is undefined
 
 ### IV-A. Changes to *utilities.js*
 
-Add the following to the top:
+- No changes! We are going to leave the *utilities.js* functions in the global scope that they can be easily used from anywhere in our program.
+
 
 ### IV-B. Changes to *classes.js*
 
 Add the following to the top:
 
+```javascript
+"use strict";
+
+// if app exists use the existing copy
+// else create a new object literal
+var app = app || {};
+
+app.classes = (function(){
+	console.log("classes.js module loaded");
+```
+
+And bottom:
+
+```javascript
+	// export a public interface to this module
+	return{
+		createCircleSprites: createCircleSprites,
+		createSquareSprites: createSquareSprites,
+		createImageSprites:  createImageSprites
+	};
+	
+}());
+```
+
 ### IV-C. Changes to *main.js*
 
 Add the following to the top:
 
-### IV-D. Changes to the HTML file:
+```javascript
+"use strict";
+// if app exists use the existing copy
+// else create a new object literal
+var app = app || {};
+
+app.main = (function(){
+	console.log("main.js module loaded");
+```
+
+And bottom:
+
+```javascript
+	// export a public interface to this module
+	return{
+		init: init,
+	};
+	
+}());
+```
+
+### IV-D. A new file: *loader.js*
+
+**js/loader.js**
+
+```javascript
+/*
+loader.js
+variable 'app' is in global scope - i.e. a property of window.
+app is our single global object literal - all other functions and properties of 
+the game will be properties of app.
+*/
+"use strict";
+
+// if app exists use the existing copy
+// else create a new empty object literal
+var app = app || {};
+
+
+window.onload = function(){
+	console.log("window.onload called");
+	// This is the "sandbox" where we hook our modules up
+	// so that we don't have any hard-coded dependencies in
+	// the modules themselves
+	// more full blown sandbox solutions are discussed here:
+	// http://addyosmani.com/writing-modular-js/
+
+	app.main.init();
+}
+```
+
+### IV-E. Changes to the HTML file:
 Make the HTML file look like this:
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>ES5 Module Pattern - Canvas & OLOO</title>
+</head>
+<body>
+<canvas width="600" height="400"></canvas>
+	<script src="js/utilities.js"></script>
+	<script src="js/classes.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/loader.js"></script>
+</body>
+</html>
+```
 
 <hr><hr>
 
