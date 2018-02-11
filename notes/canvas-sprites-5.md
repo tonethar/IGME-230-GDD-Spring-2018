@@ -162,11 +162,10 @@ undefined
 
 A common way to create ES5 JS applications that have multiple modules is to create a single global object, and to make each module a property of that object.
 
-Here is our new version of **myutils-es5-module.js**:
+Here is our new version of **myutils-es5-module.js** - note how we are now assigning the returned varaible and function to a property of an object named `app`:
 
-```
+```javascript
 "use strict";
-
 
 // 1)  If there is an `app` object already, use it.
 // If `app` is nil, create an empty object literal
@@ -212,7 +211,9 @@ app.utils = (function(){
 
 ```
 
-And our new version of **test.html**:
+- We can now call the `getRandomUnitVector()` function like this - `app.utils.getRandomUnitVector()` - and access `someVariable` like this - `app.utils.meaningOfLife`
+
+Here is a new module named **test.html**:
 	
 <hr><hr>
 
