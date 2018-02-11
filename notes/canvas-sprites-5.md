@@ -130,6 +130,23 @@ Here's the code to try out our module - and verify that we have successfully hid
 </html>
 ```
 
+When we load this in the browser, we can see the results:
+- note that the module loads first, then the page
+- only `meaningOfLife` and `getRandomUnitVector()` are visible, everything else is encapsulated and hidden from the outside - analagous to private members in languages like Java or C#
+
+```javascript
+myutils-es5-module.js module loaded
+** Page loaded **
+42
+function(){....}
+{x: 0.9152363302323804, y: -0.40291743549115044}
+undefined
+undefined
+undefined
+undefined
+```
+
+
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
