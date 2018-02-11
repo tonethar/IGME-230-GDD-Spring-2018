@@ -485,8 +485,10 @@ Make the HTML file look like this:
 ## IV-F. Try it out!
 - Everything in "sprite bouncer" should now run exactly as before.
 - Now set some breakpoints and check the inspector:
-    - "script" scope is gone, replaced by Module scope
-    - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
+    - we now have a global object named `app`, which has 2 properties - `classes` and `main`
+    - note that we can only see the "public" functions on these properties, not the private code, which means we have achieved the encapsualtion we were looking for.
+    
+![Screenshot](_images/canvas-sprites-ES-5-revealing-modules-1.jpg)
 
 <hr><hr>
 
