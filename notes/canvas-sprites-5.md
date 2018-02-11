@@ -11,6 +11,10 @@ https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodule
 <!--- Local Navigation --->
 I. [Back to ES5](#section1)
 
+II. [The Revealing Module Pattern](#section2)
+
+III. [Attaching modules to a global object](#section3)
+
 <hr>
 
 ## I. <a id="section1">Back to ES5
@@ -146,7 +150,9 @@ undefined
 undefined
 ```
 
-
+## IiI. <a id="section3">Attaching modules to a global object
+	
+	
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
