@@ -105,11 +105,11 @@ let revealingModule = (function(){
 		return Math.random() * (max - min) + min;
 	}
 
-// C) export a public interface to this module
-		return{
-			meaningOfLife: someVariable,
-			getRandomUnitVector: getRandomUnitVector
-		};
+	// C) export a public interface to this module
+	return{
+		meaningOfLife: someVariable,
+		getRandomUnitVector: getRandomUnitVector
+	};
 		
 })(); // D) call the function immediately, which returns the interface above
 ```
@@ -219,7 +219,7 @@ app.utils = (function(){
 
 ### III-B. Creating the `main` module
 
-Here a new module - which will be the main module where most of the application logic (such as it is) will reside.
+Here a new module - which will be the "main module" where most of the application logic (such as it is) will reside.
 
 **main-es5-module.js**
 
@@ -274,9 +274,59 @@ app.main = (function(){
 
 ### III-C. Creating loader.js
 
+Here a new script file - which is not a module, but will instead start up the application when everything has loaded.
+
+**loader.js**
+
+```javascript
+"use strict";
+
+// 1) If there is an `app` object already, use it.
+// If `app` is nil, create an empty object literal
+var app = app || {};
+
+window.onload = function(){
+	console.log("window.onload called");
+	// This is the "sandbox" where we hook our modules up
+	// so that we don't have any hard-coded dependencies in
+	// the modules themselves
+	// more full blown sandbox solutions are discussed here:
+	// http://addyosmani.com/writing-modular-js/
+
+	app.main.init();
+	app.main.startGame();
+	app.main.pauseGame();
+	app.main.resumeGame();
+	app.main.pauseGame();
+	console.log(`The value of app.main.numTimesGamePaused is ${app.main.numTimesGamePaused}`); // undefined
+}
+
+console.log("loader.js module loaded");
+```
+
 ### III-D. A new HTML file
 
+Finally, we need a new HTML file to load in the script files. Note that all of the application logic has moved out of thre HTML file.
 
+**test-2.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Test-2</title>
+	<script src="js/myutils-es5-module.js"></script>
+	<script src="js/main-es5-module.js"></script>
+	<script src="js/loader.js"></script>
+</head>
+<body>
+<script>
+	console.log("** HTML Page loaded **");
+</script>
+</body>
+</html>
+```
 	
 <hr><hr>
 
