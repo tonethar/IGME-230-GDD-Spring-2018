@@ -429,6 +429,8 @@ With this line (which calls the `app.classes` module sprite making functions):
 
 `sprites = sprites.concat(classes.createCircleSprites(10,rect),classes.createSquareSprites(10,rect),classes.createImageSprites(10,rect2));`
 
+And delete the call to the `init();` function - not the function itself. This single line of code is on or around line 14. In the next section, we will instead call `init()` from *loader.js*.
+
 
 ### IV-D. A new file: *loader.js*
 
@@ -479,6 +481,12 @@ Make the HTML file look like this:
 </body>
 </html>
 ```
+
+## IV-F. Try it out!
+- Everything in "sprite bouncer" should now run exactly as before.
+- Now set some breakpoints and check the inspector:
+    - "script" scope is gone, replaced by Module scope
+    - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
 
 <hr><hr>
 
