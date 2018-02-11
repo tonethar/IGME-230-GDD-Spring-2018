@@ -17,6 +17,10 @@ III. [Attaching modules to a global object](#section3)
 
 IV. [Converting "Bouncing Sprites" to the ES5 module pattern](#section4)
 
+V. [Discussion](#section5)
+
+VI. [Review Questions](#section6)
+
 <hr>
 
 ## I. <a id="section1">Back to ES5
@@ -489,6 +493,16 @@ Make the HTML file look like this:
     - note that we can only see the "public" functions on these properties, not the private code, which means we have achieved the encapsualtion we were looking for.
     
 ![Screenshot](_images/canvas-sprites-ES-5-revealing-modules-1.jpg)
+
+## V. <a id="section5">Discussion
+
+In the last 2 chapters we have seen 2 distinct approaches to creating modularized code in JavaScript - and there are other approaches you can read about here: https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript
+
+You probably found the this chapter's ES6 version to be less intuitive than the ES6 version we did last chapter - and going forward you may end up using the ES6 version of modules more than the ES5 version - but there is still value in seeing how to accomplish modules in this ES5 "way".
+	
+## VI. <a id="section6">Review Questions
+1. What would be a disadvantage of writing all of our code using ES6 modules?
+1. What does IIFE - "Iffy" - stand for?
 
 <hr><hr>
 
