@@ -486,7 +486,7 @@ Make the HTML file look like this:
 </html>
 ```
 
-## IV-F. Try it out!
+### IV-F. Try it out!
 - Everything in "sprite bouncer" should now run exactly as before.
 - Now set some breakpoints and check the inspector:
     - we now have a global object named `app`, which has 2 properties - `classes` and `main`
