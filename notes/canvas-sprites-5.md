@@ -1,4 +1,4 @@
-# 5 - JavaScript & the ES5 Module Pattern
+# 5 - JavaScript & the ES5 *Revealing Module Pattern*
 
 ## Overview
 - In the last chapter we looked at how easy it is to utilize ES6 module syntax to create loosely coupled and highly maintainable code.
@@ -16,6 +16,47 @@ I. [Back to ES5](#section1)
 ## I. <a id="section1">Back to ES5
 
 Before we get started, grab the start files, which are based on the `Object.create()` demo from Chapter 2: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
+
+Here is an external JS file that has some helpful code and variables in it. Some of this code we would like to keep public and visible elsewhere, some of it we want to hide away so it doesn't get mutuated or overwritten by code wriiten elsewhere. But under ES5, all of this code is in either Script scope or Global scope, and thus vulnerable to being overwritten by code written elsewhere (it could also overwrite other code itself)
+
+**utilities.js**
+```javascript
+"use strict";
+
+// public stuff
+let publicVariable = 42;
+
+function getRandomUnitVector(){
+	let x = getRandom(-1,1);
+	let y = getRandom(-1,1);
+	let length = Math.sqrt(x*x + y*y);
+	if(length == 0){ // very unlikely
+		x=1; // point right
+		y=0;
+	} else{
+		x /= length;
+		y /= length;
+	}
+
+	return {x:x, y:y};
+}
+
+// private stuff
+let privateVariable = 3.1415;
+let secretCode = "ifmmp xpsme";
+
+function getRandom(min, max) {
+	return Math.random() * (max - min) + min;
+}
+```
+
+## I. <a id="section2">The Revealing Module Pattern
+  
+The ES5 Module pattern provides a way of creating a mix of public and private methods and variables, protecting the code from leaking into the global or script scope and accidentally colliding with code in other files. With this pattern, only a public API is returned, keeping everything else private.
+
+```javascript
+
+```
 
 <hr><hr>
 **[Previous Chapter <- JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
