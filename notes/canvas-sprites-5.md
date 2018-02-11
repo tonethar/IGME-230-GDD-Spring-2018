@@ -19,7 +19,7 @@ Before we get started, grab the start files, which are based on the `Object.crea
 
 Here is an external JS file that has some helpful code and variables in it. Some of this code we would like to keep public and visible elsewhere, some of it we want to hide away so it doesn't get mutuated or overwritten by code wriiten elsewhere. But under ES5, all of this code is in either Script scope or Global scope, and thus vulnerable to being overwritten by code written elsewhere (it could also overwrite other code itself)
 
-**utilities.js**
+**myutils.js**
 ```javascript
 "use strict";
 
@@ -50,10 +50,11 @@ function getRandom(min, max) {
 }
 ```
 
-## I. <a id="section2">The Revealing Module Pattern
+## II. <a id="section2">The Revealing Module Pattern
   
 The ES5 Module pattern provides a way of creating a mix of public and private methods and variables, protecting the code from leaking into the global or script scope and accidentally colliding with code in other files. With this pattern, only a public API is returned, keeping everything else private.
 
+**myutils-es5-module.js**
 ```javascript
 
 ```
