@@ -417,6 +417,19 @@ And bottom:
 }());
 ```
 
+Add a variable to the top (right after `let sprites = [];`):
+
+`let classes = app.classes; // ALIAS`
+
+Now change this line (which calls the global sprite making functions):
+
+`sprites = sprites.concat(createCircleSprites(10,rect),createSquareSprites(10,rect),createImageSprites(10,rect2));`
+
+With this line (which calls the `app.classes` module sprite making functions):
+
+`sprites = sprites.concat(classes.createCircleSprites(10,rect),classes.createSquareSprites(10,rect),classes.createImageSprites(10,rect2));`
+
+
 ### IV-D. A new file: *loader.js*
 
 **js/loader.js**
