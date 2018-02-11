@@ -233,31 +233,31 @@ app.main = (function(){
 	console.log("main-es5-module.js module loaded");
 	
 	// A) private stuff
-		let numTimesGamePaused = 0;
+	let numTimesGamePaused = 0;
 	
 	// B) public stuff
-		function init(){
-			console.log(app.utils.meaningOfLife); 		// 42
-			console.log(app.utils.getRandomUnitVector()); 	// something like {x:0.9722,y:0.2341}
-			console.log(app.utils.someVariable); 		// undefined
-			console.log(app.utils.privateVariable); 	// undefined
-			console.log(app.utils.secretCode); 		// undefined
-			console.log(app.utils.getRandom); 		// undefined
-		}
+	function init(){
+		console.log(app.utils.meaningOfLife); 		// 42
+		console.log(app.utils.getRandomUnitVector()); 	// something like {x:0.9722,y:0.2341}
+		console.log(app.utils.someVariable); 		// undefined
+		console.log(app.utils.privateVariable); 	// undefined
+		console.log(app.utils.secretCode); 		// undefined
+		console.log(app.utils.getRandom); 		// undefined
+	}
 		
-		function startGame(){
-			console.log("** startGame **");
-		}
+	function startGame(){
+		console.log("** startGame **");
+	}
 		
-		function pauseGame(){
-			numTimesGamePaused++;
-			console.log("** pauseGame **");
-			console.log(`** You have paused the game ${numTimesGamePaused} time(s) **`);
-		}
+	function pauseGame(){
+		numTimesGamePaused++;
+		console.log("** pauseGame **");
+		console.log(`** You have paused the game ${numTimesGamePaused} time(s) **`);
+	}
 		
-		function resumeGame(){
-			console.log("** resumeGame **");
-		}
+	function resumeGame(){
+		console.log("** resumeGame **");
+	}
 	
 	// C) export a public interface to this module
 	return{
