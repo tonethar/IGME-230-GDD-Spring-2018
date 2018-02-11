@@ -357,6 +357,20 @@ The value of app.main.numTimesGamePaused is undefined
 - In the last chapter we converted Chapter 2's "Bouncing Sprites" `Object.create()` demo to ES6 modules. In this chapter, we are going to convert the same code to ES5 "revealing modules".
 - Grab the start files here: [ES5-no-modules.zip](_files/ES5-no-modules.zip)
 
+### IV-A. Changes to *utilities.js*
+
+Add the following to the top:
+
+### IV-B. Changes to *classes.js*
+
+Add the following to the top:
+
+### IV-C. Changes to *main.js*
+
+Add the following to the top:
+
+### IV-D. Changes to the HTML file:
+Make the HTML file look like this:
 
 
 <hr><hr>
