@@ -211,7 +211,9 @@ app.utils = (function(){
 
 ```
 
-- We can now call the `getRandomUnitVector()` function like this - `app.utils.getRandomUnitVector()` - and access `someVariable` like this - `app.utils.meaningOfLife`
+- We can now call the `getRandomUnitVector()` function like this:
+    - `app.utils.getRandomUnitVector()`
+    - and access `someVariable` like this - `app.utils.meaningOfLife`
 
 Here is a new module named **test.html**:
 	
