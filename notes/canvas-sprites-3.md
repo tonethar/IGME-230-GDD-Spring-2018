@@ -139,7 +139,7 @@ GasVehicle {year: 2018, numWheels: 4, cylinders: 4, fuelCapacity: 12}
 - Duplicate *canvas-sprites-2-HW.html* and name it **canvas-sprites-3-HW.html**
 - Convert the prototype-based inheritance model you originally used to instead utilize ES6 classes exclusively.
 - Everything should work exactly as before.
-- Be sure to delete any unnecessary code from your Javascript files.
+- Be sure to delete any unnecessary code from your JavaScript files.
 - Look over both versions carefully, and then answer these questions in the comments field of the dropbox:
     - Which version has more lines of code?
     - Which version do you think is easier to write, understand, and debug? 
