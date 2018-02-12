@@ -35,6 +35,8 @@ V. [Reference](#section5)
 
 VI. [Review Questions](#section6)
 
+VII. [Review Exercise](#section7)
+
 <hr>
 
 ## I. <a id="section1">Why do we need modularized code?
@@ -303,6 +305,12 @@ Make the HTML file look like this:
 3. Give 3 things that could go wrong if you don't use modularized code.
 4. Is the `"use strict"` declaration necessary for ES6 modules to run in strict mode?
 
+## VII. <a id="section7">Review Exercise
+- Duplicate *canvas-sprites-3-HW.html* and name it **canvas-sprites-4-HW.html**
+- Modify your JS and HTML files to utilize ES6 modules.
+- Everything should work exactly as before.
+- Be sure to delete any unnecessary code from your JavaScript files.
+	
 <hr><hr>
 
 **[Previous Chapter <- Canvas & ES6 Classes (chapter 3)](canvas-sprites-3.md)**
