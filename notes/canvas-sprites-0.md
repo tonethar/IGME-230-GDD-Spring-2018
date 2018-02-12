@@ -4,6 +4,8 @@ Parts I-III of this series of tutorials/lecture notes will get you started creat
 
 Parts IV & V will look at ways of making our JS code loosely coupled and modular, and thus easier to write and maintain as applications become more complex and their size grows.
 
+Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, which is more widely supported by older browsers.
+
 ## II. Prerequisite Knowledge
 - It assumed that you understand the foundational JavaScript concepts covered here: [About this Web App Tutorial Series](./web-apps-0.md)
 - You also should be familiar with basic [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) operations such as:
