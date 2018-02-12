@@ -8,13 +8,13 @@
 <!--- Local Navigation --->
 I. [What is *transpiling*?](#section1)
 
-https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
-
 II. [Babel](#section2)
 
 <hr>
 
 ## I. <a id="section1">What is *transpiling*
+  
+https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
 
 ## II. <a id="section2">What is *Babel*
   
