@@ -28,8 +28,8 @@ Parts IV & V will look at ways of making our JS code loosely coupled and modular
 1. [`Object.create()` & Delegation](./canvas-sprites-2.md)
     - JavaScript does not have classes
     - Prototype-based inheritance and the "prototype chain"
-    - extending behavior - delegation
-    - overriding behavior - shadowing
+    - Extending behavior - delegation
+    - Overriding behavior - shadowing
     - OLOO - "Objects linked to other objects"
     - `Object.create()` & `Object.assign()`
     - `CircleSprite`, `SquareSprite`, `ImageSprite`
@@ -40,11 +40,20 @@ Parts IV & V will look at ways of making our JS code loosely coupled and modular
         - you get nearly the same thing back from the JS runtime!
 1. [JavaScript & ES6 Modules](./canvas-sprites-4.md)
     - Why do we need modularized code?
-    - a very cluttered *script scope*
+    - A very cluttered *script scope*
     - `export` & `import`
     - ES6 modules example
     - *Module scope*
-    - converting "bouncing sprites" to use modules
+    - Converting "Bouncing Sprites" to use ES6 modules
+1. [JavaScript & the ES5 *Revealing Module Pattern*](./canvas-sprites-5.md)
+    - The Revealing Module Pattern
+    - Attaching modules to a global object
+    - Converting "Bouncing Sprites" to the ES5 module pattern
+1. [Transpiling ES6 to ES5](./canvas-sprites-5.md)
+    - What is *transpiling*?
+    - Babel
+    - Browserify
+    - Transpiling "Bouncing Sprites"
 
 ## V. Homework Assignments
 See mycourses dropboxes for due dates.
