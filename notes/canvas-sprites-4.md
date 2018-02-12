@@ -310,6 +310,7 @@ Make the HTML file look like this:
 - Modify your JS and HTML files to utilize ES6 modules.
 - Everything should work exactly as before.
 - Be sure to delete any unnecessary code from your JavaScript files.
+- **Now you have created a very modern JavaScript application - ES6 classes, inheritance, and modules - cool!**
 	
 <hr><hr>
 
