@@ -507,3 +507,5 @@ You probably found the this chapter's ES6 version to be less intuitive than the 
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & ES6 Modules (chapter 4)](canvas-sprites-4.md)**
+
+**[Next Chapter -> Transpiling ES6 to ES5 (chapter 6)](canvas-sprites-6.md)**
