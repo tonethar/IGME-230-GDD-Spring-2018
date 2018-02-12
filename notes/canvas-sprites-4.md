@@ -176,14 +176,14 @@ If we add a two breakpoints and step through the code, we can see that we now ha
 
 **test.html**
 
-Here, the `myPrivateFunction()` is not visible:
+Here in *test.html*, the `myPrivateFunction()` is not visible:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-3.jpg)
 
 
-**js/utilities.html**
+**js/utilities.js**
 
-But here, both functions are visible:
+But here in *utilities.js*, both functions are visible:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-4.jpg)
 
