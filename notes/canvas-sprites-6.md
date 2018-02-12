@@ -10,6 +10,8 @@ I. [What is *transpiling*?](#section1)
 
 II. [Babel](#section2)
 
+III. [NPM & Browerify](#section3)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*
@@ -21,7 +23,8 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
 - https://babeljs.io
 - https://www.npmjs.com/package/browserify
 
-
+## III. <a id="section3">NPM & Browerify
+  
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & the ES5 *Revealing Module Pattern* (chapter 5)](canvas-sprites-5.md)**
