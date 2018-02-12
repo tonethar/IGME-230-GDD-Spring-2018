@@ -6,7 +6,7 @@
 
 ## Contents
 <!--- Local Navigation --->
-I. [What is *transpiling*](#section1)
+I. [What is *transpiling*?](#section1)
 
 II. [Babel](#section2)
 
