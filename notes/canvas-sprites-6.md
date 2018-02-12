@@ -8,12 +8,16 @@
 <!--- Local Navigation --->
 I. [What is *transpiling*](#section1)
 
+II. [Babel](#section2)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*
 
+## II. <a id="section2">What is *Babel*
+  
 - https://babeljs.io
-
+- https://www.npmjs.com/package/browserify
 
 
 <hr><hr>
