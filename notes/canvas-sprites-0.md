@@ -49,7 +49,7 @@ Parts IV & V will look at ways of making our JS code loosely coupled and modular
     - The Revealing Module Pattern
     - Attaching modules to a global object
     - Converting "Bouncing Sprites" to the ES5 module pattern
-1. [Transpiling ES6 to ES5](./canvas-sprites-5.md)
+1. [Transpiling ES6 to ES5](./canvas-sprites-6.md)
     - What is *transpiling*?
     - Babel
     - Browserify
