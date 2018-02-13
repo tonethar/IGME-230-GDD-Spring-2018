@@ -37,6 +37,9 @@ Our demo today covers:
 
 ## Presentations
 - [CSS Wrap-up](../presentations/CSS-Wrap-Up.pdf)
+- Intro to JavaScript Teaser:
+       - Quick review [Intro to Web Applications](web-apps-0.md)
+       - See dropbox for JavaScript assignment, due Monday night
 
 ## Demo
 - [CSS Layout Demos](../other-files/3B-CSS-Layout-Demos.zip)
