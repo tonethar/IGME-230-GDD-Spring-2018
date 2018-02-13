@@ -38,9 +38,9 @@ Our demo today covers:
 ## Presentations
 - [CSS Wrap-up](../presentations/CSS-Wrap-Up.pdf)
 - Intro to JavaScript Teaser:
-       - Quick review [Intro to Web Applications](web-apps-0.md)
-       - See dropbox for JavaScript assignment, due Monday night
-       - Check out the new dropboxes in mycourses - some of these JavaScript asssignments are now due on Wednesday - so work ahead please!
+    - Quick review [Intro to Web Applications](web-apps-0.md)
+    - See dropbox for JavaScript assignment, due Monday night
+    - Check out the new dropboxes in mycourses - some of these JavaScript asssignments are now due on Wednesday nights - so work ahead please!
 
 ## Demo
 - [CSS Layout Demos](../other-files/3B-CSS-Layout-Demos.zip)
