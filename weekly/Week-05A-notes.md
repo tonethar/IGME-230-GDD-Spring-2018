@@ -40,7 +40,7 @@ Our demo today covers:
 - Intro to JavaScript Teaser:
        - Quick review [Intro to Web Applications](web-apps-0.md)
        - See dropbox for JavaScript assignment, due Monday night
-       - Check out dropboxes in mycourses. Some of these JavaScript asssignments are now due on Wednesday - so work ahead please!
+       - Check out the new dropboxes in mycourses - some of these JavaScript asssignments are now due on Wednesday - so work ahead please!
 
 ## Demo
 - [CSS Layout Demos](../other-files/3B-CSS-Layout-Demos.zip)
