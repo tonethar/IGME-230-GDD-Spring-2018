@@ -108,6 +108,25 @@
 - ICE: "Darth"
 
 ## Week 5
+### Day 1
+- Weekly notes are here: [Week-05A-notes.md](../weekly/Week-05A-notes.md)
+- Demos:
+   - Font Embedding
+   - CSS Layout Files (if you did not yet look at them)
+       - we are covering CSS FlexBox next week
+   - CSS Transition Demo
+       - we will enhance with more CSS & JavaScript together in class
+- Discussion:
+   - [Project 1](../projects/project1.md):
+       - due date has been pushed back one week to the beginning of week 7 (see dropbox for due date)
+       - an initial version must be posted to the web for the second class of week 6 - we are doing critiques on that day
+   - [Intro to JavaScript]
+       - Quick review [Intro to Web Applications](web-apps-0.md)
+       - See dropbox for JavaScript assignment, due Monday night
+   - CSS "Wrap-up" slides
+       - be sure to demo tab bar navigation & "you are here" cues
+ - In class:
+   - Tab Bar Navigation ICE
 
 ## Week 6
 
