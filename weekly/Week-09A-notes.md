@@ -3,7 +3,7 @@
 ## I. JavaScript Events & JavaScript Object Literals
 We will cover parts VI (Events) and VII (JavaScript Object Literals) - the links to these pages are here:
 
-- [6 - JavaScript Arrays](../notes/web-apps-6.md)
+- [6 - JavaScript Events](../notes/web-apps-6.md)
 - [7 - Web Storage](../notes/web-apps-7.md)
 
 ## II. Readings and Homework Assignments
