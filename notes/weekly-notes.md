@@ -120,10 +120,10 @@
    - [Project 1](../projects/project1.md):
        - due date has been pushed back one week to the beginning of week 7 (see dropbox for due date)
        - an initial version must be posted to the web for the second class of week 6 - we are doing critiques on that day
-   - [Intro to JavaScript](./web-apps-0.md)
+   - Intro to JavaScript Teaser:
        - Quick review [Intro to Web Applications](web-apps-0.md)
        - See dropbox for JavaScript assignment, due Monday night
-   - CSS "Wrap-up" slides
+   - CSS "Wrap-up" slides:
        - be sure to demo tab bar navigation & "you are here" cues
  - In class:
    - Tab Bar Navigation ICE
