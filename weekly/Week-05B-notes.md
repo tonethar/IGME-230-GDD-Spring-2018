@@ -25,6 +25,8 @@ You should have had some design in IGME-110 - here are some links to these previ
 - http://www.lingscars.com/
 - https://yvettesbridalformal.p1r8.net/
 - http://art.yale.edu
+- http://www.georgehutchins.com
+- http://heaven.internetarchaeology.org/heaven.html#bottom
 
 ## Presentations
 - [CRAP and Visual Design](../presentations/4A-CRAP.pdf)
