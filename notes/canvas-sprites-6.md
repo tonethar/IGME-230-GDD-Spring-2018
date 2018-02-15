@@ -177,7 +177,9 @@ Make your HTML file look like this:
 - Note that webpack is stil running and watching our files, and if we make any chnages, it will recompile our fiels for us automatically
 
 **11) Distribution**
+
 When you post this to the web:
+
 - you need the HTML file, *dist/bundle.js*, and your *images* folder
 - you don't need your `js` folder - becasue all that ES6 has been compiled down to ES5 and put into *bundle.js*
 - you don't need any of the other of the other configuration files or packages
