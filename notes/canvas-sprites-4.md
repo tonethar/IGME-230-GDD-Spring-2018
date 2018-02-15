@@ -280,14 +280,9 @@ Make the HTML file look like this:
     - "script" scope is gone, replaced by Module scope
     - all of the dependencies between modules are explicitly specified with `import` and `export`, which will make it easier for multiple developers to work on the app
 
-**HTML file**
-
-![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
-
-
 **init.js**
 
-![Screenshot](_images/canvas-sprites-ES-6-modules-9.jpg)
+![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
 
 **main.js**
 
