@@ -16,7 +16,7 @@ IV. [Transpiling an ES6 project down to ES5](#section4)
 
 <hr>
 
-## I. <a id="section1">What is *transpiling*
+## I. <a id="section1">What is *transpiling*?
   
 https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
 
