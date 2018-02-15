@@ -41,7 +41,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  and then: 
  
- ```
+ ```js
  nvm install node
  nvm -v
  npm install npm@latest -g`
@@ -53,7 +53,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  Once Node.js is installed, head to the command prompt to install npm:
  
- ```
+ ```js
  npm -v
  npm install npm@latest -g
  ```
@@ -66,20 +66,20 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  **3) Verify that the node and npm versions are up-to-date**
  
- ```
+ ```js
  node -v
  npm -v
  ```
  
  **4) Create a node project with npm**
  
- ```
+ ```js
  npm init -y
  ```
  
- Which will create your **package.json** file, which contains an object literalshould look something like this:
+ Which will create your **package.json** file with defaults settings, which are in an object literal, with should look something like this:
  
- ```
+ ```js
  {
   "name": "part-IV-homework",
   "version": "1.0.0",
@@ -96,7 +96,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
   
 **5) Next we need to install webpack**
 
-```
+```js
 npm install webpack --save
 ```
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
