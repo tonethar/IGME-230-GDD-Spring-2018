@@ -21,7 +21,9 @@ IV. [Transpiling an ES6 project down to ES5](#section4)
 https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
 
 ## II. <a id="section2">Babel
-  
+ 
+Babel is a essentially an ES6 (or future versions of ES) to ES5 transpiler.
+
 - https://babeljs.io
 
 Try the following ES6 class code into the Babel REPL at http://babeljs.io/repl - and see what kind of ES5 code you get back.
