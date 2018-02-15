@@ -6,6 +6,7 @@
 - Global design and accessibility
 
 ## Reference
+- https://www.creativebloq.com/web-design/10-design-concepts-web-developers-need-know-11135255
 - https://color.adobe.com
 - https://colourlovers.com
 - http://colorschemedesigner.com/
