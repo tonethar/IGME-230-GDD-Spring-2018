@@ -24,7 +24,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
   
 - https://babeljs.io
 
-Try the following ES6 class code into the Babel REPL at http://babeljs.io/repl
+Try the following ES6 class code into the Babel REPL at http://babeljs.io/repl - and see what kind of ES5 code you get back.
 
 ```js
 class Vehicle{
