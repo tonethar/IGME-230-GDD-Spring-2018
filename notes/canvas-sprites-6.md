@@ -63,7 +63,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  **2) Change directory to your project folder**
  
- ![Screenshot](transpiling-1.jpg)
+Head to the command prompt, and `cd` to your project folder.
  
  **3) Verify that the node and npm versions are up-to-date**
  
@@ -78,7 +78,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  npm init -y
  ```
  
- Which will create your **package.json** file with default settings, which are in an object literal, with should look something like this:
+ This will create your **package.json** file with default settings, which are in an object literal, which should look something like this:
  
  ```js
  {
@@ -94,7 +94,9 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
   "license": "ISC"
 }
  ```
-  
+
+Note that the default `name` of the project is the name of the folder that *package.json* is contained in. You can change this if you wish.
+
 **5) Next we need to install webpack**
 
 ```js
@@ -110,9 +112,7 @@ npm install webpack --save
 }
 ```
   
-
-
-**Mac users will probably need `sudo` again**
+**PS - Mac users will probably need `sudo` again**
 
 **6) Create *webpack.config.js***
 
