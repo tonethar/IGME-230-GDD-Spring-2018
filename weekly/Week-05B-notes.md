@@ -5,8 +5,13 @@
 - General design principles
 - Global design and accessibility
 
+# Review
+You should have had some design in IGME-110 - here are some links to these previous materials:
+ - [Typography & CSS](https://github.com/LawleyFall2017/110-fall2017/blob/master/Schedule.md#week6)
+ - [Graphic Design Concepts](https://github.com/LawleyFall2017/110-fall2017/blob/master/Schedule.md#week7)
+ - https://www.creativebloq.com/web-design/10-design-concepts-web-developers-need-know-11135255
+
 ## Reference
-- https://www.creativebloq.com/web-design/10-design-concepts-web-developers-need-know-11135255
 - https://color.adobe.com
 - https://colourlovers.com
 - http://colorschemedesigner.com/
