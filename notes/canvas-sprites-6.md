@@ -140,6 +140,8 @@ Open up *package.json* and make the "scripts" key look like this:
 },
 ```
 
+This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-builf the bundle.js file automatically for us.
+
 **8) Run npm!**
 
 ```js
@@ -147,7 +149,7 @@ npm start
 ```
 This executes `webpack -d --watch` for you.
 
-You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results placed in it.
+You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results bundled into it.
 
 **9) Edit your HTML file**
 
