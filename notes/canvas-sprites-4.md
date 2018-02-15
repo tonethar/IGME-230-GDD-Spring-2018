@@ -201,7 +201,7 @@ In *test.html*:
 
 ## III. <a id="section3">Adding ES6 Modules to our "bouncing objects" application
 	
-Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I.
+Hopefully you now see the benefits of modules, and how easy it is to implement them in ES6. Let's go ahead convert our "no module" canvas application to ES6 modules. The start files are linked above at the top of Section I. After you doenload the folder, rename it to **ES5-now-with-modules**
 
 ### III-A. Changes to *utilities.js*
 
@@ -241,7 +241,19 @@ And delete the *call* to the `init();` function - not the function itself. This 
 - above we are importing the 3 sprite creation functions we need from *classes.js*
 - the only function or variable we are exposing to other scripts is `init()'
 
-### III-D. Changes to the HTML file:
+### III-D. New file: *js/init.js*
+
+Make *init.js* look like this:
+
+```javascript
+import {init} from './main.js';
+// 1) this script a good place to load fonts, images, sounds and other resources
+// 2) start up app
+init();
+```
+
+
+### III-E. Changes to the HTML file:
 Make the HTML file look like this:
 
 ```html
@@ -253,10 +265,7 @@ Make the HTML file look like this:
 </head>
 <body>
 <canvas width="600" height="400"></canvas>
-<script type="module">
-  import {init} from './js/main.js';
-  init();
-</script>
+<script src="js/init.js" type="module"></script>
 </body>
 </html>
 ```
@@ -275,7 +284,7 @@ Make the HTML file look like this:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
 
-**main.js**
+**init.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-6.jpg)
 
