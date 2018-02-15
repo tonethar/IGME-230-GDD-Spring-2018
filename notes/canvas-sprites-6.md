@@ -51,9 +51,11 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  https://docs.npmjs.com/getting-started/installing-node
  
+ Once Node.js is installed, head to the command prompt to install npm:
+ 
  ```
  npm -v
- npm install npm@latest -g`
+ npm install npm@latest -g
  ```
  
  **Note: Mac OS users will often have to have `sudo` at the beginning of the command whenever they are installing applications or packages.**
@@ -142,7 +144,7 @@ Make your HTML file look like this:
 </html>
 ```
 
-- ne are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *init.js*
+- we are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *init.js*
 - note that this is a regular ES5 JavaScript file now, so we don't need `type="module"` any longer
 
 
