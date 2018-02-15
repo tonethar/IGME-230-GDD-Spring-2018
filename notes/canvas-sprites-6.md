@@ -77,15 +77,39 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  npm init -y
  ```
  
- Which will create your **package.json** file
+ Which will create your **package.json** file, which contains an object literalshould look something like this:
+ 
+ ```
+ {
+  "name": "part-IV-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+ ```
   
 **5) Next we need to install webpack**
 
 ```
 npm install webpack --save
 ```
+- Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
+- This will also add a `"dependencies"` key to *package.json*
 
-Which will download all of the modules you will need - check out the `node_modules` folder in your project directory.
+
+```js
+"dependencies": {
+    "webpack": "^3.11.0"
+}
+```
+  
+
 
 **Mac users will probably need `sudo` again**
 
@@ -103,7 +127,7 @@ module.exports = {
 
 - You can see above that `module.exports` is an object literal:
     - `entry` contains an array of all of the JS files we wish to compile
-    - `output` os the name of the single file we will compile to
+    - `output` is the name of the single file we will compile to
     
 **7) Modify *package.json***
 
