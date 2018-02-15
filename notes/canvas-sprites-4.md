@@ -236,7 +236,7 @@ import {createCircleSprites,createSquareSprites,createImageSprites} from './clas
 export {init};
 ```
 
-And delete the *call* to the `init();` function - not the function itself. This single line of code is on or around line 10. In the next section, we will instead call `init()` from the HTML file. 
+And delete the *call* to the `init();` function - not the function itself. This single line of code is on or around line 10. In the next section, we will instead call `init()` from **init.js**. 
 
 - above we are importing the 3 sprite creation functions we need from *classes.js*
 - the only function or variable we are exposing to other scripts is `init()'
