@@ -26,6 +26,7 @@ You should have had some design in IGME-110 - here are some links to these previ
 - https://yvettesbridalformal.p1r8.net/
 - http://art.yale.edu
 - http://www.georgehutchins.com
+- http://www.dokimos.org/ajff/
 - http://heaven.internetarchaeology.org/heaven.html#bottom
 
 ## Presentations
