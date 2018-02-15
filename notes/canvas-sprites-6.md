@@ -23,7 +23,6 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
 ## II. <a id="section2">Babel
   
 - https://babeljs.io
-- https://www.npmjs.com/package/browserify
 
 ## III. <a id="section3">NPM & webpack
 
