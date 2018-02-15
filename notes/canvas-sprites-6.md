@@ -128,7 +128,7 @@ module.exports = {
 
 - You can see above that `module.exports` is an object literal:
     - `entry` contains an array of all of the JS files we wish to compile
-    - `output` is the name of the single file we will compile to
+    - `output` is the name of the single JavaScript file we will compile to
     
 **7) Modify *package.json***
 
