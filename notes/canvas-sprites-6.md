@@ -10,7 +10,7 @@ I. [What is *transpiling*?](#section1)
 
 II. [Babel](#section2)
 
-III. [NPM & webpack](#section3)
+III. [Node.js, NPM & webpack](#section3)
 
 IV. [Transpiling an ES6 project down to ES5](#section4)
 
@@ -49,7 +49,7 @@ let skateboard = new Vehicle(2012,4);
 console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 ```
 
-## III. <a id="section3">Node, NPM & webpack
+## III. <a id="section3">Node.js, NPM & webpack
 
 - https://nodejs.org/en/
 - https://www.npmjs.com
