@@ -284,7 +284,12 @@ Make the HTML file look like this:
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-5.jpg)
 
+
 **init.js**
+
+![Screenshot](_images/canvas-sprites-ES-6-modules-9.jpg)
+
+**main.js**
 
 ![Screenshot](_images/canvas-sprites-ES-6-modules-6.jpg)
 
