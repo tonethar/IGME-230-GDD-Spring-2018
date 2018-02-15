@@ -77,7 +77,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  npm init -y
  ```
  
- Which will create your **package.json** file with defaults settings, which are in an object literal, with should look something like this:
+ Which will create your **package.json** file with default settings, which are in an object literal, with should look something like this:
  
  ```js
  {
