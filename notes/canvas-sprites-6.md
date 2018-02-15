@@ -95,8 +95,20 @@ module.exports = {
     - `entry` contains an array of all of the JS files we wish to compile
     - `output` os the name of the single file we will compile to
     
-7) 
+7) Modify *package.json*
 
+Open up *package.json* and make the "scripts" key look like this:
+
+```js
+"scripts": {        
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch"
+},
+```
+
+8) Run it!
+
+`npm start`
 
 <hr><hr>
 
