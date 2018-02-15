@@ -54,8 +54,8 @@ Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, whi
 1. [Transpiling ES6 to ES5](./canvas-sprites-6.md)
     - What is *transpiling*?
     - Babel
-    - Browserify
-    - Transpiling "Bouncing Sprites"
+    - Node.js, NPM & webpack
+    - Transpiling "Bouncing Sprites" from ES6 to ES5
 
 ## V. Homework Assignments
 See mycourses dropboxes for due dates.
