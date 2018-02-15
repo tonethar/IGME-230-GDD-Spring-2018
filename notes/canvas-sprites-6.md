@@ -24,6 +24,29 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
   
 - https://babeljs.io
 
+Try the following code in the Babel REPL at http://babeljs.io/repl
+
+```js
+class Vehicle{
+	constructor(year,numWheels){
+		this.year = year;
+		this.numWheels = numWheels;
+	}
+	
+	move(){
+    console.log("Moving the vehicle now");
+  }
+  
+  toString(){
+  	return "Year: " + this.year + ", numWheels: " + this.numWheels;
+  }
+}
+
+let skateboard = new Vehicle(2012,4);
+
+console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
+```
+
 ## III. <a id="section3">Node, NPM & webpack
 
 - https://nodejs.org/en/
