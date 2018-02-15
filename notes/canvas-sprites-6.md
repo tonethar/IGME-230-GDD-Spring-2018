@@ -120,6 +120,16 @@ This executes `webpack -d --watch` for you.
 
 You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results placed in it.
 
+9) Edit your HTML file
+
+Make your HTML file look like this:
+
+```html
+
+```
+
+10) Final Test
+
 <hr><hr>
 
 **[Previous Chapter <- JavaScript & the ES5 *Revealing Module Pattern* (chapter 5)](canvas-sprites-5.md)**
