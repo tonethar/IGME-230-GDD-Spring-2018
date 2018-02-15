@@ -54,9 +54,45 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  ![Screenshot](transpiling-1.jpg)
  
+ 3) Verify that the node and npm versions are up-to-date
  
+ ```
+ node -v
+ npm -v
+ ```
  
+ 4) Create a node project with npm
+ 
+ ```
+ npm init -y
+ ```
+ 
+ Which will create your **package.json** file
   
+5) Next we need to install webpack:
+
+```
+npm install webpack --save
+```
+
+Which will download all of the modules you will need - check out the `node_modules` folder in your project directory.
+
+**Mac users will probably need `sudo` again**
+
+6) Create *webpack.config.js*
+
+**webpack.config.js**
+```js
+module.exports = {
+    entry: ['./js/init.js','./js/classes.js','./js/main.js','./js/utilities.js'],
+    output: {
+        filename: './dist/bundle.js'
+    }
+};
+```
+
+7) 
+
 
 <hr><hr>
 
