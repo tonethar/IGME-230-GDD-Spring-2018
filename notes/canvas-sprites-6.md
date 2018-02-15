@@ -30,7 +30,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
 
 ## IV. <a id="section4">Transpiling an ES6 project
   
- 1) **Install Node.js and the Node Package Manager (npm)**
+ **1) Install Node.js and the Node Package Manager (npm)**
  
  You could do this with nvm (the Node Version Manager) like this:
  
@@ -55,18 +55,18 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  **Note: Mac OS users will often have to have `sudo` at the beginning of the command whenever they are installing applications or packages.**
  
- 2) Change directory to your project folder:
+ **2) Change directory to your project folder**
  
  ![Screenshot](transpiling-1.jpg)
  
- 3) Verify that the node and npm versions are up-to-date
+ **3) Verify that the node and npm versions are up-to-date**
  
  ```
  node -v
  npm -v
  ```
  
- 4) Create a node project with npm
+ **4) Create a node project with npm**
  
  ```
  npm init -y
@@ -74,7 +74,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  Which will create your **package.json** file
   
-5) Next we need to install webpack:
+**5) Next we need to install webpack**
 
 ```
 npm install webpack --save
@@ -84,7 +84,7 @@ Which will download all of the modules you will need - check out the `node_modul
 
 **Mac users will probably need `sudo` again**
 
-6) Create *webpack.config.js*
+**6) Create *webpack.config.js***
 
 **webpack.config.js**
 ```js
@@ -100,7 +100,7 @@ module.exports = {
     - `entry` contains an array of all of the JS files we wish to compile
     - `output` os the name of the single file we will compile to
     
-7) Modify *package.json*
+**7) Modify *package.json***
 
 Open up *package.json* and make the "scripts" key look like this:
 
@@ -111,7 +111,7 @@ Open up *package.json* and make the "scripts" key look like this:
 },
 ```
 
-8) Run npm!
+**8) Run npm!**
 
 ```js
 npm start
@@ -120,15 +120,40 @@ This executes `webpack -d --watch` for you.
 
 You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results placed in it.
 
-9) Edit your HTML file
+**9) Edit your HTML file**
 
 Make your HTML file look like this:
 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Canvas & ES6 Classes - HW</title>
+</head>
+<body>
+	<canvas width="600" height="400"></canvas>
+<!-- 	<script src="js/init.js" type="module"></script> -->
+	<script src="dist/bundle.js"></script>
+</body>
+</html>
 ```
 
-10) Final Test
+- ne are now pointing the &lt;script> tag at the compiled JS file at *dist/bundle.js* rather than at *init.js*
+- note that this is a regular ES5 JavaScript file now, so we don't need `type="module"` any longer
+
+
+**10) Final Test**
+- Reload the page, everthing should work as before!
+- Note that webpack is stil running and watching our files, and if we make any chnages, it will recompile our fiels for us automatically
+
+**11) Distribution**
+When you post this to the web:
+- you need the HTML file, *dist/bundle.js*, and your *images* folder
+- you don't need your `js` folder - becasue all that ES6 has been compiled down to ES5 and put into *bundle.js*
+- you don't need any of the other of the other configuration files or packages
+
+
 
 <hr><hr>
 
