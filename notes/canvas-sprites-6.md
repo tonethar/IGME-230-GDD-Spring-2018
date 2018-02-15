@@ -44,7 +44,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  ```js
  nvm install node
  nvm -v
- npm install npm@latest -g`
+ npm install npm@latest -g
  ```
  
  Or you can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
