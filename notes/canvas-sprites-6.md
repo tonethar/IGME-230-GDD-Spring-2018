@@ -38,7 +38,9 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
  
  You could do this with nvm (the Node Version Manager) like this:
  
- `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
+ ```js
+ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+ ```
  
  and then: 
  
