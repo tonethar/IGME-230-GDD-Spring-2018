@@ -12,6 +12,8 @@ II. [Babel](#section2)
 
 III. [NPM & webpack](#section3)
 
+IV. [Transpiling an ES6 project](#section4)
+
 <hr>
 
 ## I. <a id="section1">What is *transpiling*
@@ -25,9 +27,12 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
 
 ## III. <a id="section3">NPM & webpack
   
+
+## IV. <a id="section4">Transpiling an ES6 project
+  
  1) **Install Node.js and the Node Package Manager (npm)**
  
- You could do this with nvm the Node Version Manager like this:
+ You could do this with nvm (the Node Version Manager) like this:
  
  `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
  
