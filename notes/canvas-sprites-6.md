@@ -12,7 +12,7 @@ II. [Babel](#section2)
 
 III. [NPM & webpack](#section3)
 
-IV. [Transpiling an ES6 project](#section4)
+IV. [Transpiling an ES6 project down to ES5](#section4)
 
 <hr>
 
@@ -28,7 +28,7 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
 ## III. <a id="section3">NPM & webpack
   
 
-## IV. <a id="section4">Transpiling an ES6 project
+## IV. <a id="section4">Transpiling an ES6 project down to ES5
 	
 - Go get your *canvas-sprites-4-HW.html* code - this is the one that uses ES6 classes and ES6 modules
 - We are going to transpile all of that ES6 code to ES5 so that it will run on all recent browsers, even ones that don't know about ES6
