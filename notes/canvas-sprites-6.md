@@ -106,9 +106,14 @@ Open up *package.json* and make the "scripts" key look like this:
 },
 ```
 
-8) Run it!
+8) Run npm!
 
-`npm start`
+```js
+npm start
+```
+This executes `webpack -d --watch` for you.
+
+You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results placed in it.
 
 <hr><hr>
 
