@@ -24,10 +24,15 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
   
 - https://babeljs.io
 
-## III. <a id="section3">NPM & webpack
+## III. <a id="section3">Node, NPM & webpack
 
-  - https://www.npmjs.com
-  - https://www.npmjs.com/package/webpack
+- https://nodejs.org/en/
+- https://www.npmjs.com
+- https://www.npmjs.com/package/webpack
+
+- **Node.js** is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+- **npm** is the package manager for javascript
+- **webpack** is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
 	
