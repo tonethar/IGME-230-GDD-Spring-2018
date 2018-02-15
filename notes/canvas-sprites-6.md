@@ -26,7 +26,9 @@ https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-the
 - https://www.npmjs.com/package/browserify
 
 ## III. <a id="section3">NPM & webpack
-  
+
+  - https://www.npmjs.com
+  - https://www.npmjs.com/package/webpack
 
 ## IV. <a id="section4">Transpiling an ES6 project down to ES5
 	
