@@ -19,12 +19,17 @@ V. [Discussion](#section5)
 <hr>
 
 ## I. <a id="section1">What is *transpiling*?
+- Transpilers are tools that read source code written in one programming language, and transform it to the equivalent code in another language.
+- Transpiling has been a part of JavaScript development for quite some time. YOu may have head of [TypeScript](https://www.typescriptlang.org) or [CoffeeScript](http://coffeescript.org). Both of these JavaScript libabries add strong typing and other features to JavaScript by utilizing a transpiler to transform the type annotated JavaScript code to legal ES5 JavaScript that the web browser can understand.
   
-https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
+ ### Transpiler references 
+- https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them
+- https://en.wikipedia.org/wiki/Source-to-source_compiler
+- https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
 
 ## II. <a id="section2">Babel
  
-Babel is a essentially an ES6 (and future versions of ES) to ES5 transpiler.
+Babel is a an ES6 (and future versions of ES) to ES5 transpiler.
 
 - https://babeljs.io
 
@@ -50,6 +55,7 @@ let skateboard = new Vehicle(2012,4);
 
 console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
 ```
+
 
 ## III. <a id="section3">Node.js, NPM & webpack
 
