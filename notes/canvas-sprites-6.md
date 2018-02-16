@@ -142,7 +142,7 @@ npm install webpack --save
 ```
 
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
-- This will also add a `"dependencies"` key to *package.json*
+- the added `--save` flag will also add a `"dependencies"` key to *package.json*
 
 
 ```js
