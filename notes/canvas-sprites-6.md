@@ -235,7 +235,7 @@ When you post this to the web:
 
 - because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *init.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
 
-**webpack.config.js**
+New **webpack.config.js**
 ```js
 module.exports = {
     entry: './js/init.js',
