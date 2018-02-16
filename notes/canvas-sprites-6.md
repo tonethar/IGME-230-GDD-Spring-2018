@@ -140,6 +140,7 @@ Note that the default `name` of the project is the name of the folder that *pack
 ```js
 npm install webpack --save
 ```
+
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
 - This will also add a `"dependencies"` key to *package.json*
 
@@ -155,6 +156,7 @@ npm install webpack --save
 **6) Create *webpack.config.js***
 
 **webpack.config.js**
+
 ```js
 module.exports = {
     entry: ['./js/init.js','./js/classes.js','./js/main.js','./js/utilities.js'],
@@ -167,6 +169,7 @@ module.exports = {
 - You can see above that `module.exports` is an object literal:
     - `entry` contains an array of all of the JS files we wish to compile
     - `output` is the name of the single JavaScript file we will compile to
+    - you can read more about the options for the *webpack.config.js* file here: https://webpack.js.org/concepts/#entry
     
 **7) Modify *package.json***
 
