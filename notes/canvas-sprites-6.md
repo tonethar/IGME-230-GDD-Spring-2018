@@ -229,6 +229,22 @@ When you post this to the web:
 - PS - this transpiled code will also run off of the desktop - it no longer needs a web server to function
 
 
+## V. <a id="section5">Discussion
+
+- Go ahead and make some changes in *main.js*, like increasing the number of circles. If webpack is still running, it will automatically compile a new *bundle.js* for you.
+
+- because webpack recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into *bundle.js*, your *webpack.config.js* file may only need to list the first JS file. In our example, we only need to list *init.js* as the entry file, and webpack will then be able to determine the other required JavaScript files. 
+
+**webpack.config.js**
+```js
+module.exports = {
+    entry: './js/init.js',
+    output: {
+        filename: './dist/bundle.js'
+    }
+};
+```
+
 
 <hr><hr>
 
