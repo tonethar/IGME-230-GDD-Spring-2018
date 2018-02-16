@@ -68,13 +68,13 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
   
  **1) Install Node.js and the Node Package Manager (npm)**
  
- You could do this with nvm (the Node Version Manager) like this:
+- You could do this with nvm (the Node Version Manager) like this:
  
  ```js
  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
  ```
  
- and then: 
+ - and then: 
  
  ```js
  nvm install node
@@ -82,11 +82,13 @@ console.log(`This skateboard has ${skateboard.numWheels} wheels.`);
  npm install npm@latest -g
  ```
  
- Or you can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
+ **Or**
+ 
+ - you can head to https://nodejs.org/en/download/ and grab an installer - instructions are here:
  
  https://docs.npmjs.com/getting-started/installing-node
  
- Once Node.js is installed, head to the command prompt to install npm:
+ - once Node.js is installed, head to the command prompt to install npm:
  
  ```js
  npm -v
@@ -108,11 +110,13 @@ Head to the command prompt, and `cd` to your project folder.
  
  **4) Create a node project with npm**
  
+ - Type: 
+ 
  ```js
  npm init -y
  ```
  
- This will create your **package.json** file with default settings, which are in an object literal, which should look something like this:
+ - This will create your **package.json** file with default settings, which are in an object literal, which should look something like this:
  
  ```js
  {
@@ -166,7 +170,7 @@ module.exports = {
     
 **7) Modify *package.json***
 
-Open up *package.json* and make the "scripts" key look like this:
+- Open up *package.json* and make the "scripts" key look like this:
 
 ```js
 "scripts": {        
@@ -175,14 +179,16 @@ Open up *package.json* and make the "scripts" key look like this:
 },
 ```
 
-This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-builf the bundle.js file automatically for us.
+- This custom `start` command will run webpack in debug mode, which will be more verboise in flagging issues. This command also sets webpack to watch for any changes in the JavaScript files; when we make a change, webpack will re-builf the bundle.js file automatically for us.
 
 **8) Run npm!**
+
+- Type: 
 
 ```js
 npm start
 ```
-This executes `webpack -d --watch` for you.
+- this executes `webpack -d --watch` for you
 
 You should now see that *dist/bundle.js* has been created. If you open *bundle.js*, you will see that your 4 JavaScript files have been compiled to ES5 and the results bundled into it.
 
