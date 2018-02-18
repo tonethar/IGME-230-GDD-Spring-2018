@@ -163,6 +163,8 @@ npm install webpack --save
 
 **webpack.config.js**
 
+It needs to look like this:
+
 ```js
 module.exports = {
     entry: ['./js/init.js','./js/classes.js','./js/main.js','./js/utilities.js'],
