@@ -161,9 +161,9 @@ npm install webpack --save
 
 **6) Create *webpack.config.js***
 
-**webpack.config.js**
-
 It needs to look like this:
+
+**webpack.config.js**
 
 ```js
 module.exports = {
