@@ -161,7 +161,7 @@ npm install webpack --save
 
 **6) Create a new file named *webpack.config.js***
 
-It needs to look like this:
+- It needs to look like this:
 
 **webpack.config.js**
 
