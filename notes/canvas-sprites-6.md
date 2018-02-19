@@ -159,7 +159,7 @@ npm install webpack --save
   
 **PS - Mac users will probably need `sudo` again**
 
-**6) Create *webpack.config.js***
+**6) Create a new file named *webpack.config.js***
 
 It needs to look like this:
 
