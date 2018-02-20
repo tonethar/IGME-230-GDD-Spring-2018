@@ -144,7 +144,7 @@ Same as above, except we utilize media queries to create a "mobile first" respon
 
 Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_files/holy-grail-responsive-mobile-first-start.html.zip)
 
-1. We left some of the CSS stubbed in for you, load the page in a web browser to see what it looks like. Note that the 
+1. We left some of the CSS stubbed in for you, load the page in a web browser to see what it looks like.
 
 2. Here is our "CSS for all screen sizes". Note that we are going with a single-column layout for the default, which is mobile friendly.
 
