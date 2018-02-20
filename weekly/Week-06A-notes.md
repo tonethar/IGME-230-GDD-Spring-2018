@@ -192,6 +192,7 @@ Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_fil
 ```
 
 -  Reload the page. On iPad and larger screens we get the multi-column layout and green text. On smaller devices everything is still single-column and red.  
+- Try changing `min-width` to 769px to see how it effects the iPad
 
 
 ## VI. Discussion
