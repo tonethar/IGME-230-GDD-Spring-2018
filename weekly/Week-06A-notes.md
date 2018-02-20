@@ -140,9 +140,119 @@ to this:
 ## V. Mobile First, Responsive Holy Grail
 Same as above, except we utilize media queries to create a "mobile first" responsive page, that changes to a single-column layout on iPads or smaller. Let's do it!
 
-### V-A. 
-Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](../other-files/holy-grail-responsive-mobile-first-start.html.zip)
+### Mobile First, Responsive Holy Grail Walkthrough Instructions 
 
-1. Walkthrough ...
+Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_files/holy-grail-responsive-mobile-first-start.html.zip)
+
+1. We left some of the CSS stubbed in for you, load the page in a web browser to see what it looks like. Note that the 
+
+2. Here is our "CSS for all screen sizes". Note that we are going with a single-column layout for the default, which is mobile friendly.
+
+```css
+/* These are the small (all) screen styles! */
+	/* These apply from 0 to ??? */
+	.HolyGrail,.HolyGrail-body {
+		display: flex;
+		flex-direction: column;
+		color:red;
+	}
+
+	.HolyGrail-nav {
+		order: -1;
+	}
+
+```
+ 
+- Reload the page. Not much happens other than the text changing to red, and the **nav** shifting towards the top.
+- This page will look pretty much the same on mobile or desktop.
+
+3. Now let's add in our desktop styles - these will kick in when the page is loaded on screens that are iPad sized or larger.
+
+
+```css
+/* This applies from 768px onwards */
+ /* Increase this to 769px to see how it effects the iPad */
+@media (min-width: 768px) {
+  .HolyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  	color:green;
+  }
+  
+  .HolyGrail-content {
+    flex: 1;
+  }
+  
+  .HolyGrail-nav, .HolyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+  }
+  
+}
+```
+
+-  Reload the page. On iPad and larger screens we get the multi-column layout and green text. On smaller devices everything is still single-column and red.  
+
+
+## VI. Discussion
+
+- By now you should see the power and simplicity of Flexbox!
+- One issue with using Flexbox is that it has been only recently standardized by the web browsers. To support older browser, consider *prefixing* your CSS. See this note here: http://shouldiprefix.com/#flexbox
+- Flexbox also give you control over alignment:
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+- This Lynda.com course on Flexbox goes into more detail: https://www.lynda.com/CSS-tutorials/Advanced-Responsive-Layouts-CSS-Flexbox/383780-2.html
+
+## VII. Improving the styling of the page 
+
+The following CSS won't make the page beautiful, but it will improve the margin and padding values enough to get this page off of "life support".
+
+- This goes in the &lt;head> section:
+
+```html
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Ubuntu" rel="stylesheet">
+```
+
+- This goes at the top of the &lt;style> tag:
+
+```css
+header,div,nav,aside,footer,main {
+	border:1px solid black;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+header,nav,aside,footer,main {
+	padding: 5px;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	padding:0;
+	margin:0;
+}
+```
+
+**Which looks something like this:**
+
+![Screenshot]()
+
+
+**And this:**
+
+![Screenshot]()
+
+
+## VIII. Project 1?
+
+- Can you use Flexbox on Project 1? Sure! 
+- Can you use Flexbox on Project 1? And this exact layout too? 
+    - you should be modifying the layout to the needs of your project 1
+    - the styles should be very different than what we gave you here
+    - if you end up using this exercise as a template for Projet 1, you MUST add more style rules for another phone size. Consider a different layout for "Phablets" like iPhone 8's and so on.
+    - don't forget to put your CSS in an external file
 
 [<-- Back to IGME-230 Schedule](../schedule.md)
