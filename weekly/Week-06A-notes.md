@@ -65,7 +65,74 @@ Here the "Holy Grail" is a 3-column layout with equal height columns and a heade
 ### IV-A. 
 Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-start.html.zip)
 
-1. Walkthrough ...
+- The CSS for this walkthrough is adapted from this excellent posting here: https://philipwalton.github.io/solved-by-flexbox/
+- Here we are going to step through the style rules 1-by-1, and take a close look at how everything works
+
+1. First, load the page in your browser so that you can see the default, single column layout. Note that the CSS draws boxes around the major elements of the page so we can more easily see how things are positioned.
+2. Our first CSS rule effects the &lt;body> by making it a *flex container*, which means that every child element placed inside the &lt;body> will be a *flex item*. **Question: How many *children* does the &lt;body> have?** 
+
+```css
+.HolyGrail {
+		display: flex;
+		min-height: 100vh;  /* 100% of viewport height */
+		flex-direction: column;
+	}
+```
+
+- When you reload the page, there will be no visible change.
+
+3. Now we are going to tell the &lt;div> to make its children *flex items*
+
+```css
+.HolyGrail-body {
+		display: flex;
+		flex: 1; 
+	}
+```
+
+- Reload the page. You should now see the 3 columns laid out - **content**, **nav**, and **ads** - in the same order they were defined in the HTML. **content** has the most text, so it gets the most space.
+
+4. Next let's re-size the columns, we are going to need the `flex` property to do this.
+- Note that if we only specify 1 value for `flex`, it will be the `flex-grow`, which is more or less a ratio of how much space we want that element to grow to.
+- If we specify 3 values for `flex`, they will be for `flex-grow`, `flex-shrink`, `flex-basis` (which was explained above in section III, and see the example below):
+
+```css
+.HolyGrail-content {
+		flex: 1;
+	}
+
+	/* flex: flex-grow, flex-shrink, flex-basis (starting size) */
+	.HolyGrail-nav, .HolyGrail-ads {
+		/* 12em is the width of the columns */
+		flex: 0 0 12em;
+	}
+```
+
+- Reload the page. You should see that  **nav** and **ads** have widened to `12em`, and **content** takes up the rest of the space.
+- Resize the window. You should see that **nav** and **ads** stay the same size, and **content**  resizes.
+
+5. To see what else you can do with `flex`, change this (the style for **nav** and **ads**):
+
+`flex: 0 0 12em;`
+
+to this:
+
+`flex: 3;`
+
+- Make the browser window wide. You should see that **content** only gets a 1/7th of the window space, while the other 2 columns get 3/7ths of the remaining apace each).
+- To further see these `flex` ratios in action, try giving `flex` values of `1` for the  **nav** and **ads**, and `10` for the **content** to see what you get.
+
+5. Go ahead and change the styles back to where we were on step #4. Everything here looks pretty good, except we are violating UI convention by putting our nav system in the center column. It should either be on the left or top of the page. Let's fix this with the `order` property!
+
+```css
+.HolyGrail-nav {
+		/* put the nav on the left */
+		order: -1;
+	}
+```
+
+- Reload the page. The 12em wide **nav** and **ads** sections are on the left and right, and the **content** is in the center. As you re-size the window your extra space is given to the **content** - `flex:1` here gives it all of the extra window space. 
+- What this page really needs now is a major style overhaul, but let's instead first move on to a responsive version of this page.
 
 
 
