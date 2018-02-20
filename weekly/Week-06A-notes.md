@@ -69,7 +69,7 @@ Start files are here: [holy-grail-start.html.zip](./_files/holy-grail-start.html
 
 
 
-### V. Mobile First, Responsive Holy Grail
+## V. Mobile First, Responsive Holy Grail
 Same as above, except we utilize media queries to create a "mobile first" responsive page, that changes to a single-column layout on iPads or smaller.
 
 ### V-A. 
