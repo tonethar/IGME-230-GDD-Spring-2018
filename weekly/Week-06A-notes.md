@@ -238,12 +238,12 @@ body {
 
 **Which looks something like this:**
 
-![Screenshot]()
+![Screenshot](../other-files/flexbox-1.jpg)
 
 
 **And this:**
 
-![Screenshot]()
+![Screenshot](../other-files/flexbox-2.jpg)
 
 
 ## VIII. Project 1?
