@@ -55,7 +55,7 @@ Let's check these out together:
     - think of `flex-grow` like a ratio of how much space the element wants in their container (parent)
     - `flex-shrink` is similar, except higher numbers mean that an element will shrink more than other elements do to fit in their container (parent)
 		- The `flex-basis` CSS property specifies the initial main size of a flex item. This property determines the size of the content-box unless specified otherwise using [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
-- The flex container needs to specify whether its flex items will have a [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) of `column` (let-to-right, multiple columns) or `row` (single column, down the page). This is referred to as the **main axis** of the layout. For the desktop, we will usually use the column layout. For mobile, it is usually a row layout.
+- The flex container needs to specify whether its flex items will have a [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) of `row` (left-to-right, multiple columns) or `column` (single column, down the page). This is referred to as the **main axis** of the layout. For the desktop, we will usually use the `row` flex. For mobile, it is usually a `column` flex.
 - The [`order`](https://developer.mozilla.org/en-US/docs/Web/CSS/order) property controls the order that flex items appear in their container. Items within the same container are laid out in ascending order according to their `order` values. Elements with the same order value are laid out in the order in which they appear in the source code.
 
 ## IV. "Holy Grail" Walkthrough
