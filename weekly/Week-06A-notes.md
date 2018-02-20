@@ -88,6 +88,7 @@ Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-star
 .HolyGrail-body {
 	display: flex;
 	flex: 1; 
+	/* flex-direction: row; is the default, so we do not need to specify it. */
 }
 ```
 
