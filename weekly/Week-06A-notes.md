@@ -236,7 +236,10 @@ body {
 }
 ```
 
-**Which looks something like this:**
+- You should also get rid of the `green` and `red` CSS
+
+
+**These CSS changes give us something like this:**
 
 ![Screenshot](../other-files/flexbox-1.jpg)
 
