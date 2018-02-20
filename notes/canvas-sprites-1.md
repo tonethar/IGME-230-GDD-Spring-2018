@@ -274,7 +274,7 @@ function createSprites(num=20){
 		}
 		
 		// add to array
-		sprites.push(s); ?? NEW
+		sprites.push(s); // NEW
 	} // NEW
 	
 	// return entire array
