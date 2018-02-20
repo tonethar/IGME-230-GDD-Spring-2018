@@ -150,16 +150,16 @@ Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_fil
 
 ```css
 /* These are the small (all) screen styles! */
-	/* These apply from 0 to ??? */
-	.HolyGrail,.HolyGrail-body {
-		display: flex;
-		flex-direction: column;
-		color:red;
-	}
+/* These apply from 0 to ??? */
+.HolyGrail,.HolyGrail-body {
+	display: flex;
+	flex-direction: column;
+	color:red;
+}
 
-	.HolyGrail-nav {
-		order: -1;
-	}
+.HolyGrail-nav {
+	order: -1;
+}
 
 ```
  
