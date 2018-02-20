@@ -62,7 +62,8 @@ Let's check these out together:
 
 Here the "Holy Grail" is a 3-column layout with equal height columns and a header and footer. It will fluidly re-size on a desktop browser. Let's build this using Flexbox! You will likely be pleased and surprised how little CSS this will take.
 
-### IV-A. 
+### "Holy Grail" Walkthrough Instructions
+
 Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-start.html.zip)
 
 - The CSS for this walkthrough is adapted from this excellent posting here: https://philipwalton.github.io/solved-by-flexbox/
@@ -73,10 +74,10 @@ Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-star
 
 ```css
 .HolyGrail {
-		display: flex;
-		min-height: 100vh;  /* 100% of viewport height */
-		flex-direction: column;
-	}
+	display: flex;
+	min-height: 100vh;  /* 100% of viewport height */
+	flex-direction: column;
+}
 ```
 
 - When you reload the page, there will be no visible change.
@@ -85,9 +86,9 @@ Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-star
 
 ```css
 .HolyGrail-body {
-		display: flex;
-		flex: 1; 
-	}
+	display: flex;
+	flex: 1; 
+}
 ```
 
 - Reload the page. You should now see the 3 columns laid out - **content**, **nav**, and **ads** - in the same order they were defined in the HTML. **content** has the most text, so it gets the most space.
@@ -98,14 +99,14 @@ Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-star
 
 ```css
 .HolyGrail-content {
-		flex: 1;
-	}
+	flex: 1;
+}
 
-	/* flex: flex-grow, flex-shrink, flex-basis (starting size) */
-	.HolyGrail-nav, .HolyGrail-ads {
-		/* 12em is the width of the columns */
-		flex: 0 0 12em;
-	}
+/* flex: flex-grow, flex-shrink, flex-basis (starting size) */
+.HolyGrail-nav, .HolyGrail-ads {
+	/* 12em is the width of the columns */
+	flex: 0 0 12em;
+}
 ```
 
 - Reload the page. You should see that  **nav** and **ads** have widened to `12em`, and **content** takes up the rest of the space.
@@ -126,9 +127,9 @@ to this:
 
 ```css
 .HolyGrail-nav {
-		/* put the nav on the left */
-		order: -1;
-	}
+	/* put the nav on the left */
+	order: -1;
+}
 ```
 
 - Reload the page. The 12em wide **nav** and **ads** sections are on the left and right, and the **content** is in the center. As you re-size the window your extra space is given to the **content** - `flex:1` here gives it all of the extra window space. 
