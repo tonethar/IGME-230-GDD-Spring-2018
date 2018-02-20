@@ -254,8 +254,8 @@ body {
 
 - Can you use Flexbox on Project 1? Sure! 
 - Can you use Flexbox on Project 1? And this exact layout too? 
-    - you should be modifying the layout to the needs of your project 1, and not just copying what you see here
-    - the styles should be very different than what we gave you here
+    - you MUST modify the layout to the needs of your project 1, and not just copy what you see here
+    - the styles MUST be very different than what we gave you here
     - you MUST add more style rules for another phone size. Consider a different layout for "Phablets" like iPhone 8's and so on.
     - don't forget to put your CSS in an external file or files!
 
