@@ -137,10 +137,10 @@ to this:
 
 
 
-## V. Mobile First, Responsive Holy Grail
+## V. Mobile First, Responsive "Holy Grail"
 Same as above, except we utilize media queries to create a "mobile first" responsive page, that changes to a single-column layout on iPads or smaller. Let's do it!
 
-### Mobile First, Responsive Holy Grail Walkthrough Instructions 
+### Walkthrough Instructions 
 
 Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_files/holy-grail-responsive-mobile-first-start.html.zip)
 
@@ -197,7 +197,7 @@ Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_fil
 ## VI. Discussion
 
 - By now you should see the power and simplicity of Flexbox!
-- One issue with using Flexbox is that it has been only recently standardized by the web browsers. To support older browser, consider *prefixing* your CSS. See this note here: http://shouldiprefix.com/#flexbox
+- One issue with using Flexbox is that it has been only recently standardized by the web browsers. To support older browsers, consider *prefixing* your CSS. See this note here: http://shouldiprefix.com/#flexbox
 - Flexbox also give you control over alignment:
     - https://developer.mozilla.org/en-US/docs/Web/CSS/align-content
     - https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
@@ -250,9 +250,9 @@ body {
 
 - Can you use Flexbox on Project 1? Sure! 
 - Can you use Flexbox on Project 1? And this exact layout too? 
-    - you should be modifying the layout to the needs of your project 1
+    - you should be modifying the layout to the needs of your project 1, and not just copying what you see here
     - the styles should be very different than what we gave you here
-    - if you end up using this exercise as a template for Projet 1, you MUST add more style rules for another phone size. Consider a different layout for "Phablets" like iPhone 8's and so on.
-    - don't forget to put your CSS in an external file
+    - you MUST add more style rules for another phone size. Consider a different layout for "Phablets" like iPhone 8's and so on.
+    - don't forget to put your CSS in an external file or files!
 
 [<-- Back to IGME-230 Schedule](../schedule.md)
