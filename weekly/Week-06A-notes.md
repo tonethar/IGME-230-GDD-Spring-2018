@@ -93,7 +93,7 @@ Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-star
 
 - Reload the page. You should now see the 3 columns laid out - **content**, **nav**, and **ads** - in the same order they were defined in the HTML. **content** has the most text, so it gets the most space.
 
-4. Next let's re-size the columns, we are going to need the `flex` property to do this.
+4. To re-size the default width of these columns, we are going to need explicitly set the `flex` property.
 - Note that if we only specify 1 value for `flex`, it will be the `flex-grow`, which is more or less a ratio of how much space we want that element to grow to.
 - If we specify 3 values for `flex`, they will be for `flex-grow`, `flex-shrink`, `flex-basis` (which was explained above in section III, and see the example below):
 
