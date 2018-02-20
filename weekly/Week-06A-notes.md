@@ -60,7 +60,7 @@ Let's check these out together:
 
 ## IV. "Holy Grail" Walkthrough
 
-Here the "Holy Grail" is a 3-column layout with equal height columns and a header and footer. It will fluidly re-size on a desktop browser.
+Here the "Holy Grail" is a 3-column layout with equal height columns and a header and footer. It will fluidly re-size on a desktop browser. Let's build this using Flexbox! You will likely be pleased and surprised how little CSS this will take.
 
 ### IV-A. 
 Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-start.html.zip)
@@ -70,7 +70,7 @@ Start files are here: [holy-grail-start.html.zip](../other-files/holy-grail-star
 
 
 ## V. Mobile First, Responsive Holy Grail
-Same as above, except we utilize media queries to create a "mobile first" responsive page, that changes to a single-column layout on iPads or smaller.
+Same as above, except we utilize media queries to create a "mobile first" responsive page, that changes to a single-column layout on iPads or smaller. Let's do it!
 
 ### V-A. 
 Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](../other-files/holy-grail-responsive-mobile-first-start.html.zip)
