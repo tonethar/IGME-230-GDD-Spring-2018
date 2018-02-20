@@ -120,7 +120,7 @@ to this:
 
 `flex: 3;`
 
-- Make the browser window wide. You should see that **content** only gets a 1/7th of the window space, while the other 2 columns get 3/7ths of the remaining apace each).
+- Make the browser window wide. You should see that **content** only gets a 1/7th of the window space, while the other 2 columns get 3/7ths of the remaining space each).
 - To further see these `flex` ratios in action, try giving `flex` values of `1` for the  **nav** and **ads**, and `10` for the **content** to see what you get.
 
 5. Go ahead and change the styles back to where we were on step #4. Everything here looks pretty good, except we are violating UI convention by putting our nav system in the center column. It should either be on the left or top of the page. Let's fix this with the `order` property (which was discussed in section III)!
