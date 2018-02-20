@@ -142,7 +142,7 @@ Same as above, except we utilize media queries to create a "mobile first" respon
 
 ### Walkthrough Instructions 
 
-Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](./_files/holy-grail-responsive-mobile-first-start.html.zip)
+Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](../_files/holy-grail-responsive-mobile-first-start.html.zip)
 
 1. We left some of the CSS stubbed in for you, load the page in a web browser to see what it looks like.
 
