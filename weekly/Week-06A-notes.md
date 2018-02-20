@@ -51,7 +51,7 @@ Let's check these out together:
 ## III. The basics of using Flexbox
 
 - Set a container (a parent) to `display: flex` -  which means that all of the child elements of that container become flex items. 
-- Give the child elements a [`flex`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) property. The `flex` CSS property specifies how a flex item will grow or shrink so as to fit the space available in its flex container. This is a shorthand property that sets [`flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow), [`flex-shrink`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink), and [`flex-basis`]()
+- Give the child elements a [`flex`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) property. The `flex` CSS property specifies how a flex item will grow or shrink so as to fit the space available in its flex container. This is a shorthand property that sets [`flex-grow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow), [`flex-shrink`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink), and [`flex-basis`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
     - think of `flex-grow` like a ratio of how much space the element wants in their container (parent)
     - `flex-shrink` is similar, except higher numbers mean that an element will shrink more than other elements do to fit in their container (parent)
 		- The `flex-basis` CSS property specifies the initial main size of a flex item. This property determines the size of the content-box unless specified otherwise using [`box-sizing`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
