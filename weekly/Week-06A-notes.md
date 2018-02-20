@@ -63,7 +63,7 @@ Let's check these out together:
 Here the "Holy Grail" is a 3-column layout with equal height columns and a header and footer. It will fluidly re-size on a desktop browser.
 
 ### IV-A. 
-Start files are here: [holy-grail-start.html.zip](../_other_files/holy-grail-start.html.zip)
+Start files are here: [holy-grail-start.html.zip](../other_files/holy-grail-start.html.zip)
 
 1. Walkthrough ...
 
@@ -73,7 +73,7 @@ Start files are here: [holy-grail-start.html.zip](../_other_files/holy-grail-sta
 Same as above, except we utilize media queries to create a "mobile first" responsive page, that changes to a single-column layout on iPads or smaller.
 
 ### V-A. 
-Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](../_other_files/holy-grail-responsive-mobile-first-start.html.zip)
+Start files are here: [holy-grail-responsive-mobile-first-start.html.zip](../other_files/holy-grail-responsive-mobile-first-start.html.zip)
 
 1. Walkthrough ...
 
