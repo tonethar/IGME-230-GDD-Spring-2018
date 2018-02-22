@@ -476,7 +476,7 @@ function createImageSprites(num=20,rect={left:0,top:0,width:300,height:300}){
 		let s = Object.create(sprite);
 		
 		let image = new Image();
-		image.src = "images/Sean.png";
+		image.src = "images/Sean.png"; // making an image 20 times here when we only to once!
 		
 		// add properties to `s`
 		s = Object.assign(s,{
