@@ -61,6 +61,6 @@ Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, whi
 See mycourses dropboxes for due dates.
 - [IGME-330 Project 1 - Audio Visualizer](http://igm.rit.edu/~acjvks/courses/2018-spring/330/html/project-1/)
 - [Cage Clicker HW](https://github.com/tonethar/IGME-330-GDD-2018-Spring/blob/master/notes/HW-cage-clicker-1.md)
-- IGME-330 Project 2 - Game or Interactive Experience
+- [IGME-330 Project 2 - Game or Interactive Experience](http://igm.rit.edu/~acjvks/courses/2018-spring/330/assignments.html)
 
 
