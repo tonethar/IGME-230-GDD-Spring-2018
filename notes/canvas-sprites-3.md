@@ -65,8 +65,8 @@ gasVehicle.fuelCapacity = 12;
 
 console.log("**** Object.create() - OLOO - Delegation ****");
 console.log(gasVehicle.cylinders); 	// .cylinders is "own" property
-gasVehicle.move(); 									// .move() is in gasVehicle's prototype (i.e. `vehicle`)
-console.log(gasVehicle.toString()); // .toString() in vehicle shadows toString() in the default prototype object
+gasVehicle.move(); 			// .move() is in gasVehicle's prototype (i.e. `vehicle`)
+console.log(gasVehicle.toString()); 	// .toString() in vehicle shadows toString() in the default prototype object
 console.log(gasVehicle.valueOf()); 	// .valueOf() is in the the default prototype object
 
 
