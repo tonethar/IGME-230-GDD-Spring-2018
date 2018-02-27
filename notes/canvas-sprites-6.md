@@ -150,7 +150,7 @@ npm install webpack --save
 **and**
 
 ```js
-npm install webpack-cli -D
+npm install webpack-cli -D --save
 ```
 
 
