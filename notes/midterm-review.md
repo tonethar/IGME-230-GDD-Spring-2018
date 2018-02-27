@@ -49,7 +49,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. Give examples of *container* (or non-empty) elements
 1. Give an example of an *absolute* file path
 1. Give an example of a *relative* file path
-1. What kind of content are HTML tables appropriate for?
+1. <s>What kind of content are HTML tables appropriate for?</s>
 
 
 ## F. Basic CSS
