@@ -32,7 +32,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. What are the numeric permissions that are required for web viewable *files*?
 
 ## C. PHP
-- [About this PHP Tutorial Series](./php-0.md)
+- See review questions for all 4 PHP chapters: [About this PHP Tutorial Series](./php-0.md)
 
 ## D. Intro To Web
 1. Describe the 4 *layers* (or *pillars*) of web design.
@@ -98,22 +98,21 @@ For the exam, be able to write complete CSS rules from memory.
 1. What does CRAP stand for?
 1. Give a short summary of each CRAP principle
 1. What does the "above the fold" design principle mean?
-1. Describe the Rule of Thirds and how it applies to web pages
 1. Define *Responsive Design*
 1. What is the `name` of the &lt;meta> tag you will need to add to all of your responsive (and mobile friendly) web pages?
 1. What properties of the browser does a media query commonly "test" for?
 
 ## J. Website Design Process
-1. See Week 5A & Week 5B Notes
+1. See Week 5 & Week 6 Notes
 
 ## K. Introduction to Web Applications
 For the midterm exam, you will be responsible for the first 5 parts of this web apps series:
 
-1. Introduction to Web Applications
-2. Introduction to JavaScript
-3. Introduction to the Web Browser DOM
-4. More Web Browser DOM Methods
-5. JavaScript Functions
+1. [Introduction to Web Applications](web-apps-1.md)
+2. [Introduction to JavaScript](web-apps-2.md)
+3. [Introduction to the Web Browser DOM](web-apps-3.md)
+4. [More Web Browser DOM Methods](web-apps-4.md)
+5. [JavaScript Functions](web-apps-5.md)
 
 
 - **Be sure to focus on the Discussion/Review sections and their questions for each of the 5 above pages!**
