@@ -129,6 +129,7 @@ Number("10")
 Number("onehundred")
 String(3.14)
 Boolean(0)
+Boolean(1)
 
 // expressions
 2+2
