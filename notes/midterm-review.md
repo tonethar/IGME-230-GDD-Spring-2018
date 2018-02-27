@@ -64,6 +64,7 @@ For the exam, be able to write complete CSS rules from memory.
 1. What does `display:block` do?
 1. What does `display:inline` do?
 1. What does `display:inline-block` do?
+1. What does `display:flex` do?
 1. what does `float:left` do?
 1. Define `inline`, `internal`, and `external` style sheets.
 1. If these 3 types of styles conflict, which one usually "wins"?
