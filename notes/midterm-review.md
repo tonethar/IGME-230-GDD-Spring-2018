@@ -32,6 +32,7 @@ Below are some example questions - **these are not exhaustive of what can and wi
 1. What are the numeric permissions that are required for web viewable *files*?
 
 ## C. PHP
+- [About this PHP Tutorial Series](./php-0.md)
 
 ## D. Intro To Web
 1. Describe the 4 *layers* (or *pillars*) of web design.
