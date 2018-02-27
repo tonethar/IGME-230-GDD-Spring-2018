@@ -227,7 +227,7 @@ Make your HTML file look like this:
 
 
 **10) Final Test**
-- Reload the page, everthing should work as before!
+- Reload the page, everything should work as before!
 - Note that webpack is stil running and watching our files, and if we make any changes, it will automatically recompile our files for us
 
 **11) Distribution**
@@ -236,7 +236,7 @@ When you post this to the web:
 
 - you need the HTML file, *dist/bundle.js*, and your *images* folder
 - you don't need your `js` folder - because all that ES6 has been compiled down to ES5 and put into *bundle.js*
-- you don't need any of the other of the other configuration files or package
+- you don't need any of the other of the other configuration files or *package.json*
 - PS - this transpiled code will also run off of the desktop - it no longer needs a web server to function
 
 
