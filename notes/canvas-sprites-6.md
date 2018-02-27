@@ -147,6 +147,13 @@ Note that the default `name` of the project is the name of the folder that *pack
 npm install webpack --save
 ```
 
+**and**
+
+```js
+npm install webpack-cli -D
+```
+
+
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
 - the added `--save` flag will also add a `"dependencies"` key to *package.json*
 
