@@ -75,8 +75,8 @@ For the exam, be able to write complete CSS rules from memory.
 1. How large is an CSS *ex* unit?
 1. Specify the CSS colors red, green, blue, black, and white in hexadecimal notation.
 1. Why is it a good idea to specify more than 1 font name in your CSS `font` rules?
-1. Once you set `position:absolute`, what are the other two CSS properties you will usually need to set?
-1. What is the CSS property used to set the stacking order of HTML elements?
+1. <s>Once you set `position:absolute`, what are the other two CSS properties you will usually need to set?</s>
+1. <s>What is the CSS property used to set the stacking order of HTML elements?</s>
 1. Describe the CSS box model.
 1. Describe the difference between `margin` and `padding`.
 1. Give at least 3 properties of the "box" that we can set (other than margin and padding).
