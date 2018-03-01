@@ -59,7 +59,7 @@ Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, whi
     
     
 ## V. Demos
-- Canvas Particles & Spitesheet Demo:
+- Canvas Particles & Spritesheet Demo:
     - [Zipped Files](https://github.com/tonethar/IGME-330-GDD-2018-Spring/blob/master/notes/_files/particles-spritesheet.zip)
     - Working version: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/particles-spritesheet/
     - Concepts: ES6 Modules, ES6 classes, inheritance, default exports, spritesheets, particle systems, playing sound, CTM rotations
