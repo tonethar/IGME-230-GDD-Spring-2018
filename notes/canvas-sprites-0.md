@@ -56,8 +56,15 @@ Part VI will look at how to *transpile* our JavaScript code from ES6 to ES5, whi
     - Babel
     - Node.js, NPM & webpack
     - Transpiling "Bouncing Sprites" from ES6 to ES5
+    
+    
+## V. Demos
+- Canvas Particles & Spitesheet Demo:
+    - [Zipped Files](https://github.com/tonethar/IGME-330-GDD-2018-Spring/blob/master/notes/_files/particles-spritesheet.zip)
+    - Working version: http://igm.rit.edu/~acjvks/courses/2018-spring/330/code-examples/js-module-demos/particles-spritesheet/
+    - Concepts: ES6 Modules, ES6 classes, inheritance, default exports, spritesheets, particle systems, playing sound, CTM rotations
 
-## V. Homework Assignments
+## VI. Homework Assignments
 See mycourses dropboxes for due dates.
 - [IGME-330 Project 1 - Audio Visualizer](http://igm.rit.edu/~acjvks/courses/2018-spring/330/html/project-1/)
 - [Cage Clicker HW](https://github.com/tonethar/IGME-330-GDD-2018-Spring/blob/master/notes/HW-cage-clicker-1.md)
