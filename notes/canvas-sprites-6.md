@@ -179,7 +179,7 @@ npm install webpack-cli -D --save
 module.exports = {
     entry: ['./js/init.js','./js/classes.js','./js/main.js','./js/utilities.js'],
     output: {
-        filename: './dist/bundle.js'
+        filename: './bundle.js'
     }
 };
 ```
