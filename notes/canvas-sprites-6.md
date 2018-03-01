@@ -261,7 +261,7 @@ New **webpack.config.js**
 module.exports = {
     entry: './js/init.js',
     output: {
-        filename: './dist/bundle.js'
+        filename: './bundle.js'
     }
 };
 ```
