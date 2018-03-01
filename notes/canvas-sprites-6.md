@@ -227,7 +227,7 @@ Make your HTML file look like this:
 <body>
 	<canvas width="600" height="400"></canvas>
 <!-- 	<script src="js/init.js" type="module"></script> -->
-	<script src="bundle.js"></script>
+	<script src="dist/bundle.js"></script>
 </body>
 </html>
 ```
