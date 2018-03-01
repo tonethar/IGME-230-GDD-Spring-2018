@@ -155,13 +155,16 @@ npm install webpack-cli -D --save
 
 
 - Which will download all of the modules you will need - check out the `node_modules` folder in your project directory
-- the added `--save` flag will also add a `"dependencies"` key to *package.json*
+- the added `--save` flags will also add `"dependencies"` keys to *package.json*
 
 
 ```js
 "dependencies": {
-    "webpack": "^3.11.0"
-}
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.9"
+  }
 ```
   
 **PS - Mac users will probably need `sudo` again**
