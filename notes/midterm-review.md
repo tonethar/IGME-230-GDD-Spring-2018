@@ -128,6 +128,7 @@ You can access all of these web app tutorial pages from here:
 
 1. Write JavaScript that loops through the `foods` array and produces the HTML necessary for an ordered list containing the array’s contents.
 
+
   1. carrots
   2. broccoli
   3. tofu
