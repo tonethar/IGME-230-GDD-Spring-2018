@@ -76,7 +76,6 @@ Some sample IGME-230 projects from last semester:
     - https://people.rit.edu/~deb2610/230/project2/PixelPainterExtended.html
     - https://people.rit.edu/btf6119/230/projects/2/index.html
     - https://people.rit.edu/dso2890/230/projects/project2/index.html
-    - https://mycourses.rit.edu/d2l/le/content/658425/viewContent/4773926/View
     - https://people.rit.edu/djs5435/230/project2/
     - https://people.rit.edu/~wcd7037/230/Project2/Life/pixel-life.html
     - https://people.rit.edu/paa9307/230/project2/
