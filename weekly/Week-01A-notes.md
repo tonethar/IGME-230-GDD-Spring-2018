@@ -71,7 +71,7 @@ Some sample IGME-230 projects from last semester:
     - https://people.rit.edu/drs4149/portfolio/
     - https://people.rit.edu/ekt6170/portfolio.html
     - https://people.rit.edu/axw1799/portfolio/
-- DOM Game or App:
+- DOM Game or App (Project 2)<a id="project2"></a>:
     - https://people.rit.edu/lpn4937/230/project2/minesweeper.html
     - https://people.rit.edu/~deb2610/230/project2/PixelPainterExtended.html
     - https://people.rit.edu/btf6119/230/projects/2/index.html
@@ -82,7 +82,7 @@ Some sample IGME-230 projects from last semester:
     - https://people.rit.edu/paa9307/230/project2/
     - https://people.rit.edu/axs6207/230/project2/musicFinder.html
     - https://people.rit.edu/arw2013/WhoSays/whoSays.html
-- PixiJS Sprite Game:
+- PixiJS Sprite Game (Project 3)<a id="project3"></a>:
     - https://people.rit.edu/~jpa3216/230/project1/
     - https://people.rit.edu/~hhn2884/230/project1/
     - https://people.rit.edu/mro5772/230/project1/PlayGame
