@@ -122,3 +122,25 @@ For the midterm exam, you will be responsible for the first 5 parts of this web 
 
 You can access all of these web app tutorial pages from here: 
 [web-apps-0.md](./web-apps-0.md)
+
+
+## L. Sample Short answer questions
+
+1. Write JavaScript that loops through the `foods` array and produces the HTML necessary for an ordered list containing the array’s contents.
+
+1. carrots
+2. broccoli
+3. tofu
+
+```js
+let foods = ["carrots","broccoli","tofu"];
+
+...
+
+
+```
+
+2. Write a CSS style rule that makes an element of id="main" have a left margin of 10px and a font size of 10px.
+
+
+3. List the 4 "CRAP" design principles and a rule of thumb for each.
