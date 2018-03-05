@@ -141,7 +141,7 @@ let foods = ["carrots","broccoli","tofu"];
 
 ```
 
-2. Write a CSS style rule that makes all hypertext links gray in color, with a left margin equal to 2 ems, and a font size of 15px.
+2. Write a CSS style rule that makes all hypertext links gray in color, with a left margin equal to 2 ems, and a font size of 15 pixels.
 
 
 3. List the 4 "CRAP" design principles and a rule of thumb for each.
