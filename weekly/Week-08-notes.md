@@ -12,7 +12,7 @@
 As always, keep an eye on the myCourses dropboxes, both the descriptions and due dates. These will help you keep track of what is due/when, and what you should be working on.
 
 ## IV. Project 2
-Also remember that the proposal for [Project 2](../projects/project2.md) is due at the start of week 9. For the proposal, submit a PDF containing the following:
+Also remember that the proposal for Project 2 is due at the start of week 9. For the proposal, submit a PDF containing the following:
 
 - Your name and team member's name - one posting per team (team members are optional)
 - What kind of project you would like to build - be as specific as you can: Web Service App (which service?) or DOM Game (what kind of game)
