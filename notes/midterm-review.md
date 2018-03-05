@@ -136,12 +136,12 @@ You can access all of these web app tutorial pages from here:
 ```js
 let foods = ["carrots","broccoli","tofu"];
 
-...
+// you write the rest
 
 
 ```
 
-2. Write a CSS style rule that makes an element of id="main" have a left margin of 10px and a font size of 10px.
+2. Write a CSS style rule that makes all hypertext links gray in color, a left margin of 10px, and a font size of 10px.
 
 
 3. List the 4 "CRAP" design principles and a rule of thumb for each.
