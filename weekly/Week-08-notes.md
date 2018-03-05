@@ -11,7 +11,7 @@
 ## III. Readings and Homework Assignment
 As always, keep an eye on the myCourses dropboxes, both the descriptions and due dates. These will help you keep track of what is due/when, and what you should be working on.
 
-## V. Project 2
+## IV. Project 2
 Also remember that the proposal for [Project 2](../projects/project2.md) is due at the start of week 9. For the proposal, submit a PDF containing the following:
 
 - Your name and team member's name - one posting per team (team members are optional)
