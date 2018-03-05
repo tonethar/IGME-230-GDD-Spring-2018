@@ -124,7 +124,7 @@ You can access all of these web app tutorial pages from here:
 [web-apps-0.md](./web-apps-0.md)
 
 
-## L. Sample Short answer questions
+## L. Sample *short answer* questions
 
 1. Write JavaScript that loops through the `foods` array and produces the HTML necessary for an unordered list containing the array’s contents.
 
