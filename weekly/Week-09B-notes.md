@@ -17,6 +17,7 @@ We will be going over the functionality and some code on the [GIF Finder](../not
 ### II-A. Web Service Demo
 - Here are some of the APIs we will be using:
     - https://github.com/jdorfman/awesome-json-datasets
+    - https://coinmarketcap.com/api/
     - https://yesno.wtf/#api
     - https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
     - https://www.programmableweb.com/news/top-10-games-apis-eve-online-riot-games-battlenet/analysis/2015/11/25
