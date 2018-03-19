@@ -14,6 +14,14 @@ We will be going over the functionality and some code on the [GIF Finder](../not
 - how to connect to a web service, pass arguments to it, and download a response, and parse the results.
 - how to import the jQuery library, and utilize [`jQuery.ajax()`](http://api.jquery.com/jquery.ajax/)
 
+### II-A. Web Service Demo
+- Here are some of the APIs we will be using:
+    - https://github.com/jdorfman/awesome-json-datasets
+    - https://yesno.wtf/#api
+    - https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
+    - https://www.programmableweb.com/news/top-10-games-apis-eve-online-riot-games-battlenet/analysis/2015/11/25
+- Here are the demo start files- 
+
 ## III. Chibi Matching
 The [Chibi Matching demo](../notes/HW-chibi-matching.md) touches on the following:
 
