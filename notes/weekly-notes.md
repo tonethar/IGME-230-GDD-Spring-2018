@@ -133,9 +133,23 @@
 ## Week 7
 
 ## Week 8
+### Day 1
+- review for exam
+
+### Day 2
+- midterm exam
 
 ## Week 9
-
+### Day 1
+- Review Exam
+- Review Random Phrases-2 (functions and events)
+- Project 2 questions? If you missed the proposal dropbox, get it into the next dropbox (Project 2 checkpoint) ASAP
+- Suggest that a web service app is a good alternative for Project 2 (you can do something interesting and creative, without tons of code)
+- Discuss web services:
+    - show Giffy Finder Done
+    - show the list of web services from 9B Notes and call some of them in the web browser (with a JSON formatter turned on) and pass in different arguments. 
+    - Move on to the Bitcoin example, demo how the API works in Chrome
+    -  Download start file and start working on Bitcoin Ajax app, we actually got through the first iteration.
 ## Week 10
 
 ## Week 11
