@@ -40,17 +40,17 @@ This depends on what you are building:
 - Widgets are well labeled
 - User should be able to figure out how to use the app with minimal instruction (and be sure to provide instruction and tooltips if necessary!), and user errors are handled gracefully.
 - While it doesn't need to be responsive, it should look good on a range of displays; don't design it just to work on your huge screen at home. If my computer can't show the whole layout, it's a problem.
-- you ARE allowed to use CSS frameworks on this (and future) projects. Examples:
-    - http://getbootstrap.com
-    - http://materializecss.com
-    - https://purecss.io
-    - https://github.com/troxler/awesome-css-frameworks
 
 ### C. HTML/CSS
 - Valid HTML5 - https://validator.w3.org
 - Valid CSS - https://jigsaw.w3.org/css-validator/
 - Most CSS is in an external style sheet.
 - Use HTML5 semantic and structural elements where practical.
+- you ARE allowed to use CSS frameworks on this (and future) projects - examples:
+    - http://getbootstrap.com
+    - http://materializecss.com
+    - https://purecss.io
+    - https://github.com/troxler/awesome-css-frameworks
 
 ### D. Media
 - Images are properly optimized for web delivery.
