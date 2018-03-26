@@ -152,6 +152,7 @@
     -  Download start file and start working on Bitcoin Ajax app, we actually got through the first iteration.
     
 ### Day 2
+- Review [Web Apps 6 - JavaScript Events](../notes/web-apps-6.md)
 - Review Image Gallery HW
    - sub-optimal solution with a lot of repeated code
    - optimal solution with only 5 lines of code
@@ -162,6 +163,12 @@
     
 
 ## Week 10
+
+### Day 1
+- 
+
+### Day 2
+- Project 2 Checkpoint is due
 
 ## Week 11
 
