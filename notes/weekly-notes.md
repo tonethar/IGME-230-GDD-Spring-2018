@@ -193,5 +193,16 @@
 - Intro to PixiJS
 
 ## Week 13
+### Day 1
+- More PixiJS
+
+### Day 2
+- More PixiJS
 
 ## Week 14
+### Day 1
+- More PixiJS
+- Review for Final Exam
+
+### Day 2
+- Final Written Exam
