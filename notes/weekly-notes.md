@@ -150,6 +150,14 @@
     - show the list of web services from 9B Notes and call some of them in the web browser (with a JSON formatter turned on) and pass in different arguments. 
     - Move on to the Bitcoin example, demo how the API works in Chrome
     -  Download start file and start working on Bitcoin Ajax app, we actually got through the first iteration.
+    
+### Day 2
+- Finish Bitcoin example:
+    - add more fields
+    - display in HTML table
+    - use PureCSS library to improve display of table
+    
+
 ## Week 10
 
 ## Week 11
