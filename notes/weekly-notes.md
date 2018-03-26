@@ -165,14 +165,31 @@
 ## Week 10
 
 ### Day 1
-- 
+- Review [Web Apps 7 - JavaScript Object Literals](../notes/web-apps-7.md)
+- Review [Homework: Magnetic Poetry](../notes/HW-magnetic-poetry.md)
+    - CSS Absolute Positioning
+    - CSS Transforms (rotations)
+- Cookie Clicker demo
+    - [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 
 ### Day 2
 - Project 2 Checkpoint is due
+- Review [8 - JavaScript Arrays](../notes/web-apps-8.md)
 
 ## Week 11
+### Day 1
+- review [9 - WebStorage API](../notes/web-apps-9.md)
+
+### Day 2
+- Project 2 Due
+- CSS Framework HW
 
 ## Week 12
+### Day 1
+
+### Day 2
+- CSS Portfolio Mini-Project Due
+- Intro to PixiJS
 
 ## Week 13
 
