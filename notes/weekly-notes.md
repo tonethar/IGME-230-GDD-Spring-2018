@@ -142,7 +142,8 @@
 ## Week 9
 ### Day 1
 - Review Exam
-- Review Random Phrases-2 (functions and events)
+- Review [HW - Random Phrases-2](../notes/HW-random-phrases-2.md):
+    - functions and events
 - Project 2 questions? If you missed the proposal dropbox, get it into the next dropbox (Project 2 checkpoint) ASAP
 - Suggest that a web service app is a good alternative for Project 2 (you can do something interesting and creative, without tons of code)
 - Discuss web services:
@@ -152,7 +153,7 @@
     -  Download start file and start working on Bitcoin Ajax app, we actually got through the first iteration.
     
 ### Day 2
-- Review [Web Apps 6 - JavaScript Events](../notes/web-apps-6.md)
+- Review - [Web Apps 6 - JavaScript Events](../notes/web-apps-6.md)
 - Review Image Gallery HW
    - sub-optimal solution with a lot of repeated code
    - optimal solution with only 5 lines of code
@@ -165,8 +166,8 @@
 ## Week 10
 
 ### Day 1
-- Review [Web Apps 7 - JavaScript Object Literals](../notes/web-apps-7.md)
-- Review [Homework: Magnetic Poetry](../notes/HW-magnetic-poetry.md)
+- Review - [Web Apps 7 - JavaScript Object Literals](../notes/web-apps-7.md)
+- Review - [Homework: Magnetic Poetry](../notes/HW-magnetic-poetry.md)
     - CSS Absolute Positioning
     - CSS Transforms (rotations)
 - Cookie Clicker demo
@@ -174,11 +175,11 @@
 
 ### Day 2
 - Project 2 Checkpoint is due
-- Review [8 - JavaScript Arrays](../notes/web-apps-8.md)
+- Review - [8 - JavaScript Arrays](../notes/web-apps-8.md)
 
 ## Week 11
 ### Day 1
-- review [9 - WebStorage API](../notes/web-apps-9.md)
+- review - [9 - WebStorage API](../notes/web-apps-9.md)
 
 ### Day 2
 - Project 2 Due
