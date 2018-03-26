@@ -152,6 +152,9 @@
     -  Download start file and start working on Bitcoin Ajax app, we actually got through the first iteration.
     
 ### Day 2
+- Review Image Gallery HW
+   - sub-optimal solution with a lot of repeated code
+   - optimal solution with only 5 lines of code
 - Finish Bitcoin example:
     - add more fields
     - display in HTML table
