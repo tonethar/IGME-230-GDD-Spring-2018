@@ -202,7 +202,7 @@
 ## Week 14
 ### Day 1
 - More PixiJS
-- Review for Final Exam
+- Last questions about Final Exam?
 
 ### Day 2
 - Final Written Exam
