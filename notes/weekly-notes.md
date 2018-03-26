@@ -174,7 +174,7 @@
     - [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 
 ### Day 2
-- Project 2 Checkpoint is due
+- [Project 2 Checkpoint](../projects/project2.md) is due
 - Review - [8 - JavaScript Arrays](../notes/web-apps-8.md)
 
 ## Week 11
@@ -182,14 +182,14 @@
 - review - [9 - WebStorage API](../notes/web-apps-9.md)
 
 ### Day 2
-- Project 2 Due
+- [Project 2](../projects/project2.md) Due
 - CSS Framework HW
 
 ## Week 12
 ### Day 1
 
 ### Day 2
-- CSS Portfolio Mini-Project Due
+- [CSS Portfolio Mini-Project](../projects/portfolio-mini-project.md) Due
 - Intro to PixiJS
 
 ## Week 13
