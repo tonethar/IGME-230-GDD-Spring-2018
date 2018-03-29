@@ -178,11 +178,11 @@
 - More *Cookie Clicker*:
     - [`window.requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 - how can we improve the experience & usability & architecture of *Cookie Clicker*?
-        - display info when purchase buttons are moused over
-        - animation when cookie is clicked and when cookies are being produced 
-        - move CSS and JS into separate files
-        - use object literals to group related data
-        - generalize button handling code
+    - display info when purchase buttons are moused over
+    - animation when cookie is clicked and when cookies are being produced 
+    - move CSS and JS into separate files
+    - use object literals to group related data
+    - generalize button handling code
 
 ## Week 11
 ### Day 1
