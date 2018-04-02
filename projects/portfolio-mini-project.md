@@ -99,7 +99,7 @@ Properly optimized media | 1 |
 
 ## 10. Examples
 
-### I. [Some examples from previous semester's we showed you day 1]()
+### I. [Some examples from previous semester's we showed you day 1](../weekly/Week-01A-notes.md#section5)
 
 ### II. http://www.adhamdannaway.com
 ![http://www.adhamdannaway.com](images/dannaway.jpg)
