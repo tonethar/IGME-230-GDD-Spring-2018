@@ -93,21 +93,27 @@ Drop-down navigation menu | 1 |
 Properly optimized media | 1 |
 "Above and Beyond" | 4 |
 
+
+# 9. Resources
+- [Lynda.com Bootstrap Tutorial](https://www.lynda.com/Bootstrap-tutorials/What-well-build/186538/371577-4.html) - this is a about 2 hours, and walks you through creating a template that you can build on.
+
 ## 10. Examples
 
-### I. http://www.adhamdannaway.com
+### I. [Some examples from previous semester's we showed you day 1]()
+
+### II. http://www.adhamdannaway.com
 ![http://www.adhamdannaway.com](images/dannaway.jpg)
 
 
-### II. Here is the mobile version of the same page
+### III. Here is the mobile version of the same page
 ![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
 
-### III. http://dougwatro.com
+### IV. http://dougwatro.com
 ![dougwatro.com](images/watro.jpg)
 
 
-### IV. Lynda.com Bootstrap example
+### V. Lynda.com Bootstrap example
 ![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
 
 
