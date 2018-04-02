@@ -51,7 +51,7 @@ Once you complete this course you should be able to do the following:
 - code a DOM web game that uses HTML/CSS for the User Interface, and JavaScript for game logic & interactivity.
 - code a sprite-based game such as a shooter or platformer utilizing JavaScript and PixiJS. 
 
-## V. Projects and other stuff for inspiration
+## V. <a id="section5"></a>Projects and other stuff for inspiration
 There are a lot of reasons to improve your web development skills. Think about how much you use the Web every day, and how integrated it is into the games and new media interactive development fields. Games on the Web are pretty big right now. Also, it's a fantastic medium for showing off your work to the world, including potential employers!
 
 Past Student Portfolios:
