@@ -69,21 +69,14 @@ Some other examples are here:
 - If you used a CSS framework, explain how you modified it so that your portfolio doesn't look exactly like other sites that use that framework. 
 - What you did to go beyond the base expectations for the project--what did you do that was particularly challenging? This could involve art/design, content, or code. 
 
-## 7. Deliverables
-- Due end of week 4: Create a github repository named *230-portfolio-notes* and post the following to it:
-  - an up-to-date resume in PDF format
-  - populate README.md with your portfolio content. Utilize something similar to this [230-portfolio-notes.md template](../other-files/230-portfolio-notes.md)
-- Due end of week 8: 
-- Due end of week 13: Final submission (see below)
+## 7. Final Submission and Due Date
+The site must be placed in a portfolio directory inside of your igme230 directory (`http://people.rit.edu/youruserid/230/portfolio/`), and you should add two links to your project 1 page: one for the portfolio itself, and one directly to the notes.html page. 
 
-## 8. Final Submission and Due Date
-The site must be placed in a portfolio directory inside of your igme230 directory (`http://people.rit.edu/youruserid/igme230/portfolio/`), and you should add two links to your project 1 page: one for the portfolio itself, and one directly to the notes.html page. 
-
-- The completed site is due at 11:59pm on XXX, XX/XX
+- See dropbox for due date
 - The page should display properly at the URL specified above by that time
 - ZIP and Post the project to mycourses, and put a link to the URL in the comments field of the dropbox
 
-## 9. Grading
+## 8. Grading
 If you complete all required components with no errors, you'll earn 16/20 points, or 80%. In order to go above that, 
 
 Requirement | Possible Points (20) |
