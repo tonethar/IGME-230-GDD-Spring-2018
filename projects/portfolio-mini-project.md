@@ -99,22 +99,22 @@ Properly optimized media | 1 |
 
 ## 10. Examples
 
-### I. Student Work
+### A. Student Work
 - [Some examples from previous semester's we showed you day 1](../weekly/Week-01A-notes.md#section5)
 
-### II. http://www.adhamdannaway.com
+### B. http://www.adhamdannaway.com
 ![http://www.adhamdannaway.com](images/dannaway.jpg)
 
 
-### III. Here is the mobile version of the same page
+### C. Here is the mobile version of the same page
 ![http://www.adhamdannaway.com](images/dannaway-mobile.jpg)
 
 
-### IV. http://dougwatro.com
+### D. http://dougwatro.com
 ![dougwatro.com](images/watro.jpg)
 
 
-### V. Lynda.com Bootstrap example
+### E. Lynda.com Bootstrap example
 ![Lynda.com Bootstrap example](images/wisdom-pet-medicine.jpg)
 
 
