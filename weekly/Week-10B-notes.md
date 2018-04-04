@@ -1,19 +1,19 @@
 # Week 10B - Portfolios
 
-## Topics
+## I. Topics
 - Types of portfolios
 - What goes into a portfolio
 - Building a portfolio using a framework
 
 Having an online portfolio you can share with potential employers is very important in your line of work. Today, we will discuss various options for online portfolios, and get you started on the Portfolio assignment (5% of your total grade).
 
-## Example Portfolios
+## II. Example Portfolios
 - http://www.brianemling.com/
 - http://www.katiepustolski.com/
 - http://dougwatro.com/
 - https://www.awwwards.com/websites/portfolio/
 
-## Discussion
+## III. Discussion
 1. For the portfolio mini project, you are going to utilize templates to create a web portfolio that showcases your work to potential employers. **Important:** If you are interested in being a *web designer*, at some point you will need to create a *custom* web site and forego CSS templates. Here is a valuable course you should check out on Lynda.com: [https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html](https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html)
 1. Think about what you want the site to do for you. What is its *mission*? What is your dream job?
     - to get a specific co-op or job? ex. Game Designer, Game Developer, Combat Designer, Software Engineer, Web Developer, Mobile Developer, Creative Developer, Creative Technolgist, Simulations Developer ...
@@ -38,16 +38,16 @@ Having an online portfolio you can share with potential employers is very import
     - pictures from user testing
 1. Clearly identify what you did on the project:
     - be specific! 
-    - don't exaggerate
+    - don't exaggerate!
 
 ***We don't hire co-ops for Karmic balance, we hire co-ops because we have a job that needs to get done*** - AA Game Studio owner by AAA Game Company.
 
 - Employers will look at your portfolio based on what their needs are, so make it easy for the recruiter to figure what you are good at!
 
-## Presentations
+## IV. Presentations
 - [Portfolio](../presentations/Portfolio.pdf)
 
-## Assignment
+## V. Assignment
 - [Portfolio Mini-Project](../projects/portfolio-mini-project.md)
 
 <hr><hr>
