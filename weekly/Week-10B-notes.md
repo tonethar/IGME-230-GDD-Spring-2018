@@ -16,7 +16,7 @@ Having an online portfolio you can share with potential employers is very import
 
 ## III. Discussion
 1. For the portfolio mini project, you are going to utilize templates to create a web portfolio that showcases your work to potential employers. 
-    - **Important:** If you are interested in being a *web designer*, at some point you will need to create a *custom* web site and forego CSS templates. Here is a valuable course you should check out on Lynda.com: [https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html](https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html)
+    - **Important:** Templates are OK for Game Developers and Web Developers/Interactive developers, but ... if you are interested in being a **web designer**, at some point you will need to create a *custom* web site and forego CSS templates. Here is a valuable course you should check out on Lynda.com: [https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html](https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html)
 1. Think about what you want the site to do for you. What is its *mission*? What is your dream job?
     - to get a specific co-op or job? ex. Game Designer, Game Developer, Combat Designer, Software Engineer, Web Developer, Mobile Developer, Creative Developer, Creative Technolgist, Simulations Developer ...
     - to work in a specific industry? AAA Game, Indie Game, Creative/Consulting/Marketing firm, Defense
