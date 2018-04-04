@@ -45,9 +45,9 @@ Having an online portfolio you can share with potential employers is very import
     - be specific! 
     - don't exaggerate!
 
-***We don't hire co-ops for Karmic balance, we hire co-ops because we have a job that needs to get done*** - AA Game Studio owner by AAA Game Company.
+***"We don't hire co-ops for Karmic balance, we hire co-ops because we have a job that needs to get done!"*** - AA Game Studio owned by AAA Game Company.
 
-- Employers will look at your portfolio based on what their needs are, so make it easy for the recruiter to figure what you are good at!
+- **Important:** Employers will look at your portfolio based on what *their* needs are, not yours, so make it easy for the recruiter to figure what you are good at!
 
 ## IV. Presentations
 - [Portfolio](../presentations/Portfolio.pdf)
