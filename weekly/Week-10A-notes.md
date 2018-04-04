@@ -62,6 +62,7 @@ Implementation:
 ## Exercise
 - [CSS Frameworks](../exercises/week-11/frameworks-ice.md) See due date in exercise.
 - [Lynda.com Bootstrap Tutorial](https://www.lynda.com/Bootstrap-tutorials/What-well-build/186538/371577-4.html) - this takes about 2 hours, and walks you through creating a template that you can build on when creating your portfolio mini-project.
+- [Lynda.com Skeleton Tutorial](https://www.lynda.com/CSS-tutorials/Welcome/372808/413142-4.html) - another nice option.
 - [Portfolio Mini-Project](../projects/portfolio-mini-project.md)
 
 <hr><hr>
