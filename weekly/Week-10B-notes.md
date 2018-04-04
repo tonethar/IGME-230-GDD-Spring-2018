@@ -30,6 +30,7 @@ Having an online portfolio you can share with potential employers is very import
     - **curate your projects** and focus one the ones that make you look qualified for your dream job:
       - show only the best work
       - show relevant work. Are you looking for a coding job? Then don't feature that sword you made in the 3D animation class!
+      - be careful about selecting HW assignments as portfolio pieces, recruiters have probably seen them multiple times!
       - show diverse work
       - think about the sequence - put the focus on your best work - showcase your best project
 1. Curated Projects - show them in context:
