@@ -64,7 +64,15 @@ Implementation:
 - [Lynda.com Bootstrap Tutorial](https://www.lynda.com/Bootstrap-tutorials/What-well-build/186538/371577-4.html) - this takes about 2 hours, and walks you through creating a template that you can build on when creating your portfolio mini-project.
 - [Lynda.com Skeleton Tutorial](https://www.lynda.com/CSS-tutorials/Welcome/372808/413142-4.html) - another nice option, with a slightly simpler layout.
 
-## VIII. Assignment
+## VIII. Demo
+Let's build a responsive web page using the Skeleton framework. This will be a simplified version of the page created in the Skeleton Tutorial linked above.
+1. First we will look at the completed version in class.
+2. Next we will download the start files from mycourses (we will use the image files are from the Skeleton Tutorial above)
+3. Now head to http://getskeleton.com and 
+
+
+
+## IX. Assignment
 - [Portfolio Mini-Project](../projects/portfolio-mini-project.md)
 
 <hr><hr>
