@@ -83,7 +83,8 @@ Together we will build a responsive web page using the [Skeleton](http://getskel
 1. Use CSS to style up the header. We will make it 12 columns wide (the full 1000px width) and give it a green background color.
 1. Add rows, columns, and images - wow those images are big!
 1. Add CSS to fix things.
-1. Make responsive with media queries
+1. Resize the window to see how the framework is automatically responsive.
+1. Make even more responsive with media queries
 
 
 
