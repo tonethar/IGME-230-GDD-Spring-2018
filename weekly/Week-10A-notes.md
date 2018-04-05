@@ -66,9 +66,18 @@ Implementation:
 
 ## VIII. Demo
 Let's build a responsive web page using the Skeleton framework. This will be a simplified version of the page created in the Skeleton Tutorial linked above.
-1. First we will look at the completed version in class.
+1. First we will look at the completed version of the demo (and the Skeleton Tutorial) in class. The Skeleton Tutorial has some nice features such as LightBox that you will likely want to use on your project.
 2. Next we will download the start files from mycourses (we will use the image files are from the Skeleton Tutorial above)
-3. Now head to http://getskeleton.com and 
+3. Now head to http://getskeleton.com, look over the docs and download the skeleton framework
+4. Copy the *css* folder from the download into our start folder
+5. Head to https://fonts.google.com and copy the link to the Abel and Satisfy fonts
+6. Walk through *skeleton.css*:
+    - change max-width of container to 1000
+    - skeleton uses a 12-column layout
+    - columns class
+    - row class
+7. Build <header>
+    - build main container  
 
 
 
