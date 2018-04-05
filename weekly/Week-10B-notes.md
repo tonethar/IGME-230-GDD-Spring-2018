@@ -26,7 +26,7 @@ Having an online portfolio you can share with potential employers is very import
         - ex. Apple, Google, Microsoft, Sony - Barbarian Group, Odopod, Sapient Razorfish ...
     - or work for yourself (freelance)?
 1. Craft a tagline or mission statement, just one or 2 sentences.
-1. The portfolio is a *story*, everything you put on the site say something about you
+1. The portfolio is a *story*, everything you put on the site says *something* about you
     - **curate your projects** and focus one the ones that make you look qualified for your dream job:
       - show only the best work
       - show relevant work. Are you looking for a coding job? Then don't feature that sword you made in the 3D animation class!
