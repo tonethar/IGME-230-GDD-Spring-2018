@@ -38,7 +38,7 @@ X. [Review Exercise](#section10)
 
 <hr>
 
-### I. <a id="section1">PixiJS Resources
+## I. <a id="section1">PixiJS Resources
 PixiJS has fantastic example code and an active community of developers. Here are some helpful links:
 
 - http://www.pixijs.com/gallery
@@ -62,11 +62,11 @@ PixiJS pretty much just gives you *sprites*, but there are many plugins availabl
 - https://github.com/pixijs/pixi-particles
 
 
-### II. <a id="section2">"Hello PixiJS"
+## II. <a id="section2">"Hello PixiJS"
 
 Here is your first PixiJS program. Note that we are importing the PixiJS library from a CDN ("Content Distribution Network") rather than downloading the library ourselves.
 
-#### pixi-intro-1.html
+### pixi-intro-1.html
 
 ```html
 <!DOCTYPE html>
@@ -93,10 +93,10 @@ document.body.appendChild(app.view);
 
 ```
 
-#### Which looks like this:
+### Which looks like this:
 ![Screenshot](_images/pixi-1.jpg)
 
-#### Notes
+### Notes
 - You should see the 600x400 black canvas that PixiJS created for us in the browser
 - You should also see this canvas in the Web Inspector
 - You should see a log to the console that shows the rendering method being used (Canvas or WebGL)
@@ -106,10 +106,10 @@ document.body.appendChild(app.view);
 `app.renderer.backgroundColor = 0xFF00FF; // Magneta!`
 
 
-### III. <a id="section3">Drawing Shapes
+## III. <a id="section3">Drawing Shapes
 We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs.download/dev/docs/PIXI.Graphics.html
  
-#### pixi-intro-2.html
+### pixi-intro-2.html
 
 
 ```html
@@ -152,10 +152,10 @@ app.stage.addChild(circle);
 </html>
 ```
 
-#### Which looks like this:
+### Which looks like this:
 ![Screenshot](_images/pixi-2.jpg)
 
-#### Notes:
+### Notes:
 - Here we used the Graphics() object to create 2 shapes. We gave the square above both a stroke (on border of shape) and a fill (the inside of the shape).
 - Graphics docs are here: http://pixijs.download/dev/docs/PIXI.Graphics.html
 - Note that colors are in JavaScript's hexadecimal number format and always begin in `0x`. Fun fact - in JavaScript you can also create octal numbers - they begin with a zero - here's an example: `parseInt(0111) // 73`
@@ -167,9 +167,9 @@ app.stage.addChild(circle);
 
 	`square.drawRect(-20,-20,40,40);`
 
-### IV. <a id="section4">Two More Shapes
+## IV. <a id="section4">Two More Shapes
 
-#### Add the following to pixi-intro-2.html
+### Add the following to pixi-intro-2.html
 
 ```javascript
 // #3 make a line
@@ -196,15 +196,15 @@ poly.y = 125;
 app.stage.addChild(poly);
 ```
 
-#### Which gives us:
+### Which gives us:
 
 ![Screenshot](_images/pixi-3.jpg)
 
 
-### V. <a id="section5">Adding DOM Button Events
+## V. <a id="section5">Adding DOM Button Events
 We can add DOM buttons to our web page, add event handlers to them, and then call properties and methods on our PixiJS objects.
 
-#### pixi-intro-3.html
+### pixi-intro-3.html
 
 ```html
 <!DOCTYPE html>
@@ -290,11 +290,11 @@ document.querySelector("#rotate").onclick = e=>{
 </html>
 ```
 
-#### Which gives us (after we click the buttons a couple of times):
+### Which gives us (after we click the buttons a couple of times):
 
 ![Screenshot](_images/pixi-4.jpg)
 
-### VI. <a id="section6">Sprites and Displaying Images & Running code on a server
+## VI. <a id="section6">Sprites and Displaying Images & Running code on a server
 
 The Sprite class allows us to display textured images in the jpeg, png, or gif format: http://pixijs.download/release/docs/PIXI.Sprite.html
 
@@ -302,7 +302,7 @@ Here is the button image we will use below (right-click to save) --> ![Button im
 
 <hr>
 
-#### IMPORTANT!
+### IMPORTANT!
 
 One restriction you are going to run into is when your script tries to load an image off of your computer's hard drive - the CORS (Cross-Origin Resource Sharing) restriction kicks in and the image will be blocked from loading. For example, the error message in Chrome for the code below is:
 
@@ -312,7 +312,7 @@ Origin 'null' is therefore not allowed access.
 ```
 <hr>
 
-#### Solutions? 
+### Solutions? 
 
 - Run the code off of a web server, which you can do by uploading your code to Banjo.
 - Use an IDE like [Brackets](http://brackets.io) - which creates a local web server for you to run your code on.
@@ -320,7 +320,7 @@ Origin 'null' is therefore not allowed access.
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) turns off CORS by default, so you don't need a web server.
 
 
-#### pixi-intro-4.html
+### pixi-intro-4.html
 
 ```html
 <!DOCTYPE html>
@@ -395,11 +395,11 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 </html>
 ```
 
-#### Which looks like this in the browser - be sure to click the buttons to see what they do - and look over the code to understand how it's done:
+### Which looks like this in the browser - be sure to click the buttons to see what they do - and look over the code to understand how it's done:
 
 ![Screenshot](_images/pixi-5.jpg)
 
-#### Notes:
+### Notes:
 
 - Sprite docs are here: http://pixijs.download/release/docs/PIXI.Sprite.html
 - here we are using PixiJS sprites as buttons, rather than using DOM buttons like we did last time. 
@@ -407,24 +407,24 @@ function makeRectangle(width=50,height=50,color=0xFF0000){
 - the `pointerover` and similar events will work with both mouse events and touch events.
 - note our handy helper function `makeRectangle()`
 
-### VII. <a id="section7">Using the Demos
+## VII. <a id="section7">Using the Demos
 Head to this demo page - http://pixijs.github.io/examples/#/basics/basic.js - which was linked above.
 
 These demos are really helpful in that they nicely illustrate many of the features of PixiJS, and that you can also edit the code in place and see "live" changes.
 
 You should also be able to copy/paste much of the code into our **pixi-1.html** template and try it out.
 
-### VIII. <a id="section8">Nota Bene
+## VIII. <a id="section8">Nota Bene
 Nothing for now.
 
-### IX. <a id="section9">Review Questions
+## IX. <a id="section9">Review Questions
 1. What does **CDN** stand for? What are the advantages of using a CDN?
 1. What does **CORS** stand for? How can you get around it?
 1. Give 2 ways to set up a local web server on your personal computer.
 1. What are the hexadecimal color values for white, black, and green?
 
 
-### X. <a id="section10">Review Exercise
+## X. <a id="section10">Review Exercise
 Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-1-HW.html** and:
 1. add a PixiJS Rounded Rectangle to the screen.
 1. modify the button code so that the existing buttons also target and effect the rounded rect.
