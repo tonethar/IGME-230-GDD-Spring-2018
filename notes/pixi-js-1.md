@@ -426,7 +426,7 @@ Nothing for now.
 
 ## X. <a id="section10">Review Exercise
 Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-1-HW.html** and:
-1. add a PixiJS Rounded Rectangle to the screen.
+1. add a PixiJS Rounded Rectangle to the screen (optional)
 1. modify the button code so that the existing buttons also target and effect the rounded rect.
 1. add another PixiJS "sprite button" that reduces the size of all 3 shapes everytime it is clicked.
 1. Submission: ZIP and post all necessary files to the mycourses dropbox.
