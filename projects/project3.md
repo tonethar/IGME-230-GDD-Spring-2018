@@ -61,7 +61,7 @@ Canvas and direct DOM manipulation (for the experience itself) are not allowed; 
 - If you worked in a pair, explain what each team member did. Remember, everyone is responsible for contributing throughout the project, not just to one aspect.
 
 ## Presentation
-For Professor Boyle's sections, at the time of our scheduled meeting during finals week, you will present your project to the class in a brief demo. **Attendance for this is mandatory.** For this demo, show us:
+At the time of our scheduled meeting during finals week, you will present your project to the class in a brief demo. **Attendance for this is mandatory.** For this demo, show us:
 - What you made
 - What’s cool, and what you think is “above and beyond”
 - How you overcame any serious challenges
