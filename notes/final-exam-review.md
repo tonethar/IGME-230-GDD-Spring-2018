@@ -20,10 +20,7 @@ https://github.com/tonethar/IGME-230-GDD-2017-Fall/blob/master/notes/pixi-js-0.m
 - Sprite Hierarchy
 
 
-### I-C. A little SVG
-- Strengths and Weaknesses of Vector and Bitmapped graphics
-
-### I-D. Weekly Notes
+### I-C. Weekly Notes
 Week 8+ in [weekly](../weekly/) covers the newer material. 
 
 
@@ -97,8 +94,6 @@ What do the following stand for?
 - DRY
 - JSON
 - CDN
-- CORS
-- SVG
 
 ### Other Concepts
 - Separation of Concern
