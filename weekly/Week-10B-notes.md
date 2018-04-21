@@ -26,23 +26,23 @@ Having an online portfolio you can share with potential employers is very import
         - ex. Apple, Google, Microsoft, Sony - Barbarian Group, Odopod, Sapient Razorfish ...
     - or work for yourself (freelance)?
 1. Craft a tagline or mission statement, just one or 2 sentences.
-1. The portfolio is a *story*, everything you put on the site says *something* about you
-    - **curate your projects** and focus one the ones that make you look qualified for your dream job:
-      - show only the best work
+1. The portfolio is a *story*, everything you put on the site says *something* about *you*.
+    - **curate your projects** and focus on the ones that make you look qualified for your dream job:
+      - show only your **best work**
       - show relevant work. Are you looking for a coding job? Then don't feature that sword you made in the 3D animation class!
-      - be careful about selecting HW assignments as portfolio pieces, recruiters have probably seen them multiple times!
+      - be careful about selecting HW assignments as portfolio pieces unless they are substantially different or better than what your peers did on the same assignment - recruiters have probably seen them multiple times!
       - show diverse work
       - think about the sequence - put the focus on your best work - showcase your best project
 1. Curated Projects - show them in context:
     - with a web game or other interactive work, link to the actual application, don't just show screen shots
     - create YouTube demo videos for your games that are not published to the web
     - have supporting text that explains what the project does, and its inspiration
-1. Show your development *process* - here are some ideas:
+1. Consider showing your development *process* - this gives employers insight into how you think as a designer (or coder or artist as applicable) - here are some ideas:
     - concept images from sketchbook
     - affinity maps/sticky notes
     - screenshots and notes on prototypes
     - pictures from user testing
-1. Clearly identify what you did on the project:
+1. Clearly identify what *you* did on the project:
     - be specific! 
     - don't exaggerate!
 
