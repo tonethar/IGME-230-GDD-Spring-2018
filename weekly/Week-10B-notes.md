@@ -14,7 +14,7 @@ Having an online portfolio you can share with potential employers is very import
 - https://www.awwwards.com/websites/portfolio/
 - [Some examples from previous semester's we showed you day 1](./Week-01A-notes.md#section5)
 
-## III. Discussion
+## III. Discussion - *What do you put in your portfolio?*
 1. For the portfolio mini project, you are going to utilize templates to create a web portfolio that showcases your work to potential employers. 
     - **Important:** Templates are OK for Game Developers and Web Developers/Interactive Developers ... but ... if you are instead interested in working as a **web designer** or similar, at some point you will need to create a *custom* web site and forego CSS templates. Here is a valuable course you should check out on Lynda.com: [https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html](https://www.lynda.com/Behance-tutorials/Welcome/642472/704251-4.html)
 1. Think about what you want the site to do for you. What is its *mission*? What is your dream job?
