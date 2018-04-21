@@ -28,7 +28,7 @@ Having an online portfolio you can share with potential employers is very import
 1. Craft a tagline or mission statement, just one or 2 sentences, that supports the goal of the site:
     - https://blog.prototypr.io/10-steps-to-the-perfect-portfolio-website-182b1adcbfc8
     - http://taglineguru.com/portfolio.html
-1. The portfolio is a *story*, everything you put on the site says *something* about *you*. Be sure that the portfolio is telling the story that you want it to.
+1. The portfolio is a *story*, everything you put on the site says *something* about *you*. Be sure that the portfolio is telling a story that helps you, not hurts you.
     - **curate your projects** and focus on the ones that make you look qualified for your dream job:
       - show only your **best work**
       - show relevant work. Are you looking for a coding job? Then don't feature that sword you made in the 3D animation class!
