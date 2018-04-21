@@ -42,7 +42,7 @@ Having an online portfolio you can share with potential employers is very import
     - affinity maps/sticky notes
     - screenshots and notes on prototypes
     - pictures from user testing
-1. Clearly identify what *you* did on the project:
+1. For team-based work, clearly identify what *you* did on the project:
     - be specific! 
     - don't exaggerate!
 
