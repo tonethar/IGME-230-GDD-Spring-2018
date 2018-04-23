@@ -25,7 +25,7 @@ Week 8+ in [weekly](../weekly/) covers the newer material.
 
 
 
-## II. Sample Questions
+## II. Concepts that may be tested
 
 ### CSS Selectors
 Be able to write CSS rules using these selectors:
@@ -80,7 +80,7 @@ Be able to write CSS rules using these selectors:
 - which `Object` static method is used to prevents an object from having new properties added to it, and also prevents the values of those properties from changing?
 - which JS methods are used to *serialize* and *deserialize* objects?
 
-### Web Services
+### Web Services (these are in the notes, and in Wikipedia)
 - define *Ajax*
 - define *web service*
 - define *API Key*
@@ -102,3 +102,16 @@ What do the following stand for?
 - Subclass Sandbox
 - Rendering Engine
 - Display List
+
+
+## III. Sample Questions (not exhaustive of what could be asked)
+
+1. Write a CSS rule that will select only those links on the page that have an `href` value of `http://www.google.com`
+
+2. Write a CSS rule that will select all &lt;b> elements that are *children* of &lt;p> elements
+
+3. Write a CSS rule that causes a link to turn green when the mouse is pressed down over it
+
+4. Write a CSS rule that selects &lt;h1>, &lt;h2> and &lth3> tags and gives them a color of red
+
+5. Re-write this HTML so that this &lt;p> element belongs to both the `hoser` and `takeoff` classes - `<p><i>Strange Brew</i> is my favorite movie!</p>` 
