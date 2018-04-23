@@ -117,7 +117,7 @@ What do the following stand for?
 
 5. Write a CSS rule that causes a link to turn green when the mouse is pressed down over it
 
-6. Write a CSS rule that selects &lt;h1>, &lt;h2> and &lth3> tags and gives them a color of red
+6. Write a CSS rule that selects &lt;h1>, &lt;h2> and &lt;h3> tags and gives them a color of red
 
 7. Re-write this HTML so that this &lt;p> element belongs to both the `hoser` and `takeoff` classes:
 
