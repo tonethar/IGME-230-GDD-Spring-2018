@@ -337,7 +337,7 @@ function doStuff(){
   console.log(y);
 ```
 
-### E - Variable Immutability
+### G - Variable Immutability
 
 1. What will be logged below? Why?
 
