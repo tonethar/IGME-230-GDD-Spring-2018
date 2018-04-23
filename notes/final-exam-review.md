@@ -113,7 +113,7 @@ What do the following stand for?
 
 3. Write a CSS rule that will select only those links on the page that have an `href` value of `http://www.google.com`
 
-4. Write a CSS rule that will select all &lt;b> elements that are *children* of &lt;p> elements
+4. Write a CSS rule that will select all &lt;b> elements that are *descendants* of &lt;p> elements
 
 5. Write a CSS rule that causes a link to turn green when the mouse is pressed down over it
 
