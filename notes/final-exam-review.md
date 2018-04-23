@@ -228,3 +228,137 @@ if([null,undefined,true,false][0]){
 ```
 
 ### E - Variable Scope
+
+1. What will be logged below? Why?
+
+```js
+let x = 0;
+x++;
+console.log(x);
+y++;
+let y = 0;
+console.log(y);
+```
+
+2. What will be logged below? Why?
+
+```js
+let x = 1;
+let y;
+if(x==1){
+		x++;
+		let y = 1;
+		y++;
+		let z = 1;
+ }
+ console.log(x);
+ console.log(y);
+ console.log(z);
+```
+
+3. What will be logged below? Why?
+
+```js
+doStuff()
+console.log(x);
+
+function doStuff(){
+	console.log("doStuff!");
+	x = 1;
+}
+```
+
+4. What will be logged below? Why?
+
+```js
+"use strict";
+doStuff()
+console.log(x);
+
+function doStuff(){
+	console.log("doStuff!");
+	x = 1;
+}
+```
+
+5. What will be logged below? Why?
+
+```js
+doStuff()
+console.log(x);
+
+function doStuff(){
+	console.log("doStuff!");
+	var x = 1;
+}
+```
+
+6. What will be logged below? Why?
+
+```js
+doStuff()
+
+function doStuff(){
+  if(true){
+    if(!false){
+      for(var i=0;i<10;i++){
+	      var x = 1;
+        let y = 2;
+        const z = 3;
+      }
+    }
+  }
+   console.log(x);
+   console.log(y);
+   console.log(z);
+}
+```
+
+### F - Value Types v. Reference Types
+
+1. What will be logged below? Why?
+
+```js
+  let x = "1";
+  let y = x;
+  x = "2";
+  console.log(x);
+  console.log(y);
+```
+
+2. What will be logged below? Why?
+
+```js
+  let x = [1,2,3];
+  let y = x;
+  x.push(4);
+  y.push(5);
+  console.log(x);
+  console.log(y);
+```
+
+### E - Variable Immutability
+
+1. What will be logged below? Why?
+
+```js
+const x = {};
+x.name = "fred";
+console.log(x);
+```
+
+2. What will be logged below? Why?
+
+```js
+const y = 1;
+y++;
+console.log(y);
+```
+
+3. What will be logged below? Why?
+
+```js
+const z = {};
+z = {"name":"mary"};
+console.log(z);
+```
