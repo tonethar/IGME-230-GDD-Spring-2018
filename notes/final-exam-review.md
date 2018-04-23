@@ -132,7 +132,7 @@ What do the following stand for?
 
 1. Create a JS *object literal* named `rover` that has 2 properties `breed` and `age`. The object will also have a method named `getOlder()` which will increase age by 1.
 
-### Other JS
+### Truthy/Falsy Values
 
 1. What will be logged for this line of code? Why?
 
@@ -147,7 +147,7 @@ if(""){
 2. What will be logged for this line of code? Why?
 
 ```js
-if([]){
+if("false"){
   console.log("Guns!");
 }else{
   console.log("Butter!");
@@ -157,7 +157,27 @@ if([]){
 3. What will be logged for this line of code? Why?
 
 ```js
+if([]){
+  console.log("Guns!");
+}else{
+  console.log("Butter!");
+}
+```
+
+4. What will be logged for this line of code? Why?
+
+```js
 if([].length){
+  console.log("Guns!");
+}else{
+  console.log("Butter!");
+}
+```
+
+5. What will be logged for this line of code? Why?
+
+```js
+if([undefined,true,false][0]){
   console.log("Guns!");
 }else{
   console.log("Butter!");
