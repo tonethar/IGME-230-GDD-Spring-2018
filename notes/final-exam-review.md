@@ -169,8 +169,8 @@ console.log(car.color);
 "use strict";
 let car = {"cylinders":4};
 Object.freeze(car);
-car.color = "red";
-console.log(car.color);
+car.cylinders = 8;
+console.log(car.cylinders);
 ```
 
 
