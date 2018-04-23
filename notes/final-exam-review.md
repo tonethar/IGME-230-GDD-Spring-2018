@@ -106,6 +106,7 @@ What do the following stand for?
 
 ## III. Sample Questions (not exhaustive of what could be asked)
 
+### CSS/HTML
 1. Write a CSS rule that will select only those links on the page that have an `href` value of `http://www.google.com`
 
 2. Write a CSS rule that will select all &lt;b> elements that are *children* of &lt;p> elements
@@ -114,4 +115,51 @@ What do the following stand for?
 
 4. Write a CSS rule that selects &lt;h1>, &lt;h2> and &lth3> tags and gives them a color of red
 
-5. Re-write this HTML so that this &lt;p> element belongs to both the `hoser` and `takeoff` classes - `<p><i>Strange Brew</i> is my favorite movie!</p>` 
+5. Re-write this HTML so that this &lt;p> element belongs to both the `hoser` and `takeoff` classes:
+
+`<p><i>Strange Brew</i> is my favorite movie!</p>` 
+
+### JavaScript & DOM
+1. Write JS that selects **all** of the &lt;img> tags on a HTML page and stores them in an array, loops through the array, and gives each a `title` atttribute with the value of "I am an image"!"
+
+1. Write JS that loops through the `colors` array, and creates an unordered list of the contents of the array. When you are done creating the arry, don't forget to add it to the page.
+
+`let colors = ["red","green","blue"];`
+
+### JS Objects
+
+1. Create an ES6 *class* called `Person`. Its constructor will take two arguments `name` and `height`, and assign those passed in values as properties of the `Person object`. `Person` will have a `grow()` method that causes that instance's height to increase by 1.
+
+1. Create a JS *object literal* named `rover` that has 2 properties `breed` and `age`. The object will also have a method named `getOlder()` which will increase age by 1.
+
+### Other JS
+
+1. What will be logged for this line of code? Why?
+
+```js
+if(""){
+  console.log("Guns!");
+}else{
+  console.log("Butter!");
+}
+```
+
+2. What will be logged for this line of code? Why?
+
+```js
+if([]){
+  console.log("Guns!");
+}else{
+  console.log("Butter!");
+}
+```
+
+3. What will be logged for this line of code? Why?
+
+```js
+if([].length){
+  console.log("Guns!");
+}else{
+  console.log("Butter!");
+}
+```
