@@ -246,10 +246,10 @@ console.log(y);
 let x = 1;
 let y;
 if(x==1){
-		x++;
-		let y = 1;
-		y++;
-		let z = 1;
+	x++;
+	let y = 1;
+	y++;
+	let z = 1;
  }
  console.log(x);
  console.log(y);
