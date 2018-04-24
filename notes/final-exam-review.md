@@ -333,7 +333,7 @@ function doStuff(){
 ```
 
 ### F - Value Types v. Reference Types
-*To answer these questions, you needd to know the difference between JavaScripts **value** types and **reference** types*
+*To answer these questions, you need to know the difference between JavaScript **value** types and **reference** types*
 
 - Info here: [web-apps-7.md](./web-apps-7.md#section7)
 
@@ -359,6 +359,10 @@ function doStuff(){
 ```
 
 ### G - Variable Immutability
+
+*To answer these questions, you need to know how `const` immutability works in JavaScript*
+
+- Info here: [web-apps-7.md](web-apps-7.md#section8)
 
 1. What will be logged below? Why?
 
