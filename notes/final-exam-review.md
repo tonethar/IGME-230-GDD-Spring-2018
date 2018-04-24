@@ -192,6 +192,8 @@ console.log(car.cylinders);
 ### D - Truthy/Falsy Values
 *To answer these questions you need to know JavaScript's 6 (or 8 depending on how you count) **falsy* values. In a JavaScript boolean context (like an `if` statement), if a value doesn't evaluate to one of these 8 falsy values, it is **true***
 
+- See [web-apps-2.md](web-apps-2.md#section10)
+
 1. What will be logged for this line of code? Why?
 
 ```js
@@ -243,6 +245,7 @@ if([null,undefined,true,false][0]){
 ```
 
 ### E - Variable Scope
+*To answer these questions, you have to understand how [var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var), [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let), and [const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) work*
 
 1. What will be logged below? Why?
 
