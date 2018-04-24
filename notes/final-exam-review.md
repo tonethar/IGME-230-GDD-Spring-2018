@@ -119,7 +119,7 @@ What do the following stand for?
 
 6. Write a CSS rule that selects &lt;h1>, &lt;h2> and &lt;h3> tags and gives them a color of red
 
-7. Re-write this HTML so that this &lt;p> element belongs to both the `hoser` and `takeoff` classes:
+7. Re-write this HTML so that the &lt;p> element below belongs to both the `hoser` and `takeoff` classes:
 
 `<p><i>Strange Brew</i> is my favorite movie!</p>` 
 
