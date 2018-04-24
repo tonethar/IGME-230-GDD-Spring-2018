@@ -190,7 +190,7 @@ console.log(car.cylinders);
 
 
 ### D - Truthy/Falsy Values
-*To answer these questions you need to know JavaScript's 6 (or 8 depending on how you count) **falsy* values. In a JavaScript boolean context (like an `if` statement), if a value doesn't evaluate to one of these 8 falsy values, it is **true***
+*To answer these questions you need to know JavaScript's 6 (or 8 depending on how you count) **falsy** values. In a JavaScript boolean context (like an `if` statement), if a value doesn't evaluate to one of these 8 falsy values, it is **true***
 
 - See [web-apps-2.md](web-apps-2.md#section10)
 
@@ -333,6 +333,9 @@ function doStuff(){
 ```
 
 ### F - Value Types v. Reference Types
+*To answer these questions, you needd to know the difference between JavaScripts **value** types and **reference** types*
+
+- Info here: [web-apps-7.md](./web-apps-7.md#section7)
 
 1. What will be logged below? Why?
 
