@@ -144,6 +144,8 @@ What do the following stand for?
 
 ### C - JS Objects
 
+*To answer these questions, you will need to read up on [Object Literals](./web-apps-7.md) and [ES6 classes](./pixi-js-2.md)*
+
 1. Create an ES6 *class* called `Person`. Its constructor will take two arguments `name` and `height`, and assign those passed in values as properties of the `Person object`. `Person` will have a `grow()` method that causes that instance's height to increase by 1.
 
 2. Create a JS *object literal* named `rover` that has 2 properties `breed` and `age`. The object will also have a method named `getOlder()` which will increase age by 1.
