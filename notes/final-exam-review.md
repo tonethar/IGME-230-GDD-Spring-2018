@@ -301,8 +301,8 @@ doStuff()
 function doStuff(){
   if(true){
     if(!false){
-      for(var i=0;i<10;i++){
-	      var x = 1;
+      for(let i=0;i<10;i++){
+	var x = 1;
         let y = 2;
         const z = 3;
       }
