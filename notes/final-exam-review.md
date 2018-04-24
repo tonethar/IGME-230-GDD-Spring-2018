@@ -134,7 +134,7 @@ What do the following stand for?
 `<p><i>Strange Brew</i> is my favorite movie!</p>` 
 
 ### B - JavaScript & DOM
-*To answer these questions you need to know how CSS selectors work, as well as `querySelector()` and `querySelectorAll()` work.*
+*To answer these questions you need to know how CSS selectors work, as well as `querySelector()` and `querySelectorAll()`*
 
 1. Write JS that selects **all** of the &lt;img> tags on a HTML page and stores them in an array, loops through the array, and gives each a `title` atttribute with the value of "I am an image"!"
 
