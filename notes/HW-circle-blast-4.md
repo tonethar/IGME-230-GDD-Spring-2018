@@ -148,7 +148,7 @@ Now we are going to modify our `Circle` code to get more interesting behaviors, 
 *Define behavior in a subclass using a set of operations provided by its base class.*
 
 ### VI-A. Beefing up `Circle`
-Here we are going to place most of the implementation details in the base class (`Circle`), and the subclasses will adobt the behavior they are interested in. This will allow the `Circle` subclasses to easily "mix and match" the behaviors they are interested in. We will start off by modifying `Circle` to look like this:
+Here we are going to place most of the implementation details in the base class (`Circle`), and the subclasses will adopt the behavior they are interested in. This will allow the `Circle` subclasses to easily "mix and match" the behaviors they are interested in. We will start off by modifying `Circle` to look like this:
 
 ```javascript
 class Circle extends PIXI.Graphics{
@@ -240,7 +240,7 @@ One weird thing is a little "boost" the circles get when they wrap. To get rid o
 
 ### VII. <a id="section7">Implementing `SeekingCircle`
 
-`SeekingCircle` will interpolate towards a target (initially the ship) - here is the implmentation - add this to **classes.js**:
+`SeekingCircle` will interpolate towards a target (initially the ship) - here is the implementation - add this to **classes.js**:
 
 ```javascript
 class SeekingCircle extends Circle{
@@ -330,8 +330,8 @@ Play though a few levels - the game now has a little bit of fun and chaos - prim
     - instead, "protect the 3 colony ships", or "take out the 3 circle-emitting bosses"
     - as the level fighting drags on and the player has not met the level goal, more and deadlier obstacles should appear (i.e. we are not rewarding or encouraging "grinding")
     - these give more opportunities for "risk/reward" choices: 
-       - do I try to take out the last mothership even though it's a risky shot, or wait for a health powerup?
-       - do I go for the weapon powerup, or do I risk my ship by moving into a position to shoot at those red circles that are seeking one of the colony ships?
+       - *do I try to take out the last mothership even though it's a risky shot, or wait for a health powerup?*
+       - *do I go for the weapon powerup, or do I risk my ship by moving into a position to shoot at those red circles that are seeking one of the colony ships?*
     - resource management:
         - triple-fire "ammo". If you are out of it, you can't triple fire
 	- 360-degree fire, invulnerability etc are temporary powerups, and can be triggered by the player when needed.
