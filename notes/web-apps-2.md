@@ -130,10 +130,21 @@ typeof 100
 typeof 100.1234
 typeof true
 typeof undefined
+typeof null // ???
 typeof {name:"Fred"}
-typeof ["red","green","blue"]
+typeof ["red","green","blue"] // ???
 typeof function(){console.log("Hi!")}
 typeof Symbol("SomeConstant") // we won't use Symbol in this course
+
+(3.1415 instanceof Number) // ???
+new Number(3.1415) instanceof Number
+("Hello" instanceof String) // ???
+new String("Hello") instanceof String
+({} instanceof Object)
+([] instanceof Array)
+new Date() instanceof Date
+(function(){console.log("Hi!")} instanceof Function)
+(function(){console.log("Hi!")} instanceof Object) // ???
 
 // these can be used for type coercion/conversion
 Number("10")
@@ -162,7 +173,7 @@ true || false
 let i=0; i++
 let j=0; ++j
 1 + 1 == 2
-0.2 + 0.4 == 0.6
+0.2 + 0.4 == 0.6 // ???
 0 == false // equality operator
 0 === false // strict equality operator
 
