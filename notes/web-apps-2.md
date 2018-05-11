@@ -163,6 +163,8 @@ let i=0; i++
 let j=0; ++j
 1 + 1 == 2
 0.2 + 0.4 == 0.6
+0 == false // equality operator
+0 === false // strict equality operator
 
 // bitwise operations
 0xFF0000 >>> 16 // extract "red" component
