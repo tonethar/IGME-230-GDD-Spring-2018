@@ -124,6 +124,17 @@ parseInt("FF",16) // hex
 parseInt(0x0000FF)
 encodeURI("http://www.rit.edu/hello world.html")
 
+// types
+typeof "hello"
+typeof 100
+typeof 100.1234
+typeof true
+typeof undefined
+typeof {name:"Fred"}
+typeof ["red","green","blue"]
+typeof function(){console.log("Hi!")}
+typeof Symbol("SomeConstant") // we won't use Symbol in this course
+
 // these can be used for type coercion/conversion
 Number("10")
 Number("onehundred")
@@ -148,13 +159,17 @@ Boolean(1)
 true && false
 true || false
 +"90210"
+let i=0; i++
+let j=0; ++j
+1 + 1 == 2
+0.2 + 0.4 == 0.6
 
 // bitwise operations
 0xFF0000 >>> 16 // extract "red" component
 2 & 1
 2 | 1
 
-// JavaScript popup boxes
+// JavaScript popup boxes - don't use these in your projects!
 alert("hello")
 prompt("What is your favorite color?")
 confirm("IGME-230 rocks!")
