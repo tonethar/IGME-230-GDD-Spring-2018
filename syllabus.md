@@ -9,19 +9,38 @@ IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Al
 **Important: The Spring 2018 sections are reserved for GDD and NMID students ONLY**
 
 ## Instructor and Class Details (Section 01)
-- Professor: Tony Jefferson  
-- Teaching Assistant: Austin White
-- Office: GOL-2139 (IGM Main Office)
-- Email: tony@mail.rit.edu
-- Office hours: Tues. 1:00PM-2:00PM & Wed. 11AM-Noon 
-- Class meetings: TR 11:00AM - 12:20PM in ORN-1375
+- Professor: Dower Chin  
+- Teaching Assistant: TBA
+- Office: TBA
+- Email: TBA
+- Office hours: TBA
+- Class meetings: TR 6:30PM - 7:45PM in GOL-2570
 
-## Instructor and Class Details (Section 02)
-- Professor: Noah Bast 
-- Teaching Assistant: Tanat Boozayaangool
-- Email: nbbigm@rit.edu
-- Office hours: TBA, though I will almost always be available after class.
-- Class meetings: TR 5:30PM - 6:50PM in GOL-2435
+## Instructor and Class Details (Sections 03,05,08)
+- Professor: Andrew Wheeland 
+- Teaching Assistant: TBA (03), TBA(05), TBA(08)
+- Email: TBA
+- Office hours: TBA
+- Class meetings:
+  - Section 03 - MWF 11:00AM - 11:50AM in GOL-2025
+  - Section 05 - TR 11:00AM - 12:15PM in GOL-2435
+  - Section 08 - TBA in TBA
+
+## Instructor and Class Details (Section 04)
+- Professor: Joseph Pietruch  
+- Teaching Assistant: TBA
+- Office: TBA
+- Email: jcpigm@rit.edu
+- Office hours: TBA
+- Class meetings: MW 5:00PM - 6:15PM in GOL-2570
+
+## Instructor and Class Details (Section 07)
+- Professor: Sean Boyle  
+- Teaching Assistant: TBA
+- Office: TBA
+- Email: spbics@rit.edu
+- Office hours: TBA
+- Class meetings: MWF 2:00PM - 2:50PM in ORN-1375
 
 ## Course Materials and Communication
 There is no required textbook for the course, but there will be an assortment of handouts and online readings that you will receive over the course of the semester. They will be uploaded to (or linked from) this Github site. 
@@ -54,8 +73,8 @@ Final course grades are determined using the following scale:
 
 ### Exams (30%)
 These exams consist of short answer, multiple choice, and "write some code" questions. There will be no make-ups or re-takes allowed without prior permission.
-* Written Midterm Exam  - will be given Thursday 3/8 (week 8)
-* Written Final Exam - will be given Thursday 4/26 (last regularly scheduled class)
+* Written Midterm Exam  - will be given during the 8th week of the semester
+* Written Final Exam - will be given on the last regular class meeting of the semester
 
 ### Homework (10%)
 Completing the HW and in-class exercises is essential to learning the course material. You can expect an average of one HW assignment per class meeting. Keep an eye on the mycourses dropboxes for the dues dates of these assignments.
@@ -75,12 +94,12 @@ The course policy on academic dishonesty is simple: If you get caught cheating o
 [http://www.rit.edu/~w-policy/sectionD/D8.html](http://www.rit.edu/~w-policy/sectionD/D8.html)
 
 ## Important RIT Deadlines
-- Last day of add/drop is Tuesday Jan. 23rd, 2018.
-- Last day to withdraw with a grade of "W" is Friday April 6th, 2018.
+- Last day of add/drop is Tuesday September 4th, 2018.
+- Last day to withdraw with a grade of "W" is Friday November 9th, 2018.
 - You have one semester after the class has ended to challenge your grade. 
 
 ## Notices of Accommodation
-If you have a "Notice of Accommodation", I should have received a copy electronically. Please discuss this with me after class or during my office hours, so that I can make sure all of your accommodations are met.
+If you have a "Notice of Accommodation", your professor should have received a copy electronically. Please discuss this with me after class or during my office hours, so that I can make sure all of your accommodations are met.
 
 ## Discrimination and Harassment
 RIT is committed to providing a safe learning environment, free of harassment and discrimination as articulated in our university policies located on our governance website.  RIT’s policies require faculty to share information about incidents of gender based discrimination and harassment with RIT’s Title IX coordinator or deputy coordinators, regardless whether the incidents are stated to them in person or shared by students as part of their coursework. 
