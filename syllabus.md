@@ -4,9 +4,9 @@
 *This course provides an introduction to web development tools and technologies, such as X/HTML, CSS, Javascript and DHTML, AJAX, web platforms and environments, and server-side programming methods.*
 
 ## Prerequisites
-IGME-110 *Introduction to Interactive Media* & IGME-106 *Game Development and Algorithmic Problem Solving II*. I expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (banjo.rit.edu). As this course involves a significant amount of coding, you should also feel confident in your programming skills. 
+**IGME-110 Introduction to Interactive Media** & **IGME-106 Game Development and Algorithmic Problem Solving II**. We expect students in this class to have a basic working knowledge of HTML, CSS, and publishing to RIT's web hosting environment (banjo.rit.edu). As this course involves a significant amount of coding, you should also feel confident in your programming skills. 
 
-**Important: The Spring 2018 sections are reserved for GDD and NMID students ONLY**
+**Important: These sections are reserved for GDD and NMID students ONLY**
 
 ## Instructor and Class Details (Section 01)
 - Professor: Dower Chin  
