@@ -60,7 +60,17 @@ Past Student Portfolios:
 - http://dougwatro.com
 
 Some sample IGME-230 projects from last semester:
-- Portfolio:
+
+- DOM App (Project 2)<a id="project2"></a>:
+    - https://people.rit.edu/~deb2610/230/project2/PixelPainterExtended.html
+    - https://people.rit.edu/btf6119/230/projects/2/index.html
+    - https://people.rit.edu/dso2890/230/projects/project2/index.html
+    - https://people.rit.edu/djs5435/230/project2/
+    - https://people.rit.edu/~wcd7037/230/Project2/Life/pixel-life.html
+    - https://people.rit.edu/paa9307/230/project2/
+    - https://people.rit.edu/axs6207/230/project2/musicFinder.html
+    - https://people.rit.edu/arw2013/WhoSays/whoSays.html
+- Web Portfolio (Project 3)<a id="project2"></a>:
     - http://barringtoncampbell.com/
     - https://people.rit.edu/mxb9517/portfolio/
     - https://people.rit.edu/ctb4332/portfolio/
@@ -71,17 +81,7 @@ Some sample IGME-230 projects from last semester:
     - https://people.rit.edu/drs4149/portfolio/
     - https://people.rit.edu/ekt6170/portfolio.html
     - https://people.rit.edu/axw1799/portfolio/
-- DOM Game or App (Project 2)<a id="project2"></a>:
-    - https://people.rit.edu/lpn4937/230/project2/minesweeper.html
-    - https://people.rit.edu/~deb2610/230/project2/PixelPainterExtended.html
-    - https://people.rit.edu/btf6119/230/projects/2/index.html
-    - https://people.rit.edu/dso2890/230/projects/project2/index.html
-    - https://people.rit.edu/djs5435/230/project2/
-    - https://people.rit.edu/~wcd7037/230/Project2/Life/pixel-life.html
-    - https://people.rit.edu/paa9307/230/project2/
-    - https://people.rit.edu/axs6207/230/project2/musicFinder.html
-    - https://people.rit.edu/arw2013/WhoSays/whoSays.html
-- PixiJS Sprite Game (Project 3)<a id="project3"></a>:
+- PixiJS Sprite Game (Project 4)<a id="project4"></a>:
     - https://people.rit.edu/~jpa3216/230/project1/
     - https://people.rit.edu/~hhn2884/230/project1/
     - https://people.rit.edu/mro5772/230/project1/PlayGame
@@ -99,6 +99,10 @@ Some sample IGME-230 projects from last semester:
     - https://people.rit.edu/mxr2091/230/finalproject/game.html
     - https://people.rit.edu/ngm9939/230/project1/game.html
     - https://people.rit.edu/~wcd7037/230/Project1/project.html
+ - DOM Game (Project 4):
+    - https://people.rit.edu/lpn4937/230/project2/minesweeper.html
+    - 
+    
     
 And some other really cool stuff:
 - http://www.chromeexperiments.com/
