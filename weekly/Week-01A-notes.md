@@ -63,6 +63,7 @@ Some sample IGME-230 projects from last year:
 
 - DOM App (Project 2)<a id="project2"></a>:
     - https://people.rit.edu/~deb2610/230/project2/PixelPainterExtended.html
+    - https://people.rit.edu/~kts6823/230/project2/index.html
     - https://people.rit.edu/axs6207/230/project2/musicFinder.html
 - Web Portfolio (Project 3)<a id="project3"></a>:
     - http://barringtoncampbell.com/
